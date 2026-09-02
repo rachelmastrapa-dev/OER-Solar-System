@@ -3,6 +3,7 @@
 - Spacecraft
   - nancy grace roman - wide field images, large mapping, exoplanet search - gravitational microlensing, coronagraph
   - exoplanet spacecraft Pandora https://science.nasa.gov/mission/pandora/
+  - dragonfly - Titan - https://science.nasa.gov/mission/dragonfly/
 
 - Earth address, Earth-moon, Earth-Sun, Solar System, alpha and proxima centauri, Milky Way Galaxy, Local group, galactic structure
 
@@ -82,3 +83,6 @@
   - post - middle ages, europe
     - copernicus - heliocentric model
       - explains retrograde motion
+
+- Titan
+  - further exploration link - https://www.youtube.com/watch?v=V6snQE8Po9Q  hank Green Sarah Horst (umlaut over o)
