@@ -1,4 +1,4 @@
-# Editing Instructions for ASTR10
+# Editing Instructions
 ## Starting Day
 1. Create new issue in git
     1. Editing for the day with date
@@ -7,7 +7,7 @@
 3. Create new session file for today in VSCodium
 4. Starting Claude Code
     1. Open a terminal command prompt 
-    2. Navigate to repo cd Crap\OERAI\git_repos\OER-Stellar
+    2. Navigate to repo cd Crap\OERAI\git_repos\OER-Solar-System
     3. Type claude
     4. Exit when not using
 5. **Commit often! Keep careful session notes!**
@@ -17,6 +17,9 @@
 2. Save and close all files, commit, merge branches.
 
 ## Whole Chapter - Manual in Libretext
+
+**List actions needed to do next step**
+
 - Change last section to Accessible Descriptions
 - Remove chapter summaries
 - Edit main chapter page
@@ -28,6 +31,15 @@
 - Commit changes in Conductor
 
 ## Libretext export - - Claude/AI Passive
+
+### Actions
+- copies html from libretext pages to local files
+   - preserves chapter structure, titles, section titles and numbering
+- makes local copies of images
+   - creates a manifest file info for each image
+   - stores images for entire chapter in one folder for each chapter called images
+
+
 If starting new project, use libretext to harvest book to repo using export-book and libretext-export, or do chapter by chapter
 
 
