@@ -79,6 +79,9 @@
       - soalr wind - heliopause
   - interior
     - helioseismology
+    - radiative and convection zones
+      - photons follow random paths in radiative zone
+      - convection zone - heat transported in cells
   - structures - prominences
   - composition of the Sun
     - Ceclia Payne-Gaposchkin
@@ -97,8 +100,19 @@
   - chromospheric and coronal activity
     - prominences
     - filaments
-    - flare
-    
+    - flare- opposite magnetic fields meet and cancel out - reconnection events
+    - coronal mass ejections
+    - coronal holes
+    - aurora
+  - solar constant - solar radiation reaching earth  energy/area-time 1370 W/m^2
+  - nucleosynthesis 
+    - atmoic nuclei - weak and stron nuclear forces
+    - nuclear fission, nuclear fusion
+    - hydrogen fusion
+      - proton-proton chain
+      - positron, neutrino, deuterium
+      - coulumb barrier - electrical resistance to nuclear collisions
+    - detecting neutrinos
   
 
 - origins of astronomy
@@ -227,3 +241,47 @@ telescopes
   - blueshift/redshift
   - radial velocity (Vr)
   - Vr/c = delta*lambda / lambda_0
+
+- stellar classification
+  - based on stellar spectra/temperature O,B,A,F,G,K,M  ( rare stars - WSC white dwarfs - D  brown dwarfs - LTY)
+  - H-R Diagram
+    - temperature - luminosity dependence
+    - main sequence, whit dwarfs, giants
+
+- star formation
+  - interstellar medium
+  - nebulae
+  - protostars
+
+- stellar finale
+  - red dwarfs trillion year lifetimes - none have ever dies
+  - low mass, giant, planetary nebula, white dwarf remnant
+  - high mass stars - supergiant, supernova, neutron star or black hole
+
+- galaxies
+  - ours - Milky Way
+  - classification - elliptical, spiral (barred or not), irregular
+
+- Big Bang
+  - evidence - galactic redshift, cosmic microwave background
+  - origin of matter - hydrogen built into larger elements, recycled through star death and formation
+
+- Solar System
+  - survey
+    - objects orbit around the Sun and rotate on their axis
+    - inner and outer planets (various names terrestrial, Jovain, giant, gas giant, ice giant) compare & contrast
+      - size
+      - density
+      - number of moons
+      - rings
+      - solid surface or none
+      - density of atmosphere
+      - distance from Earth/size of orbit
+    - geologic processes - solid surfaces
+      - craters most common
+      - volcanism
+    - small bodies
+      - asteroids
+      - comets
+      - KBOs/TNOs
+  
