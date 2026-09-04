@@ -17,7 +17,9 @@
 
 - celestial sphere, horixon, zenith, nadir, north celestial pole, celestial equator, circumpolar motion, ecliptic
 
-- sky - angular distance, ar seconds, angular diameter
+- sky - angular distance, arc seconds, angular diameter
+
+- planets in the sky, mercury and Venus close to the Sun, can only see near morning or evening
 
 
 - Earth's spin axis
@@ -49,17 +51,48 @@
  - phases
     - when they are seen, ex full moon at midnight
  - eclipses
-  - lunar eclipse
-  - solar eclipse
-  - totality
-  - umbra, penumbra
-  - angular diameter of Sun and Moon - time
-  - apogee, perigee
-  - when the can happen - tilt of plane of Moon's orbit of Earth, wrt Sun-Earth orbital planet
+   - lunar eclipse
+   - solar eclipse
+   - totality
+   - umbra, penumbra
+   - angular diameter of Sun and Moon - time
+   - apogee, perigee
+   - when the can happen - tilt of plane of Moon's orbit of Earth, wrt Sun-Earth orbital planet
  - tides
    - spring and neap
- - theia origin
- - synchronous rotation
+
+ - synchronous rotation, also called tidally locked
+ - surface
+   - surface age
+     - apollo samples and lunar meteorites - radiometric dating 
+ - no atmosphere
+   - known from observations - terminator is sharp line, no scatter from light, stars disappear behind moon without being dimmed by atmosphere
+ - surface
+   - regolith - all over the Moon, layers of crunched up rocks from constant cratering
+   - rocks from surface all igneous 
+      - formed from melt
+      - vesicular basalts - solidified on surface where gases were released on surface 
+   - lunar highlands - very old and full of craters 
+      - light colored anorthosite  - original low density crust of moon
+      - breccia rocks that are formed out of broken up other rocks
+   - lowlands - maria - the latin word for seas singular mare Mah - ray - dark area is volcanic flood bassalts, sinuous rills - collapsed lava tubes
+   - impact cratering 
+     - ejecta, rays, secondary craters,  
+     - range in sizes, tiny holes from micrometeorite impacts to multi-ring basins
+     - ages - relative ages fresher craters covering older craters, craters also decay over time - rim collapses, etc, can only get absolute age with radiometric dating
+     - 4.1 - 3.8 billion years ago - late heavy bombardment
+ - exploration 
+   - human exploration - Apollo and Artemis
+ - water trapped in permanently shadowed craters
+ - history 
+   - theia origin
+   - after impact origin, moon left molten 
+     - surface magma ocean 
+     - completely molten throughout - differentiation - light materials float to top
+     - solidified 4.6-4.1 bya
+   - late heavy bombardment
+     - heavy crater - formation of large basin craters and many small
+     - large impacts release flood basalt - mare
 
 - orbits
   - apo, peri  
@@ -172,7 +205,7 @@
     - infrared, microwaves, radio, ultraviolet, radio, X-rays, gamma rays
   - atmospheric window
 
-telescopes
+- telescopes
  - reflector/refractor
  - primary lens, primary mirror, focal length, eyepiece
  - focus
@@ -270,10 +303,10 @@ telescopes
   - survey
     - objects orbit around the Sun and rotate on their axis
     - inner and outer planets (various names terrestrial, Jovain, giant, gas giant, ice giant) compare & contrast
-      - size
-      - density
+      - size - diameter and mass
+      - density - Saturn can float on water
       - number of moons
-      - rings
+      - rings - all four giants have rings
       - solid surface or none
       - density of atmosphere
       - distance from Earth/size of orbit
@@ -284,4 +317,114 @@ telescopes
       - asteroids
       - comets
       - KBOs/TNOs
+      - meteor, meteoroid, meteorite
+  - inner planets
+    - differentiated - core, mantle crust
+    - atmospheres
+      - thin relative to outer planets
+      - Mercury and Moon have exosphere - extremely thin, temporary
+      - Venus permanent cloud cover, atmosphere thicker than Earth
+      - Mars - thinner atmosphere than Earth, but more than Mercury/Moon
+  - Solar Nebula Theory of formation
+    - nebula contracts
+    - collapse to flat disk of dust and gas, protostar at center (angular momentum)
+    - dust begins to collide and accrete -> planetesimals form by accretion and clear path of orbit
+    - cooling nebula
+      - cooler at a distance, hotter close to protostar
+      - condensation sequence - metal oxides, metallic iron and nickel, silicates, feldspars, trilite, water ice, ammonia water ice, methane water ice, argon neon ice. 
+      - frost line/ ice line 
+    - protoplanets forms out of planetesimals 
+      - had to be low speed collisions or they would break apart
+      - if protoplanet reachs 15x mass of earth - stars accumulating gas from nebula and grows rapidly 
+    - heat of formation 
+      - radioactive decay + impacts
+      - interior melts
+      - differentiation 
+        - denser material sinks to center - also releases heat energy
+        - creates layers of planetary interiors - terrestrial - metal core, rocky surface
+      - volatiles in interior are released through volcanic proceses and form atmosphere - mostly CO2
+    - giant planets
+      - possible planetary migration of giant planets outward after formation
+      - giant planet formation - accretion may have been too slow, may have formed directly from gas?
+      - moons of giant planets 
+        - regular - formed around planet like mini-solar system, all orbit in same plane in same direction, some very large and spherical
+        - irregular - small, usually not spherical, orbits are inclined, or retrograde, or eccentric - possibly captured comets or asteroids
+    - age of Solar System ~ 4.6 billion years 
+    - clearing of Solar System
+      - Sun becomes a star - solar wind and radiation pressure -  sweeps dust and gas out of Solar System
+      - planets sweep up planetisimals - heavy bombardment - 4 bya (billion years ago)
+    - observational evidence
+      - observations of protostars
+        - dense hot disk - where planets are forming 
+        - debris disk - dust disk - produced by collisions of planetesimals
+        - example Beta Pictoris and Epsilon Eridani
+
+- Exoplanet
+  - a star orbiting another star
+  - detection
+    - doppler - radial motion of star, biased toward very large planets close to star, hot jupiters
+    - transit - biased toward large planets, short periods, limited to edge-on disks, can give diameter
+    - gravitational microlensing - biased toward large planets
+    - direct detection - possible, but hard - faint object near bright source, bias toward large, outer planets
+  - spacecraft
+    - Kepler
+    - TESS
+  - Solar System like
+    - Trappist-1
+
+- Earth
+  - formation 
+    - melting and differetiation forming interior layers
+    - cratering during heavy bombardment
+    - hotter early Earth has signficantly more volcanic activity than present day Earth
+      - lowlands flooded with lava
+      - outgassing from volcanism releases gases that form atmosphere, water in atmosphere forms oceans. 
+    - since then most geologic activity is slow change over time with rare catastrophic events (craters,volcanic eruptions)
+  - uniqe properties
+    - liquid water - hydrologic cycle
+    - life
+  - interior
+    - layers observed using seismic waves using seismometers
+      - pressure (P) waves - compression like sound waves
+      - shear (S) waves - like a wave, - can only travel on surface of liquid, but not in it
+      - detected thin crust, mantle and core
+      - detected S wave shadow - can't travel through cores so aprt of core is liquid, inner solid core due to high pressure
+      - mantle is not liquid, but ductile - sold but flows, like clay - asphault, breaks with hammer, bends under heavy weight
+      crust - thicker under continents, thin under oceans
+  - magnetic field
+    - dynamo effect - liquid metal in core, charged fluid, moving creates a magnetic field
+    - magnetosphere surrounds Earth and protects it from solar wind
+       - bow shock - region that solar wind hits
+       - Van Allen belts - trap some high energy particles 
+       - aurora - high energy particles follow line to poles and where it hits atmosphere causes bright lights 
+  - Geology
+    - ages of rocks
+      - relative ages
+      - absolute ages
+         - radiometric dating
+           - radiactive decay - parent atom, daughter atom
+    - plate tectonics
+      - crust broken into pieces that move relative to each other
+      - subduction zone 
+        - one plate going under another
+        - water melts mantle, low density lava floats to the surface
+        - volcanos form along the boundary, forming a line of volcanoes - pacific ocean ring of fire
+      - rift valley
+        - plates moving apart from each other
+        - new basalt crust forms - thin ocean crust
+        - detected magnetic reversals in crust
+      - hot spots - volcanic activity that is not related to plate tectonics
+      - continental drift - pangaea 200 million years ago, broke into separate continents 
+      - areas of extension or compression create other geological features, basin & range, wrinle ridges, etc
+  - atmosphere
+    - outgassing from volcanoes
+    - delivery of volatiles from comets - currently studying stable isotopes of deuterium
+    - early atmosphere - mostly carbon dioxide - dissolves into water - limestone that deposits
+    - photsynthesis - life starts consuming carbon dioxide and releasing oxygen
+    - oxygen in atmosphere breaks down by uv and makes ozone - O3, - protects surface of Earth from UV
+    - greenhouse effect 
+       - light from the Sun heats the surface of the Earth, some visible light reflects off the surface leaves Earth and goes into space and energy is lost forever. 
+       - CO2 and other greenhouse gases absorb heat and warms atmosphere
+       - greenhouse gases can be released, but it releases in any direction, and can be reabsorbed by another greenhosue gas, only a small fraction of heat escapes to space
+       - global warming - caused by human production of CO2
   
