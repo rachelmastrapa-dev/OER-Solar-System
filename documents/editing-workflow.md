@@ -1,5 +1,5 @@
-# Editing Instructions for ASTR10
-## Starting Day
+# Editing Instructions
+## Starting Day - Human
 1. Create new issue in git
     1. Editing for the day with date
     2. List goals for the day
@@ -7,37 +7,88 @@
 3. Create new session file for today in VSCodium
 4. Starting Claude Code
     1. Open a terminal command prompt 
-    2. Navigate to repo cd Crap\OERAI\git_repos\OER-Stellar
+    2. Navigate to repo cd Crap\OERAI\git_repos\OER-Solar-System
     3. Type claude
     4. Exit when not using
 5. **Commit often! Keep careful session notes!**
 
-## Ending Day
+## Ending Day - Human
 1. List questions/goals for tomorrow in session file
 2. Save and close all files, commit, merge branches.
 
+## Textbook Planning - Human
+
+- decide on page and chapter layouts - create guideline files
+- Create table of contents for book
+- create detailed list of topics
+
+## Organize TOC - AI
+
+- organize topics into table of contents 
+  - create sub and sub sub headings in chapter pages following guidelines
+  - make sure headings are properly nested according to guidelines
+
+
+
 ## Whole Chapter - Manual in Libretext
-- Change last section to Accessible Descriptions
+
+**List actions needed to do next step**
+
+
+
+- Confirm all chapter and section titles from TOC
+  - create sub sections and move any remixed materials into proper locations
 - Remove chapter summaries
-- Edit main chapter page
-  - Have page start with an H2 Introduction before learning objectives and short summary paragraph.
-  - check size of thumbnail image and format attribution  
-- Change chapter titles - shorten, clarify
-- **Delete Extra material** - on the chapter/section level
+- Edit chapter page
+  - check size of thumbnail image
+  - at bottom of page write thumbnail and paste in all thumbnail attribution info and caption
+
+- **Delete Extra material** 
 - **Delete extra figures**
+
+- figures
+  - add titles
+  - put all attribution information in caption in (), unless openstax astronomy leave empty ()
+
+- references - put in all information in References section
+- text attribution - put in all information in Attributions section
+
 - Commit changes in Conductor
 
-## Libretext export - - Claude/AI Passive
-If starting new project, use libretext to harvest book to repo using export-book and libretext-export, or do chapter by chapter
+## Libretext export - Claude/AI Passive
+
+### Actions
+- single chapter
+- copies html from libretext pages to local files
+   - preserves chapter structure, titles, section titles and numbering
+- makes local copies of images
+   - creates a manifest file info for each image
+   - stores images for entire chapter in one folder for each chapter called images
+
+### New features
+
+- Always update table-of-contents when exporting from libretext, overwrite using changes from libretext
+- make sure that it is copying chapter thumbnail - not completly sure how it would find it.  show it how? or just use text?
+- don't number figures yet, because there will be future figures - make them all figure
+  - label with section number and title
 
 
-### Clean HTML - Claude/AI Passive
+
+
+## Review Chapter Import - Human
+
+- figures  
+    - check against files, manifest
+    - confirm attribution/reference info
+
+
+
+## Clean HTML - Claude/AI Passive
 - Read .claude/clean-html/SKILL.md
 - Summary, removing italics, bold, spans, figure ## set to default, etc.
 
 
-
-### Edit HTML - Claude/AI user interactions
+## Edit HTML - Claude/AI user interactions
 
 **User: Commit and close all files**
 Ask for help!
@@ -47,33 +98,45 @@ Ask for help!
 4. Put example and exercises in boxes and move to the correct section.
 <!-- include review of terminology?, remove parens about put comments for rephrasing of same concept  Future: remove text from other boxes?, remove quote marks that are not for dialog-->
 
+## New features to add or make separate skill
+
+- edit all equations, including in figures and tables
+
+- main chapter page - Have page start with an H2 Introduction 
+- delete footnotes - move text to where it was referenced and delete all footnote html - make exceptions for tables or figures
+
+ - Organize page structure - one page at a time??
+    - Start with <h2> make sure all headers are nested
+    - make sure information is where it needs to be and in a roughly reasonable order
+
+- '  solar system revolve - terminology 
+    - change titles in exercise and example boxes - delete number in example. copy title to exercise
+
+- need to clean up furhter exploration lists that have already been moved to an H2 header
+
+- terminology
+  - false color image
+  - as we will see - flag?
+
+
+- more specific editing styles, for quotes, parens, dashes, etc. simplify sentences
+
+- add IDEA and ADA flagging
 
 
 ## Chapter Review - Manual   
 
 **User: Commit and close all files**
 - main chapter page
-  - format thumbnail - copy from another example
-  - Have page start with an H2 Introduction before learning objectives and short summary paragraph.
   - reduce to 10 or fewer learning objectives (no learning objectives on sub-pages)
 - Content
-  -  Delete extra text 
-      - footnotes
-      - references to other chapters
-  - Organize page structure
-    - Start with <h2> make sure all headers are nested
-  - search and replace
-    - '  solar system revolve
-    - change titles in exercise and example boxes - delete number in example. copy title to exercise
-    
+  -
+      
 - Figures
-  - add titles 
   - check index
-  - check against files, manifest
-  - log - att info or (Openstax Astronomy)
   - contextualize figures and tables.
 - key terms 
-   -  find in text and log
+   -  find in text and highlight - choose color
 - Further Exploration
    - check for full link
    - contextualize further exploration links
@@ -83,24 +146,6 @@ Ask for help!
    - log
 
 
-## Tasks to do when late and exhausted
-
-Copy (Openstax Astronomy) into every figure caption
-
-### Logging 
-
-- references 
-  - sources/references.csv
-- text attributions 
-  - not in libretext auto-attribution
-  - sources/text-attributions.csv
-  - section, title,	link, source title,	source link, author, author link, license, license Link
-- figure attribution info 
-  - sources/figure-attributions.csv
-  - section, title, license, license link, author, author link, source, image link, figure link
-- key terms 
-  - key-term.csv
-  - section,term,definition
 
 <!-->  - class attributes - connecting to location default attribute?  page attribute? < -->
 
@@ -114,7 +159,10 @@ Copy (Openstax Astronomy) into every figure caption
 - Figure attribution
 - Figure HTML
 
+### New features
 
+ - format thumbnail - create separate guideline file
+ - set default figure caption to openstax astronomy. 
 
 ## Format Sources - Claude/AI Passive
 
@@ -122,6 +170,9 @@ Copy (Openstax Astronomy) into every figure caption
 
 References, manual attributions - per section page?, need style files for each
 
+### new features
+
+- adjust to just reading locally
 
 ## Format Key Terms - Claude AI Passive
 
@@ -133,6 +184,12 @@ References, manual attributions - per section page?, need style files for each
   - Find first occurance of term in chapter paragraph text, not figure, table, or heading 
      - format text to bold and link
      - handle whether in plural or singular in paragraph text.
+
+## new features 
+   - key terms
+     - has to be done post final edit of text. 
+     - change to highlighting key terms instead of making separate list. - scans for specific color highlight and searches master list for def 
+     - OR just make a master list of words and have claude scan book and glossary list, and make key terms
 
 ## Final Review - Claude/AI - interactive? - skip for now
 
