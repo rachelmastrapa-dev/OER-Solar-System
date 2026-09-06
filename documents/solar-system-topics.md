@@ -60,7 +60,6 @@
    - when the can happen - tilt of plane of Moon's orbit of Earth, wrt Sun-Earth orbital planet
  - tides
    - spring and neap
-
  - synchronous rotation, also called tidally locked
  - surface
    - surface age
@@ -81,10 +80,17 @@
      - range in sizes, tiny holes from micrometeorite impacts to multi-ring basins
      - ages - relative ages fresher craters covering older craters, craters also decay over time - rim collapses, etc, can only get absolute age with radiometric dating
      - 4.1 - 3.8 billion years ago - late heavy bombardment
+     - large basin - mare imbrium 
+       - 4 bya -large impac
+       - formed multi-ring basinover 1000 km across
+       - flood 3.8 bya during late heavy bombardment, repeated flows flood emost of the area
  - exploration 
    - human exploration - Apollo and Artemis
  - water trapped in permanently shadowed craters
  - history 
+   - possible origns
+     - form with Earth - would have same composition/density
+     - capture - orbit is wrong
    - theia origin
    - after impact origin, moon left molten 
      - surface magma ocean 
@@ -343,11 +349,15 @@
         - denser material sinks to center - also releases heat energy
         - creates layers of planetary interiors - terrestrial - metal core, rocky surface
       - volatiles in interior are released through volcanic proceses and form atmosphere - mostly CO2
+      - internal heat of rocky planets drives surface activity, volcanism
+        - smaller planets cool off faster - slows and stops volcanic activity
+        - Earth still has internal heat, that drives plate tectonics and volcanism.  will eventually cool off
+        - planets and moons (alone) do not have another source of internal energy on its own other than formation, so once it has cooled, there is no more surface activity
     - giant planets
       - possible planetary migration of giant planets outward after formation
       - giant planet formation - accretion may have been too slow, may have formed directly from gas?
       - moons of giant planets 
-        - regular - formed around planet like mini-solar system, all orbit in same plane in same direction, some very large and spherical
+        - regular - formed around planet like mini-Solar System, all orbit in same plane in same direction, some very large and spherical
         - irregular - small, usually not spherical, orbits are inclined, or retrograde, or eccentric - possibly captured comets or asteroids
     - age of Solar System ~ 4.6 billion years 
     - clearing of Solar System
@@ -373,17 +383,14 @@
     - Trappist-1
 
 - Earth
-  - formation 
-    - melting and differetiation forming interior layers
-    - cratering during heavy bombardment
-    - hotter early Earth has signficantly more volcanic activity than present day Earth
-      - lowlands flooded with lava
-      - outgassing from volcanism releases gases that form atmosphere, water in atmosphere forms oceans. 
-    - since then most geologic activity is slow change over time with rare catastrophic events (craters,volcanic eruptions)
   - uniqe properties
     - liquid water - hydrologic cycle
     - life
   - interior
+    - overall shape is oblate spheroid 
+      - thicker at equator than pole to pole
+      - interior is mostly solid, but squishy
+      - flexes with tidal forces from Moon ~ 1 cm?
     - layers observed using seismic waves using seismometers
       - pressure (P) waves - compression like sound waves
       - shear (S) waves - like a wave, - can only travel on surface of liquid, but not in it
@@ -398,6 +405,11 @@
        - Van Allen belts - trap some high energy particles 
        - aurora - high energy particles follow line to poles and where it hits atmosphere causes bright lights 
   - Geology
+    - rock cycle
+      - igneous forms from melt
+      - sedimentary - broken down rocks,  deposited by water or wind, compression forms rocks
+      - metamorphic - rocks deformed under high temperature and pressure - without melting!
+      - primitive - has not been processed or melted since the formation of the Solar System
     - ages of rocks
       - relative ages
       - absolute ages
@@ -416,6 +428,40 @@
       - hot spots - volcanic activity that is not related to plate tectonics
       - continental drift - pangaea 200 million years ago, broke into separate continents 
       - areas of extension or compression create other geological features, basin & range, wrinle ridges, etc
+    - volcanic activity
+      - volcanoes - 
+        - shield
+          - form at hot spots
+          - low viscosity lava
+          - volcano has very gentle slope
+          - lava can flow over large distances and spreads out into large plains
+          - eruptions are not as dangerous 
+          - examples
+            - Hawaiian islands - hot spot with plate moving over it
+            - Olympus Mons 
+              - largest volcano in Solar System 
+              - no plate tectonics on Mars, so it grew and grew and grew
+            - Iceland - spreading center and hotspot!!!
+        - composite
+          - form at subduction zones or wherever continental crust is melted
+          - higher viscosity lava
+          - volcano has steep slopes
+          - lava flows short distances
+          - eruptions are explosive very dangerous
+      - molten rock
+        - lava on surface, magma below
+        - viscosity depends on composition - lowest viscosity lava solidifes into basalt
+    - tectonic activity
+      - faults
+        - some faults are at plate boundaries, others are not
+        - normal, reverse, strike slip
+        - normal - extension - creates basin and range
+        - reverse - compression -  create scarps and wrinkle ridges
+    - gravitational support
+      - large mountains need to have support to hold them up - thickening of crust
+      - if there is no support, or material is not strong enough, over time mountains will slump and flatten
+      - same for structures like crater rims
+      - keep in mind that gravity gets everything eventually, but strong based makes it take longer
   - atmosphere
     - outgassing from volcanoes
     - delivery of volatiles from comets - currently studying stable isotopes of deuterium
@@ -427,4 +473,718 @@
        - CO2 and other greenhouse gases absorb heat and warms atmosphere
        - greenhouse gases can be released, but it releases in any direction, and can be reabsorbed by another greenhosue gas, only a small fraction of heat escapes to space
        - global warming - caused by human production of CO2
+    - Carbon Cycle
+      - CO2 released by volcanoes
+      - CO2 dissolves in ocean and solidifies as calcium carbonate/limestone on the bottom of the ocean
+      - ocean plate is subducted and melted - release CO2  in volcanic activity
+      - self-correcting naturally - on very long timescales
+  - history 
+    - formation 
+    - melting and differetiation forming interior layers
+    - cratering during heavy bombardment
+    - hotter early Earth has signficantly more volcanic activity than present day Earth
+      - lowlands flooded with lava
+      - outgassing from volcanism releases gases that form atmosphere, water in atmosphere forms oceans. 
+    - since then most geologic activity is slow change over time with rare catastrophic events (craters,volcanic eruptions)
+    - geologic timescale 
+      - rock record shows how Earth has changed over time
+      - decreasing amount of data as we go back in time because rocks have been recycled
+
+- Mercury
+  - similar to Moon in size, exosphere, cratered surface
+  - exploration history
+    -  spacecraft
+      - Mariner 10
+      - MESSENGER
+      - found weak magnetic field
+    - ground-based/ telescope
+      - Schiaperelli - possible synchronous rotation
+      - radio/radar 
+        - surface temperature
+        - measured rotation rate 59 days, orbital period is 8 days
+        - actual length of noon to noon is 2 mercury years
+        - rotation:orbital  resonance of 3:2 
+        - also water in permanently shadowed craters
+  - atmosphere
+    - exosphere - very, very thin
+    - captures some solar wind temporarily
+    - some silicon, oxygen, potassium released from hot surface
+    - low gravity can't hold on to gases - escape to space
+  - surface temperature
+    - high 430 degrees C, avg daytime temp230 degrees C, night/low -170 degrees celsius
+  - surface geology
+    - cratering 
+      - very similar to moon
+      - craters of all sizes
+      - Caloris Basin 
+        - 1500 km diamter
+        - seismic waves broke surface on opposite side of planet
+        - filled with lava flows
+    - lobate scarps
+      - wrinkle ridges
+      - formed when planet shrank
+    - plains
+      - no big mare like moon
+      - intercrater plains - not as many craters - younger than heavily cratered area
+      - smooth plains - very few craters, very young, near Caloris
+  - interior
+    - Mercury much higher denisty than Moon
+    - very large core compared to size of planet
+    - core must be partially molten because of magnetic field
+    - interior should be cool, but heated by tidal forces with Sun, sulfur lowering melting pt of core??
+    - giant impact may have scraped low density material??
+  - history
+    - formed near Sun 
+      - high temperature part of nebula, somehow lost low density material
+    - heavy cratering and LHB 
+    - Caloris and smooth plains
+    - planet cools and shrinks
+    - not much since except micrometeorite impacts
+
+- Venus
+  - Earth's "sister planet"
+    - nearly same size and mass, density - cooling rate is similar
+    - formed out of similar part of nebula 
+    - differences
+      - thick atmosphere - permanent cloud cover
+  - Exploration
+   - ground based??
+     - microwave - surface temperature 
+     - radar 
+       - images - false color!, bright = rough, dark = smooth 
+       - topographic data
+   - lots of spacecraft, Magellan, Venera landers
+   - Naming conventions of Venus
+  - rotation
+    - slow and backwards 243 days
+    - impact or tidal interaction with atmosphere
+  - interior
+    - has a metal core but, no magnetic field - not liquid? or rotation rate too slow to generate dynamo
+  - atmosphere
+    - 96 % co2, 3.5 % nitrogen  half pervent water, sulfuric acid
+    - cloud layers thicker and higher htn Earth
+    - very efficient atmospheric heat distribution - atmospher rotates once every 4 days
+    - surface temp 470 degrees C and atmospheric pressure of 90 times earth atmos
+    - almost no water - broken up by uv, o2 interacts with rocks, hydrogen escapes
+    - runaway greenhouse effect 
+      - may have once been like Earth, but is closer to Sun
+      - oceans evaporated and CO2 released from limestone - created thick atmos
+  - surface
+    - mostly basalts - rocks are actually gray - moon and mercury
+    - radar mapping of surface
+    - structures
+      - mountains, plains, craters
+      - lava flows can be very rough when young
+      - highlands - rough - mountains, disrupted surface
+      - lowlands - smooth plains
+      - craters
+        - ~ 1000 craters - more than Earth, but much less
+        - thick atmosphere destroys small impactors, so no small craters - cut off?? 
+      - volcanoes - all shields, all large because no plate tectonics
+      - coronae
+        - bulges up to 2000 km
+        - have volcanoes and lava flows
+        - deformation of crust fractures surface - by upwelling and receding magma - collapse of surface
+      - pancake domes - higher viscosity lava
+      - no plate tectonics
+        - makes large shield volcanoes
+        - need water/oceans for plate tectonics??
+  - History
+    - formation
+    - oceans?
+    - oceans evaporate - runaway greenhouse effect
+    - surface is only 500 million years old (very young), global resurfacing or constant activity?
+
+- Mars
+  - size in between Mercury and Earth, cools faster than Earth, slower than Venus
+  - Exploration
+    - ground based
+      - dark marks on surface and bright polar caps
+      - measured length of day - close to Earth
+      - axial tilt similar to Earth - same seasons, but twice as long
+      - Secchi and Schiaparelli - canale meaning channels
+      - Lowell imagined series of canals on surface
+      - War of the Worlds - invasion of Martians
+    - spacecraft - so many orbiters, landers, rovers, mini-helicopter
+      - Odyssey - subsurface water using gamma ray spectrometer to detect hydrogen - most likely connected to water
+  - surface
+    - craters, but not as cratered as Moon or Mercury
+    - southern highlands
+      - more craters - older
+    - northern lowlands
+      - fewer craters - younger  ~ 1 byo
+      - possibly once filled with water
+    - volcanism
+      - Olympus - biggest volcano in Solar System, large shield like on Venus due to lack of plate tectonics
+      - Olympus, and three more shields on on Tharsis bulge, crust must be thicker than Earth's to support such large volcnaoes
+      - Elysium - other volcanic bulge, smaller and older than Tharsis, other side of planet
+      - some volcanoes might be still active
+    - Valles Marineris
+      - 4000 km long - (NY to LA)  up to 600 km wide, 
+      - created by large faults that disrupted crust 
+      - connected to Tharsis on its western edge 
+    - aeolian features - wind blows dust - creates dunes and whirlwinds
+  - Interior
+    - has a core, but no magnetic field
+  - atmosphere
+    - 95 % CO2 - similar to Venus
+    - pressure 0.006 atm (Earth is 1)
+      - surface temperature -150 - 15 degrees C
+      - at low pressure water sublimates - solid to gas - liquid not stable
+    - haze and clouds are visible in atmosphere 
+    - polar caps are frozen CO2 that sublimates and travels to opposite pole as seasons change
+  - water ice below poles and under large parts of surface, might have local pools of liquid
+  - liquid water
+    - outflow channels 
+      - fast water - large amounts of water flowing over short period of time
+    - valley networks
+      - slow water - smaller amounts of water flowing over longer periods of time
+      - meanders
+    - river delta
+      - where a river flows into the ocean and drops its sediment
+      - standing water - lakes or oceans
+    - rovers Spirit and Opportunity found blueberries - hematite that forms in liquid water, sulfates and other salts that are left behind what water evaporates. 
+  - life
+    - Mars currently inhospitable, but might find evidence of extinct life on surface
+    - subsurface water - might have small amount of liquid near geothermal heat sources - could have life that survived and moved below ground
+  - history
+    - formation and differentiation
+    - Noachian
+      - 4.3 - 3.7 bya
+      - heavy bombardment
+        - Hellas and Argyre basisn
+        - preserved in southern highlands
+      - volcanims
+        - Tharsis and Elysium grew
+        - many lava flows
+      - liquid water 
+        - valley networks in southern highlands 
+        - must have had a thicker, warmer atmosphere
+        - water may have formed lakes or oceans
+      - Mars interior cooled and core froze/stopped generating magnetic field
+      - without magnetic field solar wind started removing atmosphere via solar wind stripping
+        - as atmosphere thinned, water evaporated, 
+        - h2o was broken up by UV, 
+        - hydrogen escaped, 
+        - oxygen oxidized iron in rocks - turn surface red
+    - Hesperian 
+      - 3.7 - 3 bya
+      - flood basalts
+      - outflow channels - volcanic interactions with frozen water created short, large floods
+      - Mars cold and dry
+    - Amazonian
+      - 3 bya to present
+      - volcanic activity slows down significantly, although may be ocassionally active
+      - aeolian processes - sand dunes
+  - moons Phobos and Deimos
+    - tiny, irregular shape - potatoes
+    - both have synchronous rotation / tidally locked - one side always faces Mars
+    - low albedo - very dark
+    - low density ~ 2
+    - captured asteroids?
+    - havily cratered
+    - Phobos 
+      - low orbit means that it orbits faster than Mars rotates 6 hours from rise to set west to east
+      - will fall into Mars or be torn apart in next 100 million years
+      - crater Stickney- grooves extend out from it to possible broken terrain
   
+    
+    
+
+- Remote sensing methods
+  - measuring internal structure
+    - requires an orbiter that is functional over many orbits and regularly changes orbit to cover all parts of the planet (standard with mapping missions)
+    - no special instruments needed, just location of spacecraft and telemetry of orbit, using gravity to determine mass of planet, but also internal layers
+  - topographic data
+    - laser altimeter - bounces a laser signal off the surface and measures time of return
+    - requires orbiter over long mission, many changes in orbit (can coincide with mappin)
+  - visible images of the surface
+    - a CCD camera, and telescope depending on desired spatial resolution
+    - orbiter over long mission with changes to orbit to get all parts of the planet. Possibly repeating measurements at higher resolution
+  - surface of objects hidden by clouds,
+    - radar - passes through clouds and bounces off surface and back to spacecraft
+    - orbiter over long mission with changes to orbit to get all parts of the planet.
+  - composition - spectroscopy
+    - wavelength depends on object
+    - from ground based, used to get one spectrum for entire object
+    - spacecraft are able to create image cubes 2 dimension of surface with third dimension in wavelength, so they can map surface composition
+    - coverage of surface and resolution depends on instruments
+    - wavelength depends on type of target, but usually infrared, some uv for planets, visible for stars
+
+
+- Spacecraft exploration
+  - main types of spacecraft
+    - fly-by 
+      - passes by target without entering orbit, 
+      - some spacecraft fly by multiple objects before reaching its destination
+    - orbiter
+      - enters orbit of an object
+      - most likely will not leave 
+    - lander
+      - lands on the surface of an object
+      - 
+  - costs, main sources
+    - mass 
+      - largest cost is launch vehicle
+      - can sometimes cost $1000s per gram
+      - solution - create very lightweight technology, eliminate redundant systems
+    - new technology
+      - cost of development
+      - risk of not working 
+    - length of mission
+      - have to maintain communication and functionality of spacecraft while it is cruising to target
+      - operations - cost of operating spacecraft
+  - planetary protection
+    - forward contamination - limits contamination of other objects with biology of Earth
+    - backward contamination - prevents dangerous materials from reaching Earth
+
+- spacecraft exploration of the outer Solar System
+  - all of these increase cost!
+  - long distance 
+    - long travel time
+      - possibly outliving scientists/engineers
+    - long communication lag
+      - commands take too long to reach spacecraft to operate live
+      - spacecraft needs to be able to respond to emergencies on its own - cost of development
+    - farther from the Sun 
+      - solar panels are not as effective
+      - main other power source - RTG (new name??) runs on plutonium - very expensive!
+      - very cold - high energy cost to keep spacecraft warm
+  - radiation environment
+    - especially around Jupiter - also from longer trip through space
+    - need improved shielding to protect from high energy particles -> weight -> co
+
+
+- planetary (and Moon) atmospheres
+ - natural escape of gases
+   - depends on atmospheric temperature
+     - higher temperature means that gas molecules are traveleing faster
+   - depends on escape velocity of planet, which depends on its mass
+   - if a gas is traveling fast enough, it can escape
+   - depends on mass of each gas 
+     - hydrogen, very low mass - only outer planets can trap it
+     - CO2, higer mass, Mars, Venus, Earth, can hold onto it, smaller, warmer objects can't
+   - large planets with cool atmosphere are more
+
+- terminology
+  - bya billion years ago
+  - byo billion years old
+  - moons - natural satellites
+  - synchronous rotation or tidally locked
+    - orbit object has a traling or leading side based on orbital motion
+  - observational bias
+  - selection effect
+
+- key terms
+  - albedo fraction of reflected sunlight
+
+- astrobiology
+  - requirements for life (as we know it)
+    - liquid water
+    - a source of energy
+    - a source of carbon (and oxygen, nitrogen, hydrogen, phosphorus, sulfur - but carbon builds backbone)
+  - searching for life
+    - extinct - evidence of past life that is gone now
+    - extant - evidence of current life
+
+- Jupiter
+ - Exploration
+   - spacecraft Voyager, Galileo (atmospheric probe), Juno, Pioneer 
+ - largest planet in Solar System
+ - composition - mostly hydrogen - very low density, similar to Sun
+ - atmosphere
+   - belts (cold) and zones (hot) - convection of rising warm air and sinking cool air
+   - differential rotation
+     - no solid surface
+     - clouds rotate in east west directions at different speeds and directions
+   - clouds - top layer ammonia, middle ammonium hydrosulfide, bottom water
+   - storms
+     - can last hundreds of years - no solid surface to disperse energy
+     - big red spot noticeably shrinking
+ - interior
+   - mostly liquid 
+     - gradual change from gas to liquid - no splash
+     - Jupiter is an oblate spheroid, equator is thicker than pole to pole, due to rotation
+   - very hot - heat of formation
+   - 1/4 from surface - liquid metallic hydrogen - ionized hydrogen - produces very strong magnetic field
+ - magnetosphere
+   - much larger and stronger than Earths
+   - has larger radiation belts that traps more, higher energy particles 
+   - damaged Pioneer's electronics
+   - rotation rate - 10 hours
+   - high energy particles  create aurora on Jupiter - ring around magnetic pole
+   - Io 
+    - flux tube  - current of energy lining Jupiter to Io - small aurora are at points on Jupiter
+    - plasma torus - active volcanoes on Io release gases that are swept up by magnetosphere and accelerated to high energy - spread around Io's orbit in donut shape
+ - history
+   - formation
+     - formed beyond ice line - rocks, metals + ices -> high mass -> trapping hydrogen
+     - no rocks = no historical data, can run simulations constrained by observations
+     - models predict that Jupiter system formed like mini-Solar System with moons
+ - moons 
+   - regular
+     - larger, spherical, formed with planet, orbit in plane along with planet's rotation
+   - irregular
+     - smaller, odd-shaped (potatoes), probably captured, orbits are inclined, retrograde, eccentric
+   - Galilean moons (regular)
+     - orbital resonances of inner 3 - contibute to heating?
+     - Io
+       - tidal heating 
+         - jupiter squezess Io and heats interior, increased by slighly  mroe elliptical orbit
+         - Since Io is closest, tidal heating is greatest
+       - most volcanically active object in Solar System
+       - no craters
+       - 150 active volcanoes on the surface
+       - density ~3.5 more rock 
+       - volcanoes release enough sulfur and oxygen gas to create temporary atmosphere that Io is too small to hold onto (torus)
+       - oblate - squishy inside, due to tidal heating 
+       - Galileo observed lava flows on the surface
+       - no water - all boiled off?
+     - Europa
+       - denisty 3 - higher fraction of rock to ice, mostly rock
+        - very young surface = very few craters  10 million
+        - cryoculcanism?
+        - cracks of surface
+        - very bright - 0.67 albedo
+        - magnetic field - liquid water ocean
+        - radiation environment
+          - inside Jupiter's radiation belts
+          - surrounded by cloud of material being knocked off surface by high energy particles
+     - Ganymede
+       - larges moon in Solar System
+       - denisty 1.9
+       - differentiated - rock and metal core with ice mantle and crust
+       - surface
+         - 1/3 is old,cratered
+         - grooved terrain covers the rest, with fewer craters ~ 1 billiong years old
+         - bright areas - cryovolcanism? salty water flowing out and freezing covering large areas
+         - magnetic field - not sure why
+     - Callisto
+       - 1.8 density ice with some rock
+       - lots of crater
+       - dark color from uv photolysis creating dark compounds + dust
+       - undifferentiated
+       - 10 km layer of salty water that interacts with Jupiter's magnetic field to make a weak magnetic field, salt depresses  melting point, and provides ions for dynamo effect    
+      - comparative moonology
+        - density decreases moving outward from Io, and surface age increases
+        - most active near Jupiter - cooked off ices
+    - rings
+      - very thin layer of tiny, dark particles - smoke
+      - forward scattering - brightens light from behind
+      - Roche limit - distance where tidal forces will tear an object apart, dust cant gather to form a moon
+      - dust is ground down by radiation - needs supply, near moon Adrastea, and Metis
+      - gossamer rings  near Amalthe and Thebe - also act as shepherd moons
+        
+- Saturn
+  - exploration - Cassini/Huygens
+  - density less than 1 - can float in water
+  - interior
+    - internal heat source - differntiation sinking helium releases energy
+    - mettallic hydrogen drives magnetic field - thinner layer than Jupiter, weaker field
+    - aligns perfectly with spin axis  
+      - reason?
+      - auroras form rings at poles
+  - atmosphere
+    - overall color lighter than Jupiter - cloud layers are deeper because colder
+    - belts and zones like Jupiter
+    - hexagon?
+  - Saturn's moons
+    - Titan
+      - moon with an atmosphere
+        - mostly nitrogen 1.6 % methane
+        - haze - made of photlyzed methane forming organics
+        - methane hydrological cycle
+          - rain,
+          - valley networks
+          - lakes
+      - surface
+        - detected with Cassini infrared and radar
+        - rough highlands and smooth lowlands
+        - very few craters -> young surface, geological activity
+        - rocks are rounded, indicating transport
+      - slightly smaller than Ganymede
+      - density 1.9 
+      - differntiated - rock and metal core, icy mantle and crust
+   - Phoebe 
+      - tinym dark surface, 
+      - heavily cratered
+      - largest irregular moon
+      - water detected in craters
+      - density 1.6
+      - captured from 
+   - Tethys
+      - heavily cratered
+      - cracks on surface, and some cryovulcanism
+   - Enceladus
+      - .99 albedo very bright
+      - density 1.6 
+      - some regions have craters, but large areas have cracks
+      - plusmes observed by Cassini 
+        - mostly water - too small to hold onto gases
+        - activity driven by resonance with Dione?
+        - contributes to Saturn's E ring
+   - Iapetus
+     - dark and light side 
+     - trailing side is old, cratered, icy, a little dark
+     - leading side is very dark, old crateded - sweeiping up dust lost from Phoebe?
+     - ridge of unknow origin
+   - history of moons
+    - formed in mini-nebula
+    - high possibility of a lot of changes in orbits and impacts with other objects, very possibly not how they started
+    - why is Titan the only big one?
+  - rings
+    - ice particles - most be relatively new 100 million years
+    - shepherd moons keep rings in place
+    - gravity causes ripples and spirals in rings
+    - tiny moons buried in rings create gaps
+    - A ring has particles up to basket ball sized but mostly pebbles
+    - C ring is dark - dust
+    - cassini division, encke gap
+
+- Uranus
+  - exploration
+    - observed by Herschel
+    - Voyager 2 - during southern solstice
+  - a = 20 au, P = 84 yr, density 1.3
+  - spin axis 98 degrees
+  - atmosphere
+    - no surface
+    - mostly hydrogen 26 % helium, methane, ammonia, water
+    - methane - blue color, absorbs red wavelengths
+    - mostly featureless, a few  methane clouds, light banding
+    - colder than Saturn, so if it does have ammonia clouds, they are too far down to see
+    - belt zone - caused by rotation, not solar heating 
+  - interior - not well known
+    - atmosphere, mantle, core
+    - mantle - water, ammonia, methane solid or slush - ices that are at very high P & T
+    - no liquid metallic hydrogen
+    - has a magnetic field weaker than Earth's 
+      - liquid layers near the surface
+      - water, methane, amonnia mix
+      - magnetic field rotation 17 hr
+      - poles point directly at the Sun - creates intense aurora
+    - might still be differtiating - energy source
+  - moons
+    - 5 large, regular moons 
+      - Oberon, Titania, Umbriel, Ariel, Miranda  
+      - rock with ice layer on top
+      - Miranda is smallest with highest ice ratio, extremely deformed surface, oval patterns
+      - mostl ice, cratered
+      - Oberon has a large crack
+      - Titania - no large craters, faults on surface
+      - Ariel - faults and cryovulcanism
+  - rings
+    - occultation - Uranus moved in front of star
+    - boulder sized particles, no small, very dark
+    - also has some larger, dustier rings
+    - ring particles collide and expand - held in by moons
+  - history
+    - possibly formed closer to Sun and migrated out due to Jupiter and Saturn
+    - migration may have cause late heavy bombardment
+    - tip in axis could be from impact, or from tidal interactions with neptune during migration
+
+- Neptune
+  - exploration
+    - ground based
+      - orbit of Uranus did not agree with gravitational models
+      - astronomers did calculation to predict position of a planet, and it was found
+      - confirmed Newton's law of gravity
+    - Voyager 2
+  - atmosphere 
+    - methane - blue color
+    - has belts and zones 
+    - great dark spot - disappeared later - storms  dont last as long as on Jupiter
+  - interior
+    - rock and metal core
+    - slushy mantle
+    - magnetic field less than half of Earth and tipped 40ish degrees and offset 55% to the surface
+    - has more internal heat that Uranus
+  - moons
+    - Triton 
+      - or bit circlular and retrograde
+      - complex, active surface
+      - cauliflower terrain
+      - geysers  with dark smears
+      - nitrogen moves from poles depending on sun exposure
+      - surface is 100 million yo
+      - ammonia cryovulcanims
+      - solid state greenhouse 
+       - light travels through clear ice
+       - infrared is trapped inside, heating surface
+    - Neried 
+      - prograde, highly eccentric orbit
+    - triton captured ans scattered Nereid?
+    - moons orbit in rings
+  - rings
+    - also found with occultation 
+    - some dusty rings found with forward scatterign
+
+- dwarf planets
+  - Pluto 
+    - 2/3 size of Earth's moon
+    - eccentric orbit crosses Neptune's, but inclined 17 degrees and in resonance to stay apart
+    - atmosphere
+      - discovered by occultation
+    - surface
+      - frozen nitrogen methane  carbon monoxide
+      - mountains made of water ice - stronger at lower temperature
+      - mountain regions 10 million years old
+    - moons
+    - Charon
+      - mutual tidal lock with Pluto
+      - mutual orbit is retrograde due to tipping of spin axis
+    - Styx, Nix, Kerberos, Hydra
+    - all moons possible made by giant impact with Pluto
+    - Plutinos
+      - other KBOs in 3:2 resonance with Neptune
+      - resonance keeps smaller objects from gravitational interactions with Neptune, safe orbits
+      - KBOs may have been caught in resonances - "resonance sweeping" when Neptune moved out
+      - scattered other objects leaving behind objects in resonant orbits and causing Late heavy bombardment
+  - Eris
+    - Kuiper Belt Object larger than Pluto
+    - more highly inclined orbit
+    - led to creation of dwarf planet classification
+  - Haumea, Makemake - KBOs
+  - Ceres 
+    - asteroid
+    - discovered in 1800s
+    - was also thought to be a planet until other asteroids were found
+  - Pallas, Vesta - asteroids
+  - all spherical objects (unlike potatoes) that live in belts
+
+- Small Bodies
+  - Meteoroids, meteors, meteorites
+    - meteoroid - chunk of minimum size in space
+    - meteor - shooting star
+      - meteor showers
+        - radiant - location of the sky that the meteors come out of ex: perseids come out of Perseus
+        - meteors are in path of a comet that Earth crosses
+      - spradic meteors - random bits in space, some trace back to asteroid belt instead of a comet
+      - most meteors vaporize and do not hit the ground
+    - meteorite - chunk that lands on Earth
+  - Meteorite search 
+    - anaractica
+    - deserts
+    - fall - on object that was seen falling and traced to its point
+    - find - a meteorite found anywhere
+  - meteorite types
+    - iron 
+      - selection effect - least likely to burn up in atmosphere
+      - Widmanstatten patterns - high pressure Iron
+    - stony-iron
+    - stony
+      - chondrites
+        - contain chondrules- glassy rock - early pieces of solar nebula
+        - also volatiles
+        - primitive rocks
+      - achondrites 
+        - no chrondrules or volatiles
+        - cooked chondrites
+        - others are from differentiated objects, or lava flows
+    - carbonaceous chondrites
+     - volatiles, water, organic compounds
+     - Allende - amino acids 
+     - CAI
+       - calcium-almuninum inclusions 
+       - condense only at very high temperatures (refractory)
+       - frozen bits of solar photosphere
+       - age of the Solar System
+    - SNC - martian
+    - lunar
+  - asteroids
+    - exploration 
+     - ground baes radar
+     - space craft
+       - NEAR, DAWN
+       - visited by spacecraft- close up images
+         - Eros
+         - Mathilde
+         - Lutetia
+         - Ida & Dactyl
+         - Vesta
+    - irreglar shape - potatoes
+    - rubble piles - collections of fragments
+    - some have double objects or moons
+    - some large asteroids had geologic activity
+    - classification
+      - C-type
+      - S-type
+      - M-type
+    - asteroid belt
+      - Kirkwood gaps
+        - gaps in asteoid belt where there are very few asteroids
+        - coincides with resonances with Jupiter
+        - Jupiter kicks asteroids out of those resonances, similar to gaps in Saturn's rings
+      - colection of material from beginnig of Solar System
+      - Jupiter prevented them from forming into planet
+      - have been many collision - asteroid families - fragments orbiting other
+    - asteroids outside of belt
+      - Apollo-Amor
+        - orbits come into the inner solar system 
+        - some will end up in the Sun, others booted from the Solar System, some will hit a planet
+        - Near Earth Objects (NEO) 
+          - found almost all objects 1 km or larger
+          - working on down to 150 km (check status)
+          - some migh actually be comets
+      - Trojans - near Jupiter
+      - Centaurs 
+        - near Uranus/Saturn
+        - Chiron
+  - comets
+    - exploration
+      - many new comets discovered every year by ground based observations, citizen scientists
+      - spacecraft 
+        - stardust collected dust and returned to Earth
+        - Deep Impact - crashed into Tempel 1
+        - visited by spacecraft
+         - Wild2
+         - Hartley 2
+         - Borerely
+         - Burymov-Gerasimenko
+    - parts
+      - nucleus 
+        - fragile - can break up easily
+        - close-ups show gas on the surface
+      - coma
+      - tail - gas & dust - extend away from teh Sun
+    - comet origins
+      - short period from Kuiper Belt
+      - Long period fro OOrt cloud
+  - impacts 
+    - Barringer Crater
+    - Tunguska
+    - Chicxulub
+    - shoemaker - levy 09 on Jupiter
+
+- Astrobiology
+  - DNA - information storage
+  - evolution/natural selection
+  - origin of life on Earth
+   - stromatalites, earliest fossil to withing 500 by of formation
+   - life begins from complex organic soup
+  - timescale of evolution of Earth
+    - photosynthesis
+    - oxygen atmosphere - multicellular life
+    - 500 million years ago - Cambrian explosion - shells and bone -> fossils
+  - extermophiles
+    - temperature extremes
+    - thermophiles - high temp - archaea
+    - also halophiles, lithopiles, etc
+  - Solar System life?
+    - Titan
+    - Europa (Ganymede, Callisto, Enceladus)
+    - Mars
+      - Viking landers
+      - martian meteorite 
+  - habitable zone
+    - orbit where planet can have liquid water
+  - Intelligent life
+    - SETI
+    - Drake equations
+
+
+    
+
+
+
+

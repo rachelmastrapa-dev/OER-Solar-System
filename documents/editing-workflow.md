@@ -173,6 +173,9 @@ References, manual attributions - per section page?, need style files for each
 ### new features
 
 - adjust to just reading locally
+- may be already formatted - change to default format
+- use individual links for authors if available, otherwise make all text one link
+- when indexing, note that tables and figures are indexed independently
 
 ## Format Key Terms - Claude AI Passive
 
