@@ -13,6 +13,7 @@ nasal = https://www.nasa.gov/
 iaul = https://iauarchive.eso.org/
 snt = Sky and Telescope
 sntl = https://skyandtelescope.org/
+noirl = https://noirlab.edu
 
 ## Licenses
 

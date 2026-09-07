@@ -56,7 +56,6 @@
 
 ### New features
 
-- make sure that it is copying chapter thumbnail - not completly sure how it would find it.  show it how? or just use text?
 - don't number images file names yet, because there will be future figures - make them all figure
   - label with section number and title
 
@@ -75,6 +74,12 @@
      - add to libretext and copy html into local file 
      - save local copy of image in images dir
      - - put long captions in alt text for now
+
+
+<figure><img alt="alt-text" class="default" src="https://query.libretexts.org/@api/deki/files/1990/Placeholder_Image.jpg" style="width: 214px; height: 169px;" />
+<figcaption>Figure \(\PageIndex{1}\): Title. Copy and Paste Caption here. (License[LicenseLink]; Author [Authorlink] via <a href="figurelink" target="_blank">source</a>)</figcaption>
+</figure>
+
 
 - figures  
    - check against files, manifest

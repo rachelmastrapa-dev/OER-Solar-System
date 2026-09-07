@@ -1,5 +1,17 @@
 # Solar System Topics
 
+## Sources for key terms
+References
+
+    NASA Science Glossary
+    NASA Science Space Place (K-5)
+    NASA Universe Glossary
+    Wiktionary
+    Openstax College Physics 1e Glossary
+    Encyclopedia Britannica
+
+## Topics
+
 - Spacecraft
   - nancy grace roman - wide field images, large mapping, exoplanet search - gravitational microlensing, coronagraph
   - exoplanet spacecraft Pandora https://science.nasa.gov/mission/pandora/
@@ -954,6 +966,7 @@ Scale - Fahrenheit/Celsius/Kelvin
   - observational bias
   - selection effect
   - size distribution
+  - frost line (also snow or ice)
 
 - key terms
   - albedo fraction of reflected sunlight
