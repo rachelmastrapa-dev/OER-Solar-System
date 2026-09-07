@@ -454,6 +454,33 @@
       - Venus permanent cloud cover, atmosphere thicker than Earth
       - Mars - thinner atmosphere than Earth, but more than Mercury/Moon
   - Solar Nebula Theory of formation
+
+The Solar Nebula Model 
+
+Nebula Composition 
+
+How do we know 
+
+Primitive material – comets, asteroids, meteorites 
+
+Observations of other nebula – transmission spectroscopy? 
+
+Stages of nebula model 
+
+Angular momentum 2  - creates disk shape - find figure
+
+Planet Formation 
+
+Planetesimals 
+
+Protoplanets 
+
+Ice Line 
+
+Temperature – movement of particles 
+
+Scale - Fahrenheit/Celsius/Kelvin 
+
     - nebula contracts
     - collapse to flat disk of dust and gas, protostar at center (angular momentum)
     - dust begins to collide and accrete -> planetesimals form by accretion and clear path of orbit
@@ -467,7 +494,7 @@
     - heat of formation - move to Earth??
       - radioactive decay + impacts
       - interior melts
-      - differentiation 
+      - differentiation   https://commons.wikimedia.org/w/index.php?search=solar+nebula&title=Special%3AMediaSearch&type=image
         - heat sources - radioactive decay, gravitational potential energy, contraction and differentiation, impacts
            - stars with initial heat of formation then has no other energy sources - cooling depends on size
         - denser material sinks to center - also releases heat energy

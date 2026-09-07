@@ -27,11 +27,12 @@
 ## 3: Astronomical Instruments
 ## 4: The Solar System
 ### 4.1: Contents of the Solar System
+####
 ### 4.2: Structure and Scale of the Solar System
 ### 4.3: Movement in the Solar System
 ### 4.4: Formation of the Solar System
 ### 4.5: Summary of the Solar System
-### 4.6: Science and Society - Naming Astronomical Objects
+### 4.6: Naming Astronomical Objects
 ### 4.7: Key Terms
 ### 4.8: Accessible Descriptions
 ## 5: The Sun
