@@ -5,21 +5,139 @@
   - exoplanet spacecraft Pandora https://science.nasa.gov/mission/pandora/
   - dragonfly - Titan - https://science.nasa.gov/mission/dragonfly/
 
-- Earth address, Earth-moon, Earth-Sun, Solar System, alpha and proxima centauri, Milky Way Galaxy, Local group, galactic structure
+- Navigating the sky
+  - zenith, horizon
+  - celestial sphere - celestial poles and equator
+  - celestial sphere ( model), horixon, zenith, nadir, north celestial pole, celestial equator, circumpolar motion, ecliptic
+  - sky - angular distance, arc seconds, angular diameter
+  - location on Earth - latitude and longitude - sky is right ascension and declination
+  - movement of stars, rising, setting, circumpolar, position on Earth
+  - wandering stars - planets
+     - planets in the sky, mercury and Venus close to the Sun, can only see near morning or evening, could only see up to Saturn
+  - constellations, asterism, IAU
 
-- Age of universe - compared to year?
-
-- scientific method, scientific model, hypothesis, theory, law, publications, peer review
-
-- constellations, asterism, IAU
+- geocentric vs heliocentric model
+  - greek philosophy liked circles
+  - ancient greeks new, earth was spherical, how phases of moon happened, moon is sphere, estimated size of Earth, hipparchus - precession of spin axis
+  - Earth at center - daily motion of stars, self-importance, spriritual and aesthetic preferences
+  - needed epicycles to explain retrograde motion
+  - aristarchus proposed heliocentric but no stellar parallax
+  - after 1000 years, stopped working , or calculations were nuts
+  - copernicus revived aristarchus heliocentric model
+    - retrograde motion made more sense
+    - still no parallax - didn't know how far away stars are
+    - predicted phases of Venus (different fom old ones)
 
 - brightness of stars, magnitude, absolute magnitude, apparent magnitude, luminosity (flux - energy per area)
 
-- celestial sphere, horixon, zenith, nadir, north celestial pole, celestial equator, circumpolar motion, ecliptic
+- Modern science
+ - Galileo mechanics
+   - acceleration
+   - all objects fall at the same rate
+   - observed sky with telescope
+     - 4 moons of Jupiter (Galilean)
+     - phases of Venus
+     - craters, mountains, and valleys on the Moon
+ - planetary motion
+   - Tyvho Brahe - gahered 20 years of planetary position observations
+   - Johannes Kepler 
+     - used data to create mathematical formulas for planetary motion
+     - 1st law - orbits are ellipses - circles did not agree with the observations, 
+       - define conic sections
+       - draw an ellipse
+       - semimajor axis, semiminor axis, 2 foci, eccentricity
+       - Sun is at one focus, aphelion, perihelion
+     - equal areas in equal time - planets speed up when close to the Sun, and slow down when farther away
+     - P^2 = a^3 (years and au)
+     - observed that planets closest to Sun orbitted faster than outer planets
+     - empirical - everything fits the observations and makes accurate predictions, but does not explain how it works
+   - planet orbits - most look pretty circular - have low eccentricity
+     - asteroids - slightly more elliptical, comets very elliptical
+  - define density = d = m/V
+  - Isaac Newton 
+    - Laws of Motion,
+      - inertia - conservation of momentum p = mv, velocity - vector - speed and direction
+      - F = ma - force changes momentum, acceleration - change in velocity over time, speed up, slow down, change direction
+      - equal and opposite reactions - launching spacecraft
+      - angular momentum - circulat motion 
+    -  Gravity
+      - explains how orbits work - attraction between Sun and planet
+      - Fg = Gm1m2/r2 g = 9.8m/s^2 on Earth
+      - weight = mg 
+      - adapted Kepler's third to include gravity - now can measure the mass of all planets
+      - orbits are firing a rocket around the world - constantly falling toward Earth and missing
+      - Hohmann transfer orbits
+      - gravity with more than 2 objsects 
+        - complicated - need computers to simulate models
+        - Sun has most mass, so main source of gravity, but all other planets cause perturbations on orbits
+        - Neptune discovered by perturbations on Uranus' orbit
+        - Planet X & kbos
+ 
 
-- sky - angular distance, arc seconds, angular diameter
+- Stars
+ - form out of nebula
+ - stellar nucleosynthesis 
+   - fuse hydrogen into helium - release energy
+   - large stars can make up to iron
+ - large stars die in a supernova 
+   - creates larger elements
+   - releases material to be recycled into new stars
 
-- planets in the sky, mercury and Venus close to the Sun, can only see near morning or evening
+
+- Earth address, Earth-moon, Earth-Sun, Solar System, alpha and proxima centauri, 
+ - Milky Way Galaxy 
+   - spiral type 
+   - 100 billion - 1 trillion stars
+ - Local group, galactic structure
+
+- Universe
+  - compared to year
+  - Big Bang -
+    - created all matter in the universe - hydrogen and helium
+
+- Matter 
+  - normal, (baryonic) 5% of universe
+   - atoms, protons, electrons, neutrons
+   - hydrogen - 1 proton, 1 electron - electrons are what connects atoms together
+   - helium 2 protons, 2 neutrons
+   - elements 
+     - different number of protons
+     - periodic table lists all
+     - stars fuse up to iron, the rest are made by supernovae
+     - isotopes - different number of neutrons
+  - dark matter - 27% of universe
+  - dark energy - 68 %  check numbers!!
+
+- Galaxies
+  - types - elliptical, irregular, spiral (barred and none)
+  - collections of stars
+
+
+- Nature of science
+  - scientific method, 
+    - algorithm, series of steps to determine if a hypothesis is valid
+  - scientific model, 
+    - must make testable predictions
+    - everything you learn in science has a story behind it
+  - hypothesis, theory, law, publications, peer review
+  - complexity
+    - scientists pursue simple explanations
+    - introductory classes present the simplified versions of models, theories
+    - reality is always more complicated, and scientists have to deal with complications that are beyond the scope of this textbook
+
+- astronomy
+  - study of objects in the sky, universe as a whole
+  - professional astronomers are mostly observers or theoreticians with some experimentalist
+  - work together to determine history of the universe
+
+- Math in astronomy
+  - numbers 
+   - scientific notation
+   - units - metric and temperature (celsius, Kelvin)
+   - equations
+     - variables
+     - proportions
+  - light years
 
 
 - Earth's spin axis
@@ -94,7 +212,11 @@
    - theia origin
    - after impact origin, moon left molten 
      - surface magma ocean 
-     - completely molten throughout - differentiation - light materials float to top
+     - completely molten throughout - 
+       - differentiation 
+         - light materials float to top
+         - permanent reset of all rocks to molten state - no longer primitive
+         - any volatiles or fragile molecules are released or destroyed. Some amount of volatiles are still trapped below surface and escape during volcanic activity
      - solidified 4.6-4.1 bya
    - late heavy bombardment
      - heavy crater - formation of large basin craters and many small
@@ -342,10 +464,12 @@
     - protoplanets forms out of planetesimals 
       - had to be low speed collisions or they would break apart
       - if protoplanet reachs 15x mass of earth - stars accumulating gas from nebula and grows rapidly 
-    - heat of formation 
+    - heat of formation - move to Earth??
       - radioactive decay + impacts
       - interior melts
       - differentiation 
+        - heat sources - radioactive decay, gravitational potential energy, contraction and differentiation, impacts
+           - stars with initial heat of formation then has no other energy sources - cooling depends on size
         - denser material sinks to center - also releases heat energy
         - creates layers of planetary interiors - terrestrial - metal core, rocky surface
       - volatiles in interior are released through volcanic proceses and form atmosphere - mostly CO2
@@ -371,16 +495,27 @@
 
 - Exoplanet
   - a star orbiting another star
-  - detection
+  - detection  direct vs. indirect - depends on viewing geometry!
     - doppler - radial motion of star, biased toward very large planets close to star, hot jupiters
-    - transit - biased toward large planets, short periods, limited to edge-on disks, can give diameter
+      - center of mass -fulcrum of seesaw, or balance, Earth-moon barycenter, Jupiters center of mass with Sun is above Sun's surface 
+      - must observe roughly edge on
+      - doppler curve for multiple planets is more complicated - simulations can find planets and orbits
+    - transit - biased toward large planets, short periods, limited to perfectly edge-on disks, can give diameter
     - gravitational microlensing - biased toward large planets
-    - direct detection - possible, but hard - faint object near bright source, bias toward large, outer planets
+    - direct detection - possible, but hard - faint object near bright source, bias toward large, outer planets - check for newer direct images 
+    - astrometric - measuring side to side motion of a star  - GAIA?? - 
+  - The hot jupiter problem
+    - giant planets form beyond the ice line
+    - many exoplanets are giant planets very close to star
+    - giant planet could have formed farther out and migrated in, due to gas drag in the disk, migration ends when gas clears, jupiter may have moved up to 10% of initial position
   - spacecraft
-    - Kepler
-    - TESS
+    - Kepler detected 2662 planets in one little section of the sky, founde super earths and mini neptunes - our planetary system is weird - trappist system, kepler 90 
+    - TESS = update
+    - GAIA - update
   - Solar System like
-    - Trappist-1
+    - Trappist-1  - check for newer systems
+  - detectable properties of ecoplanets - period, distance, eccentricity, inclination, mass, radius, density, atmsopheric composition and temperature - check for latest??
+   - planet selection effects - mostly for large planets with short periods
 
 - Earth
   - uniqe properties
@@ -398,25 +533,39 @@
       - detected S wave shadow - can't travel through cores so aprt of core is liquid, inner solid core due to high pressure
       - mantle is not liquid, but ductile - sold but flows, like clay - asphault, breaks with hammer, bends under heavy weight
       crust - thicker under continents, thin under oceans
-  - magnetic field
+  - magnetic field 
+    - magnetic field - region affected by magnet
+      - magnets are dipoles - have two separate poles, labeled N and S, opposites attract, like repels
+      - magnetic field lines are visualization of the invisible magnetic forces.  
+      - some materials will align with or flow along magnetic field lines (Metals, electrically conductive liquids, ions)
+    - requirements
+      - electrically conductive liquid in interior
+      - conection in fluid
+      - moderate global rotation rate - Venus - slow rotation - no mag field
     - dynamo effect - liquid metal in core, charged fluid, moving creates a magnetic field
     - magnetosphere surrounds Earth and protects it from solar wind
+       - Earths magnetic pole is 10 degrees off of spin axis
        - bow shock - region that solar wind hits
        - Van Allen belts - trap some high energy particles 
        - aurora - high energy particles follow line to poles and where it hits atmosphere causes bright lights 
+       - protects Earth from solar wind stripping - removal of atmosphere by solar wind
   - Geology
     - rock cycle
       - igneous forms from melt
-      - sedimentary - broken down rocks,  deposited by water or wind, compression forms rocks
+        - Mafic to felsic, fine to course grained - mostly basalt!!
+      - sedimentary - broken down rocks,  deposited by water or wind, compression forms rocks, can have fossils
       - metamorphic - rocks deformed under high temperature and pressure - without melting!
       - primitive - has not been processed or melted since the formation of the Solar System
     - ages of rocks
-      - relative ages
+      - stratigraphy - study of strata 
+      - relative ages - bottom layers are older than top layers
       - absolute ages
-         - radiometric dating
+         - radiometric dating, isotopic analysis
            - radiactive decay - parent atom, daughter atom
     - plate tectonics
       - crust broken into pieces that move relative to each other
+      - two types of crust - oceanic - thinner, and mostly basalt, continental - thicker, more silicic 
+      plate boundaries - divergent, convergent, transform
       - subduction zone 
         - one plate going under another
         - water melts mantle, low density lava floats to the surface
@@ -442,7 +591,7 @@
               - largest volcano in Solar System 
               - no plate tectonics on Mars, so it grew and grew and grew
             - Iceland - spreading center and hotspot!!!
-        - composite
+        - composite - Fuji
           - form at subduction zones or wherever continental crust is melted
           - higher viscosity lava
           - volcano has steep slopes
@@ -450,7 +599,8 @@
           - eruptions are explosive very dangerous
       - molten rock
         - lava on surface, magma below
-        - viscosity depends on composition - lowest viscosity lava solidifes into basalt
+        - viscosity depends on composition - lowest viscosity lava solidifes into basalt, basalt, andesitic, rhyolite 
+        - forms special structures because of temperature difference - laba tubes, inflation, etc
     - tectonic activity
       - faults
         - some faults are at plate boundaries, others are not
@@ -479,14 +629,14 @@
       - ocean plate is subducted and melted - release CO2  in volcanic activity
       - self-correcting naturally - on very long timescales
   - history 
-    - formation 
+    - formation  - oldest rocks, zircons, lunar regolith, meteorites
     - melting and differetiation forming interior layers
     - cratering during heavy bombardment
     - hotter early Earth has signficantly more volcanic activity than present day Earth
       - lowlands flooded with lava
       - outgassing from volcanism releases gases that form atmosphere, water in atmosphere forms oceans. 
     - since then most geologic activity is slow change over time with rare catastrophic events (craters,volcanic eruptions)
-    - geologic timescale 
+    - geologic timescale - eons, eras, periods
       - rock record shows how Earth has changed over time
       - decreasing amount of data as we go back in time because rocks have been recycled
 
@@ -769,11 +919,14 @@
 - terminology
   - bya billion years ago
   - byo billion years old
+  - Gly - Giga light years -  billion light years
+  - Gyr = billion years 
   - moons - natural satellites
   - synchronous rotation or tidally locked
     - orbit object has a traling or leading side based on orbital motion
   - observational bias
   - selection effect
+  - size distribution
 
 - key terms
   - albedo fraction of reflected sunlight
@@ -1053,6 +1206,7 @@
   - all spherical objects (unlike potatoes) that live in belts
 
 - Small Bodies
+  - leftovers from planetary formation
   - Meteoroids, meteors, meteorites
     - meteoroid - chunk of minimum size in space
     - meteor - shooting star
@@ -1091,7 +1245,11 @@
        - age of the Solar System
     - SNC - martian
     - lunar
+    - 2008 TC3 and Almahatta Sitta
   - asteroids
+    - signfiicantly more small ones than large ones, observational bias makes us find big ones first
+    - large asteroids
+      - Ceres, first discovered - dwarf planet - spherical, differentiated 
     - exploration 
      - ground baes radar
      - space craft
@@ -1107,10 +1265,12 @@
     - some have double objects or moons
     - some large asteroids had geologic activity
     - classification
-      - C-type
-      - S-type
-      - M-type
+      - C-type - carbonaceous - undifferentiated and primitive
+      - S-type - undifferentiated and primitive - but different composition than C
+      - M-type - mettallic - iron cores of larger asteroids
     - asteroid belt
+      - ~ 500,000 known
+      - asteroids very far from each other in belt
       - Kirkwood gaps
         - gaps in asteoid belt where there are very few asteroids
         - coincides with resonances with Jupiter
@@ -1133,7 +1293,7 @@
   - comets
     - exploration
       - many new comets discovered every year by ground based observations, citizen scientists
-      - spacecraft 
+      - spacecraft  Giotto, HST, Deep Space 1, Rosetta, Hayabusa
         - stardust collected dust and returned to Earth
         - Deep Impact - crashed into Tempel 1
         - visited by spacecraft
@@ -1141,15 +1301,20 @@
          - Hartley 2
          - Borerely
          - Burymov-Gerasimenko
+    - composition 
+     - volatiles - water, Co2, 
+     very low density
     - parts
       - nucleus 
         - fragile - can break up easily
-        - close-ups show gas on the surface
+        - close-ups show gas jets on the surface that carry away dust
+        - surface is very dark
+        - has complex organics
       - coma
       - tail - gas & dust - extend away from teh Sun
     - comet origins
-      - short period from Kuiper Belt
-      - Long period fro OOrt cloud
+      - short period from Kuiper Belt , < 200 years  inclination < 30 degrees, mostly prograde - sublimate after 100 or so orbits, or kicked out of Solar System
+      - Long period fro OOrt cloud > 200 years, half prograde, half retrograde, randomly inclined
   - impacts 
     - Barringer Crater
     - Tunguska
@@ -1179,8 +1344,8 @@
   - habitable zone
     - orbit where planet can have liquid water
   - Intelligent life
-    - SETI
-    - Drake equations
+    - SETI, searching in radio signals, optical seti, what happens if succeeds?
+    - Drake equations complicated and simple 
 
 
     
