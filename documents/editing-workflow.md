@@ -53,9 +53,6 @@
 - makes local copies of images
    - creates a manifest file info for each image
    - stores images for entire chapter in one folder for each chapter called images
-
-### New features
-
 - don't number images file names yet, because there will be future figures - make them all figure
   - label with section number and title
 

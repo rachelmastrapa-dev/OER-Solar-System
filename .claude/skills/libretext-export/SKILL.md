@@ -67,7 +67,9 @@ A single LibreTexts Table of Contents (TOC) URL for one chapter, e.g.:
      spaces replaced by hyphens, special characters stripped)
    - Section file: `<NN>.<SS>-<Section-Title-Slug>.html`
      (SS = two-digit section number)
-   - Example: `chapters/12-Black-Holes/12.03-Observing-Black-Holes.html`
+     - Example: `chapters/12-Black-Holes/12.03-Observing-Black-Holes.html`
+   - Also create a file and copy in the HTML for the TOC page for the chapter as section 00 with the title `Introduction`
+     - Example: `chapters/12-Black-Holes/12.00-introduction.html`
    - If a chapter or section number can't be determined cleanly from the
      page, ask the user rather than guessing.
 
