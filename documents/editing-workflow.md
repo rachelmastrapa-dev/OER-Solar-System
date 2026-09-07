@@ -21,37 +21,32 @@
 - decide on page and chapter layouts - create guideline files
 - Create table of contents for book
 - create detailed list of topics
-
-## Organize TOC - AI
-
-- organize topics into table of contents 
-  - create sub and sub sub headings in chapter pages following guidelines
-  - make sure headings are properly nested according to guidelines
-
+- organize topics into table of contents  - or review list while editing
 
 
 ## Whole Chapter - Manual in Libretext
 
-**List actions needed to do next step**
-
-
-
-- Confirm all chapter and section titles from TOC
-  - create sub sections and move any remixed materials into proper locations
-- Remove chapter summaries
 - Edit chapter page
   - check size of thumbnail image
   - at bottom of page write thumbnail and paste in all thumbnail attribution info and caption
 
+- Confirm all chapter and section titles from TOC
+  - create sub sections and move any remixed materials into proper locations
+  - make sure headings are properly nested according to guidelines
+- Remove chapter summaries
+
 - **Delete Extra material** 
 - **Delete extra figures**
+
+**update guidelines to recongnize new data sources, read code, update attribution info**
 
 - figures
   - add titles
   - put all attribution information in caption in (), unless openstax astronomy leave empty ()
-
 - references - put in all information in References section
 - text attribution - put in all information in Attributions section
+
+
 
 - Commit changes in Conductor
 
