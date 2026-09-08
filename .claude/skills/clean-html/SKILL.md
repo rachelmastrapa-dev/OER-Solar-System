@@ -56,7 +56,7 @@ in memory, then write the result back to the same path (overwrite in place).
    `text`.
 4. **Remove `&nbsp;`** — replace with a single regular space if a space is
    needed for readability at that point; otherwise remove it entirely with
-   no replacement.
+   no replacement. Also delete `<p>&nbsp;</p>`
 5. **Replace specific Figure/Table numbers** — in paragraph text and figure/table markup. (not
    headers), replace any literal
    figure/table number like "Figure 21.5" or "Table 18.1" with

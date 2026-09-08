@@ -62,7 +62,7 @@
   - at bottom of page write thumbnail and paste in all thumbnail attribution info and caption
 
 - Edit pages
- - create sub sections and move any remixed materials into proper locations
+ - create sub sections and move any remixed materials into proper locations - copy into TOC
   - make sure headings are properly nested according to guidelines
  - review topic list to make sure they are all included
  - mix more information
@@ -90,7 +90,7 @@
 
 ## Clean HTML - Claude/AI Passive
 - Read .claude/clean-html/SKILL.md
-- Summary, removing italics, bold, spans, figure ## set to default, etc.
+- Summary, removing italics, bold, spans, figure ## set to default, etc. remove <p>&nbsp;</p> 
 
 
 ## Edit HTML - Claude/AI user interactions

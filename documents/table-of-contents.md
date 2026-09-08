@@ -27,7 +27,14 @@
 ## 3: Astronomical Instruments
 ## 4: The Solar System
 ### 4.1: Contents of the Solar System
-####
+#### An Inventory H2
+##### The Sun H3
+##### The Planets H3
+###### Definition of a Planet H4
+###### Properties of Planets H4
+###### The Inner Planets H4
+###### The Outer Planets H4
+###### Comparitive Planetology H4
 ### 4.2: Structure and Scale of the Solar System
 ### 4.3: Movement in the Solar System
 ### 4.4: Formation of the Solar System
