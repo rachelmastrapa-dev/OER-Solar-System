@@ -10,11 +10,11 @@ The accessible description link is needed to link the figure caption to the acce
        - Example: For Chapter 14 `<NN>` and `<NN0>` are both 14
    - `<SS>` is the section number
 
-### ASTR 10 Settings
+### ASTR 4 Settings
 
-For the astronomy 10 textbook, the textbook part of the link is:
+For the astronomy 4 textbook, the textbook part of the link is:
 
-TextbookTitle: De_Anza_-_ASTR10
+TextbookTitle: DeAnza_-_ASTR4
 
 
 ## Accesible Decription Link Guidelines 

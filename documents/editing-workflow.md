@@ -28,24 +28,18 @@
 
 - Edit chapter page
   - check size of thumbnail image
-  - at bottom of page write thumbnail and paste in all thumbnail attribution info and caption
+  - Confirm chapter and section titles from TOC
+  - check chapter TOC for summaries and remove
 
-- Confirm all chapter and section titles from TOC
-  - create sub sections and move any remixed materials into proper locations
-  - make sure headings are properly nested according to guidelines
-- Remove chapter summaries
+- Edit other pages 
+  - Delete Extra material
+  - Delete extra figures
 
-- **Delete Extra material** 
-- **Delete extra figures**
-
-**update guidelines to recongnize new data sources, read code, update attribution info**
-
-- figures
-  - add titles
+- add titles to figures
+- add new figures 
   - put all attribution information in caption in (), unless openstax astronomy leave empty ()
-- references - put in all information in References section
-- text attribution - put in all information in Attributions section
-
+  - use shorthand - update attribution info
+  - put long captions in alt text for now
 
 
 - Commit changes in Conductor
@@ -59,28 +53,48 @@
 - makes local copies of images
    - creates a manifest file info for each image
    - stores images for entire chapter in one folder for each chapter called images
-
-### New features
-
-- Always update table-of-contents when exporting from libretext, overwrite using changes from libretext
-- make sure that it is copying chapter thumbnail - not completly sure how it would find it.  show it how? or just use text?
-- don't number figures yet, because there will be future figures - make them all figure
+- don't number images file names yet, because there will be future figures - make them all figure
   - label with section number and title
-
-
-
 
 ## Review Chapter Import - Human
 
-- figures  
-    - check against files, manifest
-    - confirm attribution/reference info
+- Edit chapter page
+  - at bottom of page write thumbnail and paste in all thumbnail attribution info and caption
 
+- Edit pages
+ - create sub sections and move any remixed materials into proper locations - copy into TOC
+  - make sure headings are properly nested according to guidelines
+ - review topic list to make sure they are all included
+ - check **extras.md**
+
+ - mix more information
+   - find and copy in info from Solar System Sources - Libretext or copy locally?
+   - add figures 
+     - add to libretext and copy html into local file 
+     - save local copy of image in images dir
+     - - put long captions in alt text for now
+
+
+<figure><img alt="alt-text" class="default" src="https://query.libretexts.org/@api/deki/files/1990/Placeholder_Image.jpg" style="width: 214px; height: 169px;" />
+<figcaption>Figure \(\PageIndex{1}\): Title. Copy and Paste Caption here. (License[LicenseLink]; Author [Authorlink] via <a href="figurelink" target="_blank">source</a>)</figcaption>
+</figure>
+
+
+- figures  
+   - check against files, manifest
+   - put all attribution information in caption in (), unless openstax astronomy leave empty ()
+- references - put in all information in References section
+- text attribution - put in all information in Attributions section
+
+**update guidelines to recongnize new data sources, read code, update attribution info**
 
 
 ## Clean HTML - Claude/AI Passive
 - Read .claude/clean-html/SKILL.md
-- Summary, removing italics, bold, spans, figure ## set to default, etc.
+- Summary, removing italics, bold, spans, figure ## set to default, etc. remove <p>&nbsp;</p> 
+
+## new features
+- delete empty paragraphs and lists
 
 
 ## Edit HTML - Claude/AI user interactions
@@ -113,32 +127,32 @@ Ask for help!
   - false color image
   - as we will see - flag?
 
+  edit format of further exploration links.  make sure they have target="_blank"  remove no opener?
+
 
 - more specific editing styles, for quotes, parens, dashes, etc. simplify sentences
 
 - add IDEA and ADA flagging
+<!--12. **Highlight IDEA Framework issues in red** — Flag content in paragraph text that does not meet IDEA (Inclusion, Diversity, Equity, and Access) standards using `<span class="mt-bgcolor-c0392b">text</span>`. For non-text material (figures, headers), describe recommended changes in a list.
+<-->
 
 
 ## Chapter Review - Manual   
 
-**User: Commit and close all files**
 - main chapter page
   - reduce to 10 or fewer learning objectives (no learning objectives on sub-pages)
 - Content
-  -
+  - edit text for clarity
       
 - Figures
-  - check index
   - contextualize figures and tables.
+  - check indices
+  - check for figure or table references in text and confirm indices
 - key terms 
-   -  find in text and highlight - choose color
+   -  find in text and highlight - <span class="mt-bgcolor-2ecc71">term</span>
 - Further Exploration
    - check for full link
    - contextualize further exploration links
-- text attribution
-  - log
-- References 
-   - log
 
 
 
@@ -158,6 +172,9 @@ Ask for help!
 
  - format thumbnail - create separate guideline file
  - set default figure caption to openstax astronomy. 
+ - update format figures to get rid of extra accessible descriptions,  and renumber if overwriting
+Format figure - skips figures with proper formatted html and an accessible description
+
 
 ## Format Sources - Claude/AI Passive
 
@@ -188,16 +205,18 @@ References, manual attributions - per section page?, need style files for each
      - has to be done post final edit of text. 
      - change to highlighting key terms instead of making separate list. - scans for specific color highlight and searches master list for def 
      - OR just make a master list of words and have claude scan book and glossary list, and make key terms
+     also deleting of re-highlighting key terms - refinding first occurance, deleting ones that aren't there
 
-## Final Review - Claude/AI - interactive? - skip for now
+put key terms in key term page un edited
+
+## Final Review - Claude/AI - interactive
 
 **User: Commit and close all files**
 
 make suggestions - search for outer material??. accesibility
 1. Make minor grammar and spelling errors.
 2. Ask about more complicated errors
-<!--12. **Highlight IDEA Framework issues in red** — Flag content in paragraph text that does not meet IDEA (Inclusion, Diversity, Equity, and Access) standards using `<span class="mt-bgcolor-c0392b">text</span>`. For non-text material (figures, headers), describe recommended changes in a list.
-<-->
+
 
 ## Final Check- Manual
 - Manually paste each page and check for functionality.

@@ -49,8 +49,8 @@ A single LibreTexts Table of Contents (TOC) URL for one chapter, e.g.:
    - For each distinct image URL in the section, fetch the image bytes
      using the same authenticated Playwright browser session (so it works
      even if the image host requires the login session), and save it to
-     `chapters/<NN>-<Chapter-Title-Slug>/images/<NN.SS>-fig<N>-<original-filename>`,
-     where `<N>` is the image's order of appearance in that section.
+     `chapters/<NN>-<Chapter-Title-Slug>/images/<NN.SS>-<FigureTitle>`,
+     where `<FigureTitle>` is the text in the figure caption between the figure number, similar to `Figure \(\PageIndex{1}\)`, and a period The title is near the beginning of the figure caption.  Example: If the figure caption is `<figcaption>Figure \(\PageIndex{1}\) : Earth. Our home is unique in the Solar System, due to its liquid water surface and the presence of life. (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" title="CC BY 4.0">CC BY 4.0</a>; <a href="https://openstax.org/books/astronomy-2e/pages/preface" target="_blank" title="Fraknoi, et al.">Fraknoi, et al.</a> via <a href="https://openstax.org/details/books/astronomy" target="_blank" title="Openstax Astronomy 2nd ed.">Openstax Astronomy 2nd ed.</a>) <a href="/Workbench/De_Anza_-_ASTR10/02:_Night_Sky_Navigation/2.10:_Accessible_Descriptions#Figure_2.1.1_Earth" target="_blank" title="2.10: Accessible Descriptions">Accessible description of Figure \(\PageIndex{1}\)</a>.</figcaption>` the `<FigureTitle>` is `Earth`.
    - If the same image URL appears in more than one section, download it
      once and reuse the local file for the manifest entries below rather
      than fetching it twice.
@@ -67,7 +67,9 @@ A single LibreTexts Table of Contents (TOC) URL for one chapter, e.g.:
      spaces replaced by hyphens, special characters stripped)
    - Section file: `<NN>.<SS>-<Section-Title-Slug>.html`
      (SS = two-digit section number)
-   - Example: `chapters/12-Black-Holes/12.03-Observing-Black-Holes.html`
+     - Example: `chapters/12-Black-Holes/12.03-Observing-Black-Holes.html`
+   - Also create a file and copy in the HTML for the TOC page for the chapter as section 00 with the title `Introduction`
+     - Example: `chapters/12-Black-Holes/12.00-introduction.html`
    - If a chapter or section number can't be determined cleanly from the
      page, ask the user rather than guessing.
 
@@ -84,8 +86,15 @@ A single LibreTexts Table of Contents (TOC) URL for one chapter, e.g.:
    failed to extract and why, and any chapter/section numbering the tool
    had to guess at.
 
+## Logging
+
+Append an entry to today's session file (`sessions/<date>-sessionNN.md`)
+under **AI**, listing: chapter processed, files touched, and total edit
+counts per rule.
+
 ## Notes
 - If the editor's Source-view control can't be found on a given page (site
   layout can vary slightly), stop on that page, ask the user for the click
   path once, and this skill file should be updated with what worked.
 - This tool copies all HTML from the page, including figures.
+- Using Claude in Chrome caused a lot of problems, while playwright went smoothly.  Avoid using Chrome in Chrome. Ask the user if you can't find playwright.
