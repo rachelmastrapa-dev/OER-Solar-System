@@ -31,11 +31,22 @@
 ##### The Sun H3
 ##### The Planets H3
 ###### Definition of a Planet H4
-###### Properties of Planets H4
 ###### The Inner Planets H4
 ###### The Outer Planets H4
+###### Properties of Planets H4
 ###### Comparitive Planetology H4
+##### Small Bodies
+###### Dwarf Planets
+###### Moons
+###### Asteroids
+###### Comets
 ### 4.2: Structure and Scale of the Solar System
+#### Our Planetary System H2
+##### A Disk-Shaped Home H3
+##### Measuring Distance H3
+###### Distance and Temperature
+##### Planetary Positions H3
+##### A Scale Model H3
 ### 4.3: Movement in the Solar System
 ### 4.4: Formation of the Solar System
 ### 4.5: Summary of the Solar System

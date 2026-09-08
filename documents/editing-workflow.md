@@ -65,6 +65,8 @@
  - create sub sections and move any remixed materials into proper locations - copy into TOC
   - make sure headings are properly nested according to guidelines
  - review topic list to make sure they are all included
+ - check **extras.md**
+
  - mix more information
    - find and copy in info from Solar System Sources - Libretext or copy locally?
    - add figures 
@@ -87,10 +89,12 @@
 **update guidelines to recongnize new data sources, read code, update attribution info**
 
 
-
 ## Clean HTML - Claude/AI Passive
 - Read .claude/clean-html/SKILL.md
 - Summary, removing italics, bold, spans, figure ## set to default, etc. remove <p>&nbsp;</p> 
+
+## new features
+- delete empty paragraphs and lists
 
 
 ## Edit HTML - Claude/AI user interactions
@@ -133,7 +137,6 @@ Ask for help!
 
 ## Chapter Review - Manual   
 
-**User: Commit and close all files**
 - main chapter page
   - reduce to 10 or fewer learning objectives (no learning objectives on sub-pages)
 - Content
@@ -144,7 +147,7 @@ Ask for help!
   - check indices
   - check for figure or table references in text and confirm indices
 - key terms 
-   -  find in text and highlight - choose color
+   -  find in text and highlight - <span class="mt-bgcolor-2ecc71">term</span>
 - Further Exploration
    - check for full link
    - contextualize further exploration links
