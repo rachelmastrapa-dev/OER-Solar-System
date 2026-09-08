@@ -97,3 +97,4 @@ counts per rule.
   layout can vary slightly), stop on that page, ask the user for the click
   path once, and this skill file should be updated with what worked.
 - This tool copies all HTML from the page, including figures.
+- Using Claude in Chrome caused a lot of problems, while playwright went smoothly.  Avoid using Chrome in Chrome. Ask the user if you can't find playwright.

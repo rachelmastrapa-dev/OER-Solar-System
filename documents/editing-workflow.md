@@ -127,6 +127,8 @@ Ask for help!
   - false color image
   - as we will see - flag?
 
+  edit format of further exploration links.  make sure they have target="_blank"  remove no opener?
+
 
 - more specific editing styles, for quotes, parens, dashes, etc. simplify sentences
 
@@ -170,6 +172,9 @@ Ask for help!
 
  - format thumbnail - create separate guideline file
  - set default figure caption to openstax astronomy. 
+ - update format figures to get rid of extra accessible descriptions,  and renumber if overwriting
+Format figure - skips figures with proper formatted html and an accessible description
+
 
 ## Format Sources - Claude/AI Passive
 
@@ -200,6 +205,9 @@ References, manual attributions - per section page?, need style files for each
      - has to be done post final edit of text. 
      - change to highlighting key terms instead of making separate list. - scans for specific color highlight and searches master list for def 
      - OR just make a master list of words and have claude scan book and glossary list, and make key terms
+     also deleting of re-highlighting key terms - refinding first occurance, deleting ones that aren't there
+
+put key terms in key term page un edited
 
 ## Final Review - Claude/AI - interactive
 
