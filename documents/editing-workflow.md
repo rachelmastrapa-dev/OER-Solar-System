@@ -41,7 +41,6 @@
   - use shorthand - update attribution info
   - put long captions in alt text for now
 
-
 - Commit changes in Conductor
 
 ## Libretext export - Claude/AI Passive
@@ -62,8 +61,11 @@
   - at bottom of page write thumbnail and paste in all thumbnail attribution info and caption
 
 - Edit pages
- - create sub sections and move any remixed materials into proper locations - copy into TOC
-  - make sure headings are properly nested according to guidelines
+ - sub sections
+   - create properly nested subsections according to guidelines
+   - copy subsections into TOC
+   - move materials into proper section 
+   
  - review topic list to make sure they are all included
  - check **extras.md**
 
@@ -109,6 +111,8 @@ Ask for help!
 
 ## New features to add or make separate skill
 
+- replace current key terms with key term color <span class="mt-bgcolor-2ecc71">term</span>
+
 - edit all equations, including in figures and tables
 
 - main chapter page - Have page start with an H2 Introduction 
@@ -126,6 +130,7 @@ Ask for help!
 - terminology
   - false color image
   - as we will see - flag?
+   - revolves about - orbits around
 
   edit format of further exploration links.  make sure they have target="_blank"  remove no opener?
 
@@ -169,6 +174,8 @@ Ask for help!
 - Figure HTML
 
 ### New features
+
+- first scan all figures in entire chapter and check against manifest and image names - update figures that have moved, list figures that are no longer present and move to chapter wide images folder /moved-images
 
  - format thumbnail - create separate guideline file
  - set default figure caption to openstax astronomy. 

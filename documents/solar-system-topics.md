@@ -16,6 +16,7 @@ References
   - nancy grace roman - wide field images, large mapping, exoplanet search - gravitational microlensing, coronagraph
   - exoplanet spacecraft Pandora https://science.nasa.gov/mission/pandora/
   - dragonfly - Titan - https://science.nasa.gov/mission/dragonfly/
+  - Bepi - columbo, Mercury
 
 - Navigating the sky
   - zenith, horizon
