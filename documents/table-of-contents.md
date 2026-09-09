@@ -35,11 +35,11 @@
 ###### The Outer Planets H4
 ###### Properties of Planets H4
 ###### Comparitive Planetology H4
-##### Small Bodies
-###### Dwarf Planets
-###### Moons
-###### Asteroids
-###### Comets
+##### Small Bodies H3
+###### Dwarf Planets H4
+###### Moons H4 
+###### Asteroids H4
+###### Comets H4
 ### 4.2: Structure and Scale of the Solar System
 #### Our Planetary System H2
 ##### A Disk-Shaped Home H3
@@ -48,7 +48,27 @@
 ##### Planetary Positions H3
 ##### A Scale Model H3
 ### 4.3: Movement in the Solar System
+#### Orbits and Rotation H2
+##### Orbits H3
+###### Kepler's Laws H4
+- include gravity
+###### Orbital Elements H4
+- eccentricity, etc
+- periapse- apoapse
+###### Orbits in the Solar System H4
+##### Rotation H3
+- solid surface vs gas
+###### Angular Momentum H4
+###### Precession?? H4
 ### 4.4: Formation of the Solar System
+#### The Nebular Model H2
+##### Star Formation H3
+##### Observations of Protoplanetary Disks H3
+##### The Solar Nebula H3
+##### Building Planets H3
+###### Forming the Inner Planets H4
+- Differentiation
+###### Forming the Outer Planets H4
 ### 4.5: Summary of the Solar System
 ### 4.6: Naming Astronomical Objects
 ### 4.7: Key Terms
