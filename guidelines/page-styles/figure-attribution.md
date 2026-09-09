@@ -42,7 +42,7 @@ There are some default formats that will be used. Use these default attributions
 
 ### Openstax Astronomy
 
-Default attribution for Openstax Astronomy.
+Default attribution for Openstax Astronomy.  If there is no attribution information for a figure, use this one.
 
 LicenseLink: https://creativecommons.org/licenses/by/4.0/
 
@@ -59,3 +59,9 @@ FigureLink: https://openstax.org/details/books/astronomy
 This renders in text as:
 
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); [Fraknoi, et al.](https://openstax.org/books/astronomy-2e/pages/preface) via [Openstax Astronomy 2nd ed.](https://openstax.org/details/books/astronomy)
+
+### Openstax Chemistry
+
+If the attribution information is (Openstax Chemistry)
+
+<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" title="CC BY 4.0">CC BY 4.0</a>; <a href="https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/00%3A_Front_Matter/01%3A_TitlePage" target="_blank" title="Flowers, Theopold and Langley">Flowers, Theopold and Langley</a> via <a href="https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)" target="_blank" title="Openstax Chemistry 2nd ed.">Openstax Chemistry 2nd ed.</a>

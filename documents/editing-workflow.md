@@ -41,7 +41,6 @@
   - use shorthand - update attribution info
   - put long captions in alt text for now
 
-
 - Commit changes in Conductor
 
 ## Libretext export - Claude/AI Passive

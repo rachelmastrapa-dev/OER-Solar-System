@@ -1,20 +1,43 @@
 # Solar System Astronomy Table of Contents
 
 ## 0: Astronomy Toolkit
-### 0.1: Numbers in Astronomy
-### 0.2: Introduction to Physics
-### 0.3: Light
-### 0.4: Elements and Chemical Abundance
-### 0.5: Earth's Address
-### 0.6: How to Use This Book
-### 0.7: Key Terms
-### 0.8: Accessible Descriptions
+### 0.1: Math and Measurements
+#### Numbers in Astronomy H2
+##### Scientific Notation H3
+   - scientific notation
+###### Very Large Numbers H4
+###### Very Small Numbers H4
+##### Measurements in Science H3
+###### The SI Units H4
+###### The SI Decimal Prefixes H4
+###### The Base Units H4 
+- Length H5
+- Mass H5
+- Time H5
+- Temperature H5
+###### Derived SI Units H4
+
+- Math in astronomy
+  - numbers    
+   - equations
+     - variables
+     - proportions
+  - light years  
+<p class="lt-phys-46784">For a more complete table, see the <a href="http://physics.nist.gov/cuu/Units/prefixes.html">NIST page on SI prefixes</a></p>
+### 0.2: Physics
+### 0.3: Chemistry
+### 0.4: Light
+### 0.5: How to Use This Textbook
+### 0.6: Key Terms
+### 0.7: Accessible Descriptions
 ## 1: Introduction to Astronomy
-### 1.1: Origins of Astronomy
-### 1.2: Astronomy Now
-### 1.3: Astronomy and You
-### 1.4: Key Terms
-### 1.5: Accessible Description
+### 1.1 How Science Works
+### 1.2: Origins of Astronomy
+### 1.3: Modern Astronomy
+### 1.4: Earth's Address
+### 1.5: Astronomy and You
+### 1.6: Key Terms
+### 1.7: Accessible Description
 ## 2: Night Sky Navigation
 ### 2.1: Observing the Sky Above
 ### 2.2: The Sun
