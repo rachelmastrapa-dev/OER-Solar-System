@@ -65,3 +65,9 @@ This renders in text as:
 If the attribution information is (Openstax Chemistry)
 
 <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" title="CC BY 4.0">CC BY 4.0</a>; <a href="https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/00%3A_Front_Matter/01%3A_TitlePage" target="_blank" title="Flowers, Theopold and Langley">Flowers, Theopold and Langley</a> via <a href="https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)" target="_blank" title="Openstax Chemistry 2nd ed.">Openstax Chemistry 2nd ed.</a>
+
+### Intro Physics Park
+
+If the attribution info is (Intro Physics Park)
+
+<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" title="CC BY 4.0">CC BY 4.0</a>; <a href="https://www.linkedin.com/in/bkpark" target="_blank" title="Andrew Park">Andrew Park</a> via <a href="https://phys.libretexts.org/Bookshelves/Conceptual_Physics/Introduction_to_Physics_(Park)" target="_blank" title="Introduction to Physics (Park)">Introduction to Physics (Park)</a>

@@ -148,6 +148,8 @@ Ask for help!
   - reduce to 10 or fewer learning objectives (no learning objectives on sub-pages)
 - Content
   - edit text for clarity
+
+- highlight or make links for 
       
 - Figures
   - contextualize figures and tables.
@@ -163,7 +165,7 @@ Ask for help!
 
 <!-->  - class attributes - connecting to location default attribute?  page attribute? < -->
 
-## Format Figures - Claude AI - more astro figs to skills in ASTR10
+## Format Figures - Claude AI
 
 **User: Commit and close all files**
 
@@ -174,6 +176,12 @@ Ask for help!
 - Figure HTML
 
 ### New features
+
+- correcting for moved or missing images
+  - finding accessible description using link? - or ask for page? ask - user will tell you which chapter it is in
+  - find image in another chapter??  or ask? look in extra-images
+  - if a figure in images for a chapter is not used, move it to extra-images at chapter level - don't duplicate images
+  - if figure html is already done, skip except for putting accessible description in correct place and changing link
 
 - first scan all figures in entire chapter and check against manifest and image names - update figures that have moved, list figures that are no longer present and move to chapter wide images folder /moved-images
 
