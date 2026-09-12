@@ -148,6 +148,8 @@ Ask for help!
   - reduce to 10 or fewer learning objectives (no learning objectives on sub-pages)
 - Content
   - edit text for clarity
+
+- highlight or make links for 
       
 - Figures
   - contextualize figures and tables.
