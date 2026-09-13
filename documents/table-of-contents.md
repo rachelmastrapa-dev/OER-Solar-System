@@ -11,18 +11,26 @@
 ###### The SI Units H4
 ###### The SI Decimal Prefixes H4
 ###### The Base Units H4 
-- Length H5
-- Mass H5
 - Time H5
 - Temperature H5
+- Length H5
+- Mass H5
 ###### Derived SI Units H4
+- Volume H5
+- Density H5
+- Pressure H5
+###### Non-SI Units H4
+##### Equations H3
+###### Variables
+###### Constants
+###### Proportionality
+
 
 - Math in astronomy
   - numbers    
    - equations
      - variables
-     - proportions
-  - light years  
+     - proportions 
 <p class="lt-phys-46784">For a more complete table, see the <a href="http://physics.nist.gov/cuu/Units/prefixes.html">NIST page on SI prefixes</a></p>
 
 ### 0.2: Physics
@@ -48,7 +56,7 @@
 ### 2.6: Science and Society - First Astronomers
 ### 2.7: Key Terms
 ### 2.8: Accessible Description
-## 3: Astronomical Instruments
+## 3: Light and Astronomy
 ## 4: The Solar System
 ### 4.1: Contents of the Solar System
 #### An Inventory H2
