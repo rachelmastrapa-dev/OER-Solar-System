@@ -97,6 +97,17 @@
 
 ## new features
 - delete empty paragraphs and lists
+- make a guidelines for clean html
+find and replace  &times; x 
+&amp; & 
+&rsquo; '
+&minus; -
+&ldquo; nothing
+&rdquo; nothing
+&mdash; nothing
+&ndash; -
+&micro; μ
+&deg; °
 
 
 ## Edit HTML - Claude/AI user interactions

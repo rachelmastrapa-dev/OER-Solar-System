@@ -29,10 +29,8 @@ Sources
 ## Topics
 
 - Astro toolkit
-- physics
-  - angular momentum
-  - energy
 
+- Chemistry
 - atoms
  - nucleus, protons, neutrons, electrons
  - isotopes
