@@ -8,6 +8,16 @@ Index
 - Orbital Motion and Mass
 - Gravity and orbits
 - Planetary Motion - for Solar System
+- Light year
+
+<h2>Light Year<h2>
+<p class="lt-phys-64645">A common unit astronomers use to describe distances in the universe is a light-year, which is the distance light travels during one year. Even though it has year in its name, it does not measure time. Because light always travels at the same speed, it makes a good standard for keeping track of distances. The speed of light is 3 x 10<sup>5</sup> km/s and a light year is 9.5 x 10<sup>12</sup> km.</p>
+
+<p class="lt-phys-64646">There is another reason the speed of light is such a natural unit of distance for astronomers. Information about the universe comes to us almost exclusively through various forms of light, and all such light travels at the speed of light. This sets a limit on how quickly we can learn about events in the universe. If a star is 100 light-years away, the light we see from it tonight left that star 100 years ago. If anything happened to the star between the time the light left the star and now, we won't know until the event is 100 years old.</p>
+
+<p class="lt-phys-64646">What at first may seem a challenge is actually a tremendous benefit in disguise. If astronomers really want to piece together what has happened in the universe since its beginning, they need some kind of data from the past. Fortunately, the farther out in space we look, the longer the light has taken to get here. By looking billions of light-years out into space, astronomers are actually seeing billions of years into the past. In this way, we can reconstruct the history of the cosmos and get a sense of how it has evolved over time.</p>
+
+<p class="lt-phys-64646">This is one reason why astronomers strive to build telescopes that can collect more and more of the faint light in the universe. The more light we collect, the fainter the objects we can observe. On average, fainter objects are farther away and can, therefore, tell us about periods of time even deeper in the past. As each new telescope comes online, astronomers are able to see farther into the past.</p>
 
 <h3>Planetary Motion</h3>
 

@@ -1,7 +1,7 @@
 # Solar System Topics
 
-## Sources for key terms
-References
+## Terms
+Sources
 
     NASA Science Glossary
     NASA Science Space Place (K-5)
@@ -10,24 +10,99 @@ References
     Openstax College Physics 1e Glossary
     Encyclopedia Britannica
 
+- terminology
+  - bya billion years ago
+  - byo billion years old
+  - Gly - Giga light years -  billion light years
+  - Gyr = billion years 
+  - moons - natural satellites
+  - synchronous rotation or tidally locked
+    - orbit object has a traling or leading side based on orbital motion
+  - observational bias
+  - selection effect
+  - size distribution
+  - frost line (also snow or ice)
+
+- key terms
+  - albedo fraction of reflected sunlight
+
 ## Topics
 
-- Spacecraft
-  - nancy grace roman - wide field images, large mapping, exoplanet search - gravitational microlensing, coronagraph
-  - exoplanet spacecraft Pandora https://science.nasa.gov/mission/pandora/
-  - dragonfly - Titan - https://science.nasa.gov/mission/dragonfly/
-  - Bepi - columbo, Mercury
+- Astro toolkit
+- physics
+  - angular momentum
+  - energy
 
-- Navigating the sky
-  - zenith, horizon
-  - celestial sphere - celestial poles and equator
-  - celestial sphere ( model), horixon, zenith, nadir, north celestial pole, celestial equator, circumpolar motion, ecliptic
-  - sky - angular distance, arc seconds, angular diameter
-  - location on Earth - latitude and longitude - sky is right ascension and declination
-  - movement of stars, rising, setting, circumpolar, position on Earth
-  - wandering stars - planets
-     - planets in the sky, mercury and Venus close to the Sun, can only see near morning or evening, could only see up to Saturn
-  - constellations, asterism, IAU
+- atoms
+ - nucleus, protons, neutrons, electrons
+ - isotopes
+ - ion, ionization
+ - molecule
+
+
+
+- light/electromagnetic radiation
+  - wavelength/frequency lambda*v=c
+  - photon E= hc/lambda
+  - measurement - nanometer, angstrom
+  - electromagnetic spectrum
+    - infrared, microwaves, radio, ultraviolet, radio, X-rays, gamma rays
+ - electron orbits
+   - coulomb force 
+   - binding energy
+   - quantum mechanics 
+     - energy levels
+       - ground state excited state
+       - transitions, lyman, balmar, Paschen, etc
+  - spectra
+  - continuous spectrum, emission spectrum, absorption spectrum, 
+- light and temperature
+  - thermal energy
+  - heat, temperature, Kelvin temperature scale, absolute zero
+  - blackbody radiation
+  - Stefan-Boltzman E = sigma*T^4
+  - wavelength of maximum intensity, Wien's law, lamda_max = 2.90x10^6 / T
+
+
+ 
+
+- brightness of stars, magnitude, absolute magnitude, apparent magnitude, luminosity (flux - energy per area)
+
+
+- Nature of science
+  - scientific method, 
+    - algorithm, series of steps to determine if a hypothesis is valid
+  - scientific model, 
+    - must make testable predictions
+    - everything you learn in science has a story behind it
+  - hypothesis, theory, law, publications, peer review
+  - complexity
+    - scientists pursue simple explanations
+    - introductory classes present the simplified versions of models, theories
+    - reality is always more complicated, and scientists have to deal with complications that are beyond the scope of this textbook
+
+- astronomy
+  - study of objects in the sky, universe as a whole
+  - professional astronomers are mostly observers or theoreticians with some experimentalist
+  - work together to determine history of the universe
+
+- origins of astronomy
+  - archaeoastronomy
+  - stonehenge
+  - https://en.wikipedia.org/wiki/Fajada_Butte  sun daggers
+  - surviving Mayan writing
+  - greek astronomy
+    - geocentric model - Earth at center of cosmos/universe, circular orbits
+    - eratosthenes - size of Earth
+    - Ptolemy - epicycles for retrograde motion
+    - aristarchus - early heliocentric model, argument against - parallax, motion of Earth
+  - need information for cultures from asia, africa, and more
+  - Almagest - middle ages Arab world develops astronomy
+  - post - middle ages, europe
+    - copernicus - heliocentric model
+      - explains retrograde motion
+
+
 
 - geocentric vs heliocentric model
   - greek philosophy liked circles
@@ -41,7 +116,28 @@ References
     - still no parallax - didn't know how far away stars are
     - predicted phases of Venus (different fom old ones)
 
-- brightness of stars, magnitude, absolute magnitude, apparent magnitude, luminosity (flux - energy per area)
+
+
+- Modern Astronomy 
+- Tycho Brahe - observations of planetary position - dataset for Kepler
+- Kepler, 
+  - Kepler's Laws, 
+    - orbits are ellipses
+    - equal areas equal time
+    - p squared = a cubed
+  - ellipse, semimajor axis, eccentricity, - equations are empirical, can predict positions, but can't explain motion
+- Galileo
+  - mechanics - falling objects and ramps
+  - telescopic observations
+    - moons of Jupiter- Galilean moons
+    - geologic structures on Moon
+    - phases of Venus
+  - vatican - house arrest 
+- Newton
+ - laws of motion, inertia, force. momentum, mass, acceleration, velocity
+ - gravity, inverse square law F = Gmm/r2, G = 6.67 x 10^-11
+ - adaptation of keplers third 
+- Einstein - relativity, special and general relativity, E=mc^2, curved spacetime
 
 - Modern science
  - Galileo mechanics
@@ -66,7 +162,6 @@ References
      - empirical - everything fits the observations and makes accurate predictions, but does not explain how it works
    - planet orbits - most look pretty circular - have low eccentricity
      - asteroids - slightly more elliptical, comets very elliptical
-  - define density = d = m/V
   - Isaac Newton 
     - Laws of Motion,
       - inertia - conservation of momentum p = mv, velocity - vector - speed and direction
@@ -86,22 +181,24 @@ References
         - Neptune discovered by perturbations on Uranus' orbit
         - Planet X & kbos
  
+- Earth's Address 
 
-- Stars
- - form out of nebula
- - stellar nucleosynthesis 
-   - fuse hydrogen into helium - release energy
-   - large stars can make up to iron
- - large stars die in a supernova 
-   - creates larger elements
-   - releases material to be recycled into new stars
-
+introduce au and light year and proper points
+light year!!!!
 
 - Earth address, Earth-moon, Earth-Sun, Solar System, alpha and proxima centauri, 
  - Milky Way Galaxy 
    - spiral type 
    - 100 billion - 1 trillion stars
  - Local group, galactic structure
+ - Stars
+ - form out of nebula
+ - stellar nucleosynthesis 
+   - fuse hydrogen into helium - release energy
+   - large stars can make up to iron
+ - large stars die in a supernova 
+   - creates larger elements
+   - releases material to be recycled into new star
 
 - Universe
   - compared to year
@@ -124,36 +221,30 @@ References
 - Galaxies
   - types - elliptical, irregular, spiral (barred and none)
   - collections of stars
+- galaxies
+  - ours - Milky Way
+  - classification - elliptical, spiral (barred or not), irregular
+- Big Bang
+  - evidence - galactic redshift, cosmic microwave background
+  - origin of matter - hydrogen built into larger elements, recycled through star death and formation
 
 
-- Nature of science
-  - scientific method, 
-    - algorithm, series of steps to determine if a hypothesis is valid
-  - scientific model, 
-    - must make testable predictions
-    - everything you learn in science has a story behind it
-  - hypothesis, theory, law, publications, peer review
-  - complexity
-    - scientists pursue simple explanations
-    - introductory classes present the simplified versions of models, theories
-    - reality is always more complicated, and scientists have to deal with complications that are beyond the scope of this textbook
-
-- astronomy
-  - study of objects in the sky, universe as a whole
-  - professional astronomers are mostly observers or theoreticians with some experimentalist
-  - work together to determine history of the universe
-
-
-
-
+- Navigating the sky
+  - zenith, horizon
+  - celestial sphere - celestial poles and equator
+  - celestial sphere ( model), horixon, zenith, nadir, north celestial pole, celestial equator, circumpolar motion, ecliptic
+  - sky - angular distance, arc seconds, angular diameter
+  - location on Earth - latitude and longitude - sky is right ascension and declination
+  - movement of stars, rising, setting, circumpolar, position on Earth
+  - wandering stars - planets
+     - planets in the sky, mercury and Venus close to the Sun, can only see near morning or evening, could only see up to Saturn
+  - constellations, asterism, IAU
 - Earth's spin axis
   - precession of Earth's spin axis 
   - earth rotates on axis
   - tilt of axis causes seasons
-
 - Earth orbits the Sun ( not revolves about - deprecrated term)
   - from Earth, Sun moves along ecliptic through zodiac
-
 - seasons on Earth
   - not due to distance from Sun (northern hemisphere, closest to Sun in January)
   - evidence
@@ -164,15 +255,13 @@ References
   - equinoxes, solsitices
   - arctic/antarctic circle
   - tropic of capricorn, cancer
-
 - planets
  - greek origin - wanderers
  - IAU definition - Pluto = dwarf planet
    - orbits Sun, cleared pathway
    - spherical
-
-- The Moon
- - phases
+- Moon
+- phases
     - when they are seen, ex full moon at midnight
  - eclipses
    - lunar eclipse
@@ -182,55 +271,211 @@ References
    - angular diameter of Sun and Moon - time
    - apogee, perigee
    - when the can happen - tilt of plane of Moon's orbit of Earth, wrt Sun-Earth orbital planet
- - tides
-   - spring and neap
- - synchronous rotation, also called tidally locked
- - surface
-   - surface age
-     - apollo samples and lunar meteorites - radiometric dating 
- - no atmosphere
-   - known from observations - terminator is sharp line, no scatter from light, stars disappear behind moon without being dimmed by atmosphere
- - surface
-   - regolith - all over the Moon, layers of crunched up rocks from constant cratering
-   - rocks from surface all igneous 
-      - formed from melt
-      - vesicular basalts - solidified on surface where gases were released on surface 
-   - lunar highlands - very old and full of craters 
-      - light colored anorthosite  - original low density crust of moon
-      - breccia rocks that are formed out of broken up other rocks
-   - lowlands - maria - the latin word for seas singular mare Mah - ray - dark area is volcanic flood bassalts, sinuous rills - collapsed lava tubes
-   - impact cratering 
-     - ejecta, rays, secondary craters,  
-     - range in sizes, tiny holes from micrometeorite impacts to multi-ring basins
-     - ages - relative ages fresher craters covering older craters, craters also decay over time - rim collapses, etc, can only get absolute age with radiometric dating
-     - 4.1 - 3.8 billion years ago - late heavy bombardment
-     - large basin - mare imbrium 
-       - 4 bya -large impac
-       - formed multi-ring basinover 1000 km across
-       - flood 3.8 bya during late heavy bombardment, repeated flows flood emost of the area
- - exploration 
-   - human exploration - Apollo and Artemis
- - water trapped in permanently shadowed craters
- - history 
-   - possible origns
-     - form with Earth - would have same composition/density
-     - capture - orbit is wrong
-   - theia origin
-   - after impact origin, moon left molten 
-     - surface magma ocean 
-     - completely molten throughout - 
-       - differentiation 
-         - light materials float to top
-         - permanent reset of all rocks to molten state - no longer primitive
-         - any volatiles or fragile molecules are released or destroyed. Some amount of volatiles are still trapped below surface and escape during volcanic activity
-     - solidified 4.6-4.1 bya
-   - late heavy bombardment
-     - heavy crater - formation of large basin craters and many small
-     - large impacts release flood basalt - mare
 
-- orbits
+  
+- Light and Astronomy
+  - atmospheric window - what light can get through
+- telescopes
+ - reflector/refractor
+ - primary lens, primary mirror, focal length, eyepiece
+ - focus
+   - Newtonian
+   - Cassegrain
+   - Schmidt - Cassegrain
+ - refractor - chromatic aberration, achromatic lenses
+ - light-gathering power
+ - resolving power, 
+   - diffraction fringes - stars are a point source, but wavelength nature of light creates diffraction
+ - seeing - atmospheric disturbance
+ - magnifying power
+ - mounts
+   - alt azimuth
+   - equatorial
+ - light pollution
+ - radio telescopes
+ - airborne telescope - sofia
+ - space telescopes
+   - Hubble
+   - JWST
+   - Herschel, Planck,
+   - Nancy Grace Roman
+- high-energy - gamma, x-ray, uv
+   - Ariel I
+   - XMM-Newton
+   - Hinode
+   - Chandra
+   - Compton, INTEGRAL, Fermi
+- detectors
+   - photograpic plate
+   - photometers
+   - charge-couple devices
+   - array detectors
+   - false-color images
+- spectrometers
+   - grating
+   - spectral lines, 
+- adaptive optics
+- interferometry
+ - nancy grace roman - wide field images, large mapping, exoplanet search - gravitational microlensing, coronagraph
+
+- Remote sensing methods
+  - measuring internal structure
+    - requires an orbiter that is functional over many orbits and regularly changes orbit to cover all parts of the planet (standard with mapping missions)
+    - no special instruments needed, just location of spacecraft and telemetry of orbit, using gravity to determine mass of planet, but also internal layers
+  - topographic data
+    - laser altimeter - bounces a laser signal off the surface and measures time of return
+    - requires orbiter over long mission, many changes in orbit (can coincide with mappin)
+  - visible images of the surface
+    - a CCD camera, and telescope depending on desired spatial resolution
+    - orbiter over long mission with changes to orbit to get all parts of the planet. Possibly repeating measurements at higher resolution
+  - surface of objects hidden by clouds,
+    - radar - passes through clouds and bounces off surface and back to spacecraft
+    - orbiter over long mission with changes to orbit to get all parts of the planet.
+  - composition - spectroscopy
+    - wavelength depends on object
+    - from ground based, used to get one spectrum for entire object
+    - spacecraft are able to create image cubes 2 dimension of surface with third dimension in wavelength, so they can map surface composition
+    - coverage of surface and resolution depends on instruments
+    - wavelength depends on type of target, but usually infrared, some uv for planets, visible for stars
+
+
+- Spacecraft exploration
+  - main types of spacecraft
+    - fly-by 
+      - passes by target without entering orbit, 
+      - some spacecraft fly by multiple objects before reaching its destination
+    - orbiter
+      - enters orbit of an object
+      - most likely will not leave 
+    - lander
+      - lands on the surface of an object
+      - 
+  - costs, main sources
+    - mass 
+      - largest cost is launch vehicle
+      - can sometimes cost $1000s per gram
+      - solution - create very lightweight technology, eliminate redundant systems
+    - new technology
+      - cost of development
+      - risk of not working 
+    - length of mission
+      - have to maintain communication and functionality of spacecraft while it is cruising to target
+      - operations - cost of operating spacecraft
+  - planetary protection
+    - forward contamination - limits contamination of other objects with biology of Earth
+    - backward contamination - prevents dangerous materials from reaching Earth
+
+
+
+
+
+
+
+
+
+
+
+
+- Solar System
+  - survey
+    - objects orbit around the Sun and rotate on their axis
+    - orbits
   - apo, peri  
   - planets orbis around Sun - aphelion, perihelion
+   - Orbits
+   - circular velocity - to stay in orbit around the Earth - Vc= sqrt(GM/r)
+   - escape velocity - v-esc = sqrt(2GM/r)
+   - orbits around center of mass
+    - inner and outer planets (various names terrestrial, Jovain, giant, gas giant, ice giant) compare & contrast
+      - size - diameter and mass
+      - density - Saturn can float on water
+      - number of moons
+      - rings - all four giants have rings
+      - solid surface or none
+      - density of atmosphere
+      - distance from Earth/size of orbit
+    - geologic processes - solid surfaces
+      - craters most common
+      - volcanism
+    - small bodies
+      - asteroids
+      - comets
+      - KBOs/TNOs
+      - meteor, meteoroid, meteorite
+  - inner planets
+    - differentiated - core, mantle crust
+    - atmospheres
+      - thin relative to outer planets
+      - Mercury and Moon have exosphere - extremely thin, temporary
+      - Venus permanent cloud cover, atmosphere thicker than Earth
+      - Mars - thinner atmosphere than Earth, but more than Mercury/Moon
+  - Solar Nebula Theory of formation
+- star formation
+  - interstellar medium
+  - nebulae
+  - protostars
+The Solar Nebula Model 
+
+Nebula Composition 
+
+How do we know 
+
+Primitive material – comets, asteroids, meteorites 
+
+Observations of other nebula – transmission spectroscopy? 
+
+Stages of nebula model 
+
+Angular momentum 2  - creates disk shape - find figure
+
+Planet Formation 
+
+Planetesimals 
+
+Protoplanets 
+
+Ice Line 
+
+
+
+    - nebula contracts
+    - collapse to flat disk of dust and gas, protostar at center (angular momentum)
+    - dust begins to collide and accrete -> planetesimals form by accretion and clear path of orbit
+    - cooling nebula
+      - cooler at a distance, hotter close to protostar
+      - condensation sequence - metal oxides, metallic iron and nickel, silicates, feldspars, trilite, water ice, ammonia water ice, methane water ice, argon neon ice. 
+      - frost line/ ice line 
+    - protoplanets forms out of planetesimals 
+      - had to be low speed collisions or they would break apart
+      - if protoplanet reachs 15x mass of earth - stars accumulating gas from nebula and grows rapidly 
+    - heat of formation - move to Earth??
+      - radioactive decay + impacts
+      - interior melts
+      - differentiation   https://commons.wikimedia.org/w/index.php?search=solar+nebula&title=Special%3AMediaSearch&type=image
+        - heat sources - radioactive decay, gravitational potential energy, contraction and differentiation, impacts
+           - stars with initial heat of formation then has no other energy sources - cooling depends on size
+        - denser material sinks to center - also releases heat energy
+        - creates layers of planetary interiors - terrestrial - metal core, rocky surface
+      - volatiles in interior are released through volcanic proceses and form atmosphere - mostly CO2
+      - internal heat of rocky planets drives surface activity, volcanism
+        - smaller planets cool off faster - slows and stops volcanic activity
+        - Earth still has internal heat, that drives plate tectonics and volcanism.  will eventually cool off
+        - planets and moons (alone) do not have another source of internal energy on its own other than formation, so once it has cooled, there is no more surface activity
+    - giant planets
+      - possible planetary migration of giant planets outward after formation
+      - giant planet formation - accretion may have been too slow, may have formed directly from gas?
+      - moons of giant planets 
+        - regular - formed around planet like mini-Solar System, all orbit in same plane in same direction, some very large and spherical
+        - irregular - small, usually not spherical, orbits are inclined, or retrograde, or eccentric - possibly captured comets or asteroids
+    - age of Solar System ~ 4.6 billion years 
+    - clearing of Solar System
+      - Sun becomes a star - solar wind and radiation pressure -  sweeps dust and gas out of Solar System
+      - planets sweep up planetisimals - heavy bombardment - 4 bya (billion years ago)
+    - observational evidence
+      - observations of protostars
+        - dense hot disk - where planets are forming 
+        - debris disk - dust disk - produced by collisions of planetesimals
+        - example Beta Pictoris and Epsilon Eridani
 
 - Sun
   - layers - chromosphere, photosphere, corona
@@ -281,274 +526,6 @@ References
       - coulumb barrier - electrical resistance to nuclear collisions
     - detecting neutrinos
   
-
-- origins of astronomy
-  - archaeoastronomy
-  - stonehenge
-  - https://en.wikipedia.org/wiki/Fajada_Butte  sun daggers
-  - surviving Mayan writing
-  - greek astronomy
-    - geocentric model - Earth at center of cosmos/universe, circular orbits
-    - eratosthenes - size of Earth
-    - Ptolemy - epicycles for retrograde motion
-    - aristarchus - early heliocentric model, argument against - parallax, motion of Earth
-  - need information for cultures from asia, africa, and more
-  - Almagest - middle ages Arab world develops astronomy
-  - post - middle ages, europe
-    - copernicus - heliocentric model
-      - explains retrograde motion
-
-- Titan
-  - further exploration link - https://www.youtube.com/watch?v=V6snQE8Po9Q  hank Green Sarah Horst (umlaut over o)
-
-- Tycho Brahe - observations of planetary position - dataset for Kepler
-- Kepler, 
-  - Kepler's Laws, 
-    - orbits are ellipses
-    - equal areas equal time
-    - p squared = a cubed
-  - ellipse, semimajor axis, eccentricity, - equations are empirical, can predict positions, but can't explain motion
-- Galileo
-  - mechanics - falling objects and ramps
-  - telescopic observations
-    - moons of Jupiter- Galilean moons
-    - geologic structures on Moon
-    - phases of Venus
-  - vatican - house arrest 
-- Newton
- - laws of motion, inertia, force. momentum, mass, acceleration, velocity
- - gravity, inverse square law F = Gmm/r2, G = 6.67 x 10^-11
- - adaptation of keplers third 
-- Einstein - relativity, special and general relativity, E=mc^2, curved spacetime
-
-
- - Orbits
-   - circular velocity - to stay in orbit around the Earth - Vc= sqrt(GM/r)
-   - escape velocity - v-esc = sqrt(2GM/r)
-   - orbits around center of mass
-
-- physics
-  - angular momentum
-  - energy
-
-- light/electromagnetic radiation
-  - wavelength/frequency lambda*v=c
-  - photon E= hc/lambda
-  - measurement - nanometer, angstrom
-  - electromagnetic spectrum
-    - infrared, microwaves, radio, ultraviolet, radio, X-rays, gamma rays
-  - atmospheric window
-
-- telescopes
- - reflector/refractor
- - primary lens, primary mirror, focal length, eyepiece
- - focus
-   - Newtonian
-   - Cassegrain
-   - Schmidt - Cassegrain
- - refractor - chromatic aberration, achromatic lenses
- - light-gathering power
- - resolving power, 
-   - diffraction fringes - stars are a point source, but wavelength nature of light creates diffraction
- - seeing - atmospheric disturbance
- - magnifying power
- - mounts
-   - alt azimuth
-   - equatorial
- - light pollution
- - radio telescopes
- - airborne telescope - sofia
- - space telescopes
-   - Hubble
-   - JWST
-   - Herschel, Planck,
-   - Nancy Grace Roman
-- high-energy - gamma, x-ray, uv
-   - Ariel I
-   - XMM-Newton
-   - Hinode
-   - Chandra
-   - Compton, INTEGRAL, Fermi
-- detectors
-   - photograpic plate
-   - photometers
-   - charge-couple devices
-   - array detectors
-   - false-color images
-- spectrometers
-   - grating
-   - spectral lines, 
-- adaptive optics
-- interferometry
-
-- atoms
- - nucleus, protons, neutrons, electrons
- - isotopes
- - ion, ionization
- - molecule
- - electron orbits
-   - coulomb force 
-   - binding energy
-   - quantum mechanics 
-     - energy levels
-       - ground state excited state
-       - transitions, lyman, balmar, Paschen, etc
-
-- light and temperature
-  - thermal energy
-  - heat, temperature, Kelvin temperature scale, absolute zero
-  - blackbody radiation
-  - Stefan-Boltzman E = sigma*T^4
-  - wavelength of maximum intensity, Wien's law, lamda_max = 2.90x10^6 / T
-
-- spectra
-  - continuous spectrum, emission spectrum, absorption spectrum, 
-
-- Doppler effect
-  - blueshift/redshift
-  - radial velocity (Vr)
-  - Vr/c = delta*lambda / lambda_0
-
-- stellar classification
-  - based on stellar spectra/temperature O,B,A,F,G,K,M  ( rare stars - WSC white dwarfs - D  brown dwarfs - LTY)
-  - H-R Diagram
-    - temperature - luminosity dependence
-    - main sequence, whit dwarfs, giants
-
-- star formation
-  - interstellar medium
-  - nebulae
-  - protostars
-
-- stellar finale
-  - red dwarfs trillion year lifetimes - none have ever dies
-  - low mass, giant, planetary nebula, white dwarf remnant
-  - high mass stars - supergiant, supernova, neutron star or black hole
-
-- galaxies
-  - ours - Milky Way
-  - classification - elliptical, spiral (barred or not), irregular
-
-- Big Bang
-  - evidence - galactic redshift, cosmic microwave background
-  - origin of matter - hydrogen built into larger elements, recycled through star death and formation
-
-- Solar System
-  - survey
-    - objects orbit around the Sun and rotate on their axis
-    - inner and outer planets (various names terrestrial, Jovain, giant, gas giant, ice giant) compare & contrast
-      - size - diameter and mass
-      - density - Saturn can float on water
-      - number of moons
-      - rings - all four giants have rings
-      - solid surface or none
-      - density of atmosphere
-      - distance from Earth/size of orbit
-    - geologic processes - solid surfaces
-      - craters most common
-      - volcanism
-    - small bodies
-      - asteroids
-      - comets
-      - KBOs/TNOs
-      - meteor, meteoroid, meteorite
-  - inner planets
-    - differentiated - core, mantle crust
-    - atmospheres
-      - thin relative to outer planets
-      - Mercury and Moon have exosphere - extremely thin, temporary
-      - Venus permanent cloud cover, atmosphere thicker than Earth
-      - Mars - thinner atmosphere than Earth, but more than Mercury/Moon
-  - Solar Nebula Theory of formation
-
-The Solar Nebula Model 
-
-Nebula Composition 
-
-How do we know 
-
-Primitive material – comets, asteroids, meteorites 
-
-Observations of other nebula – transmission spectroscopy? 
-
-Stages of nebula model 
-
-Angular momentum 2  - creates disk shape - find figure
-
-Planet Formation 
-
-Planetesimals 
-
-Protoplanets 
-
-Ice Line 
-
-Temperature – movement of particles 
-
-Scale - Fahrenheit/Celsius/Kelvin 
-
-    - nebula contracts
-    - collapse to flat disk of dust and gas, protostar at center (angular momentum)
-    - dust begins to collide and accrete -> planetesimals form by accretion and clear path of orbit
-    - cooling nebula
-      - cooler at a distance, hotter close to protostar
-      - condensation sequence - metal oxides, metallic iron and nickel, silicates, feldspars, trilite, water ice, ammonia water ice, methane water ice, argon neon ice. 
-      - frost line/ ice line 
-    - protoplanets forms out of planetesimals 
-      - had to be low speed collisions or they would break apart
-      - if protoplanet reachs 15x mass of earth - stars accumulating gas from nebula and grows rapidly 
-    - heat of formation - move to Earth??
-      - radioactive decay + impacts
-      - interior melts
-      - differentiation   https://commons.wikimedia.org/w/index.php?search=solar+nebula&title=Special%3AMediaSearch&type=image
-        - heat sources - radioactive decay, gravitational potential energy, contraction and differentiation, impacts
-           - stars with initial heat of formation then has no other energy sources - cooling depends on size
-        - denser material sinks to center - also releases heat energy
-        - creates layers of planetary interiors - terrestrial - metal core, rocky surface
-      - volatiles in interior are released through volcanic proceses and form atmosphere - mostly CO2
-      - internal heat of rocky planets drives surface activity, volcanism
-        - smaller planets cool off faster - slows and stops volcanic activity
-        - Earth still has internal heat, that drives plate tectonics and volcanism.  will eventually cool off
-        - planets and moons (alone) do not have another source of internal energy on its own other than formation, so once it has cooled, there is no more surface activity
-    - giant planets
-      - possible planetary migration of giant planets outward after formation
-      - giant planet formation - accretion may have been too slow, may have formed directly from gas?
-      - moons of giant planets 
-        - regular - formed around planet like mini-Solar System, all orbit in same plane in same direction, some very large and spherical
-        - irregular - small, usually not spherical, orbits are inclined, or retrograde, or eccentric - possibly captured comets or asteroids
-    - age of Solar System ~ 4.6 billion years 
-    - clearing of Solar System
-      - Sun becomes a star - solar wind and radiation pressure -  sweeps dust and gas out of Solar System
-      - planets sweep up planetisimals - heavy bombardment - 4 bya (billion years ago)
-    - observational evidence
-      - observations of protostars
-        - dense hot disk - where planets are forming 
-        - debris disk - dust disk - produced by collisions of planetesimals
-        - example Beta Pictoris and Epsilon Eridani
-
-- Exoplanet
-  - a star orbiting another star
-  - detection  direct vs. indirect - depends on viewing geometry!
-    - doppler - radial motion of star, biased toward very large planets close to star, hot jupiters
-      - center of mass -fulcrum of seesaw, or balance, Earth-moon barycenter, Jupiters center of mass with Sun is above Sun's surface 
-      - must observe roughly edge on
-      - doppler curve for multiple planets is more complicated - simulations can find planets and orbits
-    - transit - biased toward large planets, short periods, limited to perfectly edge-on disks, can give diameter
-    - gravitational microlensing - biased toward large planets
-    - direct detection - possible, but hard - faint object near bright source, bias toward large, outer planets - check for newer direct images 
-    - astrometric - measuring side to side motion of a star  - GAIA?? - 
-  - The hot jupiter problem
-    - giant planets form beyond the ice line
-    - many exoplanets are giant planets very close to star
-    - giant planet could have formed farther out and migrated in, due to gas drag in the disk, migration ends when gas clears, jupiter may have moved up to 10% of initial position
-  - spacecraft
-    - Kepler detected 2662 planets in one little section of the sky, founde super earths and mini neptunes - our planetary system is weird - trappist system, kepler 90 
-    - TESS = update
-    - GAIA - update
-  - Solar System like
-    - Trappist-1  - check for newer systems
-  - detectable properties of ecoplanets - period, distance, eccentricity, inclination, mass, radius, density, atmsopheric composition and temperature - check for latest??
-   - planet selection effects - mostly for large planets with short periods
 
 - Earth
   - uniqe properties
@@ -673,6 +650,102 @@ Scale - Fahrenheit/Celsius/Kelvin
       - rock record shows how Earth has changed over time
       - decreasing amount of data as we go back in time because rocks have been recycled
 
+- Astrobiology
+  - DNA - information storage
+  - evolution/natural selection
+  - origin of life on Earth
+   - stromatalites, earliest fossil to withing 500 by of formation
+   - life begins from complex organic soup
+  - timescale of evolution of Earth
+    - photosynthesis
+    - oxygen atmosphere - multicellular life
+    - 500 million years ago - Cambrian explosion - shells and bone -> fossils
+  - extermophiles
+    - temperature extremes
+    - thermophiles - high temp - archaea
+    - also halophiles, lithopiles, etc
+  - Solar System life?
+    - Titan
+    - Europa (Ganymede, Callisto, Enceladus)
+    - Mars
+      - Viking landers
+      - martian meteorite 
+  - habitable zone
+    - orbit where planet can have liquid water
+  - Intelligent life
+    - SETI, searching in radio signals, optical seti, what happens if succeeds?
+    - Drake equations complicated and simple 
+- astrobiology
+  - requirements for life (as we know it)
+    - liquid water
+    - a source of energy
+    - a source of carbon (and oxygen, nitrogen, hydrogen, phosphorus, sulfur - but carbon builds backbone)
+  - searching for life
+    - extinct - evidence of past life that is gone now
+    - extant - evidence of current life
+
+
+
+- The Moon
+ - tides
+   - spring and neap
+ - synchronous rotation, also called tidally locked
+ - surface
+   - surface age
+     - apollo samples and lunar meteorites - radiometric dating 
+ - no atmosphere
+   - known from observations - terminator is sharp line, no scatter from light, stars disappear behind moon without being dimmed by atmosphere
+ - surface
+   - regolith - all over the Moon, layers of crunched up rocks from constant cratering
+   - rocks from surface all igneous 
+      - formed from melt
+      - vesicular basalts - solidified on surface where gases were released on surface 
+   - lunar highlands - very old and full of craters 
+      - light colored anorthosite  - original low density crust of moon
+      - breccia rocks that are formed out of broken up other rocks
+   - lowlands - maria - the latin word for seas singular mare Mah - ray - dark area is volcanic flood bassalts, sinuous rills - collapsed lava tubes
+   - impact cratering 
+     - ejecta, rays, secondary craters,  
+     - range in sizes, tiny holes from micrometeorite impacts to multi-ring basins
+     - ages - relative ages fresher craters covering older craters, craters also decay over time - rim collapses, etc, can only get absolute age with radiometric dating
+     - 4.1 - 3.8 billion years ago - late heavy bombardment
+     - large basin - mare imbrium 
+       - 4 bya -large impac
+       - formed multi-ring basinover 1000 km across
+       - flood 3.8 bya during late heavy bombardment, repeated flows flood emost of the area
+ - exploration 
+   - human exploration - Apollo and Artemis
+ - water trapped in permanently shadowed craters
+ - history 
+   - possible origns
+     - form with Earth - would have same composition/density
+     - capture - orbit is wrong
+   - theia origin
+   - after impact origin, moon left molten 
+     - surface magma ocean 
+     - completely molten throughout - 
+       - differentiation 
+         - light materials float to top
+         - permanent reset of all rocks to molten state - no longer primitive
+         - any volatiles or fragile molecules are released or destroyed. Some amount of volatiles are still trapped below surface and escape during volcanic activity
+     - solidified 4.6-4.1 bya
+   - late heavy bombardment
+     - heavy crater - formation of large basin craters and many small
+     - large impacts release flood basalt - mare
+
+
+- planetary (and Moon) atmospheres
+ - natural escape of gases
+   - depends on atmospheric temperature
+     - higher temperature means that gas molecules are traveleing faster
+   - depends on escape velocity of planet, which depends on its mass
+   - if a gas is traveling fast enough, it can escape
+   - depends on mass of each gas 
+     - hydrogen, very low mass - only outer planets can trap it
+     - CO2, higer mass, Mars, Venus, Earth, can hold onto it, smaller, warmer objects can't
+   - large planets with cool atmosphere are more
+
+
 - Mercury
   - similar to Moon in size, exosphere, cratered surface
   - exploration history
@@ -680,6 +753,8 @@ Scale - Fahrenheit/Celsius/Kelvin
       - Mariner 10
       - MESSENGER
       - found weak magnetic field
+        - Bepi - columbo, Mercury
+
     - ground-based/ telescope
       - Schiaperelli - possible synchronous rotation
       - radio/radar 
@@ -874,52 +949,6 @@ Scale - Fahrenheit/Celsius/Kelvin
     
     
 
-- Remote sensing methods
-  - measuring internal structure
-    - requires an orbiter that is functional over many orbits and regularly changes orbit to cover all parts of the planet (standard with mapping missions)
-    - no special instruments needed, just location of spacecraft and telemetry of orbit, using gravity to determine mass of planet, but also internal layers
-  - topographic data
-    - laser altimeter - bounces a laser signal off the surface and measures time of return
-    - requires orbiter over long mission, many changes in orbit (can coincide with mappin)
-  - visible images of the surface
-    - a CCD camera, and telescope depending on desired spatial resolution
-    - orbiter over long mission with changes to orbit to get all parts of the planet. Possibly repeating measurements at higher resolution
-  - surface of objects hidden by clouds,
-    - radar - passes through clouds and bounces off surface and back to spacecraft
-    - orbiter over long mission with changes to orbit to get all parts of the planet.
-  - composition - spectroscopy
-    - wavelength depends on object
-    - from ground based, used to get one spectrum for entire object
-    - spacecraft are able to create image cubes 2 dimension of surface with third dimension in wavelength, so they can map surface composition
-    - coverage of surface and resolution depends on instruments
-    - wavelength depends on type of target, but usually infrared, some uv for planets, visible for stars
-
-
-- Spacecraft exploration
-  - main types of spacecraft
-    - fly-by 
-      - passes by target without entering orbit, 
-      - some spacecraft fly by multiple objects before reaching its destination
-    - orbiter
-      - enters orbit of an object
-      - most likely will not leave 
-    - lander
-      - lands on the surface of an object
-      - 
-  - costs, main sources
-    - mass 
-      - largest cost is launch vehicle
-      - can sometimes cost $1000s per gram
-      - solution - create very lightweight technology, eliminate redundant systems
-    - new technology
-      - cost of development
-      - risk of not working 
-    - length of mission
-      - have to maintain communication and functionality of spacecraft while it is cruising to target
-      - operations - cost of operating spacecraft
-  - planetary protection
-    - forward contamination - limits contamination of other objects with biology of Earth
-    - backward contamination - prevents dangerous materials from reaching Earth
 
 - spacecraft exploration of the outer Solar System
   - all of these increase cost!
@@ -938,41 +967,10 @@ Scale - Fahrenheit/Celsius/Kelvin
     - need improved shielding to protect from high energy particles -> weight -> co
 
 
-- planetary (and Moon) atmospheres
- - natural escape of gases
-   - depends on atmospheric temperature
-     - higher temperature means that gas molecules are traveleing faster
-   - depends on escape velocity of planet, which depends on its mass
-   - if a gas is traveling fast enough, it can escape
-   - depends on mass of each gas 
-     - hydrogen, very low mass - only outer planets can trap it
-     - CO2, higer mass, Mars, Venus, Earth, can hold onto it, smaller, warmer objects can't
-   - large planets with cool atmosphere are more
 
-- terminology
-  - bya billion years ago
-  - byo billion years old
-  - Gly - Giga light years -  billion light years
-  - Gyr = billion years 
-  - moons - natural satellites
-  - synchronous rotation or tidally locked
-    - orbit object has a traling or leading side based on orbital motion
-  - observational bias
-  - selection effect
-  - size distribution
-  - frost line (also snow or ice)
 
-- key terms
-  - albedo fraction of reflected sunlight
 
-- astrobiology
-  - requirements for life (as we know it)
-    - liquid water
-    - a source of energy
-    - a source of carbon (and oxygen, nitrogen, hydrogen, phosphorus, sulfur - but carbon builds backbone)
-  - searching for life
-    - extinct - evidence of past life that is gone now
-    - extant - evidence of current life
+
 
 - Jupiter
  - Exploration
@@ -1077,6 +1075,8 @@ Scale - Fahrenheit/Celsius/Kelvin
     - hexagon?
   - Saturn's moons
     - Titan
+      - further exploration link - https://www.youtube.com/watch?v=V6snQE8Po9Q  hank Green Sarah Horst (umlaut over o)
+      - exploration - dragonfly - Titan - https://science.nasa.gov/mission/dragonfly/
       - moon with an atmosphere
         - mostly nitrogen 1.6 % methane
         - haze - made of photlyzed methane forming organics
@@ -1355,34 +1355,48 @@ Scale - Fahrenheit/Celsius/Kelvin
     - Chicxulub
     - shoemaker - levy 09 on Jupiter
 
-- Astrobiology
-  - DNA - information storage
-  - evolution/natural selection
-  - origin of life on Earth
-   - stromatalites, earliest fossil to withing 500 by of formation
-   - life begins from complex organic soup
-  - timescale of evolution of Earth
-    - photosynthesis
-    - oxygen atmosphere - multicellular life
-    - 500 million years ago - Cambrian explosion - shells and bone -> fossils
-  - extermophiles
-    - temperature extremes
-    - thermophiles - high temp - archaea
-    - also halophiles, lithopiles, etc
-  - Solar System life?
-    - Titan
-    - Europa (Ganymede, Callisto, Enceladus)
-    - Mars
-      - Viking landers
-      - martian meteorite 
-  - habitable zone
-    - orbit where planet can have liquid water
-  - Intelligent life
-    - SETI, searching in radio signals, optical seti, what happens if succeeds?
-    - Drake equations complicated and simple 
+
 
 
     
+- Exoplanet
+  - a star orbiting another star
+  - detection  direct vs. indirect - depends on viewing geometry!
+    - doppler - radial motion of star, biased toward very large planets close to star, hot jupiters
+      - center of mass -fulcrum of seesaw, or balance, Earth-moon barycenter, Jupiters center of mass with Sun is above Sun's surface 
+      - must observe roughly edge on
+      - doppler curve for multiple planets is more complicated - simulations can find planets and orbits
+    - transit - biased toward large planets, short periods, limited to perfectly edge-on disks, can give diameter
+    - gravitational microlensing - biased toward large planets
+    - direct detection - possible, but hard - faint object near bright source, bias toward large, outer planets - check for newer direct images 
+    - astrometric - measuring side to side motion of a star  - GAIA?? - 
+  - The hot jupiter problem
+    - giant planets form beyond the ice line
+    - many exoplanets are giant planets very close to star
+    - giant planet could have formed farther out and migrated in, due to gas drag in the disk, migration ends when gas clears, jupiter may have moved up to 10% of initial position
+  - spacecraft
+    - Kepler detected 2662 planets in one little section of the sky, founde super earths and mini neptunes - our planetary system is weird - trappist system, kepler 90 
+    - TESS = update
+    - GAIA - update
+  - Solar System like
+    - Trappist-1  - check for newer systems
+  - detectable properties of ecoplanets - period, distance, eccentricity, inclination, mass, radius, density, atmsopheric composition and temperature - check for latest??
+   - planet selection effects - mostly for large planets with short periods
+  - Doppler effect
+  - blueshift/redshift
+  - radial velocity (Vr)
+  - Vr/c = delta*lambda / lambda_0
+- stellar classification
+  - based on stellar spectra/temperature O,B,A,F,G,K,M  ( rare stars - WSC white dwarfs - D  brown dwarfs - LTY)
+  - H-R Diagram
+    - temperature - luminosity dependence
+    - main sequence, whit dwarfs, giants
+- stellar finale
+  - red dwarfs trillion year lifetimes - none have ever dies
+  - low mass, giant, planetary nebula, white dwarf remnant
+  - high mass stars - supergiant, supernova, neutron star or black hole
+    - exoplanet spacecraft Pandora https://science.nasa.gov/mission/pandora/
+
 
 
 
