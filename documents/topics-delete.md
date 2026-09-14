@@ -28,17 +28,7 @@ Sources
 
 ## Topics
 
-- Astro toolkit
-- physics
-  - angular momentum
-  - energy
-
-- atoms
- - nucleus, protons, neutrons, electrons
- - isotopes
- - ion, ionization
- - molecule
-
+- GAIA Milky Way Video https://youtu.be/wEZBNsU4dMU?si=i4KTz2EF_77AajrT
 
 
 - light/electromagnetic radiation
