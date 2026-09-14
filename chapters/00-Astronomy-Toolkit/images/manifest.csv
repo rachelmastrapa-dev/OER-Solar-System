@@ -29,10 +29,6 @@ local_filename,original_src_url,section,alt_text
 0.04-Energy-Level-Diagram-of-Hydrogen.jpg,https://phys.libretexts.org/@api/deki/files/67608/H-spectral_series_crop.jpg,0.4: Light,Energy level diagram of hydrogen. Details in caption.
 0.04-Spectra-of-Several-Elements.png,https://phys.libretexts.org/@api/deki/files/46126/8765b16e7c60f55573d5d08501140d0d468bf3e1,0.4: Light,A continuous spectrum and spectra of several elements. Details in caption.
 0.04-Types-of-Spectra.png,"https://phys.libretexts.org/@api/deki/files/67609/1280px-Types_of_Spectra-_Continuous%2C_Emission%2C_and_Absorption_(01F8GF8DK2PRY4FP9DA2XPQC8S).png",0.4: Light,"Types of spectra: continuous, emission, and absorption. Details in caption."
-MISSING,https://phys.libretexts.org/@api/deki/files/66748,0.4: Light,"Visible continuous spectrum. Details in caption. -- BROKEN: attachment not found (MindTouch AttachmentNotFoundException); renders as null src on live page too."
-MISSING,https://phys.libretexts.org/@api/deki/files/66968,0.4: Light,"Emission spectrum of hydrogen. Details in caption. -- BROKEN: attachment not found."
-MISSING,https://phys.libretexts.org/@api/deki/files/66970,0.4: Light,"Absorption spectrum of the Sun by Josef Fraunhofer. Details in caption. -- BROKEN: attachment not found."
-MISSING,https://phys.libretexts.org/@api/deki/files/66969,0.4: Light,"A high-resolution spectrum of the Sun. Details in caption. -- BROKEN: attachment not found."
 0.04-Continuous-Spectrum-2.png,https://phys.libretexts.org/@api/deki/files/68372/Linear_visible_spectrum_ciecam02.png,0.4: Light,Visible continuous spectrum. Details in caption.
 0.04-Emission-Spectrum.jpg,https://phys.libretexts.org/@api/deki/files/68373/Atomic_spectrum_of_hydrogen.jpg,0.4: Light,Emission spectrum of hydrogen. Details in caption.
 0.04-Fraunhofer-Solar-Spectrum.jpg,https://phys.libretexts.org/@api/deki/files/68374/Fraunhofer_spectrum.jpg,0.4: Light,Absorption spectrum of the Sun by Josef Fraunhofer. Details in caption.

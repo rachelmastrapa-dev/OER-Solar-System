@@ -79,9 +79,40 @@
 ###### Propagation of Light H4
 ##### The Electromagnetic Spectrum H3
 ###### Grouping by Wavelength H4
+###### Radio H4
+- Radio Interference
+- Microwave
+###### Infrared H4
+###### Visible H4
+###### Ultraviolet H4
+- Human Exposure to UV
+- UV and the Ozone Layer
+###### X-Rays H4
+###### Gamma Rays H4
 ##### Light and Temperature H3
 ###### Radiation Laws H4
+##### Interaction of Light and Matter H3
+###### Reflection H4
+###### Transmission and Refraction H4
+##### The Visible Spectrum H3 
+###### The Spectrum of the Sun H4
+##### Atomic Transitions H3 
+###### Electron Energy Transitions H4
+###### Hydrogen's Energy Levels H4
+###### Ionization and Spectral Lines H4
+###### Identifying Elements H4
+##### Types of Visible Spectra H3
+###### Continuous Spectrum H4
+###### Emission Spectrum H4
+###### Absorption Spectrum H4
+##### Analysis of the Solar Spectrum
+##### Beyond Visible Spectroscopy H3
 ### 0.5: How to Use This Textbook
+#### Structure H2
+#### Student Guide H2
+#### Instructor Guide H2
+##### Rearrange this Textbook H3
+##### Remix this Textbook
 ### 0.6: Key Terms
 ### 0.7: Accessible Descriptions
 ## 1: Introduction to Astronomy
