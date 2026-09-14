@@ -71,6 +71,16 @@
 ###### Sublimation and Deposition H4
 ###### Phase Diagrams H4
 ### 0.4: Light
+#### Electromagnetic Radiation H2
+##### Electromagnetism H3
+###### Electromagnetic Waves H4
+###### Light as a Wave H4
+###### Light as a Photon H4
+###### Propagation of Light H4
+##### The Electromagnetic Spectrum H3
+###### Grouping by Wavelength H4
+##### Light and Temperature H3
+###### Radiation Laws H4
 ### 0.5: How to Use This Textbook
 ### 0.6: Key Terms
 ### 0.7: Accessible Descriptions
