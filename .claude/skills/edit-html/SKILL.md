@@ -34,8 +34,6 @@ Ask which chapter to process if not specified, e.g.:
   given chapter folder.
 - Do **not** recurse into the chapter's `images/` subfolder or touch
   `manifest.csv`, `attributions.csv`.
-- Do **not** recurse into the chapter's `sources/` subfolder or touch
-  `attributions.csv` or `references.csv`.
 - If no matching files are found, say so and stop.
 
 ## Editing Standards
@@ -50,8 +48,9 @@ The editings standards for this project are described in `$ROOT/guidelines/editi
 Apply these, in order, to each file's HTML. Read the file, apply all rules
 in memory, if a judgement needs to be made, ask the user, otherwise complete tasks, then write the result back to the same path (overwrite in place). 
 
-1. **Learning Objectives**
+1. **Learning Objectives an Header**
    - Read the Learning Objectives section in `editing-standards.md`.
+   - If it is not there already, make the first line of the file should be `<h2>Introduction</h2>`
    - If there is not one already, create a learning objectives box on the main chapter page
      - The main chapter page should have a name similar to `<NN>.00-Introduction.html` 
      - Read the Chapter Page section in `editing-standards.md` for placement of the learning objectives box on the page.
@@ -73,8 +72,6 @@ in memory, if a judgement needs to be made, ask the user, otherwise complete tas
      `v is the velocity...`, `P<sup>2</sup>`) stay as normal HTML text, no italics.
    - Very simple equations in paragraph text can be in HTML e.g. `P<sup>2</sup>=a<sup>3</sup>`
    - Numbers that are in paragraph text should be plain text or simple HTML, e.g. `1.0` and `1.5 x 10<sup>8</sup>`
-   - **Never** touch equations inside figure or table markup — leave those
-     exactly as-is.
 
 3. **Further Exploration**
   - Refer to the Further Exploration section in `editing-standards.md`.
@@ -104,6 +101,19 @@ in memory, if a judgement needs to be made, ask the user, otherwise complete tas
            - Move the text from the section into the Example box, using a layout according to editing standards.
            - Move the new Exercise Box to the Examples and Exercises section.
      - For found text that are intact Exercise or Example boxes similar to those in editing standards, move them to the Examples and Exercises section.
+5. **Replace Key Terms**
+  - find text that is formatted similar to `<strong><a target="_blank" title="scientific method" href="/Workbench/De_Anza_-_ASTR10/01:_Introduction_to_Astronomy/1.06:_Key_Terms#scientific+method">scientific method</a></strong>`
+    - the URL should contain `ASTR10` or `ASTR4`
+  - replace the text with just the term with blue highlight. 
+    - Example replace `<strong><a target="_blank" title="scientific method" href="/Workbench/De_Anza_-_ASTR10/01:_Introduction_to_Astronomy/1.06:_Key_Terms#scientific+method">scientific method</a></strong>`  with <span class="mt-bgcolor-2ecc71">scientific method</span>
+6. **Edit Footnotes**
+  - remove any footnotes, moving any relevant text
+    - locate text similar to `<a href="#footnote-1">[1]</a>`
+       - if the text is in a paragraph
+        - find the text for that footnote and move it to where the footnote number is 
+        - Example : Change this text 
+              `<p>This is main body of my content. I have a footnote link for this line <a href="#footnote-1">[1]</a>. Then, I have some more content. Some of it is interesting and it has some footnotes as well <a href="#footnote-2">[2]</a>.</p><p id="footnote-1">[1] Here is my first footnote.</p><p id="footnote-2">[2] Another footnote.</p>`
+          To this: `<p>This is main body of my content. I have a footnote link for this line. Here is my first footnote. Then, I have some more content. Some of it is interesting and it has some footnotes as well.Another footnote.</p>`
 
 ## Hard exclusions — never modify or remove, under any rule above
 

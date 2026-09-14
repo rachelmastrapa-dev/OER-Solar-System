@@ -114,19 +114,13 @@ find and replace  &times; x
 
 **User: Commit and close all files**
 Ask for help!
-1. Move all learning objectives to main chapter page.
-2. Change equations from MathML to Latex.
+1. Move all learning objectives to main chapter page. Create learning objectives box and introduction header.
+2. Change all equations from MathML to Latex.
 3. Move all link to learning items to Further Exploration. 
 4. Put example and exercises in boxes and move to the correct section.
-<!-- include review of terminology?, remove parens about put comments for rephrasing of same concept  Future: remove text from other boxes?, remove quote marks that are not for dialog-->
+5. replace current key terms with key term color <span class="mt-bgcolor-2ecc71">term</span>
 
-## New features to add or make separate skill
 
-- replace current key terms with key term color <span class="mt-bgcolor-2ecc71">term</span>
-
-- edit all equations, including in figures and tables
-
-- main chapter page - Have page start with an H2 Introduction 
 - delete footnotes - move text to where it was referenced and delete all footnote html - make exceptions for tables or figures
 
  - Organize page structure - one page at a time??
@@ -151,6 +145,7 @@ Ask for help!
 - add IDEA and ADA flagging
 <!--12. **Highlight IDEA Framework issues in red** — Flag content in paragraph text that does not meet IDEA (Inclusion, Diversity, Equity, and Access) standards using `<span class="mt-bgcolor-c0392b">text</span>`. For non-text material (figures, headers), describe recommended changes in a list.
 <-->
+<!-- include review of terminology?, remove parens about put comments for rephrasing of same concept  Future: remove text from other boxes?, remove quote marks that are not for dialog-->
 
 
 ## Chapter Review - Manual   
