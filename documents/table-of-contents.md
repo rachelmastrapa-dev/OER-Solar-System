@@ -4,7 +4,6 @@
 ### 0.1: Math and Measurements
 #### Numbers in Astronomy H2
 ##### Scientific Notation H3
-   - scientific notation
 ###### Very Large Numbers H4
 ###### Very Small Numbers H4
 ##### Measurements in Science H3
@@ -21,9 +20,9 @@
 - Pressure H5
 ###### Non-SI Units H4
 ##### Equations H3
-###### Variables
-###### Constants
-###### Proportionality
+###### Variables H4
+###### Constants H4
+###### Proportionality H4
 ### 0.2: Physics
 #### The Laws of Nature H2
 ##### Mechanics H3

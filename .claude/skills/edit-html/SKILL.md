@@ -131,7 +131,7 @@ in memory, if a judgement needs to be made, ask the user, otherwise complete tas
 ## Hard exclusions — never modify or remove, under any rule above
 
 - Class attributes from header, list, or paragraph tags. e.g. `<li class="lt-phys-64811">`
-- Anything not explicitly covered by rules 1–4 above 
+- Anything not explicitly covered by rules 1–8 above 
 
 ## Output
 

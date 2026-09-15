@@ -121,13 +121,8 @@ Ask for help!
 4. Put example and exercises in boxes and move to the correct section.
 5. replace current key terms with key term color <span class="mt-bgcolor-2ecc71">term</span>
 6. delete footnotes - move text to where it was referenced and delete all footnote html - make exceptions for tables or figures
-
-
-
-- add IDEA and ADA flagging
-<!--12. **Highlight IDEA Framework issues in red** — Flag content in paragraph text that does not meet IDEA (Inclusion, Diversity, Equity, and Access) standards using `<span class="mt-bgcolor-c0392b">text</span>`. For non-text material (figures, headers), describe recommended changes in a list.
-<-->
-<!-- include review of terminology?, remove parens about put comments for rephrasing of same concept  Future: remove text from other boxes?, remove quote marks that are not for dialog    - more specific editing styles, for quotes, parens, dashes, etc. simplify sentences-->
+7. Terminology
+8.  IDEA and ADA flagging
 
 
 ## Chapter Review - Manual   
