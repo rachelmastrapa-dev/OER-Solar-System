@@ -5,11 +5,21 @@ Index
 - Geological activity - crater
 - Rings
 - charts - plotting data, linear, part of scientific process
-- Orbital Motion and Mass
-- Gravity and orbits
+- Orbital Motion and Mass - Modern Astronomy?
+- Gravity and orbits - Solar System 
 - Planetary Motion - for Solar System
-- Light year
-- Detecting Electromagnetic Waves from Space
+- Light year - Tour of Universe? - in with AU and at appropriate scale
+- Detecting Electromagnetic Waves from Space ? Spacecraft?
+- Gravity and Orbits Simulation - Solar System
+- Kepler's 2nd Law Sim - Solar System
+
+<h2>Kepler's 2nd Law Sim</h2>
+
+<li class="lt-phys-64659">The <a href="https://sciencesims.com/sims/keplers-second-law/" target="_blank" title="https://sciencesims.com/sims/keplers-second-law/">Kepler's Second Law demonstrator</a> from CCNY's ScienceSims project demonstrates how an orbiting planet sweeps out the same area in the same time.</li>
+
+<h2>Gravity and Orbits Simulation</h2>
+
+<li class="lt-phys-64661">Try this simulation of <a href="http://phet.colorado.edu/en/simulation/gravity-and-orbits" target="_blank" title="http://phet.colorado.edu/en/simulation/gravity-and-orbits">gravity and orbits</a> that lets you move the Sun, Earth, Moon, and space station to see the effects of changing their distances on their gravitational forces and orbital paths. You can even turn off gravity and see what happens.</li>
 
 <h3 class="lt-phys-46234">Detecting Electromagnetic Waves from Space</h3>
 

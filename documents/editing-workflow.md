@@ -125,14 +125,15 @@ Ask for help!
 8.  IDEA and ADA flagging
 
 
-## Chapter Review - Manual   
+## Edit Content - Manual   
 
 - main chapter page
   - reduce to 10 or fewer learning objectives (no learning objectives on sub-pages)
 - Content
-  - edit text for clarity
 
-- highlight or make links for 
+- All pages
+  - edit text for clarity
+ 
       
 - Figures
   - contextualize figures and tables.
