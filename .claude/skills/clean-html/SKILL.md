@@ -31,8 +31,6 @@ Ask which chapter to process if not specified, e.g.:
   given chapter folder.
 - Do **not** recurse into the chapter's `images/` subfolder or touch
   `manifest.csv`.
-- Do **not** recurse into the chapter's `sources/` subfolder or touch
-  `attributions.csv` or `references.csv`.
 - If no matching files are found, say so and stop.
 
 ## Per-file edit rules
@@ -71,6 +69,16 @@ in memory, then write the result back to the same path (overwrite in place).
 7. **Correct minor HTML errors** — fix small, obvious structural issues
    (unclosed tags, mismatched quotes). Do not restructure or reorder content.
 8. **Remove breaks** - Remove `<br />`. Paragraph text should end with `</p>`
+9. **Delete Empty Paragraphs** Delete text similar to <p></p> including empty paragraphs with class attributes
+10. **Find and Replace or Delete**
+  - Delete these: &ldquo;  &rdquo; &mdash;
+  - replace &times; with x
+  - replace &amp; with & 
+  - replace &rsquo; with '
+  - replace &minus; with -
+  - replace &ndash; with -
+  - replace &micro; with μ
+  - replace &deg; with °
 
 ## Hard exclusions — never modify or remove, under any rule above
 
@@ -78,7 +86,7 @@ in memory, then write the result back to the same path (overwrite in place).
   key-term link.
 - `<img>` `src` attributes or any figure numbering/indices.
 - Class attributes from header or paragraph tags. e.g. 
-- Anything not explicitly covered by rules 1–8 above (Example/Exercise
+- Anything not explicitly covered by rules 1–10 above (Example/Exercise
   boxes, Further Exploration, learning objectives, IDEA/grammar
   highlighting, paragraph reordering, references formatting).
 

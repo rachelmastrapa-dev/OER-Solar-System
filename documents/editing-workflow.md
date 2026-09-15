@@ -54,6 +54,9 @@
    - stores images for entire chapter in one folder for each chapter called images
 - don't number images file names yet, because there will be future figures - make them all figure
   - label with section number and title
+- overwriting 
+  - only update new html and images
+  - move unused images to chapters/extra-images
 
 ## Review Chapter Import - Human
 
@@ -94,8 +97,6 @@
 ## Clean HTML - Claude/AI Passive
 - Read .claude/clean-html/SKILL.md
 - Summary, removing italics, bold, spans, figure ## set to default, etc. remove <p>&nbsp;</p> 
-
-## new features
 - delete empty paragraphs and lists
 - make a guidelines for clean html
 find and replace  &times; x 
@@ -114,43 +115,14 @@ find and replace  &times; x
 
 **User: Commit and close all files**
 Ask for help!
-1. Move all learning objectives to main chapter page.
-2. Change equations from MathML to Latex.
-3. Move all link to learning items to Further Exploration. 
+1. Move all learning objectives to main chapter page. Create learning objectives box and introduction header.
+2. Change all equations from MathML to Latex.
+3. Move all link to learning items to Further Exploration. Move unboxed text to a box. Combine boxes. links with target="_blank"
 4. Put example and exercises in boxes and move to the correct section.
-<!-- include review of terminology?, remove parens about put comments for rephrasing of same concept  Future: remove text from other boxes?, remove quote marks that are not for dialog-->
-
-## New features to add or make separate skill
-
-- replace current key terms with key term color <span class="mt-bgcolor-2ecc71">term</span>
-
-- edit all equations, including in figures and tables
-
-- main chapter page - Have page start with an H2 Introduction 
-- delete footnotes - move text to where it was referenced and delete all footnote html - make exceptions for tables or figures
-
- - Organize page structure - one page at a time??
-    - Start with <h2> make sure all headers are nested
-    - make sure information is where it needs to be and in a roughly reasonable order
-
-- '  solar system revolve - terminology 
-    - change titles in exercise and example boxes - delete number in example. copy title to exercise
-
-- need to clean up furhter exploration lists that have already been moved to an H2 header
-
-- terminology
-  - false color image
-  - as we will see - flag?
-   - revolves about - orbits around
-
-  edit format of further exploration links.  make sure they have target="_blank"  remove no opener?
-
-
-- more specific editing styles, for quotes, parens, dashes, etc. simplify sentences
-
-- add IDEA and ADA flagging
-<!--12. **Highlight IDEA Framework issues in red** — Flag content in paragraph text that does not meet IDEA (Inclusion, Diversity, Equity, and Access) standards using `<span class="mt-bgcolor-c0392b">text</span>`. For non-text material (figures, headers), describe recommended changes in a list.
-<-->
+5. replace current key terms with key term color <span class="mt-bgcolor-2ecc71">term</span>
+6. delete footnotes - move text to where it was referenced and delete all footnote html - make exceptions for tables or figures
+7. Terminology
+8.  IDEA and ADA flagging
 
 
 ## Chapter Review - Manual   

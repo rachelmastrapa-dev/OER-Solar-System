@@ -43,6 +43,7 @@ A single LibreTexts Table of Contents (TOC) URL for one chapter, e.g.:
      and record its `src` (and, if present, any `data-*` lazy-load source
      attribute — check a real captured section first to see which one
      LibreText actually uses; don't assume).
+   - before downloading images, check `chapters/extra-images` for the image.  If it is there don't bother downloading it. move the image to the the chapter images folder, rename the image, and log it in the manifest using the instructions below.
    - **Do not rewrite the `src` in the saved HTML file.** The saved section
      HTML must keep pointing at the original LibreTexts image URL exactly
      as exported — the local image copy is a backup, not a replacement.
@@ -60,6 +61,8 @@ A single LibreTexts Table of Contents (TOC) URL for one chapter, e.g.:
      This is a plain provenance record, not a replacement for your formal
      attribution log — it just saves you from having to re-find each
      image's source URL later.
+   - if the user has given instructions to overwrite
+      - if an image is found in the local images directory, but is not connected to a figure in the chapter then move the image to `chapters/extra-images` and move that figures line in the chapter manifest to the manifest file in `chapters/extra-images`
 
 4. **Determine the file path**
    - Chapter folder: `chapters/<NN>-<Chapter-Title-Slug>/`
@@ -77,6 +80,10 @@ A single LibreTexts Table of Contents (TOC) URL for one chapter, e.g.:
    Create directories as needed. Write each section's raw HTML to its file.
    Do not overwrite an existing file silently — if the file already exists,
    report the conflict and ask whether to overwrite. If all of the chapter content exists, ask if the chapter should be skipped.
+   - overwrite instructions
+     - if the user gives instructions to overwrite, then only update local files that are different from libretext, skip any files that are the same between libretext and the local file.
+
+
 
 6. **Delete redundant files**
   If playright has left a lot of files, such as copies of the images, or copies of the html, in `.playwright-mcp/`, then delete all of the duplicate files in the playwright folder. Do **not** delete any html or image files in the chapters directory or subdirectory.
@@ -89,8 +96,7 @@ A single LibreTexts Table of Contents (TOC) URL for one chapter, e.g.:
 ## Logging
 
 Append an entry to today's session file (`sessions/<date>-sessionNN.md`)
-under **AI**, listing: chapter processed, files touched, and total edit
-counts per rule.
+under **AI**, listing: chapter processed, files touched, number of images.
 
 ## Notes
 - If the editor's Source-view control can't be found on a given page (site

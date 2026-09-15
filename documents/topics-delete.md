@@ -9,6 +9,7 @@ Sources
     Wiktionary
     Openstax College Physics 1e Glossary
     Encyclopedia Britannica
+    wikipedia astronomy terms?
 
 - terminology
   - bya billion years ago
@@ -25,39 +26,14 @@ Sources
 
 - key terms
   - albedo fraction of reflected sunlight
+  - false color image
+  - define types of figures - illustration, chart/graph, 
 
 ## Topics
 
 - GAIA Milky Way Video https://youtu.be/wEZBNsU4dMU?si=i4KTz2EF_77AajrT
 
-
-- light/electromagnetic radiation
-  - wavelength/frequency lambda*v=c
-  - photon E= hc/lambda
-  - measurement - nanometer, angstrom
-  - electromagnetic spectrum
-    - infrared, microwaves, radio, ultraviolet, radio, X-rays, gamma rays
- - electron orbits
-   - coulomb force 
-   - binding energy
-   - quantum mechanics 
-     - energy levels
-       - ground state excited state
-       - transitions, lyman, balmar, Paschen, etc
-  - spectra
-  - continuous spectrum, emission spectrum, absorption spectrum, 
-- light and temperature
-  - thermal energy
-  - heat, temperature, Kelvin temperature scale, absolute zero
-  - blackbody radiation
-  - Stefan-Boltzman E = sigma*T^4
-  - wavelength of maximum intensity, Wien's law, lamda_max = 2.90x10^6 / T
-
-
  
-
-- brightness of stars, magnitude, absolute magnitude, apparent magnitude, luminosity (flux - energy per area)
-
 
 - Nature of science
   - scientific method, 
@@ -189,6 +165,7 @@ light year!!!!
  - large stars die in a supernova 
    - creates larger elements
    - releases material to be recycled into new star
+   - brightness of stars, magnitude, absolute magnitude, apparent magnitude, luminosity (flux - energy per area)
 
 - Universe
   - compared to year

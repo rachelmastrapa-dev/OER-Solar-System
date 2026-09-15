@@ -34,8 +34,6 @@ Ask which chapter to process if not specified, e.g.:
   given chapter folder.
 - Do **not** recurse into the chapter's `images/` subfolder or touch
   `manifest.csv`, `attributions.csv`.
-- Do **not** recurse into the chapter's `sources/` subfolder or touch
-  `attributions.csv` or `references.csv`.
 - If no matching files are found, say so and stop.
 
 ## Editing Standards
@@ -50,8 +48,9 @@ The editings standards for this project are described in `$ROOT/guidelines/editi
 Apply these, in order, to each file's HTML. Read the file, apply all rules
 in memory, if a judgement needs to be made, ask the user, otherwise complete tasks, then write the result back to the same path (overwrite in place). 
 
-1. **Learning Objectives**
+1. **Learning Objectives an Header**
    - Read the Learning Objectives section in `editing-standards.md`.
+   - If it is not there already, make the first line of the file should be `<h2>Introduction</h2>`
    - If there is not one already, create a learning objectives box on the main chapter page
      - The main chapter page should have a name similar to `<NN>.00-Introduction.html` 
      - Read the Chapter Page section in `editing-standards.md` for placement of the learning objectives box on the page.
@@ -73,8 +72,6 @@ in memory, if a judgement needs to be made, ask the user, otherwise complete tas
      `v is the velocity...`, `P<sup>2</sup>`) stay as normal HTML text, no italics.
    - Very simple equations in paragraph text can be in HTML e.g. `P<sup>2</sup>=a<sup>3</sup>`
    - Numbers that are in paragraph text should be plain text or simple HTML, e.g. `1.0` and `1.5 x 10<sup>8</sup>`
-   - **Never** touch equations inside figure or table markup — leave those
-     exactly as-is.
 
 3. **Further Exploration**
   - Refer to the Further Exploration section in `editing-standards.md`.
@@ -89,6 +86,11 @@ in memory, if a judgement needs to be made, ask the user, otherwise complete tas
           - Ask for a link to use, or if you should continue without changing the link. 
           - Do what the user says and continue. 
        - If WebFetch returns a working URL, replace the link in the HTML with the WebFetch returned URL. Example: replace `https://openstax.org/l/30ndegtystidfor` with `https://www.youtube.com/watch?v=h1iJXOUMJpg`
+  - If there is a header similar to `<h2>Further Exploration</h2>` 
+     - move the text below the header into a Further Exploration box if there is one already or create a new one
+     - Delete `<h2>Further Exploration</h2>` 
+  - If there is more than one Further Exploration box on a single page, combine them into one box located near the bottom of the page in a position according to editing standards
+
 4. **Examples and Exercises**
    - Refer to the Example Box section, the Exercise Box section, and the Section Page section in `editing-standards.md`.
    - Search for any headers that include Example or Exercise or any Exercise or Example Boxes. If you don't find anything, then you are done with this rule. If you find anything, do the following: 
@@ -104,11 +106,32 @@ in memory, if a judgement needs to be made, ask the user, otherwise complete tas
            - Move the text from the section into the Example box, using a layout according to editing standards.
            - Move the new Exercise Box to the Examples and Exercises section.
      - For found text that are intact Exercise or Example boxes similar to those in editing standards, move them to the Examples and Exercises section.
+5. **Replace Key Terms**
+  - find text that is formatted similar to `<strong><a target="_blank" title="scientific method" href="/Workbench/De_Anza_-_ASTR10/01:_Introduction_to_Astronomy/1.06:_Key_Terms#scientific+method">scientific method</a></strong>`
+    - the URL should contain `ASTR10` or `ASTR4`
+  - replace the text with just the term with blue highlight. 
+    - Example replace `<strong><a target="_blank" title="scientific method" href="/Workbench/De_Anza_-_ASTR10/01:_Introduction_to_Astronomy/1.06:_Key_Terms#scientific+method">scientific method</a></strong>`  with <span class="mt-bgcolor-2ecc71">scientific method</span>
+6. **Edit Footnotes**
+  - remove any footnotes, moving any relevant text
+    - locate text similar to this footnote reference `<a href="#footnote-1">[1]</a>`
+       - if the footnote references is in a paragraph
+        - find the text for that footnote and move it to where the footnote number is 
+        - Example : Change this text 
+              `<p>This is main body of my content. I have a footnote link for this line <a href="#footnote-1">[1]</a>. Then, I have some more content. Some of it is interesting and it has some footnotes as well <a href="#footnote-2">[2]</a>.</p><p id="footnote-1">[1] Here is my first footnote.</p><p id="footnote-2">[2] Another footnote.</p>`
+          To this: `<p>This is main body of my content. I have a footnote link for this line. Here is my first footnote. Then, I have some more content. Some of it is interesting and it has some footnotes as well.Another footnote.</p>`
+        - Delete any remaining footnote html after the text is moved.
+      - if the footnote references is in a paragraph
+        - follow the instructions for a footnote reference except move the footnote text to the end of the paragraph immeditately before the table or figure
+7. **Terminology**
+  - update terminology to conform with editing standards
+8. **Accessibility and IDEA**
+  - Highlight text that does not meet meet accessibility or IDEA reccommendations according to editing standards. 
+    - Example: Change `All scientists should be men.` to `<span class="mt-bgcolor-e74c3c">All scientists should be men.</span>`
 
 ## Hard exclusions — never modify or remove, under any rule above
 
 - Class attributes from header, list, or paragraph tags. e.g. `<li class="lt-phys-64811">`
-- Anything not explicitly covered by rules 1–4 above 
+- Anything not explicitly covered by rules 1–8 above 
 
 ## Output
 
