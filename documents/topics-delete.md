@@ -9,6 +9,7 @@ Sources
     Wiktionary
     Openstax College Physics 1e Glossary
     Encyclopedia Britannica
+    wikipedia astronomy terms?
 
 - terminology
   - bya billion years ago
@@ -25,6 +26,8 @@ Sources
 
 - key terms
   - albedo fraction of reflected sunlight
+  - false color image
+  - define types of figures - illustration, chart/graph, 
 
 ## Topics
 

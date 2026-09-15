@@ -86,6 +86,11 @@ in memory, if a judgement needs to be made, ask the user, otherwise complete tas
           - Ask for a link to use, or if you should continue without changing the link. 
           - Do what the user says and continue. 
        - If WebFetch returns a working URL, replace the link in the HTML with the WebFetch returned URL. Example: replace `https://openstax.org/l/30ndegtystidfor` with `https://www.youtube.com/watch?v=h1iJXOUMJpg`
+  - If there is a header similar to `<h2>Further Exploration</h2>` 
+     - move the text below the header into a Further Exploration box if there is one already or create a new one
+     - Delete `<h2>Further Exploration</h2>` 
+  - If there is more than one Further Exploration box on a single page, combine them into one box located near the bottom of the page in a position according to editing standards
+
 4. **Examples and Exercises**
    - Refer to the Example Box section, the Exercise Box section, and the Section Page section in `editing-standards.md`.
    - Search for any headers that include Example or Exercise or any Exercise or Example Boxes. If you don't find anything, then you are done with this rule. If you find anything, do the following: 
@@ -108,12 +113,20 @@ in memory, if a judgement needs to be made, ask the user, otherwise complete tas
     - Example replace `<strong><a target="_blank" title="scientific method" href="/Workbench/De_Anza_-_ASTR10/01:_Introduction_to_Astronomy/1.06:_Key_Terms#scientific+method">scientific method</a></strong>`  with <span class="mt-bgcolor-2ecc71">scientific method</span>
 6. **Edit Footnotes**
   - remove any footnotes, moving any relevant text
-    - locate text similar to `<a href="#footnote-1">[1]</a>`
-       - if the text is in a paragraph
+    - locate text similar to this footnote reference `<a href="#footnote-1">[1]</a>`
+       - if the footnote references is in a paragraph
         - find the text for that footnote and move it to where the footnote number is 
         - Example : Change this text 
               `<p>This is main body of my content. I have a footnote link for this line <a href="#footnote-1">[1]</a>. Then, I have some more content. Some of it is interesting and it has some footnotes as well <a href="#footnote-2">[2]</a>.</p><p id="footnote-1">[1] Here is my first footnote.</p><p id="footnote-2">[2] Another footnote.</p>`
           To this: `<p>This is main body of my content. I have a footnote link for this line. Here is my first footnote. Then, I have some more content. Some of it is interesting and it has some footnotes as well.Another footnote.</p>`
+        - Delete any remaining footnote html after the text is moved.
+      - if the footnote references is in a paragraph
+        - follow the instructions for a footnote reference except move the footnote text to the end of the paragraph immeditately before the table or figure
+7. **Terminology**
+  - update terminology to conform with editing standards
+8. **Accessibility and IDEA**
+  - Highlight text that does not meet meet accessibility or IDEA reccommendations according to editing standards. 
+    - Example: Change `All scientists should be men.` to `<span class="mt-bgcolor-e74c3c">All scientists should be men.</span>`
 
 ## Hard exclusions — never modify or remove, under any rule above
 
