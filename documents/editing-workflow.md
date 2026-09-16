@@ -140,7 +140,9 @@ Ask for help!
   - check indices
   - check for figure or table references in text and confirm indices
 - key terms 
+   - first scan for highlight and note those words
    -  find in text and highlight - <span class="mt-bgcolor-2ecc71">term</span>
+   - put all definitions in solar-system-key-terms.csv
 - Further Exploration
    - check for full link
    - contextualize further exploration links

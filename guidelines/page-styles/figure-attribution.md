@@ -71,3 +71,7 @@ If the attribution information is (Openstax Chemistry)
 If the attribution info is (Intro Physics Park)
 
 <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" title="CC BY 4.0">CC BY 4.0</a>; <a href="https://www.linkedin.com/in/bkpark" target="_blank" title="Andrew Park">Andrew Park</a> via <a href="https://phys.libretexts.org/Bookshelves/Conceptual_Physics/Introduction_to_Physics_(Park)" target="_blank" title="Introduction to Physics (Park)">Introduction to Physics (Park)</a>
+
+### Chem1 Lower
+
+<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" title="CC BY 4.0">CC BY 4.0</a>; <a href="https://www.sfu.ca/chemistry/department/faculty-staff/profiles/emeritus-and-retired-faculty/quantumdot.html">Stephen Lower</a> via <a href="https://chem.libretexts.org/Bookshelves/General_Chemistry/Chem1_(Lower)" title="https://chem.libretexts.org/Bookshelves/General_Chemistry/Chem1_(Lower)">Chem1 Lower</a>
