@@ -40,6 +40,8 @@ degenerate gas,a gas that resists further compression because no two electrons c
 density,the amount of mass per unit volume of an object
 detector,device sensitive to light that makes a record of astronomical observations
 differential galactic rotation,"The idea that different parts of the Galaxy turn at different rates, since the parts of the Galaxy follow Kepler's third law: more distant objects take longer to complete one full orbit around the center of the Galaxy."
+displacement,change in position of an object
+distance,the magnitude or size of displacement between two positions
 Doppler effect,the apparent change in wavelength or frequency of the radiation from a source due to its relative motion away from or toward the observer
 eccentricity,"in an ellipse, the ratio of the distance between the foci to the major axis"
 eclipsing binary,"a binary star in which the plane of revolution of the two stars is nearly edge-on to our line of sight, so that the light of one star is periodically diminished by the other passing in front of it"
@@ -124,6 +126,7 @@ mass number,"The total number of protons and neutrons in the nucleus of an atom,
 mass-luminosity relation,"the observed relation between the masses and luminosities of many stars, about 90% of all stars"
 mass-to-light ratio,"The ratio of the total mass of a galaxy to its total luminosity, usually expressed in units of solar mass and solar luminosity; the mass-to-light ratio gives a rough indication of the types of stars contained within a galaxy and whether or not substantial quantities of dark matter are present."
 Maunder Minimum,a period during the seventeenth century when the number of sunspots seen throughout the solar cycle was unusually low
+mechanics,the study of the motion of objects in nature
 merger,a collision between galaxies (of roughly comparable size) that combine to form a single new structure
 meridian,a great circle on the terrestrial or celestial sphere that passes through the poles
 metric system, a system of measurements that use base units such as the meter and changes their scale by using decimal prefixes based on powers of 10
@@ -160,6 +163,7 @@ planetesimals,objects from tens to hundreds of kilometers in diameter that forme
 plasma,a hot ionized gas
 population I star,A star containing heavy elements; typically young and found in the disk.
 population II star,A star with very low abundance of heavy elements; found throughout the Galaxy.
+position,the location of an object in relation to a reference frame
 pressure,force exerted per unit area
 prime focus,point in a telescope where the objective lens or primary mirror focuses the light
 proper motion,the angular change per year in the direction of a star as seen from the Sun
@@ -217,6 +221,7 @@ synchronous rotation,when an object rotates at the same rate that it orbits arou
 telescope,an instrument used to observe distant objects by collecting and focusing their light
 temperature, the average translational kinetic energy of the molecules in an object or what is measured with a thermometer
 theory,a thoroughly tested and confirmed explanation for observations or phenomena
+time,the measurement of how long change occurs
 transition region,the region in the Sun’s atmosphere where the temperature rises very rapidly from the relatively low temperatures that characterize the chromosphere to the high temperatures of the corona
 transmission,When light passes through a material.
 transparent,A material that light is able to pass through.
@@ -225,6 +230,7 @@ type Ia supernova,an explosion that occurs in a binary star system when the mate
 type II supernova,a stellar explosion produced at the endpoint of the evolution of stars whose mass exceeds roughly 10 times the mass of the Sun
 ultraviolet,electromagnetic radiation of wavelengths 10 to 400 nanometers; shorter than the shortest visible wavelengths
 variable,a part of an experiment or equation that can vary or change
+vector,a quantity that includes both direction and magnitude where magnitude describes the size
 visible light,electromagnetic radiation with wavelengths of roughly 400–700 nanometers; visible to the human eye
 visual binary,a binary star in which the two components are telescopically resolved
 void,a region between clusters and superclusters of galaxies that appears relatively empty of galaxies
