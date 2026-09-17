@@ -125,21 +125,24 @@ Ask for help!
 8.  IDEA and ADA flagging
 
 
-## Chapter Review - Manual   
+## Edit Content - Manual   
 
 - main chapter page
   - reduce to 10 or fewer learning objectives (no learning objectives on sub-pages)
 - Content
-  - edit text for clarity
 
-- highlight or make links for 
+- All pages
+  - edit text for clarity
+ 
       
 - Figures
   - contextualize figures and tables.
   - check indices
   - check for figure or table references in text and confirm indices
 - key terms 
+   - first scan for highlight and note those words
    -  find in text and highlight - <span class="mt-bgcolor-2ecc71">term</span>
+   - put all definitions in solar-system-key-terms.csv
 - Further Exploration
    - check for full link
    - contextualize further exploration links

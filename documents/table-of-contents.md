@@ -182,6 +182,13 @@
 ### 4.8: Accessible Descriptions
 ## 5: The Sun
 ### 5.1: Exploration of the Sun
+#### Observing from a Distance H2
+##### Observing the Sun Safely H3
+##### Seeing Spots on the Sun H3
+###### Solar Rotation H4
+###### Sunspots Up Close H4
+##### Weighing the Sun H3
+##### Taking the Sun's Temperature H3
 ### 5.2: Solar Atmosphere
 ### 5.3: Solar Activity
 ### 5.4: Solar Energy Production

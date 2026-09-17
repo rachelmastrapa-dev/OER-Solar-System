@@ -5,11 +5,44 @@ Index
 - Geological activity - crater
 - Rings
 - charts - plotting data, linear, part of scientific process
-- Orbital Motion and Mass
-- Gravity and orbits
+- Orbital Motion and Mass - Modern Astronomy?
+- Gravity and orbits - Solar System 
 - Planetary Motion - for Solar System
-- Light year
-- Detecting Electromagnetic Waves from Space
+- Light year - Tour of Universe? - in with AU and at appropriate scale
+- Detecting Electromagnetic Waves from Space ? Spacecraft?
+- Gravity and Orbits Simulation - Solar System
+- Kepler's 2nd Law Sim - Solar System
+- Planck-s Law - Planck bio and light
+
+<h3 class="lt-phys-46242" data-type="title">Planck Law</h3>
+
+<p class="lt-phys-46242">The spectrum of blackbody radiation was extensively studied and well known. The German physicist Max Planck (1858–1947) first guessed a functional form of intensity dependence on the wavelength of EM radiation, which is now known as the&nbsp;<strong>Planck Law</strong>. The Planck Law was a good fit to the experimental results (shown in&nbsp;Figure \(\PageIndex{2}\)), tapering off both at the long-wavelength and the short-wavelength limit, but it was only a phenomenological description that did not include a satisfying explanation of why it was so.</p>
+</section>
+
+<figure><img alt="fig-ch01_patchfile_01.jpg" height="236px" src="/@api/deki/files/37565/Figure_30_01_02a.jpg" style="width: 333px; height: 236px;" width="333px" />
+<figcaption><strong>Figure </strong>\(\PageIndex{2}\): The German physicist Max Planck had a major influence on the early development of quantum mechanics, being the first to recognize that energy is sometimes quantized. Planck also made important contributions to special relativity and classical physics. (credit: Library of Congress, Prints and Photographs Division via Wikimedia Commons)</figcaption>
+</figure>
+
+<section data-depth="1">
+<p class="lt-phys-46242">This led Planck to look for a reason why intensity of radiation should decrease at the short-wavelength, or high-frequency limit. Using the idea that atoms and molecules in a body act like oscillators to absorb and emit radiation, he guessed that the energy of these oscillators are quantized. That is, the energy of the oscillators could change only by a discrete amount, and this discrete amount of energy change was \(\Delta E=h f\), where \(f\)&nbsp;is frequency of the oscillator and \(h\) is a fundamental constant of nature that we now call&nbsp;<strong>Planck's constant</strong>, given by</p>
+
+<p class="lt-phys-46242">\[h=6.626 \times 10^{-34} \mathrm{~J} \cdot \mathrm{s}. \nonumber \]</p>
+
+<p class="lt-phys-46242">Without getting into the detailed mathematical derivation, we can see intuitively why this assumption would lead to the result that Planck was looking for. An object at thermal equilibrium has a certain amount of thermal energy, which is associated with kinetic energy of microscopic movements and vibrations. If this energy is randomly distributed, both very high-frequency oscillators and very low-frequency oscillators would have the same thermal energy on average. But if it was true that this thermal energy is quantized, and it has to come in integer units of&nbsp;\(hf\), then at very high frequencies, there is not going to be enough thermal energy for even one unit of&nbsp;\(hf\). This places an upper limit on maximum possible frequency of these oscillators, for a given amount of thermal energy per oscillator, resulting in the tapering behavior for intensity of radiation emitted by these oscillators at the higher frequency (or shorter wavelengths).</p>
+
+<p class="lt-phys-46242">This model would also explain why the peak wavelength shifts to the shorter wavelength (higher frequency) at higher temperatures. At higher temperatures, there is more thermal energy available per oscillator, so the upper limit on maximum possible frequency will be higher, since larger unit size&nbsp;\(hf\)&nbsp;is allowed.</p>
+
+<p class="lt-phys-46242">Note that Planck’s constant \(h\)&nbsp;is a very small number. So for an infrared frequency of \(10^{14} \mathrm{~Hz}\)&nbsp;being emitted by a blackbody, for example, the difference between energy levels is only \(\Delta E=h f=\left(6.63 \times 10^{-34} \mathrm{~J} \cdot \mathrm{s}\right)\left(10^{14} \mathrm{~Hz}\right)=6.63 \times 10^{-20} \mathrm{~J}\)&nbsp;or about 0.4 eV. This 0.4 eV of energy is significant compared with typical atomic energies, which are on the order of an electron volt, or thermal energies, which are typically fractions of an electron volt. But on a macroscopic or classical scale, energies are typically on the order of joules. Even though the macroscopic energies are quantized, the quantum steps are too small to be noticed. This is an example of the correspondence principle. For a large object, quantum mechanics produces results indistinguishable from those of classical physics.</p>
+</section>
+
+
+<h2>Kepler's 2nd Law Sim</h2>
+
+<li class="lt-phys-64659">The <a href="https://sciencesims.com/sims/keplers-second-law/" target="_blank" title="https://sciencesims.com/sims/keplers-second-law/">Kepler's Second Law demonstrator</a> from CCNY's ScienceSims project demonstrates how an orbiting planet sweeps out the same area in the same time.</li>
+
+<h2>Gravity and Orbits Simulation</h2>
+
+<li class="lt-phys-64661">Try this simulation of <a href="http://phet.colorado.edu/en/simulation/gravity-and-orbits" target="_blank" title="http://phet.colorado.edu/en/simulation/gravity-and-orbits">gravity and orbits</a> that lets you move the Sun, Earth, Moon, and space station to see the effects of changing their distances on their gravitational forces and orbital paths. You can even turn off gravity and see what happens.</li>
 
 <h3 class="lt-phys-46234">Detecting Electromagnetic Waves from Space</h3>
 

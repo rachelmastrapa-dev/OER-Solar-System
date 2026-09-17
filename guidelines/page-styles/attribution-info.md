@@ -27,8 +27,4 @@ ccby2l = https://creativecommons.org/licenses/by/2.0/
 ccbync4 = CC BY-NC 4.0
 ccbync4l = https://creativecommons.org/licenses/by-nc/4.0/
 
-## Textbooks
-
-(Intro Physics Park)
-Introduction to Physics [https://scholarworks.calstate.edu/concern/educational_resources/8w32rd46j] by Andrew Park [https://www.linkedin.com/in/bkpark] CC BY 4.0  
 
