@@ -13,6 +13,97 @@ Index
 - Gravity and Orbits Simulation - Solar System
 - Kepler's 2nd Law Sim - Solar System
 - Planck-s Law - Planck bio and light
+- Table about the Sun
+
+
+
+<h2>Table about the Sun</h2>
+
+<p class="lt-phys-64745">Some of the basic characteristics of the Sun are listed in Table 15.1. Although some of the terms in that table may be unfamiliar to you right now, you will get to know them as you read further.</p>
+
+<table class="mt-responsive-table">
+    <caption>Table 15.1: Characteristics of the Sun</caption>
+    <thead>
+        <tr valign="top">
+            <th data-align="center" data-valign="top" scope="col">Characteristic</th>
+            <th data-align="center" data-valign="top" scope="col">How Found</th>
+            <th data-align="center" data-valign="top" scope="col">Value</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr valign="top">
+            <td class="lt-phys-64745" data-align="left" data-th="Characteristic" data-valign="middle">Mean distance</td>
+            <td class="lt-phys-64745" data-align="left" data-th="How Found" data-valign="middle">Radar reflection from planets</td>
+            <td class="lt-phys-64745" data-align="left" data-th="Value" data-valign="middle">1 AU (149,597,892 km)</td>
+        </tr>
+        <tr valign="top">
+            <td class="lt-phys-64745" data-align="left" data-th="Characteristic" data-valign="middle">Maximum distance from Earth</td>
+            <td class="lt-phys-64745" data-align="left" data-th="How Found" data-valign="middle">&nbsp;</td>
+            <td class="lt-phys-64745" data-align="left" data-th="Value" data-valign="middle">1.521 × 10<sup>8</sup> km</td>
+        </tr>
+        <tr valign="top">
+            <td class="lt-phys-64745" data-align="left" data-th="Characteristic" data-valign="middle">Minimum distance from Earth</td>
+            <td class="lt-phys-64745" data-align="left" data-th="How Found" data-valign="middle">&nbsp;</td>
+            <td class="lt-phys-64745" data-align="left" data-th="Value" data-valign="middle">1.471 × 10<sup>8</sup> km</td>
+        </tr>
+        <tr valign="top">
+            <td class="lt-phys-64745" data-align="left" data-th="Characteristic" data-valign="middle">Mass</td>
+            <td class="lt-phys-64745" data-align="left" data-th="How Found" data-valign="middle">Orbit of Earth</td>
+            <td class="lt-phys-64745" data-align="left" data-th="Value" data-valign="middle">333,400 Earth masses (1.99 × 10<sup>30</sup> kg)</td>
+        </tr>
+        <tr valign="top">
+            <td class="lt-phys-64745" data-align="left" data-th="Characteristic" data-valign="middle">Mean angular diameter</td>
+            <td class="lt-phys-64745" data-align="left" data-th="How Found" data-valign="middle">Direct measure</td>
+            <td class="lt-phys-64745" data-align="left" data-th="Value" data-valign="middle">31´59´´.3</td>
+        </tr>
+        <tr valign="top">
+            <td class="lt-phys-64745" data-align="left" data-th="Characteristic" data-valign="middle">Diameter of photosphere</td>
+            <td class="lt-phys-64745" data-align="left" data-th="How Found" data-valign="middle">Angular size and distance</td>
+            <td class="lt-phys-64745" data-align="left" data-th="Value" data-valign="middle">109.3 × Earth diameter (1.39 × 10<sup>6</sup> km)</td>
+        </tr>
+        <tr valign="top">
+            <td class="lt-phys-64745" data-align="left" data-th="Characteristic" data-valign="middle">Mean density</td>
+            <td class="lt-phys-64745" data-align="left" data-th="How Found" data-valign="middle">Mass/volume</td>
+            <td class="lt-phys-64745" data-align="left" data-th="Value" data-valign="middle">1.41 g/cm<sup>3</sup><br />
+            (1400 kg/m<sup>3</sup>)</td>
+        </tr>
+        <tr valign="top">
+            <td class="lt-phys-64745" data-align="left" data-th="Characteristic" data-valign="middle">Gravitational acceleration at photosphere (surface gravity)</td>
+            <td class="lt-phys-64745" data-align="left" data-th="How Found" data-valign="middle"><em data-effect="italics">GM/R</em><sup>2</sup></td>
+            <td class="lt-phys-64745" data-align="left" data-th="Value" data-valign="middle">27.9 × Earth surface gravity = 273 m/s<sup>2</sup></td>
+        </tr>
+        <tr valign="top">
+            <td class="lt-phys-64745" data-align="left" data-th="Characteristic" data-valign="middle">Solar constant</td>
+            <td class="lt-phys-64745" data-align="left" data-th="How Found" data-valign="middle">Instrument sensitive to radiation at all wavelengths</td>
+            <td class="lt-phys-64745" data-align="left" data-th="Value" data-valign="middle">1370 W/m<sup>2</sup></td>
+        </tr>
+        <tr valign="top">
+            <td class="lt-phys-64745" data-align="left" data-th="Characteristic" data-valign="middle">Luminosity</td>
+            <td class="lt-phys-64745" data-align="left" data-th="How Found" data-valign="middle">Solar constant × area of spherical surface 1 AU in radius</td>
+            <td class="lt-phys-64745" data-align="left" data-th="Value" data-valign="middle">3.8 × 10<sup>26</sup> W</td>
+        </tr>
+        <tr valign="top">
+            <td class="lt-phys-64745" data-align="left" data-th="Characteristic" data-valign="middle">Spectral class</td>
+            <td class="lt-phys-64745" data-align="left" data-th="How Found" data-valign="middle">Spectrum</td>
+            <td class="lt-phys-64745" data-align="left" data-th="Value" data-valign="middle">G2V</td>
+        </tr>
+        <tr valign="top">
+            <td class="lt-phys-64745" data-align="left" data-th="Characteristic" data-valign="middle">Effective temperature</td>
+            <td class="lt-phys-64745" data-align="left" data-th="How Found" data-valign="middle">Derived from luminosity and radius of the Sun</td>
+            <td class="lt-phys-64745" data-align="left" data-th="Value" data-valign="middle">5800 K</td>
+        </tr>
+        <tr valign="top">
+            <td class="lt-phys-64745" data-align="left" data-th="Characteristic" data-valign="middle">Rotation period at equator</td>
+            <td class="lt-phys-64745" data-align="left" data-th="How Found" data-valign="middle">Sunspots and Doppler shift in spectra taken at the edge of the Sun</td>
+            <td class="lt-phys-64745" data-align="left" data-th="Value" data-valign="middle">24 days 16 hours</td>
+        </tr>
+        <tr valign="top">
+            <td class="lt-phys-64745" data-align="left" data-th="Characteristic" data-valign="middle">Inclination of equator to ecliptic</td>
+            <td class="lt-phys-64745" data-align="left" data-th="How Found" data-valign="middle">Motions of sunspots</td>
+            <td class="lt-phys-64745" data-align="left" data-th="Value" data-valign="middle">7°10´.5</td>
+        </tr>
+    </tbody>
+</table>
 
 <h3 class="lt-phys-46242" data-type="title">Planck Law</h3>
 
