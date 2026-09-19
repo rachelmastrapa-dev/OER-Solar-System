@@ -133,7 +133,10 @@ Ask for help!
 
 - All pages
   - edit text for clarity
- 
+
+- links
+  - highlight in <span class="mt-bgcolor-3498db">text</span>
+  - log in links.md
       
 - Figures
   - contextualize figures and tables.

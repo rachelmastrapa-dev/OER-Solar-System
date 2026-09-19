@@ -15,6 +15,7 @@ celestial equator,a great circle on the celestial sphere 90° from the celestial
 celestial poles,points about which the celestial sphere appears to rotate or intersections of the celestial sphere with Earth’s polar axis
 celestial sphere,the apparent sphere of the sky or a sphere of large radius centered on the observer; directions of objects in the sky can be denoted by their position on the celestial sphere
 central bulge,(or nuclear bulge) The central (round) part of the Milky Way or a similar galaxy.
+centripetal acceleration, the acceleration of an object moving in a circular path at a constant velocity
 cepheid,"a star that belongs to a class of yellow supergiant pulsating stars; these stars vary periodically in brightness, and the relationship between their periods and luminosities can be used to calculate their distance"
 charge-coupled device (CCD),"array of high-sensitivity electronic detectors of electromagnetic radiation, used at the focus of a telescope (or camera lens) to record an image or spectrum"
 chromatic aberration,distortion that causes an image to appear fuzzy when each wavelength coming into a transparent material focuses at a different spot
@@ -23,6 +24,7 @@ circumpolar zone,those portions of the celestial sphere near the celestial poles
 cold dark matter,"slow-moving massive particles, not yet identified, that don't absorb, emit, or reflect light or other electromagnetic radiation"
 color index,"the difference between the magnitudes of a star or other object measured in light of two different spectral regions, such as blue minus visual, or B–V, magnitudes"
 comet,"a small body of icy and dusty matter that revolves about the Sun; when a comet comes near the Sun some of its material vaporizes, forming a large head of tenuous gas and often a tail"
+conservation of momentum,when the net external force is zero, the total momentum of the system is conserved or constant
 constant, an unchanging value in an equation or describing a fundamental process in nature such as gravity
 continuous spectrum,An uninterrupted distribution of colors according to wavelength.
 control,a part of an experiment that does not change during the experiment
@@ -134,6 +136,7 @@ Milky Way Galaxy,"The band of light encircling the sky, which is due to the many
 model,representation of something that is often too difficult or impossible to display directly
 molecular cloud,a large dense cold interstellar cloud; because of its size and density this type of cloud can keep ultraviolet radiation from reaching its interior where molecules are able to form
 molecular cloud,"large, cold interstellar clouds with diameters of dozens of light-years and typical masses of 10^5 solar masses; found in the spiral arms of galaxies, these clouds are where stars form"
+momentum,an object's momentum is its mass times its velocity
 natural science,"a field of science that studies the physical world, its phenomena, and processes"
 nebula,a cloud of interstellar gas or dust; the term is most often used for clouds that are seen to glow with visible light or infrared
 neutrino,fundamental particle that has no charge and a mass that is tiny relative to an electron; it rarely interacts with ordinary matter and comes in three different types
@@ -188,6 +191,7 @@ retrograde motion,the apparent westward motion of a planet on the celestial sphe
 right ascension,the coordinate for measuring the east-west positions of celestial bodies or the angle measured eastward along the celestial equator from the vernal equinox to the hour circle passing through a body
 rover,a vehicle for exploring extraterrestrial bodies
 RR Lyrae,one of a class of giant pulsating stars with periods shorter than 1 day and useful for finding distances
+scalar,a physical quanity that can be expresed by a single number such as speed
 science,"knowledge that covers general truths or the operation of general laws, especially when acquired and tested by the scientific method"
 scientific method,a method of research with defined steps that include experiments and careful observation
 scientific notation,rewriting very large or very small numbers as a product of a decimal number and an exponent with base 10
@@ -206,6 +210,7 @@ spectral line,"In a spectrum, light emitted or absorbed at a specific wavelength
 spectrometer,"an instrument for obtaining a spectrum; in astronomy, usually attached to a telescope to record the spectrum of a star, galaxy, or other astronomical object"
 spectroscopic binary,"a binary star in which the components are not resolved, but whose binary nature is indicated by periodic variations in radial velocity indicating orbital motion"
 spectrum,The dispersion of light by wavelength.
+speed,distance traveled divided by time during which motion occurs
 spiral arm,"A spiral-shaped region, characterized by relatively dense interstellar material and young stars, that is observed in the disks of spiral galaxies."
 spiral galaxy,"A flattened, rotating galaxy with pinwheel-like arms of interstellar material and young stars, winding out from its central bulge."
 standard bulb,"An astronomical object with a known intrinsic brightness, or absolute magnitude."
@@ -231,6 +236,7 @@ type II supernova,a stellar explosion produced at the endpoint of the evolution 
 ultraviolet,electromagnetic radiation of wavelengths 10 to 400 nanometers; shorter than the shortest visible wavelengths
 variable,a part of an experiment or equation that can vary or change
 vector,a quantity that includes both direction and magnitude where magnitude describes the size
+velocity,displacement divided by time over which displacement occurs
 visible light,electromagnetic radiation with wavelengths of roughly 400–700 nanometers; visible to the human eye
 visual binary,a binary star in which the two components are telescopically resolved
 void,a region between clusters and superclusters of galaxies that appears relatively empty of galaxies
