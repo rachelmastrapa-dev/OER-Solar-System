@@ -26,5 +26,6 @@ ccby2 = CC BY 2.0
 ccby2l = https://creativecommons.org/licenses/by/2.0/
 ccbync4 = CC BY-NC 4.0
 ccbync4l = https://creativecommons.org/licenses/by-nc/4.0/
-
+ccbysa3 = CC BY-SA 3.0
+ccbysa3l = https://creativecommons.org/licenses/by-sa/3.0/
 

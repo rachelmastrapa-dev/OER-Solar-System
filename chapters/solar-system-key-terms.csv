@@ -24,11 +24,12 @@ circumpolar zone,those portions of the celestial sphere near the celestial poles
 cold dark matter,"slow-moving massive particles, not yet identified, that don't absorb, emit, or reflect light or other electromagnetic radiation"
 color index,"the difference between the magnitudes of a star or other object measured in light of two different spectral regions, such as blue minus visual, or B–V, magnitudes"
 comet,"a small body of icy and dusty matter that revolves about the Sun; when a comet comes near the Sun some of its material vaporizes, forming a large head of tenuous gas and often a tail"
+conduction,the transfer of energy between two objects that are in direct physical contact with each other or the transfer of energy inside an object from side to the other
 conservation of momentum,when the net external force is zero, the total momentum of the system is conserved or constant
 constant, an unchanging value in an equation or describing a fundamental process in nature such as gravity
 continuous spectrum,An uninterrupted distribution of colors according to wavelength.
 control,a part of an experiment that does not change during the experiment
-convection,"movement caused within a gas or liquid by the tendency of hotter, and therefore less dense material, to rise and colder, denser material to sink under the influence of gravity, which consequently results in transfer of heat"
+convection,movement caused within a gas or liquid by the tendency of hotter, and therefore less dense material, to rise and colder, denser material to sink under the influence of gravity, which consequently results in transfer of heat
 corona,the outer hot atmosphere of the Sun
 coronal hole,a region in the Sun’s outer atmosphere that appears darker because there is less hot gas there
 coronal mass ejection (CME),a solar flare in which immense quantities of coronal material—mainly protons and electrons—are ejected at high speeds 500–1000 kilometers per second into interplanetary space
@@ -55,6 +56,7 @@ element,"Atoms that have the same number of protons, or the same atomic number."
 ellipse,"a closed curve for which the sum of the distances from any point on the ellipse to two points inside, called the foci, is always the same"
 elliptical galaxy,A galaxy whose shape is an ellipse and that contains no conspicuous interstellar material.
 emission spectrum,The spectrum that includes bright lines at the wavelengths related to the transition of an electron from a higher to lower energy level.
+energy,a quantitative property that is able to do work or change a system
 energy levels,The unique energy values of possible electron orbits.
 epicycle,"the circular orbit of a body in the Ptolemaic system, the center of which revolves about another circle, the deferent"
 equator,the circle at 0° latitude that divides Earth into the Northern and Southern Hemispheres
@@ -84,6 +86,7 @@ great circle,a circle on the surface of a sphere that is the curve of intersecti
 ground state,The lowest possible energy state of an electron in an atom.
 H II region,the region of ionized hydrogen in interstellar space
 H-R diagram,"Hertzsprung–Russell diagram; a plot of luminosity against surface temperature, or spectral type, for a group of stars"
+heat,the transfer of energy from one object to another due to the difference in temperature between the two objects
 heliocentric model,"the model of the Solar System with the Sun at the center and the planets, including Earth, orbiting around the Sun, Helios is the Greek proper name for the Sun"
 helioseismology,study of pulsations or oscillations of the Sun in order to determine the characteristics of the solar interior
 helium flash,a nearly explosive ignition of helium in the triple-alpha process in the dense core of a red giant star
@@ -111,6 +114,7 @@ isotropic,the same in all directions
 Kepler’s first law,"each planet moves around the Sun in an orbit that is an ellipse, with the Sun at one focus of the ellipse"
 Kepler’s second law,the straight line joining a planet and the Sun sweeps out equal areas in space in equal intervals of time
 Kepler’s third law,the square of a planet’s orbital period is directly proportional to the cube of the semimajor axis of its orbit
+kinetic energy,the energy of an object due to its motion
 lander,a spacecraft designed to set down on the surface of another celestial body
 latitude,angular distance north or south of Earth's equator measured in degrees along a meridian
 law,"a description, often in the form of a mathematical formula, for the behavior of some aspect of nature under certain specific conditions"
@@ -167,6 +171,8 @@ plasma,a hot ionized gas
 population I star,A star containing heavy elements; typically young and found in the disk.
 population II star,A star with very low abundance of heavy elements; found throughout the Galaxy.
 position,the location of an object in relation to a reference frame
+potential energy,the energy of an object due to its position relative to a field other objects or the arrangement of particles inside it
+power,the amount of energy used or given off per unit time
 pressure,force exerted per unit area
 prime focus,point in a telescope where the objective lens or primary mirror focuses the light
 proper motion,the angular change per year in the direction of a star as seen from the Sun
@@ -178,7 +184,7 @@ quantum number,A number assigned to specific energy levels in an atom.
 quasar,"a distant, point-like energy source originating from a powerful active galactic nucleus. Its luminosity is generated by the accretion of gas onto a supermassive black hole"
 radar,"technique of transmitting radio waves to an object and then detecting the radiation that the object reflects back to the transmitter; used to measure the distance to, and motion of, a target object or to form images of it"
 radial velocity,motion toward or away from the observer; the component of relative velocity that lies in the line of sight
-radiation,"emission of energy as electromagnetic waves or photons, also the transmitted energy itself"
+radiation,emission of energy as electromagnetic waves or photons or the release of heat from an object
 reflecting telescope,telescope in which the principal light collector is a concave mirror
 reflection,When light bounces off the surface of an object such as a mirror.
 reflection,"the property of a light wave being thrown back from a surface, such as a mirror"
@@ -241,6 +247,7 @@ visible light,electromagnetic radiation with wavelengths of roughly 400–700 na
 visual binary,a binary star in which the two components are telescopically resolved
 void,a region between clusters and superclusters of galaxies that appears relatively empty of galaxies
 wavelength,the distance from crest to crest or trough to trough in a wave
+weight,the force of gravity on an object; on Earth it is the mass of an object times the acceleration of gravity g
 white dwarf,a low-mass star that has exhausted most or all of its nuclear fuel and has collapsed to a very small size; such a star is near its final state of life
 Wien's law,formula that relates the temperature of a blackbody to the wavelength at which it emits the greatest intensity of radiation
 Wien's law,a formula that relates the temperature of a blackbody to the wavelength at which it emits the greatest intensity of radiation
