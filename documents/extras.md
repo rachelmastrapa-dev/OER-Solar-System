@@ -14,7 +14,11 @@ Index
 - Kepler's 2nd Law Sim - Solar System
 - Planck-s Law - Planck bio and light
 - Table about the Sun
+- aphelion and perihelion = solar system
 
+<h2>Aphelion and perihelion</h2>
+
+<p>Recall that the path of an object under the influence of gravity through space is called its orbit, whether that object is a spacecraft, planet, star, or galaxy. An orbit, once determined, allows the future positions of the object to be calculated.Two points in any orbit in our Solar System have been given special names. The place where the planet is closest to the Sun (helios in Greek) and moves the fastest is called the perihelion of its orbit, and the place where it is farthest away and moves the most slowly is the aphelion. For the Moon or a satellite orbiting Earth (gee in Greek), the corresponding terms are perigee and apogee. In this book, we use the word moon for a natural object that goes around a planet and the word satellite to mean a human-made object that orbits around a planet.</p>
 
 
 <h2>Table about the Sun</h2>
