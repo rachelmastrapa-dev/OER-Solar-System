@@ -9,3 +9,4 @@ Links that need to be made in Libretext
 chapter,section,highlight text
 astronomy toolkit,Physics,Isaac Newton
 astronomy toolkit,Physics,Galileo
+astronomy toolkit,Chemistry,atomic transitions in Light

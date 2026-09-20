@@ -8,6 +8,7 @@ astronomical unit (AU),"the unit of length defined as the average distance betwe
 atomic number,"The number of protons in an atom, Z."
 binary stars,two stars that revolve about each other
 blackbody,an idealized object that absorbs all electromagnetic energy that falls onto it
+boiling point, the temperature where a liquid vaporizes into a gas; the temperature depends on pressure
 brown dwarf,An object lacking the mass needed to sustain hydrogen fusion.
 brown dwarf,"an object intermediate in size between a planet and a star; the approximate mass range is from about 1/100 of the mass of the Sun up to the lower mass limit for self-sustaining nuclear reactions, which is about 0.075 the mass of the Sun; brown dwarfs are capable of deuterium fusion, but not hydrogen fusion"
 cataclysmic variable,"a binary star system consisting of a white dwarf and a secondary star that is transferring mass, resulting in irregular increases in brightness"
@@ -24,6 +25,7 @@ circumpolar zone,those portions of the celestial sphere near the celestial poles
 cold dark matter,"slow-moving massive particles, not yet identified, that don't absorb, emit, or reflect light or other electromagnetic radiation"
 color index,"the difference between the magnitudes of a star or other object measured in light of two different spectral regions, such as blue minus visual, or B–V, magnitudes"
 comet,"a small body of icy and dusty matter that revolves about the Sun; when a comet comes near the Sun some of its material vaporizes, forming a large head of tenuous gas and often a tail"
+condensation,conversion of a gas to a liquid
 conduction,the transfer of energy between two objects that are in direct physical contact with each other or the transfer of energy inside an object from side to the other
 conservation of momentum,when the net external force is zero, the total momentum of the system is conserved or constant
 constant, an unchanging value in an equation or describing a fundamental process in nature such as gravity
@@ -41,6 +43,7 @@ declination,the angular distance north or south of the celestial equator
 deductive reasoning,a form of logical thinking that uses a general statement to forecast specific results
 degenerate gas,a gas that resists further compression because no two electrons can be in the same place at the same time doing the same thing (Pauli exclusion principle)
 density,the amount of mass per unit volume of an object
+deposition,converting a gas to a solid
 detector,device sensitive to light that makes a record of astronomical observations
 differential galactic rotation,"The idea that different parts of the Galaxy turn at different rates, since the parts of the Galaxy follow Kepler's third law: more distant objects take longer to complete one full orbit around the center of the Galaxy."
 displacement,change in position of an object
@@ -72,6 +75,7 @@ falsifiable,able to be disproven by experimental results
 filter,a type of window that absorbs certain colors of light while allowing others to pass through
 fission,breaking up of heavier atomic nuclei into lighter ones
 focus,point in a telescope where the rays of light converged by a mirror or lens meet
+freezing point,the temperature where a liquid converts to a solid; can change with pressure
 frequency,the number of waves that cross a given point per unit time
 fusion,building up of heavier atomic nuclei from lighter ones
 galactic cannibalism,a process by which a larger galaxy strips material from or completely swallows a smaller one
@@ -133,11 +137,13 @@ mass-luminosity relation,"the observed relation between the masses and luminosit
 mass-to-light ratio,"The ratio of the total mass of a galaxy to its total luminosity, usually expressed in units of solar mass and solar luminosity; the mass-to-light ratio gives a rough indication of the types of stars contained within a galaxy and whether or not substantial quantities of dark matter are present."
 Maunder Minimum,a period during the seventeenth century when the number of sunspots seen throughout the solar cycle was unusually low
 mechanics,the study of the motion of objects in nature
+melting point,the temperature that a solid converts to a liquid
 merger,a collision between galaxies (of roughly comparable size) that combine to form a single new structure
 meridian,a great circle on the terrestrial or celestial sphere that passes through the poles
 metric system, a system of measurements that use base units such as the meter and changes their scale by using decimal prefixes based on powers of 10
 Milky Way Galaxy,"The band of light encircling the sky, which is due to the many stars and diffuse nebulae lying near the plane of the Milky Way Galaxy."
 model,representation of something that is often too difficult or impossible to display directly
+molecule,a group of at least 2 atoms held together by chemical bonds
 molecular cloud,a large dense cold interstellar cloud; because of its size and density this type of cloud can keep ultraviolet radiation from reaching its interior where molecules are able to form
 molecular cloud,"large, cold interstellar clouds with diameters of dozens of light-years and typical masses of 10^5 solar masses; found in the spiral arms of galaxies, these clouds are where stars form"
 momentum,an object's momentum is its mass times its velocity
@@ -223,6 +229,7 @@ standard bulb,"An astronomical object with a known intrinsic brightness, or abso
 starburst,a galaxy or merger of multiple galaxies that turns gas into stars much faster than usual
 stellar association,"a loose group of young stars whose spectral types, motions, and positions in the sky indicate a common origin"
 stellar wind,"the outflow of gas, sometimes at speeds as high as hundreds of kilometers per second, from a star"
+sublimation,converting a solid to a gas
 sunspot,"large, dark features seen on the surface of the Sun caused by increased magnetic activity"
 sunspot cycle,the semiregular 11-year period with which the frequency of sunspots fluctuates
 supercluster,a large region of space (more than 100 million light-years across) where groups and clusters of galaxies are more concentrated; a cluster of clusters of galaxies
@@ -240,6 +247,7 @@ triple-alpha process,a nuclear reaction by which three helium nuclei are built u
 type Ia supernova,an explosion that occurs in a binary star system when the material from the other star overwhelms a white dwarf
 type II supernova,a stellar explosion produced at the endpoint of the evolution of stars whose mass exceeds roughly 10 times the mass of the Sun
 ultraviolet,electromagnetic radiation of wavelengths 10 to 400 nanometers; shorter than the shortest visible wavelengths
+vaporization,the conversion of a liquid to a gas
 variable,a part of an experiment or equation that can vary or change
 vector,a quantity that includes both direction and magnitude where magnitude describes the size
 velocity,displacement divided by time over which displacement occurs
