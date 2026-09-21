@@ -10,3 +10,4 @@ chapter,section,highlight text
 astronomy toolkit,Physics,Isaac Newton
 astronomy toolkit,Physics,Galileo
 astronomy toolkit,Chemistry,atomic transitions in Light
+astronomy toolkit,Light,
