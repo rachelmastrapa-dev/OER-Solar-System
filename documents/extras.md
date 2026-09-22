@@ -15,8 +15,18 @@ Index
 - Table about the Sun
 - aphelion and perihelion = solar system
 - Radiation Pressure & Comets
+- infrared greenhouse gas - Earth?
+- star temperature - stars?
 
+<h2>star temperature</h2>
 
+<p class="lt-phys-64677">We can use these ideas to come up with a rough sort of “thermometer” for measuring the temperatures of stars. Because many stars give off most of their energy in visible light, the color of light that dominates a star's appearance is a rough indicator of its temperature. If one star looks red and another looks blue, which one has the higher temperature? Because blue is the shorter-wavelength color, it is the sign of a hotter star. Note that the temperatures we associate with different colors in science are not the same as the ones artists use. In art, red is often called a “hot” color and blue a “cool” color. Likewise, we commonly see red on faucet or air conditioning controls to indicate hot temperatures and blue to indicate cold temperatures. Although these are common uses to us in daily life, in nature, it's the other way around.</p>
+
+<p class="lt-phys-64677">We can develop a more precise star thermometer by measuring how much energy a star gives off at each wavelength. The location of the peak (or maximum) in the power curve of each star can tell us its temperature. The average temperature at the surface of the Sun, which is where the radiation that we see is emitted, turns out to be 5800 K. Throughout this text, we use the kelvin or absolute temperature scale. On this scale, water freezes at 273 K and boils at 373 K. All molecular motion ceases at 0 K. The various temperature scales are described in Appendix D. There are stars cooler than the Sun and stars hotter than the Sun.</p>
+
+<h2>infrared greenhouse gas</h2>
+
+<p class="lt-phys-46234">The relatively constant temperature of the Earth is a result of the energy balance between the incoming solar radiation and the energy radiated from the Earth. Most of the infrared radiation emitted from the Earth is absorbed by \(\mathrm{CO}_{2}\) and \(\mathrm{H}_{2} \mathrm{O}\) in the atmosphere and then radiated back to Earth or into outer space. This radiation back to Earth is known as the greenhouse effect, and it maintains the surface temperature of the Earth about \(40^{\circ} \mathrm{C}\) higher than it would be if there is no absorption. Some scientists think that the increased concentration of \(\mathrm{CO}_{2}\) and other greenhouse gases in the atmosphere, resulting from increases in fossil fuel burning, has increased global average temperatures.</p>
 
 
 <h2>Radiation Pressure & Comets</h2>

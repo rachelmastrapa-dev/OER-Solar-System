@@ -142,6 +142,7 @@ merger,a collision between galaxies (of roughly comparable size) that combine to
 meridian,a great circle on the terrestrial or celestial sphere that passes through the poles
 metric system, a system of measurements that use base units such as the meter and changes their scale by using decimal prefixes based on powers of 10
 Milky Way Galaxy,"The band of light encircling the sky, which is due to the many stars and diffuse nebulae lying near the plane of the Milky Way Galaxy."
+microwave,electromagnetic radiation of wavelengths from 1 millimeter to 1 meter; longer than infrared but shorter than radio waves
 model,representation of something that is often too difficult or impossible to display directly
 molecule,a group of at least 2 atoms held together by chemical bonds
 molecular cloud,a large dense cold interstellar cloud; because of its size and density this type of cloud can keep ultraviolet radiation from reaching its interior where molecules are able to form
@@ -193,6 +194,7 @@ quasar,"a distant, point-like energy source originating from a powerful active g
 radar,"technique of transmitting radio waves to an object and then detecting the radiation that the object reflects back to the transmitter; used to measure the distance to, and motion of, a target object or to form images of it"
 radial velocity,motion toward or away from the observer; the component of relative velocity that lies in the line of sight
 radiation,emission of energy as electromagnetic waves or photons or the release of heat from an object
+radio,the longest wavelength range of the electromagnetic spectrum
 reflecting telescope,telescope in which the principal light collector is a concave mirror
 reflection,When light bounces off the surface of an object such as a mirror.
 reflection,"the property of a light wave being thrown back from a surface, such as a mirror"
@@ -253,14 +255,13 @@ vaporization,the conversion of a liquid to a gas
 variable,a part of an experiment or equation that can vary or change
 vector,a quantity that includes both direction and magnitude where magnitude describes the size
 velocity,displacement divided by time over which displacement occurs
-visible light,electromagnetic radiation with wavelengths of roughly 400–700 nanometers; visible to the human eye
+visible,electromagnetic radiation with wavelengths of roughly 400–700 nanometers; visible to the human eye
 visual binary,a binary star in which the two components are telescopically resolved
 void,a region between clusters and superclusters of galaxies that appears relatively empty of galaxies
 wavelength,the distance from crest to crest or trough to trough in a wave
 weight,the force of gravity on an object; on Earth it is the mass of an object times the acceleration of gravity g
 white dwarf,a low-mass star that has exhausted most or all of its nuclear fuel and has collapsed to a very small size; such a star is near its final state of life
 Wien's law,formula that relates the temperature of a blackbody to the wavelength at which it emits the greatest intensity of radiation
-Wien's law,a formula that relates the temperature of a blackbody to the wavelength at which it emits the greatest intensity of radiation
 X-rays,electromagnetic radiation with wavelengths between 0.01 nanometer and 10 nanometers; intermediate between those of ultraviolet radiation and gamma rays
 zenith,the point on the celestial sphere opposite the direction of gravity or the point directly above the observer
 zero-age main sequence,"a line denoting the main sequence on the H–R diagram for a system of stars that have completed their contraction from interstellar matter and are now deriving all their energy from nuclear reactions, but whose chemical composition has not yet been altered substantially by nuclear reactions"

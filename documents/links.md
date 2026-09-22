@@ -12,3 +12,5 @@ astronomy toolkit,Physics,Galileo
 astronomy toolkit,Chemistry,atomic transitions in Light
 astronomy toolkit,Light,James Clerk Maxwell
 astronomy toolkit,Light,Albert Einstein
+astronomy toolkit,Light,William Herschel
+astronomy toolkit,Light,Further Exploration
