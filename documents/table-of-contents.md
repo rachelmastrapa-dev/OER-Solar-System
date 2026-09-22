@@ -80,8 +80,7 @@
 ##### The Electromagnetic Spectrum H3
 ###### Grouping by Wavelength H4
 ###### Radio H4
-- Radio Interference
-- Microwave
+###### Microwave H4
 ###### Infrared H4
 ###### Visible H4
 ###### Ultraviolet H4

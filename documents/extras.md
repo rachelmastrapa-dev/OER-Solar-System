@@ -15,67 +15,9 @@ Index
 - Table about the Sun
 - aphelion and perihelion = solar system
 - Radiation Pressure & Comets
-- astronomy and electromagnetic spectrum - summary of light, along with figure on windows? spacecraft? - thermal?
 
-<h2>astronomy and electromagnetic spectrum</h2>
 
-<p class="lt-phys-64677">Table \(\PageIndex{1}\) summarizes the bands of the electromagnetic spectrum and indicates the temperatures and typical astronomical objects that emit each kind of electromagnetic radiation. Note that the shortest wavelength radiation detects the highest temperature objects. For example, the solar corona is detected in X-rays and has a temperature of 10<sup>6</sup>–10<sup>8</sup> K. Meanwhile, long wavelength radio waves detect objects cooler than 10,000 K such as cold gas in space.</p>
 
-<table class="mt-responsive-table">
-    <caption>Table \(\PageIndex{1}\): The Electromagnetic Spectrum</caption>
-    <thead>
-        <tr valign="top">
-            <th data-align="center" data-valign="top" scope="col">Type of Radiation</th>
-            <th data-align="center" data-valign="top" scope="col">Wavelength Range (nm)</th>
-            <th data-align="center" data-valign="top" scope="col">Source Temperature</th>
-            <th data-align="center" data-valign="top" scope="col">Typical Sources</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr valign="top">
-            <td class="lt-phys-64677" data-align="left" data-th="Type of Radiation" data-valign="top">Gamma rays</td>
-            <td class="lt-phys-64677" data-align="left" data-th="Wavelength Range (nm)" data-valign="top">Less than 0.01</td>
-            <td class="lt-phys-64677" data-align="left" data-th="Radiated by Objects at This Temperature" data-valign="top">More than 10<sup>8</sup> K</td>
-            <td class="lt-phys-64677" data-align="left" data-th="Typical Sources" data-valign="top">Produced in nuclear reactions; require very high-energy processes</td>
-        </tr>
-        <tr valign="top">
-            <td class="lt-phys-64677" data-align="left" data-th="Type of Radiation" data-valign="top">X-rays</td>
-            <td class="lt-phys-64677" data-align="left" data-th="Wavelength Range (nm)" data-valign="top">0.01–20</td>
-            <td class="lt-phys-64677" data-align="left" data-th="Radiated by Objects at This Temperature" data-valign="top">10<sup>6</sup>–10<sup>8</sup> K</td>
-            <td class="lt-phys-64677" data-align="left" data-th="Typical Sources" data-valign="top">Gas in clusters of galaxies, supernova remnants, solar corona</td>
-        </tr>
-        <tr valign="top">
-            <td class="lt-phys-64677" data-align="left" data-th="Type of Radiation" data-valign="top">Ultraviolet</td>
-            <td class="lt-phys-64677" data-align="left" data-th="Wavelength Range (nm)" data-valign="top">20–400</td>
-            <td class="lt-phys-64677" data-align="left" data-th="Radiated by Objects at This Temperature" data-valign="top">10<sup>4</sup>–10<sup>6</sup> K</td>
-            <td class="lt-phys-64677" data-align="left" data-th="Typical Sources" data-valign="top">Supernova remnants, very hot stars</td>
-        </tr>
-        <tr valign="top">
-            <td class="lt-phys-64677" data-align="left" data-th="Type of Radiation" data-valign="top">Visible</td>
-            <td class="lt-phys-64677" data-align="left" data-th="Wavelength Range (nm)" data-valign="top">400–700</td>
-            <td class="lt-phys-64677" data-align="left" data-th="Radiated by Objects at This Temperature" data-valign="top">10<sup>3</sup>–10<sup>4</sup> K</td>
-            <td class="lt-phys-64677" data-align="left" data-th="Typical Sources" data-valign="top">Stars</td>
-        </tr>
-        <tr valign="top">
-            <td class="lt-phys-64677" data-align="left" data-th="Type of Radiation" data-valign="top">Infrared</td>
-            <td class="lt-phys-64677" data-align="left" data-th="Wavelength Range (nm)" data-valign="top">10<sup>3</sup>–10<sup>6</sup></td>
-            <td class="lt-phys-64677" data-align="left" data-th="Radiated by Objects at This Temperature" data-valign="top">10–10<sup>3</sup> K</td>
-            <td class="lt-phys-64677" data-align="left" data-th="Typical Sources" data-valign="top">Cool clouds of dust and gas, planets, moons</td>
-        </tr>
-        <tr valign="top">
-            <td class="lt-phys-64677" data-align="left" data-th="Type of Radiation" data-valign="top">Microwave</td>
-            <td class="lt-phys-64677" data-align="left" data-th="Wavelength Range (nm)" data-valign="top">10<sup>6</sup>–10<sup>9</sup></td>
-            <td class="lt-phys-64677" data-align="left" data-th="Radiated by Objects at This Temperature" data-valign="top">Less than 10 K</td>
-            <td class="lt-phys-64677" data-align="left" data-th="Typical Sources" data-valign="top">Active galaxies, pulsars, cosmic background radiation</td>
-        </tr>
-        <tr valign="top">
-            <td class="lt-phys-64677" data-align="left" data-th="Type of Radiation" data-valign="top">Radio</td>
-            <td class="lt-phys-64677" data-align="left" data-th="Wavelength Range (nm)" data-valign="top">More than 10<sup>9</sup></td>
-            <td class="lt-phys-64677" data-align="left" data-th="Radiated by Objects at This Temperature" data-valign="top">Less than 10 K</td>
-            <td class="lt-phys-64677" data-align="left" data-th="Typical Sources" data-valign="top">Supernova remnants, pulsars, cold gas</td>
-        </tr>
-    </tbody>
-</table>
 
 <h2>Radiation Pressure & Comets</h2>
 
