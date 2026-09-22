@@ -16,6 +16,9 @@ Index
 - aphelion and perihelion = solar system
 - Radiation Pressure & Comets
 
+
+
+
 <h2>Radiation Pressure & Comets</h2>
 
 <p class="lt-phys-46232">Radiation pressure plays a role in explaining many observed astronomical phenomena, including the appearance of comets. Comets are basically chunks of icy material in which frozen gases and particles of rock and dust are embedded. When a comet approaches the Sun, it warms up and its surface begins to evaporate. The coma of the comet is the hazy area around it from the gases and dust. Some of the gases and dust form tails when they leave the comet. Notice in  that a comet has two tails. The ion tail or gas tail  is composed mainly of ionized gases. These ions interact electromagnetically with the solar wind, which is a continuous stream of charged particles emitted by the Sun. The force of the solar wind on the ionized gases is strong enough that the ion tail almost always points directly away from the Sun. The second tail is composed of dust particles. Because the dust tail is electrically neutral, it does not interact with the solar wind. However, this tail is affected by the radiation pressure produced by the light from the Sun. Although quite small, this pressure is strong enough to cause the dust tail to be displaced from the path of the comet. </p>
