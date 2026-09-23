@@ -6,6 +6,7 @@ Expand Astro Toolkit - Light - beyond visible spectroscopy
 
 Astro-tookit - how to use this book
 - add figures and videos - search online?
+<p>Ask Benny and Search - as of fall 2026 in Beta- may not have book yet </p>
 
 Light - bohr Model electron transitions
 
