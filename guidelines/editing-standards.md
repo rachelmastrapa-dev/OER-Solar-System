@@ -109,3 +109,7 @@ This is a list of general guidelines to use for all tools in this directory and 
 ## Text Attributions
 - Refer to `page-styles/text-attributions.md`
 - Format for manually added attributions of remixed OER material on a section page. 
+
+## Thumbnail Attribution
+- Refer to `page-styles/thumbnail-attributions.md`
+- Attribution for the chapter thumbnail, no accessible description or alt text

@@ -42,7 +42,7 @@ There are some default formats that will be used. Use these default attributions
 
 ### Openstax Astronomy
 
-Default attribution for Openstax Astronomy.  If there is no attribution information for a figure, use this one.
+Default attribution for Openstax Astronomy.  If there is no attribution information for a figure, or if there are empty partheses `()` after the figure caption text, use this attribution.
 
 LicenseLink: https://creativecommons.org/licenses/by/4.0/
 
