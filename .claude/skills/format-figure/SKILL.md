@@ -4,7 +4,7 @@ description: Format figure html for figures in an OER textbook, including captio
 
 ---
 
-# Format Figure
+# Format Figure  
 
 Apply a set of rules to every section HTML file in **one local chapter folder**. 
 
