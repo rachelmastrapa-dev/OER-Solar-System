@@ -33,8 +33,7 @@ Ask which chapter to process if not specified, e.g.:
 
 - List every `<NN.SS>-<Section-Title-Slug>.html` file directly inside the
   given chapter folder.
-- Do **not** recurse into the chapter's `images/` subfolder or touch
-  `manifest.csv`.
+- Do **not** recurse into the chapter's `images/` in search of section or html files, but do look there for image files and to update `manifest.csv`.
 - If no matching files are found, say so and stop.
 
 ## Editing Standards
@@ -58,7 +57,7 @@ in memory, if a judgement needs to be made, ask the user, otherwise complete tas
       4. Update the figure html with the new accessible description link
       5. Confirm that the image for the figure is in `images/`
         - If it is not there look for a file with a matching title in `$ROOT/chapters/extra-images/` 
-           - If it is there change the name of the file to match the chapter and section similar to `<NN.SS>-<FigureTitle>` and move it to `images/` and update `manifest.csv` in both locations
+           - If it is there change the name of the file to match the chapter and section according to guidelines in `image-file-name.md` without changing the figure title or file extension and move it to `images/` and update `manifest.csv` in both locations
            - If it is not there ask the user for guidance
       6. Go to step  2.12. `Write accessible description...`
     2. Use the figure html section in editing standards to locate the alt-text and figure caption in the figure html. Do **not** preserve the original alt-text or figure caption text in paragraph form.
@@ -72,7 +71,7 @@ in memory, if a judgement needs to be made, ask the user, otherwise complete tas
             - Example: If the name of the file is `02.01-A-Tour-of-the-Universe`, the chapter number is 2 and the section number is 1.  
        - The figure index starts at 1 with the first figure on the page, and increases for each figure. That is the first figure has a figure index of 1, the second figure has a figure index of 2, etc.
        - For the third figure in `02.01-A-Tour-of-the-Universe` the figure number of 2.1.3
-    4. Locate the image file that is used for the figure.
+    4. Locate the local copy of the image file that is used for the figure html by searching for a file in `images/` that matches the chapter, section number, and figure title according to `image-file-name.md`
     5. Create figure attribution
       - Refer to the Figure Attribution section in `editing-standards.md`
        - Always create the attribution based on the provided information in parentheses at the end of the figure caption in the original figure html
@@ -98,11 +97,12 @@ in memory, if a judgement needs to be made, ask the user, otherwise complete tas
        - Refer to the figure html section in `editing-standards.md`
     11. Ovewrite the old figure html with the new html.
     12. Write accessible description to accessible description page. e.g. `$ROOT/chapters/<NN>-<Chapter-Title-Slug>/<NN.SS>-Accessible-Descriptions.html`
+       - if there is no file matching the name, ask user for guidance
        - place the accessible description in a logical place according to figure number.
        - do not overwrite any accessible descriptions that are currently on the page
        - If there is already an accessible description on the page with the same figure number, ask the user for guidance
 3. Once all figures are processed check `images/` for any unused images for this section
-    1. Find any images in `images/` that have a name similar to `<NN.SS>-<FigureTitle>` where `<NN.SS>` matches the current chapter and section number but the figure title does not match any figures from the current section page
+    1. Find any images in `images/` that begin with `<NN.SS>-<FigureTitle>` where `<NN.SS>` matches the current chapter and section number but the figure title does not match any figures from the current section page
     2. Move the unused image to `$ROOT/chapters/extra-images/`
     3. Update `manifest.csv` in both locations
 4. Remove any accessible descriptions that are not related to a figure in the chapter

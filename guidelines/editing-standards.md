@@ -113,3 +113,15 @@ This is a list of general guidelines to use for all tools in this directory and 
 ## Thumbnail Attribution
 - Refer to `page-styles/thumbnail-attributions.md`
 - Attribution for the chapter thumbnail, no accessible description or alt text
+
+## Chapter Directory
+- Check for variable definitions in the variables section in `editing-standards.md`.
+- The chapter directory is `chapters/<NN>-<Chapter-Title>/`
+
+## Variables
+- Refer to `page-styles/variables.md`
+- Global variables for skills and guidelines
+
+## Section Titles
+- Check for variable definitions in the variables section in `editing-standards.md`.
+

@@ -18,9 +18,17 @@ mirroring the chapter/section structure.
   never modifies the live page. If a step seems to require confirming a
   change, stop and ask the user first.
 
+## Editing Standards
+The editings standards for this project are described in `$ROOT/guidelines/editing-standards.md`.  
+- The `editing-standards.md` file contains brief descriptions of formatting standards.
+- It also contains directions to other files that have more detailed descriptions of specific formatting standards.
+- Always look in `editing-standards.md` first when looking for information about editing, formatting, or general guidance for this project, then follow the directions to other files when needed.
+- If there is a rule that says to use editing standards, look for guidance in `editing-standards.md`.
+- Check for any variable definitions in the section about variables in `editing-standards.md`. 
+
 ## Input
 A single LibreTexts Table of Contents (TOC) URL for one chapter, e.g.:
-`https://[library].libretexts.org/Workbench/[Course]/[NN%3A_Chapter_Name]`
+`https://[library].libretexts.org/Workbench/[Course]/[NN%3A_Chapter_Title]`
 
 ## Steps
 
@@ -30,7 +38,10 @@ A single LibreTexts Table of Contents (TOC) URL for one chapter, e.g.:
    chapter (not sibling chapters). Record each link's display title and its
    position in the chapter (e.g. "12.3: Observing Black Holes").
 
-2. **For each section link, extract the source HTML**
+2. **Determine the file path**
+   - Create the chapter directory in the repository according to the section on chapter directory in `editing-standards.md`
+
+3. **For each section link, extract the source HTML**
    - Navigate to the section page.
    - Open the page editor (the same control used in the earlier recon step).
    - Switch to Source/Code view.
@@ -38,24 +49,23 @@ A single LibreTexts Table of Contents (TOC) URL for one chapter, e.g.:
      summarize it.
    - Close/exit the editor without saving.
 
-3. **Archive figure images (without touching the HTML)**
+4. **Archive figure images (without touching the HTML)**
    - After capturing a section's raw HTML, scan it for every `<img>` tag
      and record its `src` (and, if present, any `data-*` lazy-load source
      attribute — check a real captured section first to see which one
      LibreText actually uses; don't assume).
-   - before downloading images, check `chapters/extra-images` for the image.  If it is there don't bother downloading it. move the image to the the chapter images folder, rename the image, and log it in the manifest using the instructions below.
+   - before downloading images, check `chapters/extra-images` for the image.  If it is there don't bother downloading it. move the image to the the chapter images directory, rename the image, and log it in the manifest using the instructions below.
    - **Do not rewrite the `src` in the saved HTML file.** The saved section
      HTML must keep pointing at the original LibreTexts image URL exactly
      as exported — the local image copy is a backup, not a replacement.
    - For each distinct image URL in the section, fetch the image bytes
      using the same authenticated Playwright browser session (so it works
      even if the image host requires the login session), and save it to
-     `chapters/<NN>-<Chapter-Title-Slug>/images/<NN.SS>-<FigureTitle>`,
-     where `<FigureTitle>` is the text in the figure caption between the figure number, similar to `Figure \(\PageIndex{1}\)`, and a period The title is near the beginning of the figure caption.  Example: If the figure caption is `<figcaption>Figure \(\PageIndex{1}\) : Earth. Our home is unique in the Solar System, due to its liquid water surface and the presence of life. (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" title="CC BY 4.0">CC BY 4.0</a>; <a href="https://openstax.org/books/astronomy-2e/pages/preface" target="_blank" title="Fraknoi, et al.">Fraknoi, et al.</a> via <a href="https://openstax.org/details/books/astronomy" target="_blank" title="Openstax Astronomy 2nd ed.">Openstax Astronomy 2nd ed.</a>) <a href="/Workbench/De_Anza_-_ASTR10/02:_Night_Sky_Navigation/2.10:_Accessible_Descriptions#Figure_2.1.1_Earth" target="_blank" title="2.10: Accessible Descriptions">Accessible description of Figure \(\PageIndex{1}\)</a>.</figcaption>` the `<FigureTitle>` is `Earth`.
+     `chapters/<NN>-<Chapter-Title>/images/<ImageFileName>`. Create the image file name using guidelines in `image-file-name.md`.
    - If the same image URL appears in more than one section, download it
      once and reuse the local file for the manifest entries below rather
      than fetching it twice.
-   - Append one row per image to `chapters/<NN>-<Chapter-Title-Slug>/images/manifest.csv`
+   - Append one row per image to `chapters/<NN>-<Chapter-Title>/images/manifest.csv`
      with columns: `local_filename, original_src_url, section, alt_text`.
      Create the manifest file with a header row if it doesn't exist yet.
      This is a plain provenance record, not a replacement for your formal
@@ -64,29 +74,21 @@ A single LibreTexts Table of Contents (TOC) URL for one chapter, e.g.:
    - if the user has given instructions to overwrite
       - if an image is found in the local images directory, but is not connected to a figure in the chapter then move the image to `chapters/extra-images` and move that figures line in the chapter manifest to the manifest file in `chapters/extra-images`
 
-4. **Determine the file path**
-   - Chapter folder: `chapters/<NN>-<Chapter-Title-Slug>/`
-     (NN = two-digit chapter number from the TOC page; slug = title with
-     spaces replaced by hyphens, special characters stripped)
-   - Section file: `<NN>.<SS>-<Section-Title-Slug>.html`
-     (SS = two-digit section number)
-     - Example: `chapters/12-Black-Holes/12.03-Observing-Black-Holes.html`
-   - Also create a file and copy in the HTML for the TOC page for the chapter as section 00 with the title `Introduction`
-     - Example: `chapters/12-Black-Holes/12.00-introduction.html`
-   - If a chapter or section number can't be determined cleanly from the
-     page, ask the user rather than guessing.
-
 5. **Write the files**
+
    Create directories as needed. Write each section's raw HTML to its file.
    Do not overwrite an existing file silently — if the file already exists,
    report the conflict and ask whether to overwrite. If all of the chapter content exists, ask if the chapter should be skipped.
+    - Refer to the section titles section in `editing-standards.md` to create the names of the local files.
+     - Also create a file and copy in the HTML for the TOC page for the chapter as section 00 with the title `Introduction`
+     - Example: `chapters/12-Black-Holes/12.00-Introduction.html`
+   - If a chapter or section number can't be determined cleanly from the
+     page, ask the user rather than guessing.
    - overwrite instructions
      - if the user gives instructions to overwrite, then only update local files that are different from libretext, skip any files that are the same between libretext and the local file.
 
-
-
 6. **Delete redundant files**
-  If playright has left a lot of files, such as copies of the images, or copies of the html, in `.playwright-mcp/`, then delete all of the duplicate files in the playwright folder. Do **not** delete any html or image files in the chapters directory or subdirectory.
+  If playright has left a lot of files, such as copies of the images, or copies of the html, in `.playwright-mcp/`, then delete all of the duplicate files in the playwright directory. Do **not** delete any html or image files in the chapters directory or subdirectory.
 
 7. **Report back**
    After the run, list every file written (path only), any sections that
