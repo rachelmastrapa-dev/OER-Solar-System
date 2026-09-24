@@ -14,3 +14,8 @@ astronomy toolkit,Light,James Clerk Maxwell
 astronomy toolkit,Light,Albert Einstein
 astronomy toolkit,Light,William Herschel
 astronomy toolkit,Light,Further Exploration
+astronomy toolkit,How to Use,Mars
+astronomy toolkit,How to Use,The Solar System
+astronomy toolkit,How to Use,Rachel Mastrapa
+astronomy toolkit,How to Use,Caitlin Kepple
+astronomy toolkit,How to Use,Creative Commons Attribution 4.0 license
