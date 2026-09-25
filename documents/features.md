@@ -17,9 +17,6 @@
 ## Changes and new features for old skills
 
 
-- edit text
- - edit all equations, including in figures and tables
-
  - glossary scraper
    - put in policy for duplicate terms and same word multiple meanings
    - examples from Claude: Duplicate terms with identical/near-identical definitions across chapters (e.g. asteroid, comet, parallax, dark matter) were deduped to one entry. "focus" appears with two unrelated meanings (ellipse geometry vs. telescope optics) — split into focus (ellipse) and focus (telescope), matching the book's own disambiguation style (e.g. nucleus (of an atom) vs nucleus (of a comet)).

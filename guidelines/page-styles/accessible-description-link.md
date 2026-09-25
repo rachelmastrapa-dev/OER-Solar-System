@@ -4,11 +4,13 @@ The accessible description link is needed to link the figure caption to the acce
 
 ## Accessible Description Link Format
 
-- The ccessible description link should look similar to this: `/Workbench/TextbookTitle/<NN>:_<Chapter_Title>/<NN0>.<SS>:_Accessible_Descriptions#Figure_FigureNumber_FigureTitle` where
+- The accessible description link should look similar to this: `/Workbench/TextbookTitle/<NN>:_<Chapter_Title>/<NN0>.<SS>:_Accessible_Descriptions#Figure_<FigureNumber>_<FigureTitle>` where
    - `<NN>` is the chapter number and `<NN0>` is the chapter number with the leading 0 stripped off for single digit chapters
        - Example: For Chapter 2 `<NN>`is 02 while `<NN0>`is 2
        - Example: For Chapter 14 `<NN>` and `<NN0>` are both 14
    - `<SS>` is the section number
+   - `<FigureNumber>`is the number of the figure
+   - `<FigureTitle>` is the title of the figure
 
 ### ASTR 4 Settings
 
@@ -27,11 +29,11 @@ TextbookTitle: DeAnza_-_ASTR4
 
 Chapter 14, section 2, first figure
 Figure Number: 14.2.1
-Figure Title: Binary Black Hole
+Title: Binary Black Hole
 
 Accessible description link: `/Workbench/De_Anza_-_ASTR10/14:_Black_Holes/14.06:_Accessible_Descriptions#Figure_14.2.1_Binary_Black_Hole`
 
 Chapter 2, section 4, third figure
 Figure number: 2.4.3
-Figure Title: Interior of the Sun
+Title: Interior of the Sun
 Accessible description link: `/Workbench/De_Anza_-_ASTR10/02%3A_Night_Sky_Navigation/2.10%3A_Accessible_Descriptions#Figure_2.4.3_Interior_of_the_Sun`

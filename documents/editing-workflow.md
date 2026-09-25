@@ -158,15 +158,20 @@ Ask for help!
 
 **User: Commit and close all files**
 
-- Increment Figure indices- double checks that indices make sense
+- format thumbnail attribution on intro page
+- Increment Figure indices- double checks that figure indices make sense
 - Accesible Descriptions
+  - retreive online accessible description
+  - delete extras
+  - use if already present
 - alt-text
 - Figure attribution
+ - set default figure caption to openstax astronomy in figure-attributions.md. and skill
+ - shifted to attribution info in place
 - Figure HTML
-
-### New features
-
-
+ - use formatted html without redoing 
+- look for figure in extra images or ask for help
+- move unused figures to extra-images
 
 
 ## Format Sources - Claude/AI Passive

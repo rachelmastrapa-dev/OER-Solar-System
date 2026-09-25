@@ -85,11 +85,6 @@ This is a list of general guidelines to use for all tools in this directory and 
 - Refer to `page-styles/accessible-description-link.md`
 - The accessible description link is needed to connect the accessible description to the figure caption.
 
-## Image File Names
-- Refer to `page-styles/image-file-name.md`
-- Locate the image file connected to the figure html.
-- The image file is needed to generate alternative text, figure caption text, and accessible description
-
 ## Key Terms Page
 - Refer to `page-styles/key-terms-page.md`
 - Format for the chapter's key terms/glossary page.
@@ -109,3 +104,19 @@ This is a list of general guidelines to use for all tools in this directory and 
 ## Text Attributions
 - Refer to `page-styles/text-attributions.md`
 - Format for manually added attributions of remixed OER material on a section page. 
+
+## Thumbnail Attribution
+- Refer to `page-styles/thumbnail-attributions.md`
+- Attribution for the chapter thumbnail, no accessible description or alt text
+
+## Chapter Directory
+- Check for variable definitions in the variables section in `editing-standards.md`.
+- The chapter directory is `chapters/<NN>-<ChapterTitle>/`
+
+## Variables
+- Refer to `page-styles/variables.md`
+- Global variables for skills and guidelines
+
+## Section Titles
+- Check for variable definitions in the variables section in `editing-standards.md`.
+
