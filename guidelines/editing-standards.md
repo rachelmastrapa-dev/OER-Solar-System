@@ -117,6 +117,18 @@ This is a list of general guidelines to use for all tools in this directory and 
 - Refer to `page-styles/variables.md`
 - Global variables for skills and guidelines
 
-## Section Titles
-- Check for variable definitions in the variables section in `editing-standards.md`.
+## TOC File Name
+- Check for variable definitions `page-styles/variables.md`.
+- The format for the Table of Contents (TOC) of the chapter is `<N>.00-Introduction.html`
 
+## Section File Name 
+- Check for variable definitions in `page-styles/variables.md`.
+- The format for a section file name is `<N>.<SS>-<SectionTitle>.html`
+
+## Image File Names
+- Check for variable definitions in `page-styles/variables.md`.
+- `<ImageFileName>` is the name of an image file.
+   - The image file names begin with `<N>.<SS>-<FigureTitle>`
+   - Add a `-` for any space in `<FigureTitle>`.  
+   - The file name should have an extension appropriate to an image file including, but not limited to .png or .jpg. If this is a Libretext project, note that the only accepted formats are .jpg, .png, and .gif. 
+   - Example: For a jpg image in chapter 3 section 12, with a `<FigureTitle>` of `The Electromagnetic Spectrum` then `<ImageFileName>` is `3.12-The-Electromagnetic-Spectrum.jpg` 

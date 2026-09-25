@@ -54,34 +54,30 @@ A single LibreTexts Table of Contents (TOC) URL for one chapter, e.g.:
      and record its `src` (and, if present, any `data-*` lazy-load source
      attribute — check a real captured section first to see which one
      LibreText actually uses; don't assume).
-   - before downloading images, check `chapters/extra-images` for the image.  If it is there don't bother downloading it. move the image to the the chapter images directory, rename the image based on , and update the manifest .
+   - before downloading images, check `chapters/extra-images` for the image.  If it is there don't bother downloading it. move the image to the current chapter images directory, rename the image based on the current chapter and section following the section on image file names in `editing-standards.md`, and update the `manifest.csv` in both locations.
    - **Do not rewrite the `src` in the saved HTML file.** The saved section
      HTML must keep pointing at the original LibreTexts image URL exactly
      as exported — the local image copy is a backup, not a replacement.
    - For each distinct image URL in the section, fetch the image bytes
      using the same authenticated Playwright browser session (so it works
      even if the image host requires the login session), and save it to
-     `chapters/<NN>-<Chapter-Title>/images/<ImageFileName>`. Create the image file name using guidelines in `image-file-name.md`.
+     `chapters/<NN>-<ChapterTitle>/images/<ImageFileName>`. Create the image file name using guidelines in the image file names section in `editing-standards.md`.
    - If the same image URL appears in more than one section, download it
      once and reuse the local file for the manifest entries below rather
      than fetching it twice.
-   - Append one row per image to `chapters/<NN>-<Chapter-Title>/images/manifest.csv`
+   - Append one row per image to `chapters/<NN>-<ChapterTitle>/images/manifest.csv`
      with columns: `local_filename, original_src_url, section, alt_text`.
      Create the manifest file with a header row if it doesn't exist yet.
-     This is a plain provenance record, not a replacement for your formal
-     attribution log — it just saves you from having to re-find each
-     image's source URL later.
    - if the user has given instructions to overwrite
-      - if an image is found in the local images directory, but is not connected to a figure in the chapter then move the image to `chapters/extra-images` and move that figures line in the chapter manifest to the manifest file in `chapters/extra-images`
+      - if an image is found in the local images directory, but is not connected to a figure in the chapter then move the image to `chapters/extra-images` and update `manifest.csv` in both locations.
 
 5. **Write the files**
 
-   Create directories as needed. Write each section's raw HTML to its file.
+   Create directories as needed. Write each section's raw HTML to its file in the chapter directory.
    Do not overwrite an existing file silently — if the file already exists,
    report the conflict and ask whether to overwrite. If all of the chapter content exists, ask if the chapter should be skipped.
-    - Refer to the section titles section in `editing-standards.md` to create the names of the local files.
-     - Also create a file and copy in the HTML for the TOC page for the chapter as section 00 with the title `Introduction`
-     - Example: `chapters/12-Black-Holes/12.00-Introduction.html`
+    - Refer to the section file name section in `editing-standards.md` to create the names of the local files in the chapter directory and copy in the html to the appropriate file.
+     - Create a file and copy in the HTML for the TOC page referring to TOC file name section in `editing-standards.md`. 
    - If a chapter or section number can't be determined cleanly from the
      page, ask the user rather than guessing.
    - overwrite instructions

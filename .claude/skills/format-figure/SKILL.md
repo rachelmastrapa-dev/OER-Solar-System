@@ -42,13 +42,14 @@ The editings standards for this project are described in `$ROOT/guidelines/editi
 - It also contains directions to other files that have more detailed descriptions of specific formatting standards.
 - Always look in `editing-standards.md` first when looking for information about editing, formatting, or general guidance for this project, then follow the directions to other files when needed.
 - If there is a rule that says to use editing standards, look for guidance in `editing-standards.md`.
+- Check for any variable definitions in the section about variables in `editing-standards.md`. Variables are usually in the form `<VariableName>` but sometimes `[VariableName]` in the case of URLs submitted by the user
 
 ## Per-file edit rules
 
-Apply these, in order, to each file's HTML. Read the file, apply all rules
+Apply these, in order, to each file's HTML, skipping the files that include `Key_Terms` or `Accessible_Descriptions` in their file name. Read the file, apply all rules
 in memory, if a judgement needs to be made, ask the user, otherwise complete tasks, then write the result back to the same path (overwrite in place). 
 
-1. For the introduction page, the page similar to `<NN.SS>-<Section-Title-Slug>.html`, there is no figure html to edit, but there is a thumbnail attribution at the bottom of the page. Format at overwrite the thumbnail attribution according to the thumbnail attribution section in `editing-standards.md`
+1. For the file matching the TOC file name, refer to TOC file name in `editing-standards.md`, there is no figure html to format, but there is a thumbnail attribution at the bottom of the page. Format and overwrite the thumbnail attribution according to the thumbnail attribution section in `editing-standards.md`
 2. Locate a figure in the file, e.g it starts with `<figure>` and ends with `</figure>` and do the following:
     1. Check if the figure html already matches editing standards. If it does not go to step 2.2 `Use the figure html section...`. If it does meet standards then:
       1. Locate the accessible description by navigating to the URL for the accessible description using Playwright and copying the html for the figure.  Note that the figure number in the text at the URL will be incorrect. 
@@ -96,16 +97,16 @@ in memory, if a judgement needs to be made, ask the user, otherwise complete tas
     10. Create the figure html
        - Refer to the figure html section in `editing-standards.md`
     11. Ovewrite the old figure html with the new html.
-    12. Write accessible description to accessible description page. e.g. `$ROOT/chapters/<NN>-<Chapter-Title-Slug>/<NN.SS>-Accessible-Descriptions.html`
+    12. Write accessible description to accessible description page. e.g. `$ROOT/chapters/<NN>-<ChapterTitle>/<N>.<SS>-Accessible-Descriptions.html`
        - if there is no file matching the name, ask user for guidance
        - place the accessible description in a logical place according to figure number.
        - do not overwrite any accessible descriptions that are currently on the page
        - If there is already an accessible description on the page with the same figure number, ask the user for guidance
 3. Once all figures are processed check `images/` for any unused images for this section
-    1. Find any images in `images/` that begin with `<NN.SS>-<FigureTitle>` where `<NN.SS>` matches the current chapter and section number but the figure title does not match any figures from the current section page
-    2. Move the unused image to `$ROOT/chapters/extra-images/`
+    1. Find any images in `images/` that have a figure title that does not match any of the figure titles processed in step 2 `Locate a figure in the file...`. Refer to the variables section in `editing-standards.md` to identify figure titles and image file names.
+    2. Move any unused images to `$ROOT/chapters/extra-images/` 
     3. Update `manifest.csv` in both locations
-4. Remove any accessible descriptions that are not related to a figure in the chapter
+4. Remove any accessible descriptions that are not related to a figure in the chapter, again looking for any unmatched figure titles, in step 3 `Once all figures are processed...`.
 
 
 ## Hard exclusions — never modify or remove, under any rule above
@@ -128,7 +129,7 @@ files and all rule types.
 ## Logging
 
 Append an entry to today's session file (`sessions/<date>-sessionNN.md`)
-under **AI**, listing: chapter processed, figure html edited, and images moved accessible descriptions removed.
+under **AI**, listing: chapter processed, figure html edited, images moved, and accessible descriptions removed.
 
 ## After running
 
