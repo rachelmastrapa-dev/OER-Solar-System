@@ -24,11 +24,11 @@ The editings standards for this project are described in `$ROOT/guidelines/editi
 - It also contains directions to other files that have more detailed descriptions of specific formatting standards.
 - Always look in `editing-standards.md` first when looking for information about editing, formatting, or general guidance for this project, then follow the directions to other files when needed.
 - If there is a rule that says to use editing standards, look for guidance in `editing-standards.md`.
-- Check for any variable definitions in the section about variables in `editing-standards.md`. 
+- Check for any variable definitions in the section about variables in `editing-standards.md`. Variables are usually in the form `<VariableName>` but sometimes `[VariableName]` in the case of URLs submitted by the user
 
 ## Input
 A single LibreTexts Table of Contents (TOC) URL for one chapter, e.g.:
-`https://[library].libretexts.org/Workbench/[Course]/[NN%3A_Chapter_Title]`
+`https://[library].libretexts.org/Workbench/[TextbookTitle]/[NN]%3A_[ChapterTitle]`
 
 ## Steps
 
@@ -54,7 +54,7 @@ A single LibreTexts Table of Contents (TOC) URL for one chapter, e.g.:
      and record its `src` (and, if present, any `data-*` lazy-load source
      attribute — check a real captured section first to see which one
      LibreText actually uses; don't assume).
-   - before downloading images, check `chapters/extra-images` for the image.  If it is there don't bother downloading it. move the image to the the chapter images directory, rename the image, and log it in the manifest using the instructions below.
+   - before downloading images, check `chapters/extra-images` for the image.  If it is there don't bother downloading it. move the image to the the chapter images directory, rename the image based on , and update the manifest .
    - **Do not rewrite the `src` in the saved HTML file.** The saved section
      HTML must keep pointing at the original LibreTexts image URL exactly
      as exported — the local image copy is a backup, not a replacement.
