@@ -5,7 +5,7 @@
 Refer to editing standards for detailed descriptions for each of the elements in the HTML.
 The html format for the figure html is:
 
-<figure><img alt="alt-text. Details in caption." class="internal default" src="ImageName" /> <figcaption>Figure \(\PageIndex{i}\) : Title. Figure Caption text. (figure attribution) <a href="acc-desc-link" target="_blank" title="Accessible Descriptions">Accessible description of Figure \(\PageIndex{i}\)</a>.</figcaption> </figure>
+<figure><img alt="alt-text. Details in caption." class="internal default" src="ImageName" /> <figcaption>Figure \(\PageIndex{i}\) : Title. Figure Caption text. (figure attribution) <a href="`[acc-desc-link]" target="_blank" title="Accessible Descriptions">Accessible description of Figure \(\PageIndex{i}\)</a>.</figcaption> </figure>
 
 where 
 Image name is the image name from the original figure html = found in `src="original-imagename" Do not change this from the original value. 
@@ -13,7 +13,7 @@ i is the figure index - 1 for the first figure on the page, 2 for the second fig
 Title is the title of the figure
 Figure caption text is the figure caption text generated for this image.
 figure attribution is the figure attribution generated for this image.
-acc-desc-link is the accessible description link 
+`[acc-desc-link]` is the accessible description link 
 
 # Figure HTML Guidelines
 
