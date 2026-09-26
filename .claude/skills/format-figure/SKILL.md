@@ -15,6 +15,20 @@ Before reading any repository-relative paths below, resolve the repo root:
 Reference files as `$ROOT/guidelines/editing-standards.md`, 
 `$ROOT/guidelines/page-styles/example-box.md`, etc.
 
+## Prerequisites
+- Playwright MCP connected and logged into the LibreTexts/Conductor session
+  (persistent browser profile — should already be logged in from setup).
+- Read-only task. **Never click Save, Publish, Commit, or any write/edit
+  control in the LibreText editor.** This tool only reads source HTML; it
+  never modifies the live page. If a step seems to require confirming a
+  change, stop and ask the user first.
+
+## Input
+
+Ask which chapter to process if not specified, e.g.:
+
+> "Which chapter folder should I edit? (e.g. `chapters/07-Black-Holes/`)"
+
 ## Precondition — clean working tree required
 
 Before doing anything else, check `git status` on the target chapter folder.
@@ -22,12 +36,6 @@ Before doing anything else, check `git status` on the target chapter folder.
 - If there are **any uncommitted changes** in `$ROOT/chapters/<NN>-<Chapter-Title-Slug>/`,
   **stop immediately** and tell the user to commit first. Do not edit any files.
 - Only proceed once the working tree for that folder is clean.
-
-## Input
-
-Ask which chapter to process if not specified, e.g.:
-
-> "Which chapter folder should I edit? (e.g. `chapters/07-Black-Holes/`)"
 
 ## Discovery
 
@@ -50,10 +58,22 @@ Apply these, in order, to each file's HTML, skipping the files that include `Key
 in memory, if a judgement needs to be made, ask the user, otherwise complete tasks, then write the result back to the same path (overwrite in place). 
 
 1. For the file matching the TOC file name, refer to TOC file name in `editing-standards.md`, there is no figure html to format, but there is a thumbnail attribution at the bottom of the page. Format and overwrite the thumbnail attribution according to the thumbnail attribution section in `editing-standards.md`
-2. Locate a figure in the file, e.g it starts with `<figure>` and ends with `</figure>` and do the following:
-    1. Check if the figure html already matches editing standards. If it does not go to step 2.2 `Use the figure html section...`. If it does meet standards then:
-      1. Locate the accessible description by navigating to the URL for the accessible description using Playwright and copying the html for the figure.  Note that the figure number in the text at the URL will be incorrect. 
-      2. Create the figure number by following the directions in the step below: 3. Identify the figure number.
+2. For each `<figure>` element, in document order, do the following:
+   1. Check if the figure html already matches editing standards (refer to the figure html section in `editing-standards.md`). If it does not meet standards, go to step 2.2 `Use the figure html section...`. If it does meet standards then:
+      1. Retrieve the accessible description html from Libretext:
+         1. Find the URL for the accessible description link in the figure html by referring to the figure html  section in `editing-standards.md`. 
+         2. Identify the figure title by refering to the 
+         3. Navigate to the accessible description link URL using Playwright. 
+         2. Identify the appropriate accessible description on the page by matching the figure title (trefer to the figure h)
+         
+         
+         and copying the html for the figure.  Note that the figure number in the text at the URL will be incorrect. 
+         3. Open the page editor.
+         4. Switch to Source/Code view.
+         5. Copy the raw HTML exactly as shown for th — do not clean, reformat, or
+     summarize it.
+   - Close/exit the editor without saving.
+      2. Create the figure number by following the directions in the step 2.3 `Identify the figure number.`
       3. Create a new accessible description link by referring to the accessible description link section in `editing-standards.md`
       4. Update the figure html with the new accessible description link
       5. Confirm that the image for the figure is in `images/`
@@ -61,8 +81,8 @@ in memory, if a judgement needs to be made, ask the user, otherwise complete tas
            - If it is there change the name of the file to match the chapter and section according to guidelines in `image-file-name.md` without changing the figure title or file extension and move it to `images/` and update `manifest.csv` in both locations
            - If it is not there ask the user for guidance
       6. Go to step  2.12. `Write accessible description...`
-    2. Use the figure html section in editing standards to locate the alt-text and figure caption in the figure html. Do **not** preserve the original alt-text or figure caption text in paragraph form.
-    3. Identify the figure number.
+   2. Use the figure html section in editing standards to locate the alt-text and figure caption in the figure html. Do **not** preserve the original alt-text or figure caption text in paragraph form.
+   3. Identify the figure number.
        - Check that the figure index in `\(\PageIndex{1}\)` makes sense.  For example, going in order from the beginning of the page to the end of the page if the last figure had an index of 2, then the current figure should have an index of 3 
        - The figure number is in the format `chapter number.section number.figure index`
          - Example: For the third figure of the 4th section page of chapter 13, the figure number is 13.4.3
@@ -72,8 +92,8 @@ in memory, if a judgement needs to be made, ask the user, otherwise complete tas
             - Example: If the name of the file is `02.01-A-Tour-of-the-Universe`, the chapter number is 2 and the section number is 1.  
        - The figure index starts at 1 with the first figure on the page, and increases for each figure. That is the first figure has a figure index of 1, the second figure has a figure index of 2, etc.
        - For the third figure in `02.01-A-Tour-of-the-Universe` the figure number of 2.1.3
-    4. Locate the local copy of the image file that is used for the figure html by searching for a file in `images/` that matches the chapter, section number, and figure title according to `image-file-name.md`
-    5. Create figure attribution
+   4. Locate the local copy of the image file that is used for the figure html by searching for a file in `images/` that matches the chapter, section number, and figure title according to `image-file-name.md`
+   5. Create figure attribution
       - Refer to the Figure Attribution section in `editing-standards.md`
        - Always create the attribution based on the provided information in parentheses at the end of the figure caption in the original figure html
        - The default attribution for all figures is the Openstax Astronomy format found in `figure-attribution.md`
@@ -83,30 +103,31 @@ in memory, if a judgement needs to be made, ask the user, otherwise complete tas
        - Or, there might be information for another source. Use the shorthand in `attribution-info.md` to decode and retrieve needed information to format the figure attribution.
        - If any information is missing, ask the user for guidance
           - exception: if there is no author link, do not ask the user for guidance.  Instead, format the attribution with no author link
-    6. Create figure caption text
+   6. Create figure caption text
        - Refer to the figure caption text section in `editing-standards.md`
-    7. Create the accessible description
+   7. Create the accessible description
        - check the accessible description page for an accessible description that matches the same figure title. 
          - confirm with user that the accessible description is correct
-         - update the figure number for the accessible description and go to step 3.8  `Create the alternative text`
+         - update the figure number for the accessible description and go to step 2.8  `Create the alternative text`
        - Refer to the accessible description section in `editing-standards.md`
-    8. Create the alternative text
+   8. Create the alternative text
        - Refer to the alternative text section in `editing-standards.md`
-    9. Create the accessible description link
+   9. Create the accessible description link
        - Refer to the accessible description link section in `editing-standards.md`
-    10. Create the figure html
+   10. Create the figure html
        - Refer to the figure html section in `editing-standards.md`
-    11. Ovewrite the old figure html with the new html.
-    12. Write accessible description to accessible description page. e.g. `$ROOT/chapters/<NN>-<ChapterTitle>/<N>.<SS>-Accessible-Descriptions.html`
+   11. Ovewrite the old figure html with the new html.
+   12. Write accessible description to accessible description page. e.g. `$ROOT/chapters/<NN>-<ChapterTitle>/<N>.<SS>-Accessible-Descriptions.html`
        - if there is no file matching the name, ask user for guidance
        - place the accessible description in a logical place according to figure number.
        - do not overwrite any accessible descriptions that are currently on the page
        - If there is already an accessible description on the page with the same figure number, ask the user for guidance
 3. Once all figures are processed check `images/` for any unused images for this section
     1. Find any images in `images/` that have a figure title that does not match any of the figure titles processed in step 2 `Locate a figure in the file...`. Refer to the variables section in `editing-standards.md` to identify figure titles and image file names.
-    2. Move any unused images to `$ROOT/chapters/extra-images/` 
-    3. Update `manifest.csv` in both locations
-4. Remove any accessible descriptions that are not related to a figure in the chapter, again looking for any unmatched figure titles, in step 3 `Once all figures are processed...`.
+    2. **Ask user to confirm the move**.
+    3. Move any unused images to `$ROOT/chapters/extra-images/` 
+    4. Update `manifest.csv` in both locations
+4. Remove any accessible descriptions that are not related to a figure in this section and has a figure number related to the section, again looking for any unmatched figure titles, similar to in step 3 `Once all figures are processed...`. **Ask user to approve deletion**.
 
 
 ## Hard exclusions — never modify or remove, under any rule above
@@ -120,7 +141,7 @@ After processing each file, overwrite it in place and print a one-line
 summary of what changed, e.g.:
 
 ```
-3.02-Stellar-Winds.html:Number of figures found and html formatted. Number of unused images moved.
+3.02-Stellar-Winds.html: 7 figures reformatted, 7 accessible descriptions written, 1 unused image moved.
 ```
 
 After the whole chapter is done, print a chapter-level total across all
