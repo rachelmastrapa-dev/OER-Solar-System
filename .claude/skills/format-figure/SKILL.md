@@ -1,7 +1,6 @@
 ---
 name: format-figure
-description: Format figure html for figures in an OER textbook, including caption text, alt-text, figure attribution, and accessible description. This skill is designed to streamline the process of editing figures for an Open Educational Resource (OER) astronomy textbook in Libtetext. Since astronomy is a visual science, it is important to make the figures clear to the broadest audience possible.
-
+description: Format figure html for figures in an OER textbook, including caption text, alt-text, figure attribution, and accessible description. This skill is designed to streamline the process of editing figures for an Open Educational Resource (OER) astronomy textbook in Libretext. Since astronomy is a visual science, it is important to make the figures clear to the broadest audience possible. Triggers on "format figures in chapter X", "fix the figure html", "write accessible descriptions"
 ---
 
 # Format Figure  
@@ -45,7 +44,7 @@ Before doing anything else, check `git status` on the target chapter folder.
 - If no matching files are found, say so and stop.
 
 ## Editing Standards
-The editings standards for this project are described in `$ROOT/guidelines/editing-standards.md`.  
+The editing standards for this project are described in `$ROOT/guidelines/editing-standards.md`.  
 - The `editing-standards.md` file contains brief descriptions of formatting standards.
 - It also contains directions to other files that have more detailed descriptions of specific formatting standards.
 - Always look in `editing-standards.md` first when looking for information about editing, formatting, or general guidance for this project, then follow the directions to other files when needed.
@@ -55,47 +54,38 @@ The editings standards for this project are described in `$ROOT/guidelines/editi
 ## Per-file edit rules
 
 Apply these, in order, to each file's HTML, skipping the files that include `Key_Terms` or `Accessible_Descriptions` in their file name. Read the file, apply all rules
-in memory, if a judgement needs to be made, ask the user, otherwise complete tasks, then write the result back to the same path (overwrite in place). 
+in memory, if a judgment needs to be made, ask the user, otherwise complete tasks, then write the result back to the same path (overwrite in place). 
 
 1. For the file matching the TOC file name, refer to TOC file name in `editing-standards.md`, there is no figure html to format, but there is a thumbnail attribution at the bottom of the page. Format and overwrite the thumbnail attribution according to the thumbnail attribution section in `editing-standards.md`
 2. For each `<figure>` element, in document order, do the following:
    1. Check if the figure html already matches editing standards (refer to the figure html section in `editing-standards.md`). If it does not meet standards, go to step 2.2 `Use the figure html section...`. If it does meet standards then:
-      1. Retrieve the accessible description html from Libretext:
-         1. Find the URL for the accessible description link in the figure html by referring to the figure html  section in `editing-standards.md`. 
-         2. Identify the figure title by refering to the 
-         3. Navigate to the accessible description link URL using Playwright. 
-         2. Identify the appropriate accessible description on the page by matching the figure title (trefer to the figure h)
-         
-         
-         and copying the html for the figure.  Note that the figure number in the text at the URL will be incorrect. 
-         3. Open the page editor.
-         4. Switch to Source/Code view.
-         5. Copy the raw HTML exactly as shown for th — do not clean, reformat, or
-     summarize it.
-   - Close/exit the editor without saving.
-      2. Create the figure number by following the directions in the step 2.3 `Identify the figure number.`
+      1. Find the accessibile description text locally or in Libretext:
+         1. Identify the figure title by referring to the variables section in `editing-standards.md`.
+         2. Find the URL for the accessible description link in the figure html by referring to the figure html  section in `editing-standards.md`. 
+         3. Find the chapter title in the URL by referring to the variables section in `editing-standards.md`.
+         4. Search in the file similar to  `<N>.<SS>-Accessible-Descriptions.html` in `$ROOT/chapters/<ChapterTitle>/` for an accessible description with the same figure title and copy the html for that figure title. If there is no matching accessible description in the local file, then:
+           1. Navigate to the accessible description link URL using Playwright. 
+           2. Identify the appropriate accessible description on the page by matching the figure title
+           3. Open the page editor.
+           4. Switch to Source/Code view.
+           5. Copy the raw HTML exactly as shown for th — do not clean, reformat, or summarize it.
+           6. Close/exit the editor without saving.
+      2. Create the figure number by following the directions in step 2.3 `Create the figure number` and update the accessible description with the new figure number.
       3. Create a new accessible description link by referring to the accessible description link section in `editing-standards.md`
-      4. Update the figure html with the new accessible description link
+      4. Update the figure html with the new accessible description link.
       5. Confirm that the image for the figure is in `images/`
         - If it is not there look for a file with a matching title in `$ROOT/chapters/extra-images/` 
            - If it is there change the name of the file to match the chapter and section according to guidelines in `image-file-name.md` without changing the figure title or file extension and move it to `images/` and update `manifest.csv` in both locations
            - If it is not there ask the user for guidance
       6. Go to step  2.12. `Write accessible description...`
    2. Use the figure html section in editing standards to locate the alt-text and figure caption in the figure html. Do **not** preserve the original alt-text or figure caption text in paragraph form.
-   3. Identify the figure number.
-       - Check that the figure index in `\(\PageIndex{1}\)` makes sense.  For example, going in order from the beginning of the page to the end of the page if the last figure had an index of 2, then the current figure should have an index of 3 
-       - The figure number is in the format `chapter number.section number.figure index`
-         - Example: For the third figure of the 4th section page of chapter 13, the figure number is 13.4.3
-       - The chapter number and section number are in the name of the file `<NN.SS>-<Section-Title-Slug>.html` 
-         - The chapter number is `NN` and the section number is `SS`
-         - Drop the leading `0` for single digit chapters or sections  
-            - Example: If the name of the file is `02.01-A-Tour-of-the-Universe`, the chapter number is 2 and the section number is 1.  
-       - The figure index starts at 1 with the first figure on the page, and increases for each figure. That is the first figure has a figure index of 1, the second figure has a figure index of 2, etc.
-       - For the third figure in `02.01-A-Tour-of-the-Universe` the figure number of 2.1.3
+   3. Create the figure number:
+      1. Check that the figure index in `\(\PageIndex{<i>}\)` makes sense.  For example, going in order from the beginning of the page to the end of the page if the last figure had an index of 2, then the current figure should have an index of 3. Note that figures are numbered independently of tables.  
+      2. Create the figure number using the figure number section in `editing-standards.md`
    4. Locate the local copy of the image file that is used for the figure html by searching for a file in `images/` that matches the chapter, section number, and figure title according to `image-file-name.md`
    5. Create figure attribution
       - Refer to the Figure Attribution section in `editing-standards.md`
-       - Always create the attribution based on the provided information in parentheses at the end of the figure caption in the original figure html
+       - Always create the attribution using the provided information in parentheses at the end of the figure caption in the original figure html
        - The default attribution for all figures is the Openstax Astronomy format found in `figure-attribution.md`
           - if there is no attribution information, use Openstax Astronomy
           - If there are empty parentheses `()` at the end of the figure caption text, use Openstax Astronomy
@@ -112,11 +102,12 @@ in memory, if a judgement needs to be made, ask the user, otherwise complete tas
        - Refer to the accessible description section in `editing-standards.md`
    8. Create the alternative text
        - Refer to the alternative text section in `editing-standards.md`
+       - Do not update the alt-text for the figure in `manifest.csv` in order to keep a record of the original alt-text
    9. Create the accessible description link
        - Refer to the accessible description link section in `editing-standards.md`
    10. Create the figure html
        - Refer to the figure html section in `editing-standards.md`
-   11. Ovewrite the old figure html with the new html.
+   11. Overwrite the old figure html with the new html.
    12. Write accessible description to accessible description page. e.g. `$ROOT/chapters/<NN>-<ChapterTitle>/<N>.<SS>-Accessible-Descriptions.html`
        - if there is no file matching the name, ask user for guidance
        - place the accessible description in a logical place according to figure number.
@@ -128,6 +119,7 @@ in memory, if a judgement needs to be made, ask the user, otherwise complete tas
     3. Move any unused images to `$ROOT/chapters/extra-images/` 
     4. Update `manifest.csv` in both locations
 4. Remove any accessible descriptions that are not related to a figure in this section and has a figure number related to the section, again looking for any unmatched figure titles, similar to in step 3 `Once all figures are processed...`. **Ask user to approve deletion**.
+5. Report the presence of any `<img>` tags outside a `<figure>` wrapper. Do **not** process them as figures.
 
 
 ## Hard exclusions — never modify or remove, under any rule above
@@ -138,7 +130,7 @@ in memory, if a judgement needs to be made, ask the user, otherwise complete tas
 ## Output
 
 After processing each file, overwrite it in place and print a one-line
-summary of what changed, e.g.:
+summary of what changed, and any  `<img>` tags outside a `<figure>` wrapper e.g.:
 
 ```
 3.02-Stellar-Winds.html: 7 figures reformatted, 7 accessible descriptions written, 1 unused image moved.

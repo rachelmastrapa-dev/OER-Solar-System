@@ -36,6 +36,8 @@ Example: `https://phys.libretexts.org/Workbench/De_Anza_-_ASTR10/01%3A_Introduct
 - The `[SS]` variable is the section number.
    - If the number of the section is a single digit, there is a leading zero. 
    - In the Example `[SS]` is `01`
+- The `[N]` variable is the chapter number with no leading 0 for single digit chapter numbers.
+   - In the example `[N]` is `1`
 - The `[SectionTitle]` variable is the title of the section with `_` representing the spaces. In the example, `[SectionTitle]` is `How_Science_Works`
 
 
@@ -65,7 +67,8 @@ Within each chapter directory there are html files that have the content for the
 Each section has a section number:
 - The section number can be found by using the URL variable `[SS]`
 - When creating local files, directories, creating a new URL, use the variable:
-    - `<SS>` is the chapter number with a leading 0 for single digit chapters. Example: if `[SS]` is `01` then `<SS>` is `01`
+    - `<S>` is the section number with no leading 0 for single digit sections. Example: If `[SS]` is `01` then `<S>` is `1`
+    - `<SS>` is the section number with a leading 0 for single digit section. Example: if `[SS]` is `01` then `<SS>` is `01`
 
 `<SectionTitle>` is the title of the section in a chapter.
 - To get the `<SectionTitle>`, replace the `_` in `[SectionTitle]` with `-`.
@@ -77,3 +80,9 @@ Each section has a section number:
 The figure title or `<FigureTitle>` is the text in the figure caption between the figure number, similar to `Figure \(\PageIndex{1}\) <FigureTitle>.` It should be followed by the figure caption text.
 
  Example: If the figure caption is `<figcaption>Figure \(\PageIndex{1}\) : Earth. Our home is unique in the Solar System, due to its liquid water surface and the presence of life. (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" title="CC BY 4.0">CC BY 4.0</a>; <a href="https://openstax.org/books/astronomy-2e/pages/preface" target="_blank" title="Fraknoi, et al.">Fraknoi, et al.</a> via <a href="https://openstax.org/details/books/astronomy" target="_blank" title="Openstax Astronomy 2nd ed.">Openstax Astronomy 2nd ed.</a>) <a href="/Workbench/De_Anza_-_ASTR10/02:_Night_Sky_Navigation/2.10:_Accessible_Descriptions#Figure_2.1.1_Earth" target="_blank" title="2.10: Accessible Descriptions">Accessible description of Figure \(\PageIndex{1}\)</a>.</figcaption>` the `<FigureTitle>` is `Earth`.
+
+## Figure or Table Index
+
+Figures and tables are numbered using the pageindex function. For example, the second table on a page would be referered to as `Table \(\PageIndex{2}\)` and the 10th figure would be `Figure \(\PageIndex{10}\)`
+
+`<i>` is the figure index or table index, which may appear as  `\(\PageIndex{<i>}\)` when the index is unknown

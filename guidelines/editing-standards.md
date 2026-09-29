@@ -132,3 +132,8 @@ This is a list of general guidelines to use for all tools in this directory and 
    - Add a `-` for any space in `<FigureTitle>`.  
    - The file name should have an extension appropriate to an image file including, but not limited to .png or .jpg. If this is a Libretext project, note that the only accepted formats are .jpg, .png, and .gif. 
    - Example: For a jpg image in chapter 3 section 12, with a `<FigureTitle>` of `The Electromagnetic Spectrum` then `<ImageFileName>` is `3.12-The-Electromagnetic-Spectrum.jpg` 
+
+## Figure Number
+- Check for variable definitions in `page-styles/variables.md`.
+- The figure number `<FigureNumber>` is in the format `<N>.<S>.<i>`
+- Example: For the third figure of the 4th section page of chapter 13, then `<FigureNumber>` is 13.4.3.
