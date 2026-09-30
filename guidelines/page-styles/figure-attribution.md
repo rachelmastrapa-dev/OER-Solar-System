@@ -4,6 +4,8 @@
 
 In OER textbooks, figures must be attributed. Figure attributions are required to give the figure author credit. Figure attributions have a specific format in Libretext and includes links that need to be formatted in HTML.
 
+Refer to the variables section in `editing-standards.md` for any variables.  Variables appear as `[Variable]` or `<Variable>`
+
 ## HTML Format
 
 Figure attributions are rendered in text with the general format License; Author via Source with links to License Author and Source.
@@ -74,4 +76,4 @@ If the attribution info is (Intro Physics Park)
 
 ### Chem1 Lower
 
-<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" title="CC BY 4.0">CC BY 4.0</a>; <a href="https://www.sfu.ca/chemistry/department/faculty-staff/profiles/emeritus-and-retired-faculty/quantumdot.html">Stephen Lower</a> via <a href="https://chem.libretexts.org/Bookshelves/General_Chemistry/Chem1_(Lower)" title="https://chem.libretexts.org/Bookshelves/General_Chemistry/Chem1_(Lower)">Chem1 Lower</a>
+<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" title="CC BY 4.0">CC BY 4.0</a>; <a href="https://www.sfu.ca/chemistry/department/faculty-staff/profiles/emeritus-and-retired-faculty/quantumdot.html">Stephen Lower</a> via <a href="https://chem.libretexts.org/Bookshelves/General_Chemistry/Chem1_(Lower)"  target="_blank" title="Chem1 Lower">Chem1 Lower</a>

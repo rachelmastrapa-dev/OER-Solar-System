@@ -14,8 +14,7 @@ Accessible description are as an addition to the image, so that all students can
      - Do not turn (Openstax Astronomy) into an image credit.  
      - If there is an credit before it, then follow the instructions for moving the image credit. 
         - Example. If it looks like `(credit: ESO) (Openstax Astronomy)` Use `(credit: ESO)` to add a credit to the accessible description and do not use (Openstax Astronomy) in the accessible description
-
-<!-- Follow any general guidelines in astro_figs.html, such as which words are appropriate for the textbook. -->
+- refer to the terminology section of `editing-standards.md` when selecting words for the accessible description
 
 ## Accessible Description Guidelines
 Follow these guidelines when generating accesible descriptions.
