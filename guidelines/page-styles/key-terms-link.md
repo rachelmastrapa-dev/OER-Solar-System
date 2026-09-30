@@ -3,18 +3,16 @@
 
 ## Key Terms Link Format
 
-- The key terms link should look similar to this: `/Workbench/TextbookTitle/<NN>:_<Chapter_Title>/<NN0>.<SS>:_Key_Terms#term` where
-   - `<NN>` is the chapter number and `<NN0>` is the chapter number with the leading 0 stripped off for single digit chapters
-       - Example: For Chapter 2 `<NN>`is 02 while `<NN0>`is 2
-       - Example: For Chapter 14 `<NN>` and `<NN0>` are both 14
-   - `<SS>` is the section number
 
-### ASTR 10 Settings
+- The key terms link should look similar to this: `/Workbench/[TextbookTitle]/[NN]:_[ChapterTitle]/<N>.<KK>:_Key_Terms#term` 
 
-For the astronomy 10 textbook, the textbook part of the link is:
+### ASTR 4 Settings
 
-TextbookTitle: De_Anza_-_ASTR10
+For the astronomy 4 textbook, the textbook part of the link is:
 
+TextbookTitle: DeAnza_-_ASTR4
+
+There may be references to URLs including ASTR10.  They may be needed to recover accessible description text online. Or they may be included in an older example.  When creating new links, assume the textbook is astonomy 4. 
 
 ## Key Terms Link Guidelines 
 

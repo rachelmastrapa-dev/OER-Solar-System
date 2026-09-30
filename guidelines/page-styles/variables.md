@@ -31,7 +31,7 @@ Example: `https://phys.libretexts.org/Workbench/De_Anza_-_ASTR10/01%3A_Introduct
 
 ### Section URL (Workbench)
 
-The general form of a chapter URL is `https://[library].libretexts.org/Workbench/[TextbookTitle]/[NN]%3A_[ChapterTitle]/[N].[SS]%3A_[SectionTitle]`
+The general form of a section URL is `https://[library].libretexts.org/Workbench/[TextbookTitle]/[NN]%3A_[ChapterTitle]/[N].[SS]%3A_[SectionTitle]`
 Example: `https://phys.libretexts.org/Workbench/De_Anza_-_ASTR10/01%3A_Introduction_to_Astronomy/1.01%3A_How_Science_Works`
 - The `[SS]` variable is the section number.
    - If the number of the section is a single digit, there is a leading zero. 
@@ -72,17 +72,64 @@ Each section has a section number:
 
 `<SectionTitle>` is the title of the section in a chapter.
 - To get the `<SectionTitle>`, replace the `_` in `[SectionTitle]` with `-`.
-   - Example: for the URL `https://phys.libretexts.org/Workbench/De_Anza_-_ASTR10/01%3A_Introduction_to_Astronomy/1.01%3A_How_Science_Works` the `<Section-Title>` is `How-Science-Works`
+   - Example: for the URL `https://phys.libretexts.org/Workbench/De_Anza_-_ASTR10/01%3A_Introduction_to_Astronomy/1.01%3A_How_Science_Works` the `<SectionTitle>` is `How-Science-Works`
+
+- `<AA>` is the section number (including a leading 0 for single digit section numbers) of the local file for the accessible description page which will vary between chapters. For any chapter number `<N>`, the local accessible description file will be `<N>.<AA>-Accessible-Descriptions.html`
+- `<AA>` is used for reading the section number from the local file, not writing the original file.
+ - Example: In Chapter 1 Introduction to Astronomy, the accessible description file is `1.07-Accessible-Descriptions.html` so `<AA>` is `07`
+
+- `<KK>` is the section number (including a leading 0 for single digit section numbers) of the local file for the key terms page which will vary between chapters. For any chapter number `<N>`, the local key terms file will be `<N>.<KK>-Key-Terms.html`
+- `<KK>` is used for reading the section number from the local file, not writing the original file.
+ - Example: In Chapter 1 Introduction to Astronomy, the accessible description file is `1.06-Key-Terms.html` so `<KK>` is `06`
 
 
 ## Figure Title 
 
-The figure title or `<FigureTitle>` is the text in the figure caption between the figure number, similar to `Figure \(\PageIndex{1}\) <FigureTitle>.` It should be followed by the figure caption text.
+- `[FigureTitle]` is the title of a figure read from the orginal HTML in a local file.
+  - Example: If the figure caption is `<figcaption>Figure \(\PageIndex{1}\) : Earth. Our home is unique in the Solar System, due to its liquid water surface and the presence of life. (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" title="CC BY 4.0">CC BY 4.0</a>; <a href="https://openstax.org/books/astronomy-2e/pages/preface" target="_blank" title="Fraknoi, et al.">Fraknoi, et al.</a> via <a href="https://openstax.org/details/books/astronomy" target="_blank" title="Openstax Astronomy 2nd ed.">Openstax Astronomy 2nd ed.</a>) <a href="/Workbench/De_Anza_-_ASTR10/02:_Night_Sky_Navigation/2.10:_Accessible_Descriptions#Figure_2.1.1_Earth" target="_blank" title="2.10: Accessible Descriptions">Accessible description of Figure \(\PageIndex{1}\)</a>.</figcaption>` the `<FigureTitle>` is `[FigureTitle]`.
 
- Example: If the figure caption is `<figcaption>Figure \(\PageIndex{1}\) : Earth. Our home is unique in the Solar System, due to its liquid water surface and the presence of life. (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" title="CC BY 4.0">CC BY 4.0</a>; <a href="https://openstax.org/books/astronomy-2e/pages/preface" target="_blank" title="Fraknoi, et al.">Fraknoi, et al.</a> via <a href="https://openstax.org/details/books/astronomy" target="_blank" title="Openstax Astronomy 2nd ed.">Openstax Astronomy 2nd ed.</a>) <a href="/Workbench/De_Anza_-_ASTR10/02:_Night_Sky_Navigation/2.10:_Accessible_Descriptions#Figure_2.1.1_Earth" target="_blank" title="2.10: Accessible Descriptions">Accessible description of Figure \(\PageIndex{1}\)</a>.</figcaption>` the `<FigureTitle>` is `Earth`.
+- `<FigureTitle>` is the title of the figure adapted to write into an image file name. 
+  - `<FigureTitle>` is `[FigureTitle]` with a `-` replace the spaces.
+  - Example: If `[FigureTitle]` is `The Electromagnetic Spectrum`, then `<FigureTitle>` is `The-Electromagnetic-Spectrum`
+
 
 ## Figure or Table Index
 
 Figures and tables are numbered using the pageindex function. For example, the second table on a page would be referered to as `Table \(\PageIndex{2}\)` and the 10th figure would be `Figure \(\PageIndex{10}\)`
 
 `<i>` is the figure index or table index, which may appear as  `\(\PageIndex{<i>}\)` when the index is unknown
+
+## Figure Number
+- The figure number `<FigureNumber>` is in the format `<N>.<S>.<i>`
+- Example: For the third figure of the 4th section page of chapter 13, then `<FigureNumber>` is 13.4.3.
+
+## Image File Names
+- `[OriginalSourceURL]` is the url for an image file read from the orginal HTML in a local file.
+  - this value is saved in `manifest.csv` in the column for original_src_url
+  - For an individual figure, `[OriginalSourceURL]` is the same in the original HTML and in the new HTML
+- `<ImageFileName>` is the name of an image file.
+ - The image file names begin with `<N>.<SS>-<FigureTitle>`
+ - The file name should have an extension appropriate to an image file including, but not limited to .png or .jpg. If this is a Libretext project, note that the only accepted formats are .jpg, .png, and .gif. 
+ - Example: For a jpg image in chapter 3 section 12, with a `<FigureTitle>` of `The-Electromagnetic-Spectrum` then `<ImageFileName>` is `3.12-The-Electromagnetic-Spectrum.jpg` 
+
+## Alternative Text
+
+- `[OriginalAltText]` is a string of alternative text read from the orginal figure html in a local file.
+ - Sometimes there is no original alternative text so `[OriginalAltText]` has no value. Sometimes the text is just a file name or random text.
+- `<AltText>` is the new alternative text for a figure generated in the format html skill and written into the new figure html.
+
+## Caption Text
+- `[OriginalCaptionText]` is the original caption text read from the orginal figure html in a local file.
+- `<CaptionText>` is the new caption text generated in the format html skill and written into the new figure html.
+
+## Figure Attributions
+- `[AttributionInfo]` is the information needed to create the new figure attribution. 
+ - `[AttributionInfo]` is read from the orginal figure html in a local file.
+- `<FigureAttribution>` is the new figure attribution generated in the format html skill and written into the new figure html.
+- `<LicenseURL>` is the URL of the license of a figure.
+- `<License>` is the name of the license of a figure.
+- `<AuthorURL>` is the URL of the author of a figure. 
+ - Sometimes there is no URL for an author. 
+- `<Author>` is the name of the author of the figure. 
+- `<FigureURL>` is the URL where the image file used in the figure can be found. 
+- `<Source>` is the name of the repository, textbook, or other type of source where the figure is found.

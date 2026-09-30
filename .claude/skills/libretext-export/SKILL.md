@@ -18,8 +18,15 @@ mirroring the chapter/section structure.
   never modifies the live page. If a step seems to require confirming a
   change, stop and ask the user first.
 
+## Locating repo files
+Before reading any repository-relative paths below, resolve the repo root:
+`ROOT=$(git rev-parse --show-toplevel)`
+
+Reference files as `$ROOT/guidelines/editing-standards.md`, 
+`$ROOT/guidelines/page-styles/example-box.md`, etc.
+
 ## Editing Standards
-The editings standards for this project are described in `$ROOT/guidelines/editing-standards.md`.  
+The editing standards for this project are described in `$ROOT/guidelines/editing-standards.md`.  
 - The `editing-standards.md` file contains brief descriptions of formatting standards.
 - It also contains directions to other files that have more detailed descriptions of specific formatting standards.
 - Always look in `editing-standards.md` first when looking for information about editing, formatting, or general guidance for this project, then follow the directions to other files when needed.
@@ -43,7 +50,7 @@ A single LibreTexts Table of Contents (TOC) URL for one chapter, e.g.:
 
 3. **For each section link, extract the source HTML**
    - Navigate to the section page.
-   - Open the page editor (the same control used in the earlier recon step).
+   - Open the page editor.
    - Switch to Source/Code view.
    - Copy the raw HTML exactly as shown — do not clean, reformat, or
      summarize it.
@@ -54,7 +61,10 @@ A single LibreTexts Table of Contents (TOC) URL for one chapter, e.g.:
      and record its `src` (and, if present, any `data-*` lazy-load source
      attribute — check a real captured section first to see which one
      LibreText actually uses; don't assume).
-   - before downloading images, check `chapters/extra-images` for the image.  If it is there don't bother downloading it. move the image to the current chapter images directory, rename the image based on the current chapter and section following the section on image file names in `editing-standards.md`, and update the `manifest.csv` in both locations.
+   - before downloading images, check `chapters/extra-images` for the image by looking for text similar to the `<FigureTitle>` in the image file name.  
+      - Ask the user for confirmation to use the local file. 
+      - If the user confirms, move the image to the current chapter images directory, rename the image based on the current chapter and section following the section on image file names in `editing-standards.md`, and update the `manifest.csv` in both locations. 
+      - If the user does not confirm (responds `no` or `download`), download the file.
    - **Do not rewrite the `src` in the saved HTML file.** The saved section
      HTML must keep pointing at the original LibreTexts image URL exactly
      as exported — the local image copy is a backup, not a replacement.
@@ -69,22 +79,21 @@ A single LibreTexts Table of Contents (TOC) URL for one chapter, e.g.:
      with columns: `local_filename, original_src_url, section, alt_text`.
      Create the manifest file with a header row if it doesn't exist yet.
    - if the user has given instructions to overwrite
-      - if an image is found in the local images directory, but is not connected to a figure in the chapter then move the image to `chapters/extra-images` and update `manifest.csv` in both locations.
+     - if an image is found in the local images directory, but is not connected to a figure in the chapter then move the image to `chapters/extra-images` and update `manifest.csv` in both locations.
 
 5. **Write the files**
 
-   Create directories as needed. Write each section's raw HTML to its file in the chapter directory.
+   - Create directories as needed. Write each section's raw HTML to its file in the chapter directory.
    Do not overwrite an existing file silently — if the file already exists,
    report the conflict and ask whether to overwrite. If all of the chapter content exists, ask if the chapter should be skipped.
-    - Refer to the section file name section in `editing-standards.md` to create the names of the local files in the chapter directory and copy in the html to the appropriate file.
-     - Create a file and copy in the HTML for the TOC page referring to TOC file name section in `editing-standards.md`. 
-   - If a chapter or section number can't be determined cleanly from the
-     page, ask the user rather than guessing.
+   - Refer to the section file name section in `editing-standards.md` to create the names of the local files in the chapter directory and copy in the html to the appropriate file.
+   - Create a file and copy in the HTML for the TOC page referring to TOC file name section in `editing-standards.md`. 
+   - If a chapter or section number can't be determined cleanly from the page, ask the user rather than guessing.
    - overwrite instructions
-     - if the user gives instructions to overwrite, then only update local files that are different from libretext, skip any files that are the same between libretext and the local file.
+      - if the user gives instructions to overwrite, then only update local files that are different from libretext, skip any files that are the same between libretext and the local file.
 
 6. **Delete redundant files**
-  If playright has left a lot of files, such as copies of the images, or copies of the html, in `.playwright-mcp/`, then delete all of the duplicate files in the playwright directory. Do **not** delete any html or image files in the chapters directory or subdirectory.
+  If playwright has left a lot of files, such as copies of the images, or copies of the html, in `.playwright-mcp/`, then delete all of the duplicate files in the playwright directory. Do **not** delete any html or image files in the chapters directory or subdirectory.
 
 7. **Report back**
    After the run, list every file written (path only), any sections that
@@ -101,4 +110,4 @@ under **AI**, listing: chapter processed, files touched, number of images.
   layout can vary slightly), stop on that page, ask the user for the click
   path once, and this skill file should be updated with what worked.
 - This tool copies all HTML from the page, including figures.
-- Using Claude in Chrome caused a lot of problems, while playwright went smoothly.  Avoid using Chrome in Chrome. Ask the user if you can't find playwright.
+- Using Claude in Chrome caused a lot of problems, while playwright went smoothly.  Avoid using Claude in Chrome. Ask the user if you can't find playwright.

@@ -1,11 +1,11 @@
-# Editing Standards for ASTR 10 Stellar Textbook
+# Editing Standards for ASTR 4 Solar System Textbook
 
 ## Locating files
 All paths in this document start in the directory where this file is located.  
 - The root directory of the git repository is found with `ROOT=$(git rev-parse --show-toplevel)`
 - Example: 
    - If the location of this file is `$ROOT/guidelines/editing-standards.md` and there is a reference to a file called `learning-objectives.md` in `page-styles` then the path of the file is `$ROOT/guidelines/page-styles/learning-objectives.md`
-   -If there is just a reference to a file, such as `idea-framework.pdf`, then its path is `$ROOT/guidelines/idea-framework.pdf`
+   - If there is just a reference to a file, such as `idea-framework.pdf`, then its path is `$ROOT/guidelines/idea-framework.pdf`
 
 ## Guidelines
 
@@ -14,11 +14,11 @@ This is a list of general guidelines to use for all tools in this directory and 
 ### General Guidelines
 
 - Do not use placeholders for missing information. Instead, ask immediately. If user has stated a contingency for no information, then default to the contingency.
-- Consider the Inclusivity, Diversity, Equity, and Anti-Racism when generating text using the ASCCC OERI Guide, `idea.framework.pdf`
+- Consider the Inclusivity, Diversity, Equity, and Anti-Racism when generating text using the ASCCC OERI Guide, `idea-framework.pdf`
 - Follow the accessibility guidelines in `accessibility-guidelines.md`. These are the general ADA WCAG guidelines for the Libretext OER books, adapted for astronomy.
 - Do not use italics unless required by APA format.
 - Use bold only for key terms or in Exercise or Example boxes.
-- Minimize use of quotation marks and parantheses in paragraph text.
+- Minimize use of quotation marks and parentheses in paragraph text.
 
 ## Terminology
 - Refer to `page-styles/terminology.md`
@@ -31,7 +31,7 @@ This is a list of general guidelines to use for all tools in this directory and 
 ### Chapter Page
 - Refer to `page-styles/chapter-page.md`
 - Format for the main page of the chapter
-- Contains an introduction paragrph learning objectives and table of contents
+- Contains an introduction paragraph learning objectives and table of contents
 
 ### Section Page
 - Refer to `page-styles/section-page.md`
@@ -75,7 +75,7 @@ This is a list of general guidelines to use for all tools in this directory and 
 
 ### Alternative Text
 - Refer to `page-styles/alternative-text.md`
-- An alternatie text description is a brief description of the figure that is embedded in the figure.
+- An alternative text description is a brief description of the figure that is embedded in the figure.
 
 ### Accessible Description
 - Refer to `page-styles/accessible-description.md`
@@ -110,7 +110,7 @@ This is a list of general guidelines to use for all tools in this directory and 
 - Attribution for the chapter thumbnail, no accessible description or alt text
 
 ## Chapter Directory
-- Check for variable definitions in the variables section in `editing-standards.md`.
+- Check for variable definitions in `page-styles/variables.md`.
 - The chapter directory is `chapters/<NN>-<ChapterTitle>/`
 
 ## Variables
@@ -126,14 +126,10 @@ This is a list of general guidelines to use for all tools in this directory and 
 - The format for a section file name is `<N>.<SS>-<SectionTitle>.html`
 
 ## Image File Names
-- Check for variable definitions in `page-styles/variables.md`.
-- `<ImageFileName>` is the name of an image file.
-   - The image file names begin with `<N>.<SS>-<FigureTitle>`
-   - Add a `-` for any space in `<FigureTitle>`.  
-   - The file name should have an extension appropriate to an image file including, but not limited to .png or .jpg. If this is a Libretext project, note that the only accepted formats are .jpg, .png, and .gif. 
-   - Example: For a jpg image in chapter 3 section 12, with a `<FigureTitle>` of `The Electromagnetic Spectrum` then `<ImageFileName>` is `3.12-The-Electromagnetic-Spectrum.jpg` 
+- Check for variable definition of `<ImageFileName>` in `page-styles/variables.md`.
 
 ## Figure Number
-- Check for variable definitions in `page-styles/variables.md`.
-- The figure number `<FigureNumber>` is in the format `<N>.<S>.<i>`
-- Example: For the third figure of the 4th section page of chapter 13, then `<FigureNumber>` is 13.4.3.
+- Check for variable definition of `<FigureNumber>` in `page-styles/variables.md`.
+
+## Figure Title
+- Check for variable definition of `<FigureTitle>` in `page-styles/variables.md`.

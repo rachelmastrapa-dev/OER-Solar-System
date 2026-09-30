@@ -4,6 +4,8 @@
 
 In OER textbooks, figures must be attributed. Figure attributions are required to give the figure author credit. Figure attributions have a specific format in Libretext and includes links that need to be formatted in HTML.
 
+Refer to the variables section in `editing-standards.md` for any variables.  Variables appear as `[Variable]` or `<Variable>`
+
 ## HTML Format
 
 Figure attributions are rendered in text with the general format License; Author via Source with links to License Author and Source.

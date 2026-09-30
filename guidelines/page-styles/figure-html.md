@@ -1,21 +1,30 @@
 # Figure HTML
 
+Refer to the variables section in `editing-standards.md` for any variables.  Variables appear as `[Variable]` or `<Variable>`
+
+## Original Figure HTML
+
+When reading the original figure HTML from the local file, it's general format will be:
+
+`<figure><img alt="[OriginalAltText]" class="internal default" src="[OriginalSourceURL]" /> <figcaption>Figure \(\PageIndex{<i>}\) : [FigureTitle]. [OriginalCaptionText]. ([AttributionInfo]) <a href="[acc-desc-link]" target="_blank" title="<N>.<SS>: Accessible Descriptions">Accessible description of Figure \(\PageIndex{i}\)</a>.</figcaption> </figure>`
+
+Some figures will not have any alternative text. If there is no `alt=` in the `<img>` wrapper, then `[OriginalAltText]` has no value.
+
 ## Figure HTML Format
 
-Refer to editing standards for detailed descriptions for each of the elements in the HTML.
-The html format for the figure html is:
+The html format for the new figure html is:
 
-<figure><img alt="alt-text. Details in caption." class="internal default" src="ImageName" /> <figcaption>Figure \(\PageIndex{i}\) : Title. Figure Caption text. (figure attribution) <a href="`[acc-desc-link]" target="_blank" title="<N>.<SS>: Accessible Descriptions">Accessible description of Figure \(\PageIndex{i}\)</a>.</figcaption> </figure>
+`<figure><img alt="<AltText>. Details in caption." class="internal default" src="[OriginalSourceURL]" /> <figcaption>Figure \(\PageIndex{i}\) : [FigureTitle]. <CaptionText>. (<FigureAttribution>) <a href="[acc-desc-link]" target="_blank" title="<N>.<SS>: Accessible Descriptions">Accessible description of Figure \(\PageIndex{i}\)</a>.</figcaption> </figure>`
 
 where 
-Image name is the image name from the original figure html = found in `src="original-imagename" Do not change this from the original value. 
+Image name is the image name from the original figure html = found in `src="[OriginalSourceURL]"` Do not change this from the original value. 
 i is the figure index - 1 for the first figure on the page, 2 for the second figure, etc.
 Title is the title of the figure
 Figure caption text is the figure caption text generated for this image.
 figure attribution is the figure attribution generated for this image.
 `[acc-desc-link]` is the accessible description link 
 
-For `<N>` and `<SS>` refer to the variables section in `editing-standards.md`
+For `<N>` and `<SS>` 
 
 # Figure HTML Guidelines
 

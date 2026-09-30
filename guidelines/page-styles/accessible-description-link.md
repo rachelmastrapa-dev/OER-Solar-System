@@ -6,7 +6,8 @@ The accessible description link is needed to link the figure caption to the acce
 
 Refer to the variables section in `editing-standards.md` for variable definitions.  Variables appear as `[Variable]` or `<Variable>`
 
-- The accessible description link should look similar to this: `/Workbench/[TextbookTitle]/[NN]:_[ChapterTitle]/<N>.<SS>:_Accessible_Descriptions#Figure_<FigureNumber>_<FigureTitle>` 
+- The accessible description link should look similar to this: `/Workbench/[TextbookTitle]/[NN]:_[ChapterTitle]/<N>.<AA>:_Accessible_Descriptions#Figure_<FigureNumber>_<FigureTitle>` 
+
 
 
 ### ASTR 4 Settings
@@ -37,4 +38,4 @@ Accessible description link: `/Workbench/DeAnza_-_ASTR4/14:_Black_Holes/14.06:_A
 Chapter 2, section 4, third figure
 `<FigureNumber>`: 2.4.3
 `<FigureTitle>`: Interior of the Sun
-Accessible description link: `/Workbench/DeAnza_-_ASTR4/02:A_Night_Sky_Navigation/2.10:_Accessible_Descriptions#Figure_2.4.3_Interior_of_the_Sun`
+Accessible description link: `/Workbench/DeAnza_-_ASTR4/02:_Night_Sky_Navigation/2.10:_Accessible_Descriptions#Figure_2.4.3_Interior_of_the_Sun`
