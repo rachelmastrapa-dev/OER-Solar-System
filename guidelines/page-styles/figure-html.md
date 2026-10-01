@@ -6,25 +6,24 @@ Refer to the variables section in `editing-standards.md` for any variables.  Var
 
 When reading the original figure HTML from the local file, it's general format will be:
 
-`<figure><img alt="[OriginalAltText]" class="internal default" src="[OriginalSourceURL]" /> <figcaption>Figure \(\PageIndex{<i>}\) : [FigureTitle]. [OriginalCaptionText]. ([AttributionInfo]) <a href="[acc-desc-link]" target="_blank" title="<N>.<SS>: Accessible Descriptions">Accessible description of Figure \(\PageIndex{i}\)</a>.</figcaption> </figure>`
+`<figure><img alt="[OriginalAltText]" class="internal default" src="[OriginalSourceURL]" /> <figcaption>Figure \(\PageIndex{<i>}\) : [FigureTitle]. [OriginalCaptionText]. ([AttributionInfo])</a>.</figcaption> </figure>`
 
 Some figures will not have any alternative text. If there is no `alt=` in the `<img>` wrapper, then `[OriginalAltText]` has no value.
+
+Some figures will not have any attribution information. Either the parentheses after `[OriginalCaptionText].` will be empty or there will be no parentheses at all. In both cases set  `[AttributionInfo]` to no value. 
+
+### Image Credits
+
+Some, but not all, orginal figure html has an image credit. It will be after `([AttributionInfo]) and start with `Credit:`.  In this case the original html will look like this:
+
+`<figure><img alt="[OriginalAltText]" class="internal default" src="[OriginalSourceURL]" /> <figcaption>Figure \(\PageIndex{<i>}\) : [FigureTitle]. [OriginalCaptionText]. ([AttributionInfo]) [ImageCredit]</a>.</figcaption> </figure>`
+
 
 ## Figure HTML Format
 
 The html format for the new figure html is:
 
-`<figure><img alt="<AltText>. Details in caption." class="internal default" src="[OriginalSourceURL]" /> <figcaption>Figure \(\PageIndex{i}\) : [FigureTitle]. <CaptionText>. (<FigureAttribution>) <a href="[acc-desc-link]" target="_blank" title="<N>.<SS>: Accessible Descriptions">Accessible description of Figure \(\PageIndex{i}\)</a>.</figcaption> </figure>`
-
-where 
-Image name is the image name from the original figure html = found in `src="[OriginalSourceURL]"` Do not change this from the original value. 
-i is the figure index - 1 for the first figure on the page, 2 for the second figure, etc.
-Title is the title of the figure
-Figure caption text is the figure caption text generated for this image.
-figure attribution is the figure attribution generated for this image.
-`[acc-desc-link]` is the accessible description link 
-
-For `<N>` and `<SS>` 
+`<figure><img alt="<AltText>. Details in caption." class="internal default" src="[OriginalSourceURL]" /> <figcaption>Figure \(\PageIndex{<i>}\) : [FigureTitle]. <CaptionText>. (<FigureAttribution>) <a href="[acc-desc-link]" target="_blank" title="<N>.<SS>: Accessible Descriptions">Accessible description of Figure \(\PageIndex{<i>}\)</a>.</figcaption> </figure>`
 
 # Figure HTML Guidelines
 

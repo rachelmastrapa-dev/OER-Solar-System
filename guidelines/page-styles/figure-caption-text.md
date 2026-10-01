@@ -3,10 +3,9 @@
 ## Figure Caption Text
 
 Each figure requires new caption text. Create the text following these guidelines in the given HTML format. Some examples are given below.
-
+ 
 ## Figure Caption Text Guidelines
-When generating caption text (`<CaptionText>`), Claude should follow these guidelines:
-- `<CaptionText>` is a part of the overall figure caption, located between the title and the figure attribution.
+When generating caption text, `<CaptionText>`, Claude should follow these guidelines:
 - `<CaptionText>` should focus on the main learning objective of the figure.
 - Use `[OriginalAltText]` and `[OriginalCaptionText]` and the image in the file named `<ImageFileName>` to create the new caption text.
   - If `[OriginalAltText]` has no value, is the name of an image file, or is random text, do not use it to create `<CaptionText>`.
