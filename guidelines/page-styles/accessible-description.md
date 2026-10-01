@@ -1,19 +1,16 @@
 # Accessible Descriptions
 
 ## Definition of Accessible Description
-Accessible description are as an addition to the image, so that all students can access the information in the figure. An accessible description is significantly longer than alt-text. 
+Accessible description are as an addition to the image, so that all students can access the information in the figure. An accessible description is significantly longer than alternative text. 
+
+## Resources
+- Use `[OriginalAltText]` and `[OriginalCaptionText]` and the image in the file named `<ImageFileName>` to create the accessible description.
 
 ## Format of Accessible Description
 - The first line is the figure number and title.
 - The second line is a brief description of the figure.
 - The format of the rest of the description depends strongly on the type of image. In general, it should be broken up into separate sections using sub-headers. If the description is lengthy, break it into brief statements in a bulleted list, describing some components using nested bullets. Refer to examples below.
-- If there is an image credit in the supporting text, include it as the last line of the description
-  - Examples of credits in supportin text: (credit: Adam Evans) or (credit: modification of work by Hubble Legacy Archive, NASA, ESA, and Judy Schmidt).
-  - Remove text similar to "modification of work by" Examples of edited text for accessible description: Credit: Adam Evans or Credit: Hubble Legacy Archive, NASA, ESA, and Judy Schmidt.
-  - If there is something at the end of the figure caption that looks like this: (Openstax Astronomy), that is not an image credit, that is a signal to use the default Openstax Astronomy figure attribution. 
-     - Do not turn (Openstax Astronomy) into an image credit.  
-     - If there is an credit before it, then follow the instructions for moving the image credit. 
-        - Example. If it looks like `(credit: ESO) (Openstax Astronomy)` Use `(credit: ESO)` to add a credit to the accessible description and do not use (Openstax Astronomy) in the accessible description
+- If there is an image credit `[ImageCredit]` add it as the last line of the Accessible Description.
 - refer to the terminology section of `editing-standards.md` when selecting words for the accessible description
 
 ## Accessible Description Guidelines
@@ -82,7 +79,7 @@ Examples:
 
 ## HTML Format
 
-<h2>Figure FigureNumber FigureTitle</h2>
+<h2>Figure <FigureNumber> [FigureTitle]</h2>
 
 <p>Brief Description.</p>
 

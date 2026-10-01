@@ -121,15 +121,25 @@ Figures and tables are numbered using the pageindex function. For example, the s
 ## Caption Text
 - `[OriginalCaptionText]` is the original caption text read from the orginal figure html in a local file.
 - `<CaptionText>` is the new caption text generated in the format html skill and written into the new figure html.
+ - `<CaptionText>` is a part of the overall figure caption, located between the title and the figure attribution.
+- `[ImageCredit]` is the image credit read from the orginal figure html in a local file.
+  - original figure html may or may not have an image credit.
 
 ## Figure Attributions
-- `[AttributionInfo]` is the information needed to create the new figure attribution. 
- - `[AttributionInfo]` is read from the orginal figure html in a local file.
+- `[AttributionInfo]` is the information needed to create the new figure attribution. It is read from the orginal figure html in a local file.
+  - Sometimes there will be no attribution information. 
 - `<FigureAttribution>` is the new figure attribution generated in the format html skill and written into the new figure html.
 - `<LicenseURL>` is the URL of the license of a figure.
 - `<License>` is the name of the license of a figure.
 - `<AuthorURL>` is the URL of the author of a figure. 
- - Sometimes there is no URL for an author. 
+ - Sometimes there will be no URL for an author. 
 - `<Author>` is the name of the author of the figure. 
 - `<FigureURL>` is the URL where the image file used in the figure can be found. 
 - `<Source>` is the name of the repository, textbook, or other type of source where the figure is found.
+- `[License]` is the name of the license read from `[AttributionInfo]`
+- `[LicenseURL]` is the URL for the license read from `[AttributionInfo]`
+- `[Author]` is the name of the author read from `[AttributionInfo]`
+- `[AuthorURL]` is the URL for the author read from `[AttributionInfo]`
+  - there may not be a value for `[AuthorURL]`
+- `[FigureURL]` is the URL for the figure read from `[AttributionInfo]`
+- `[Source]` is the name of the sources read from `[AttributionInfo]`
