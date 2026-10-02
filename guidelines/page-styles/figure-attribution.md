@@ -24,7 +24,7 @@ The information for the attribution, `[AttributionInfo]`, is read from the orgin
 If there is no attribution information, or if `[AttributionInfo]` has no value, then use the default attribution for this textbook.
  - For ASTR 4 Solar System the default attribution is Openstax Astronomy.
 
-The attribution information, `[AttributionInfo]`, may use shorthand that can be translated using `attribution-info.md`. 
+The attribution information, `[AttributionInfo]`, may use shorthand that can be translated by referring to the Attribution Info section in `editing-standards.md`. 
 
 The attribution information, `[AttributionInfo]`, may come in different formats.  
  1. It might already be in a format matching the HTML format section. If so, then set `<FigureAttribution>` to the value in `[AttributionInfo]`

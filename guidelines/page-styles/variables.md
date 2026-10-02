@@ -1,9 +1,12 @@
 # Variables
 
 A list of variables used for multiple skills. 
-  - Variables are in the form `<Variable>`
+  - Variables are in the form `<Variable>` or `[]`
      - `Variable` describes the type of variable
-     - The `<>` surrounding the text represent the fact that it is a variable
+     - The `<>` or `[]` surrounding the text represent the fact that it is a variable
+
+## Textbook Title
+- `[TextbookTitle]` is `DeAnza_-_ASTR4`
 
 ## URL General Forms
 
@@ -60,7 +63,7 @@ Each chapter has a chapter number:
 
 Each chapter has a directory in the repository: `chapters/<NN>-<ChapterTitle>`
 
-## Sections
+### Sections
 
 Within each chapter directory there are html files that have the content for the table of contents (TOC) and each page in the chapter.
 
@@ -85,11 +88,16 @@ Each section has a section number:
 
 ## Figure Title 
 
-- `[FigureTitle]` is the title of a figure read from the orginal HTML in a local file.
-  - Example: If the figure caption is `<figcaption>Figure \(\PageIndex{1}\) : Earth. Our home is unique in the Solar System, due to its liquid water surface and the presence of life. (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" title="CC BY 4.0">CC BY 4.0</a>; <a href="https://openstax.org/books/astronomy-2e/pages/preface" target="_blank" title="Fraknoi, et al.">Fraknoi, et al.</a> via <a href="https://openstax.org/details/books/astronomy" target="_blank" title="Openstax Astronomy 2nd ed.">Openstax Astronomy 2nd ed.</a>) <a href="/Workbench/De_Anza_-_ASTR10/02:_Night_Sky_Navigation/2.10:_Accessible_Descriptions#Figure_2.1.1_Earth" target="_blank" title="2.10: Accessible Descriptions">Accessible description of Figure \(\PageIndex{1}\)</a>.</figcaption>` the `<FigureTitle>` is `[FigureTitle]`.
+When reading the original figure HTML from the local file, it's general format will be:
+
+`<figure><img alt="[OriginalAltText]" class="internal default" src="[OriginalSourceURL]" /> <figcaption>Figure \(\PageIndex{<i>}\) : [FigureTitle]. [OriginalCaptionText]. ([AttributionInfo])</a>.</figcaption> </figure>`
+
+- `[FigureTitle]` is the title of a figure read from the original HTML in a local file.
+  - Example: If the figure caption is `<figcaption>Figure \(\PageIndex{1}\) : Earth. Our home is unique in the Solar System, due to its liquid water surface and the presence of life. (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" title="CC BY 4.0">CC BY 4.0</a>; <a href="https://openstax.org/books/astronomy-2e/pages/preface" target="_blank" title="Fraknoi, et al.">Fraknoi, et al.</a> via <a href="https://openstax.org/details/books/astronomy" target="_blank" title="Openstax Astronomy 2nd ed.">Openstax Astronomy 2nd ed.</a>) <a href="/Workbench/De_Anza_-_ASTR10/02:_Night_Sky_Navigation/2.10:_Accessible_Descriptions#Figure_2.1.1_Earth" target="_blank" title="2.10: Accessible Descriptions">Accessible description of Figure \(\PageIndex{1}\)</a>.</figcaption>` the `[FigureTitle]` is `Earth`.
 
 - `<FigureTitle>` is the title of the figure adapted to write into an image file name. 
-  - `<FigureTitle>` is `[FigureTitle]` with a `-` replace the spaces.
+  - `<FigureTitle>` is created by replacing the spaces in `[FigureTitle]` with a `-`.
+  - Copy all other text as is, including special characters.
   - Example: If `[FigureTitle]` is `The Electromagnetic Spectrum`, then `<FigureTitle>` is `The-Electromagnetic-Spectrum`
 
 
@@ -104,7 +112,7 @@ Figures and tables are numbered using the pageindex function. For example, the s
 - Example: For the third figure of the 4th section page of chapter 13, then `<FigureNumber>` is 13.4.3.
 
 ## Image File Names
-- `[OriginalSourceURL]` is the url for an image file read from the orginal HTML in a local file.
+- `[OriginalSourceURL]` is the url for an image file read from the original HTML in a local file.
   - this value is saved in `manifest.csv` in the column for original_src_url
   - For an individual figure, `[OriginalSourceURL]` is the same in the original HTML and in the new HTML
 - `<ImageFileName>` is the name of an image file.
@@ -114,19 +122,19 @@ Figures and tables are numbered using the pageindex function. For example, the s
 
 ## Alternative Text
 
-- `[OriginalAltText]` is a string of alternative text read from the orginal figure html in a local file.
+- `[OriginalAltText]` is a string of alternative text read from the original figure html in a local file.
  - Sometimes there is no original alternative text so `[OriginalAltText]` has no value. Sometimes the text is just a file name or random text.
 - `<AltText>` is the new alternative text for a figure generated in the format html skill and written into the new figure html.
 
 ## Caption Text
-- `[OriginalCaptionText]` is the original caption text read from the orginal figure html in a local file.
+- `[OriginalCaptionText]` is the original caption text read from the original figure html in a local file.
 - `<CaptionText>` is the new caption text generated in the format html skill and written into the new figure html.
  - `<CaptionText>` is a part of the overall figure caption, located between the title and the figure attribution.
-- `[ImageCredit]` is the image credit read from the orginal figure html in a local file.
+- `[ImageCredit]` is the image credit read from the original figure html in a local file.
   - original figure html may or may not have an image credit.
 
 ## Figure Attributions
-- `[AttributionInfo]` is the information needed to create the new figure attribution. It is read from the orginal figure html in a local file.
+- `[AttributionInfo]` is the information needed to create the new figure attribution. It is read from the original figure html in a local file.
   - Sometimes there will be no attribution information. 
 - `<FigureAttribution>` is the new figure attribution generated in the format html skill and written into the new figure html.
 - `<LicenseURL>` is the URL of the license of a figure.
@@ -143,3 +151,6 @@ Figures and tables are numbered using the pageindex function. For example, the s
   - there may not be a value for `[AuthorURL]`
 - `[FigureURL]` is the URL for the figure read from `[AttributionInfo]`
 - `[Source]` is the name of the sources read from `[AttributionInfo]`
+
+## Accessible Description Link
+- `<AccessibleDescriptionLink>` is the link to the accessible description and defined in `page-styles/accessible-description-link.md`
