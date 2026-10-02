@@ -100,6 +100,10 @@ When reading the original figure HTML from the local file, it's general format w
   - Copy all other text as is, including special characters.
   - Example: If `[FigureTitle]` is `The Electromagnetic Spectrum`, then `<FigureTitle>` is `The-Electromagnetic-Spectrum`
 
+- `<FigureTitleURL>` is the title of the figure adapter for use in a URL. 
+ - `<FigureTitleURL>` is created by replacing the spaces in `[FigureTitle]` with a `_`.
+  - Copy all other text as is, including special characters.
+  - Example: If `[FigureTitle]` is `The Electromagnetic Spectrum`, then `<FigureTitleURL>` is `The_Electromagnetic_Spectrum`
 
 ## Figure or Table Index
 
@@ -133,7 +137,7 @@ Figures and tables are numbered using the pageindex function. For example, the s
 - `[ImageCredit]` is the image credit read from the original figure html in a local file.
   - original figure html may or may not have an image credit.
 
-## Figure Attributions
+## Figure Attributions 
 - `[AttributionInfo]` is the information needed to create the new figure attribution. It is read from the original figure html in a local file.
   - Sometimes there will be no attribution information. 
 - `<FigureAttribution>` is the new figure attribution generated in the format html skill and written into the new figure html.

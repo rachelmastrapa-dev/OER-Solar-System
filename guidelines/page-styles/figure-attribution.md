@@ -30,12 +30,12 @@ The attribution information, `[AttributionInfo]`, may come in different formats.
  1. It might already be in a format matching the HTML format section. If so, then set `<FigureAttribution>` to the value in `[AttributionInfo]`
  2. If the format is similar to:`[License][[LicenseURL]]; [Author][[AuthorURL]] via [Source][[FigureURL]]`
    - For each of these variables `[License]`,`[LicenseURL]`, `[Author]`, `[AuthorURL]`, `[Source]`, and `[FigureURL]` , check `attribution-info.md` and replace the value of the variable. If there are no shorthand values, use the read value for each variable. 
-   - In some cases, the value the URL variables, `[License]`,`[LicenseURL]`, `[Author]`, `[AuthorURL]`, `[Source]`, and `[FigureURL]` has been formatted in a hyperlink, this is not consisted with the format in the HTML format section. In this case, find the URL and in the hyperlink text and reset the variable to just the URL. 
+    - Example: if `[LicenseURL]` is `cc0l` then set `[LicenseURL]` to `https://creativecommons.org/public-domain/cc0/`
+   - In some cases, the value of the URL variables, ,`[LicenseURL]`, `[AuthorURL]`, and `[FigureURL]` have been formatted in a hyperlink that is not consistent with the format in the HTML format section. In this case, find the URL in the hyperlink text and reset the variable to just the URL. 
      - Example: if `[AuthorURL]` is `<a href="https://commons.wikimedia.org/wiki/User:Emekadecatalyst]" rel="freelink" title="https://commons.wikimedia.org/wiki/User:Emekadecatalyst]">https://commons.wikimedia.org/wiki/U...ekadecatalyst` set `[AuthorURL]` to `https://commons.wikimedia.org/wiki/User:Emekadecatalyst`
-   - Example of `[LicenseURL]` is `cc0l` then set `[LicenseURL]` to `https://creativecommons.org/public-domain/cc0/`
    - Set the variables for the attribution based on the read values: `<License>` = `[License]`, `<LicenseURL>` = `[LicenseURL]`, `<Author>` = `[Author]`, `<AuthorURL>` = `[AuthorURL]`, `<Source>` = `[Source]` and `<FigureURL>` = `[FigureURL]`
-   - Example: if `[AttributionInfo]` is:
-    `C0[ccol]; Emeka Udenze[https://commons.wikimedia.org/wiki/User:Emekadecatalyst] via wc[https://commons.wikimedia.org/wiki/File:Temperature_Scales.png]` then 
+    - Example: if `[AttributionInfo]` is:
+    `C0[cc0l]; Emeka Udenze[https://commons.wikimedia.org/wiki/User:Emekadecatalyst] via wc[https://commons.wikimedia.org/wiki/File:Temperature_Scales.png]` then 
     `<License>` is `CC0`
     `<LicenseURL>` is `https://creativecommons.org/public-domain/cc0/`
     `<Author>` is `Emeka Udenze`
@@ -44,7 +44,7 @@ The attribution information, `[AttributionInfo]`, may come in different formats.
     `<FigureURL>` is `https://commons.wikimedia.org/wiki/File:Temperature_Scales.png`
  3. If the attribution information, `[AttributionInfo]`, has a combination shorthand and html matching the section on HTML format, then use a combination of steps 1. and 2. 
    - Example: if `[AttributionInfo]` is:
-     `CC0[ccol]; Emeka Udenze[https://commons.wikimedia.org/wiki/User:Emekadecatalyst] via <a href="https://commons.wikimedia.org/wiki/File:Temperature_Scales.png" target="_blank">wc</a>` then 
+     `CC0[cc0l]; Emeka Udenze[https://commons.wikimedia.org/wiki/User:Emekadecatalyst] via <a href="https://commons.wikimedia.org/wiki/File:Temperature_Scales.png" target="_blank">wc</a>` then 
     `<License>` is `CC0`
     `<LicenseURL>` is `https://creativecommons.org/public-domain/cc0/`
     `<Author>` is `Emeka Udenze`

@@ -80,7 +80,7 @@ in memory, if a judgment needs to be made, ask the user, otherwise complete task
       6. Go to step  2.12. `Write accessible description...`
    2. Use the figure html section in editing standards to find values for `[OriginalAltText]` and `[OriginalCaptionText]`. 
    3. Create the figure number:
-      1. Check that the figure index in `\(\PageIndex{<i>}\)` makes sense.  For example, going in order from the beginning of the page to the end of the page if the last figure had an index of 2, then the current figure should have an index of 3. Note that figures are numbered independently of tables.  
+      1. Check that the figure index, `<i>`, in `\(\PageIndex{<i>}\)` makes sense.  For example, going in order from the beginning of the page to the end of the page if the last figure had an index of 2, then the current figure should have an index of 3. Note that figures are numbered independently of tables.  
       2. Create the figure number using the figure number section in `editing-standards.md`
    4. Locate the local copy of the image file that is used for the figure html by searching for a file in `images/` that has a filename similar to `<ImageFileName>` by referring to the Image File Names section in `editing-standards.md`
      - ask user for guidance if the image can't be found
