@@ -31,11 +31,15 @@ The editing standards for this project are described in `$ROOT/guidelines/editin
 - It also contains directions to other files that have more detailed descriptions of specific formatting standards.
 - Always look in `editing-standards.md` first when looking for information about editing, formatting, or general guidance for this project, then follow the directions to other files when needed.
 - If there is a rule that says to use editing standards, look for guidance in `editing-standards.md`.
-- Check for any variable definitions in the section about variables in `editing-standards.md`. Variables are usually in the form `<VariableName>` but sometimes `[VariableName]` in the case of URLs submitted by the user
+- Check for any variable definitions in the section about variables in `editing-standards.md`.
+- When writing directories, file names, or the text in files, if there are any special characters, such as `%27`, `'`, `,`, `:`, `%3A`, copy them exactly as they are found. Example, if the orignal has `:` write `:` and if the orignal has `%3A` write `%3A`. Follow any variables and templates defined in guidelines that have special characters. 
 
 ## Input
 A single LibreTexts Table of Contents (TOC) URL for one chapter, e.g.:
 `https://[library].libretexts.org/Workbench/[TextbookTitle]/[NN]%3A_[ChapterTitle]`
+
+### Overwrite Mode
+If the user gives instructions to overwrite local files, follow instructions that are labelled overwrite mode.
 
 ## Steps
 
@@ -48,20 +52,24 @@ A single LibreTexts Table of Contents (TOC) URL for one chapter, e.g.:
 2. **Determine the file path**
    - Create the chapter directory in the repository according to the section on chapter directory in `editing-standards.md`
 
-3. **For each section link, extract the source HTML**
+3. **For each section link, extract the source HTML** 
+   - Report to user the methods that work best for this step and give and example of how to write it. 
    - Navigate to the section page.
    - Open the page editor.
-   - Switch to Source/Code view.
+   - Switch to Source/Code view. 
    - Copy the raw HTML exactly as shown — do not clean, reformat, or
      summarize it.
    - Close/exit the editor without saving.
 
 4. **Archive figure images (without touching the HTML)**
-   - After capturing a section's raw HTML, scan it for every `<img>` tag
-     and record its `src` (and, if present, any `data-*` lazy-load source
+   - After capturing a section's raw HTML, scan it for every `<img>` tag.
+    - Confirm that the `<img>` tag is inside a `<figure>` wrapper. If it is not, report the line number of the image tag in step 7.
+    - record the `src` of each `<img>` tag (and, if present, any `data-*` lazy-load source
      attribute — check a real captured section first to see which one
      LibreText actually uses; don't assume).
-   - before downloading images, check `chapters/extra-images` for the image by looking for text similar to the `<FigureTitle>` in the image file name.  
+   - before downloading images, check `chapters/extra-images`:
+      - Find the `<FigureTitle>` for the figure using the figure html surrounding the image tag and by referring to the Figure Title section in `editing-standards.md`
+      - Search for any files in `chapters/extra-images` with a file name similar to `<FigureTitle>`.  
       - Ask the user for confirmation to use the local file. 
       - If the user confirms, move the image to the current chapter images directory, rename the image based on the current chapter and section following the section on image file names in `editing-standards.md`, and update the `manifest.csv` in both locations. 
       - If the user does not confirm (responds `no` or `download`), download the file.
@@ -77,9 +85,13 @@ A single LibreTexts Table of Contents (TOC) URL for one chapter, e.g.:
      than fetching it twice.
    - Append one row per image to `chapters/<NN>-<ChapterTitle>/images/manifest.csv`
      with columns: `local_filename, original_src_url, section, alt_text`.
-     Create the manifest file with a header row if it doesn't exist yet.
-   - if the user has given instructions to overwrite
-     - if an image is found in the local images directory, but is not connected to a figure in the chapter then move the image to `chapters/extra-images` and update `manifest.csv` in both locations.
+     - Create the manifest file with a header row if it doesn't exist yet.
+     - For each image the line in the manifest is: `<ImageFileName>,[OriginalSourceURL],<N>.<SS>,[OriginalAltText]`
+   - Overwrite Mode
+     - After all images have been saved, check the `/images/` directory for unused images.
+     - Unused images have file names that are not similar to the `<FigureTitle>` of any of the images that were processed. 
+     - After identifying unused file, ask the user if they should be moved.
+     - If user confirms moving the files, move the files to `chapters/extra-images` and update `manifest.csv` in both locations.
 
 5. **Write the files**
 
@@ -89,8 +101,9 @@ A single LibreTexts Table of Contents (TOC) URL for one chapter, e.g.:
    - Refer to the section file name section in `editing-standards.md` to create the names of the local files in the chapter directory and copy in the html to the appropriate file.
    - Create a file and copy in the HTML for the TOC page referring to TOC file name section in `editing-standards.md`. 
    - If a chapter or section number can't be determined cleanly from the page, ask the user rather than guessing.
-   - overwrite instructions
-      - if the user gives instructions to overwrite, then only update local files that are different from libretext, skip any files that are the same between libretext and the local file.
+   - Overwrite Mode
+      - Only update local files that are different from libretext
+      - skip any files that are the same between libretext and the local file.
 
 6. **Delete redundant files**
   If playwright has left a lot of files, such as copies of the images, or copies of the html, in `.playwright-mcp/`, then delete all of the duplicate files in the playwright directory. Do **not** delete any html or image files in the chapters directory or subdirectory.
@@ -98,7 +111,7 @@ A single LibreTexts Table of Contents (TOC) URL for one chapter, e.g.:
 7. **Report back**
    After the run, list every file written (path only), any sections that
    failed to extract and why, and any chapter/section numbering the tool
-   had to guess at.
+   had to guess at and the location of any `img` tags that are not inside a `<figure>` wrapper.
 
 ## Logging
 

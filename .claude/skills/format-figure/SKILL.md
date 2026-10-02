@@ -17,7 +17,7 @@ Reference files as `$ROOT/guidelines/editing-standards.md`,
 ## Prerequisites
 - Playwright MCP connected and logged into the LibreTexts/Conductor session
   (persistent browser profile — should already be logged in from setup).
-- Read-only task. **Never click Save, Publish, Commit, or any write/edit
+- Read-only task (with respect to Libretext). **Never click Save, Publish, Commit, or any write/edit
   control in the LibreText editor.** This tool only reads source HTML; it
   never modifies the live page in Libretext. If a step seems to require confirming a
   change in Libretext, stop and ask the user first.
@@ -38,7 +38,7 @@ Before doing anything else, check `git status` on the target chapter folder.
 
 ## Discovery
 
-- List every `<<N>.<SS>-<SectionTitle>.html` file directly inside the
+- List every `<N>.<SS>-<SectionTitle>.html` file directly inside the
   given chapter folder.
 - Do **not** recurse into the chapter's `images/` in search of section or html files, but do look there for image files and to update `manifest.csv`.
 - If no matching files are found, say so and stop.
@@ -49,7 +49,7 @@ The editing standards for this project are described in `$ROOT/guidelines/editin
 - It also contains directions to other files that have more detailed descriptions of specific formatting standards.
 - Always look in `editing-standards.md` first when looking for information about editing, formatting, or general guidance for this project, then follow the directions to other files when needed.
 - If there is a rule that says to use editing standards, look for guidance in `editing-standards.md`.
-- Check for any variable definitions in the section about variables in `editing-standards.md`. Variables are usually in the form `<VariableName>` but sometimes `[VariableName]` in the case of URLs submitted by the user
+- Check for any variable definitions in the section about variables in `editing-standards.md`. 
 
 ## Per-file edit rules
 
@@ -63,7 +63,7 @@ in memory, if a judgment needs to be made, ask the user, otherwise complete task
          1. Identify the figure title by referring to the variables section in `editing-standards.md`.
          2. Find the URL for the accessible description link in the figure html by referring to the figure html  section in `editing-standards.md`. 
          3. Find the chapter title in the URL by referring to the variables section in `editing-standards.md`.
-         4. Search in the file similar to  `<N>.<AA>-Accessible-Descriptions.html` in `$ROOT/chapters/<NN>-<ChapterTitle>/` for an accessible description with the same figure title and copy the html for that figure title. If there is no matching accessible description in the local file, then:
+         4. Search in a local file similar to `<N>.<AA>-Accessible-Descriptions.html` in the chapter directory with a chapter title similar to the one found in the last step,  `$ROOT/chapters/<NN>-<ChapterTitle>/`, for an accessible description with the same figure title and copy the accessible description. If there is no matching chapter or accessible description in the local file, then:
            1. Navigate to the accessible description link URL using Playwright. 
            2. Identify the appropriate accessible description on the page by matching the figure title
            3. Open the page editor.
@@ -82,20 +82,12 @@ in memory, if a judgment needs to be made, ask the user, otherwise complete task
    3. Create the figure number:
       1. Check that the figure index in `\(\PageIndex{<i>}\)` makes sense.  For example, going in order from the beginning of the page to the end of the page if the last figure had an index of 2, then the current figure should have an index of 3. Note that figures are numbered independently of tables.  
       2. Create the figure number using the figure number section in `editing-standards.md`
-   4. Locate the local copy of the image file that is used for the figure html by searching for a file in `images/` that matches the chapter, section number, and figure title according to the image file names section  in `editing-standards.md`
-   5. Create figure attribution
-      - Refer to the Figure Attribution section in `editing-standards.md`
-       - Always  VARIABLE
-       - The default attribution for all figures is the Openstax Astronomy format found in the Figure Attribution section in `editing-standards.md`
-          - if there is no attribution information, use Openstax Astronomy
-          - If there are empty parentheses `()` at the end of the figure caption text, use Openstax Astronomy
-       - Or, there might be a different default textbook such as Openstax Chemistry referenced in the Figure Attribution section in `editing-standards.md`. 
-       - Or, there might be information for another source. Use the shorthand in `attribution-info.md` to decode and retrieve needed information to format the figure attribution.
-       - If any information is missing, ask the user for guidance
-          - exception: if there is no author link, do not ask the user for guidance.  Instead, format the attribution with no author link
+   4. Locate the local copy of the image file that is used for the figure html by searching for a file in `images/` that has a filename similar to `<ImageFileName>` by referring to the Image File Names section in `editing-standards.md`
+     - ask user for guidance if the image can't be found
+   5. Create figure attribution by referring to the Figure Attribution section in `editing-standards.md`
    6. Create `<CaptionText>` by referring to the Figure Caption Text section in `editing-standards.md`
    7. Create the accessible description
-       - check the accessible description page for an accessible description that matches the same figure title. 
+       - check the accessible description page for an accessible description with a figure title that is similar to `[FigureTitle]`. Do not check online or in Libretext.
          - confirm with user that the accessible description is correct
          - update the figure number for the accessible description and go to step 2.8  `Create the alternative text`
        - Refer to the accessible description section in `editing-standards.md`
@@ -107,13 +99,14 @@ in memory, if a judgment needs to be made, ask the user, otherwise complete task
    10. Create the figure html
        - Refer to the figure html section in `editing-standards.md`
    11. Overwrite the old figure html with the new html.
-   12. Write accessible description to accessible description page. e.g. `$ROOT/chapters/<NN>-<ChapterTitle>/<N>.<SS>-Accessible-Descriptions.html`
+   12. Write accessible description to accessible description page. e.g. `$ROOT/chapters/<NN>-<ChapterTitle>/<N>.<AA>-Accessible-Descriptions.html`
        - if there is no file matching the name, ask user for guidance
        - place the accessible description in a logical place according to figure number.
        - do not overwrite any accessible descriptions that are currently on the page
        - If there is already an accessible description on the page with the same figure number, ask the user for guidance
 3. Once all figures are processed check `images/` for any unused images for this section
     1. Find any images in `images/` that have a figure title that does not match any of the figure titles processed in step 2 `For each `<figure>` element...`. Refer to the variables section in `editing-standards.md` to identify figure titles and image file names.
+    - exclude any image with `thumbnail` in title.
     2. **Ask user to confirm the move**.
     3. Move any unused images to `$ROOT/chapters/extra-images/` 
     4. Update `manifest.csv` in both locations

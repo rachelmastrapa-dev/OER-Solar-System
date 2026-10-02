@@ -23,7 +23,7 @@ Some, but not all, orginal figure html has an image credit. It will be after `([
 
 The html format for the new figure html is:
 
-`<figure><img alt="<AltText>. Details in caption." class="internal default" src="[OriginalSourceURL]" /> <figcaption>Figure \(\PageIndex{<i>}\) : [FigureTitle]. <CaptionText>. (<FigureAttribution>) <a href="[acc-desc-link]" target="_blank" title="<N>.<SS>: Accessible Descriptions">Accessible description of Figure \(\PageIndex{<i>}\)</a>.</figcaption> </figure>`
+`<figure><img alt="<AltText>. Details in caption." class="internal default" src="[OriginalSourceURL]" /> <figcaption>Figure \(\PageIndex{<i>}\) : [FigureTitle]. <CaptionText>. (<FigureAttribution>) <a href="<AccessibleDescriptionLink>" target="_blank" title="<N>.<SS>: Accessible Descriptions">Accessible description of Figure \(\PageIndex{<i>}\)</a>.</figcaption> </figure>`
 
 # Figure HTML Guidelines
 

@@ -82,7 +82,7 @@ This is a list of general guidelines to use for all tools in this directory and 
 - The accessible description is a longer, structured description of the figure, placed on a separate Accessible Descriptions page, so all students can access the information in the figure.
 
 ### Accessible Description Link
-- Refer to `page-styles/accessible-description-link.md`
+- Check for variable definition of `<AccessibleDescriptionLink>` in `page-styles/variables.md`.
 - The accessible description link is needed to connect the accessible description to the figure caption.
 
 ## Key Terms Page
@@ -133,3 +133,16 @@ This is a list of general guidelines to use for all tools in this directory and 
 
 ## Figure Title
 - Check for variable definition of `<FigureTitle>` in `page-styles/variables.md`.
+
+## Attribution Info
+- Refer to `page-styles/attribution-info.md`
+- A list of shorthand for commonly used sources, authors, and URLs
+
+## Textbook Title
+- Check for variable definitions in `page-styles/variables.md`.
+- The title of this textbook is The Solar System.
+- It is for the class astronomy 4 (ASTR 4)
+  - There may be references to URLs including ASTR10.  They may be needed to recover accessible description text online. Or they may be included in an older example.
+  - Note that the URLs for ASTR 10 have `De_Anza_-_ASTR10` with De Anza spelled differently in the URL. This is fine for ASTR10 URLs.  
+  - The spelling for ASTR 4 is `DeAnza_-_ASTR4` and is correct (DeAnza instead of De_Anza) for ASTR4 links.
+- When creating new links, assume the textbook is astronomy 4. 
