@@ -194,19 +194,14 @@ References, manual attributions - per section page?, need style files for each
 **User: Commit and close all files**
 
 - Key terms
-  - Check against key terms list from Openstax and create list for chapter
+  - Locate terms by highlight: <span class="mt-bgcolor-2ecc71">term</span>
+  - Locate definition in solar-system-key-terms.csv
   - Format terms and definitions and add to key terms page
-  - Find first occurance of term in chapter paragraph text, not figure, table, or heading 
-     - format text to bold and link
-     - handle whether in plural or singular in paragraph text.
+   - Write Key Terms in H2 at top of page  see key-terms-page
+  - Format links for term and replace highlighted text
 
-## new features 
-   - key terms
-     - has to be done post final edit of text. 
-     - change to highlighting key terms instead of making separate list. - scans for specific color highlight and searches master list for def 
-     - OR just make a master list of words and have claude scan book and glossary list, and make key terms
-     also deleting of re-highlighting key terms - refinding first occurance, deleting ones that aren't there
-     - Write Key Terms in H2 at top of page  see key-terms-page
+
+
 
 put key terms in key term page un edited
 

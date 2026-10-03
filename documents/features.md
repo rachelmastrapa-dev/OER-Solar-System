@@ -31,3 +31,6 @@
 - format figure
   - links for multiple authors
   - links to page that image appears in a textbook
+
+- key terms 
+ - auto finding first ocurrance of terms instead of highlighting (make a list)
