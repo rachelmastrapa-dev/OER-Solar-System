@@ -39,7 +39,8 @@
 - add new figures 
   - put all attribution information in caption in (), unless openstax astronomy leave empty ()
   - use shorthand - update attribution info
-  - put long captions in alt text for now
+  - put long captions from original source in alt text for now
+  - do not put url in libretext, it gets f'd up, store for later - make a csv file?? - add to attribution info with code!!!!
 
 - Commit changes in Conductor
 

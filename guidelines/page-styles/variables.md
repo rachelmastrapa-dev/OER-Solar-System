@@ -83,7 +83,7 @@ Each section has a section number:
 
 - `<KK>` is the section number (including a leading 0 for single digit section numbers) of the local file for the key terms page which will vary between chapters. For any chapter number `<N>`, the local key terms file will be `<N>.<KK>-Key-Terms.html`
 - `<KK>` is used for reading the section number from the local file, not writing the original file.
- - Example: In Chapter 1 Introduction to Astronomy, the accessible description file is `1.06-Key-Terms.html` so `<KK>` is `06`
+ - Example: In Chapter 1 Introduction to Astronomy, the key terms file is `1.06-Key-Terms.html` so `<KK>` is `06`
 
 
 ## Figure Title 

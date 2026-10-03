@@ -34,6 +34,11 @@ The editing standards for this project are described in `$ROOT/guidelines/editin
 - Check for any variable definitions in the section about variables in `editing-standards.md`.
 - When writing directories, file names, or the text in files, if there are any special characters, such as `%27`, `'`, `,`, `:`, `%3A`, copy them exactly as they are found. Example, if the orignal has `:` write `:` and if the orignal has `%3A` write `%3A`. Follow any variables and templates defined in guidelines that have special characters. 
 
+## Playwright and Libretext
+When accessing libretext, make sure that Playwright is logged in with the user's credentials.
+ - Do not use anonymous access, i.e check that `Deki.UserName` is not `Anonymous`
+ - If Playwright is not logged in to Libretext, ask user to log in.
+
 ## Input
 A single LibreTexts Table of Contents (TOC) URL for one chapter, e.g.:
 `https://[library].libretexts.org/Workbench/[TextbookTitle]/[NN]%3A_[ChapterTitle]`

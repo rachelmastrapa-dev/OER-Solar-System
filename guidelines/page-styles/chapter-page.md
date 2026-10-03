@@ -1,7 +1,7 @@
 # Style for Chapter Page
 
 ## File Name
-Chapter page file name is usually in the format of `<NN>.00-Introduction.html` where `<NN>` is the chapter number.
+Chapter page file name is usually in the format of `<NN>.00-Introduction.html` where `<NN>` is the chapter number.  This page is also called the Table of contents (TOC) page.
 
 ## Page Settings - Libretext instructions, not needed by Claude/AI
 - Guide Listing Display: Single (Topic Hierarchy)

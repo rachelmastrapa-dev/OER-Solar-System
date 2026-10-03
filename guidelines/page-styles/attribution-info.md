@@ -26,7 +26,7 @@ ccby4 = CC BY 4.0
 ccby2 = CC BY 2.0
 ccbync4 = CC BY-NC 4.0
 ccbysa3 = CC BY-SA 3.0
-ccbysa4 = CC BY-SA 3.0
+ccbysa4 = CC BY-SA 4.0
 ccbyncsa4 = CC BY-NC-SA 4.0
 
 ## Shorthand for `<LicenseURL>`

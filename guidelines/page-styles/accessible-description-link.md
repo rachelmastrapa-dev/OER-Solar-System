@@ -27,5 +27,5 @@ Chapter 14, section 2, first figure
 
 Chapter 2, section 4, third figure
 `<FigureNumber>`: 2.4.3
-`<FigureTitleURL>`: `Interior_of_the Sun`
+`<FigureTitleURL>`: `Interior_of_the_Sun`
 `<AccessibleDescriptionLink>` is `/Workbench/DeAnza_-_ASTR4/02:_Night_Sky_Navigation/2.10:_Accessible_Descriptions#Figure_2.4.3_Interior_of_the_Sun`

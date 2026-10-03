@@ -27,3 +27,7 @@
   - have a guidelines folder with textbook info - title, URL, chapter breakdown?
 
 - improve IDEA and ADA flagging
+
+- format figure
+  - links for multiple authors
+  - links to page that image appears in a textbook
