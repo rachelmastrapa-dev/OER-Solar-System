@@ -187,6 +187,7 @@ References, manual attributions - per section page?, need style files for each
 - may be already formatted - change to default format
 - use individual links for authors if available, otherwise make all text one link
 - when indexing, note that tables and figures are indexed independently
+- modify APA format to link URLs ??? get answer from Kim, be ready to fix everything again with a new skill
 
 ## Format Key Terms - Claude AI Passive
 
@@ -205,6 +206,7 @@ References, manual attributions - per section page?, need style files for each
      - change to highlighting key terms instead of making separate list. - scans for specific color highlight and searches master list for def 
      - OR just make a master list of words and have claude scan book and glossary list, and make key terms
      also deleting of re-highlighting key terms - refinding first occurance, deleting ones that aren't there
+     - Write Key Terms in H2 at top of page  see key-terms-page
 
 put key terms in key term page un edited
 
