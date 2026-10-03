@@ -102,8 +102,8 @@ Examples:
  <li>Description</li>
  <li>Description</li>
  <li>Description</li>
- </li>
  </ul>
+</ul>
 
 ## Examples
 

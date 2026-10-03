@@ -10,15 +10,17 @@
 
 **The following sections may or may not appear on every section page, but should appear in this order**
 
-## Examples and Exercises [Heading 2]
-- Contains the example and exercise boxes.
+## Example and Exercises Boxes
+- The exercise and example boxes should all be at the bottom of the section, immediately after the page text.
 - Read `guidelines/page-styles/exercise-box.md` and `guidelines/page-styles/example-box.md` for formatting and examples. 
 
-## Further Exploration 
-- Contains links to outside content for student enrichments
+## Further Exploration Box
+- Contains links to outside content for student enrichment
+- The box is placed immediately below the Example and Exercise boxes, or immediately below the page text if there are not Example and Exercise boxes. 
 - Read `guidelines/page-styles/further-exploration.md` for formatting and examples.
 
-## References 
+## References [Heading 2]
+- References for the page.
 - Use HTML unordered list.
 - List alphabettically by author.
 - Read `page-styles/references.md` for formatting and examples.
@@ -26,4 +28,4 @@
 ## Attributions [Heading 2]
 - Attributions of remixed OER material.
 - Libretext auto attributes transcluded text using class attributes in paragraph or header text.
-- Format for manually added OER material using format in page-styles/text-attributions.md
+- Format for manually added OER material using format in `page-styles/text-attributions.md`

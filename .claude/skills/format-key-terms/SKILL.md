@@ -1,6 +1,6 @@
 ---
 name: format-key-terms
-description: Format the key terms for a chapter. This skill is designed to streamline the process of formatting key terms for an Open Educational Resource (OER) astronomy textbook in Libtetext.
+description: Format the key terms for a chapter. This skill is designed to streamline the process of formatting key terms for an Open Educational Resource (OER) astronomy textbook in Libtetext. Triggers on "format key terms in chapter X".
 ---
 
 # Format Key Terms
@@ -14,6 +14,12 @@ Before reading any repository-relative paths below, resolve the repo root:
 Reference files as `$ROOT/guidelines/editing-standards.md`, 
 `$ROOT/guidelines/page-styles/example-box.md`, etc.
 
+## Input
+
+Ask which chapter to process if not specified, e.g.:
+
+> "Which chapter folder should I edit? (e.g. `chapters/07-Black-Holes/`)"
+
 ## Precondition — clean working tree required
 
 Before doing anything else, check `git status` on the target chapter folder.
@@ -21,12 +27,6 @@ Before doing anything else, check `git status` on the target chapter folder.
 - If there are **any uncommitted changes** in `$ROOT/chapters/<NN>-<Chapter-Title-Slug>/`,
   **stop immediately** and tell the user to commit first. Do not edit any files.
 - Only proceed once the working tree for that folder is clean.
-
-## Input
-
-Ask which chapter to process if not specified, e.g.:
-
-> "Which chapter folder should I edit? (e.g. `chapters/07-Black-Holes/`)"
 
 ## Discovery
 
@@ -47,8 +47,10 @@ The editings standards for this project are described in `$ROOT/guidelines/editi
 
 ## Per-file edit rules
 
-Apply these, in order, to each file's HTML. Read the file, apply all rules
-in memory, if a judgement needs to be made, ask the user, otherwise complete tasks, then write the result back to the same path (overwrite in place). 
+Apply these, in order, to each file's HTML, skipping the files that include `Key-Terms` or `Accessible-Descriptions` in their file name. If a judgment needs to be made, ask the user, otherwise complete tasks, then write the result back to the same path (overwrite in place). 
+
+1. Find a key term by referring to the Find Key Term section in `editing-standards.md`
+   - search for text that are highlighted green: Example: `<span class="mt-bgcolor-2ecc71"><term></span>`
 
 1. Open the key terms file 
     - Read the information in `$ROOT/chapters/<NN>-<Chapter-Title-Slug>/key-terms.csv`

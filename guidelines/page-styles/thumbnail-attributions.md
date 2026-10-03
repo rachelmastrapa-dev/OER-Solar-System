@@ -4,11 +4,11 @@ Refer to the variables section in `editing-standards.md` for any variables.  Var
 
 ## Thumbnail Attribution Format
 
-Only present in the introduction (TOC) pages for chapters, located at the bottom. The attribution is for the thumbnail for the chapter. Since it is decorative, no accessible description is required. The main part of the text that needs to be formatted is the figure attribution, but check the rest of the text, making sure that Thumbnail is bold, there is a period after the thumbnail caption text, etc.
+Only present in the introduction (TOC) pages for chapters, located at the bottom. The attribution is for the thumbnail for the chapter. Since it is decorative, no accessible description is required. The main part of the text that needs to be formatted is the figure attribution, but check the rest of the text, making sure that Thumbnail is bold, there is a period after the thumbnail caption text, etc. Copy the thumbnail caption text into the new html unchanged.
 
 ### HTML Format
 
-`<p><strong>Thumbnail</strong>: Thumbnail caption text. (<a href="<LicenseURL>" target="_blank" title="<License>"><License>.</a>; <a href="<AuthorURL>" target="_blank" title="<Author>"><Author></a> via <a href="<FigureURL>" target="_blank" title="<Source>"><Source></a>)</p>`
+`<p><strong>Thumbnail</strong>: Thumbnail caption text. (<a href="<LicenseURL>" target="_blank" title="<License>"><License></a>; <a href="<AuthorURL>" target="_blank" title="<Author>"><Author></a> via <a href="<FigureURL>" target="_blank" title="<Source>"><Source></a>)</p>`
 
 #### Example HTML
 

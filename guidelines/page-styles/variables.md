@@ -83,7 +83,7 @@ Each section has a section number:
 
 - `<KK>` is the section number (including a leading 0 for single digit section numbers) of the local file for the key terms page which will vary between chapters. For any chapter number `<N>`, the local key terms file will be `<N>.<KK>-Key-Terms.html`
 - `<KK>` is used for reading the section number from the local file, not writing the original file.
- - Example: In Chapter 1 Introduction to Astronomy, the accessible description file is `1.06-Key-Terms.html` so `<KK>` is `06`
+ - Example: In Chapter 1 Introduction to Astronomy, the key terms file is `1.06-Key-Terms.html` so `<KK>` is `06`
 
 
 ## Figure Title 
@@ -100,6 +100,10 @@ When reading the original figure HTML from the local file, it's general format w
   - Copy all other text as is, including special characters.
   - Example: If `[FigureTitle]` is `The Electromagnetic Spectrum`, then `<FigureTitle>` is `The-Electromagnetic-Spectrum`
 
+- `<FigureTitleURL>` is the title of the figure adapter for use in a URL. 
+ - `<FigureTitleURL>` is created by replacing the spaces in `[FigureTitle]` with a `_`.
+  - Copy all other text as is, including special characters.
+  - Example: If `[FigureTitle]` is `The Electromagnetic Spectrum`, then `<FigureTitleURL>` is `The_Electromagnetic_Spectrum`
 
 ## Figure or Table Index
 
@@ -133,7 +137,7 @@ Figures and tables are numbered using the pageindex function. For example, the s
 - `[ImageCredit]` is the image credit read from the original figure html in a local file.
   - original figure html may or may not have an image credit.
 
-## Figure Attributions
+## Figure Attributions 
 - `[AttributionInfo]` is the information needed to create the new figure attribution. It is read from the original figure html in a local file.
   - Sometimes there will be no attribution information. 
 - `<FigureAttribution>` is the new figure attribution generated in the format html skill and written into the new figure html.

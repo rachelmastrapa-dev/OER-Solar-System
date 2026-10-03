@@ -93,6 +93,9 @@ This is a list of general guidelines to use for all tools in this directory and 
 - Refer to `page-styles/key-terms-link.md`
 - Format for key term link occurring in paragraph text. 
 
+## Find Key Term
+- Refer to `page-styles/find-key-term.md`
+
 ## References
 - Refer to `page-styles/references.md`
 - Format for the References section on a section page.
@@ -118,7 +121,7 @@ This is a list of general guidelines to use for all tools in this directory and 
 - Global variables for skills and guidelines
 
 ## TOC File Name
-- Check for variable definitions `page-styles/variables.md`.
+- Check for variable definitions in `page-styles/variables.md`.
 - The format for the Table of Contents (TOC) of the chapter is `<N>.00-Introduction.html`
 
 ## Section File Name 

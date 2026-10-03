@@ -14,6 +14,12 @@ Before reading any repository-relative paths below, resolve the repo root:
 Reference files as `$ROOT/guidelines/editing-standards.md`, 
 `$ROOT/guidelines/page-styles/example-box.md`, etc.
 
+## Input
+
+Ask which chapter to process if not specified, e.g.:
+
+> "Which chapter folder should I edit? (e.g. `chapters/07-Black-Holes/`)"
+
 ## Precondition — clean working tree required
 
 Before doing anything else, check `git status` on the target chapter folder.
@@ -21,12 +27,6 @@ Before doing anything else, check `git status` on the target chapter folder.
 - If there are **any uncommitted changes** in `$ROOT/chapters/<NN>-<Chapter-Title-Slug>/`,
   **stop immediately** and tell the user to commit first. Do not edit any files.
 - Only proceed once the working tree for that folder is clean.
-
-## Input
-
-Ask which chapter to process if not specified, e.g.:
-
-> "Which chapter folder should I edit? (e.g. `chapters/07-Black-Holes/`)"
 
 ## Discovery
 

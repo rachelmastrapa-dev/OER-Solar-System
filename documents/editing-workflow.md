@@ -39,7 +39,8 @@
 - add new figures 
   - put all attribution information in caption in (), unless openstax astronomy leave empty ()
   - use shorthand - update attribution info
-  - put long captions in alt text for now
+  - put long captions from original source in alt text for now
+  - do not put url in libretext, it gets f'd up, store for later - make a csv file?? - add to attribution info with code!!!!
 
 - Commit changes in Conductor
 
@@ -186,24 +187,21 @@ References, manual attributions - per section page?, need style files for each
 - may be already formatted - change to default format
 - use individual links for authors if available, otherwise make all text one link
 - when indexing, note that tables and figures are indexed independently
+- modify APA format to link URLs ??? get answer from Kim, be ready to fix everything again with a new skill
 
 ## Format Key Terms - Claude AI Passive
 
 **User: Commit and close all files**
 
 - Key terms
-  - Check against key terms list from Openstax and create list for chapter
+  - Locate terms by highlight: <span class="mt-bgcolor-2ecc71">term</span>
+  - Locate definition in solar-system-key-terms.csv
   - Format terms and definitions and add to key terms page
-  - Find first occurance of term in chapter paragraph text, not figure, table, or heading 
-     - format text to bold and link
-     - handle whether in plural or singular in paragraph text.
+   - Write Key Terms in H2 at top of page  see key-terms-page
+  - Format links for term and replace highlighted text
 
-## new features 
-   - key terms
-     - has to be done post final edit of text. 
-     - change to highlighting key terms instead of making separate list. - scans for specific color highlight and searches master list for def 
-     - OR just make a master list of words and have claude scan book and glossary list, and make key terms
-     also deleting of re-highlighting key terms - refinding first occurance, deleting ones that aren't there
+
+
 
 put key terms in key term page un edited
 

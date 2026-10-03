@@ -10,6 +10,8 @@ The section page that has the key terms for the chapter.
 
 # HTML Format
 
+<h2>Key Terms</h2>
+
 <ul>
     <li><a id="term1" name="term1"><strong>term1</strong></a>: definition1</li>
     <li><a id="term2" name="term2"><strong>term2</strong></a>: definition2</li>
