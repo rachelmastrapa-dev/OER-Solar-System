@@ -49,8 +49,10 @@ The editings standards for this project are described in `$ROOT/guidelines/editi
 
 Apply these, in order, to each file's HTML, skipping the files that include `Key-Terms` or `Accessible-Descriptions` in their file name. If a judgment needs to be made, ask the user, otherwise complete tasks, then write the result back to the same path (overwrite in place). 
 
-1. Find a key term by referring to the Find Key Term section in `editing-standards.md`
-   - search for text that are highlighted green: Example: `<span class="mt-bgcolor-2ecc71"><term></span>`
+1. Search for key terms by referring to the Find Key Term section in `editing-standards.md`
+  2. For each key term, `[term]` found follow these steps.
+  
+
 
 1. Open the key terms file 
     - Read the information in `$ROOT/chapters/<NN>-<Chapter-Title-Slug>/key-terms.csv`

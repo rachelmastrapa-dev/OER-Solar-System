@@ -95,6 +95,7 @@ This is a list of general guidelines to use for all tools in this directory and 
 
 ## Find Key Term
 - Refer to `page-styles/find-key-term.md`
+- Check for variable definition of `[term]` in the Key Terms section of `page-styles/variables.md`.
 
 ## References
 - Refer to `page-styles/references.md`

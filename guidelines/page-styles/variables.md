@@ -158,3 +158,8 @@ Figures and tables are numbered using the pageindex function. For example, the s
 
 ## Accessible Description Link
 - `<AccessibleDescriptionLink>` is the link to the accessible description and defined in `page-styles/accessible-description-link.md`
+
+## Key Terms
+
+- `[term]` is the words or words of the key term found in the local html file.
+  - Each key term, `[term]`, is found following the instructions in `
