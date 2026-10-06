@@ -51,6 +51,11 @@ Apply these, in order, to each file's HTML, skipping the files that include `Key
 
 1. Search for key terms by referring to the Find Key Term section in `editing-standards.md`
   2. For each key term, `[term]` found follow these steps.
+    1. Find the value for `[definition]` in `<key-term-source>` by referring to the Find Definition section in `editing-standards.md`
+    2. Format and write the `<key-term-def>` to the key terms page following instructions in the Key Terms Page Section in `editing-standards.md`
+
+
+Alphabatize key terms page    
   
 
 

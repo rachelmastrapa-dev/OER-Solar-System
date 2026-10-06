@@ -8,7 +8,10 @@ The section page that has the key terms for the chapter.
 - definitions do not require periods at the end, and do not need to be complete sentences
 - remove any quote marks `"` or parentheses `()` in the definition text
 
-# HTML Format
+# Key Term HTML Format
+- 
+
+# Page HTML Format
 
 <h2>Key Terms</h2>
 

@@ -97,6 +97,13 @@ This is a list of general guidelines to use for all tools in this directory and 
 - Refer to `page-styles/find-key-term.md`
 - Check for variable definition of `[term]` in the Key Terms section of `page-styles/variables.md`.
 
+## Find Definition
+- Refer to `page-styles/find-definition.md`
+   - This file defines the key terms file for the textbook. 
+- Contains instructions for finding the definition of a given key term.
+- Check for variable definitions in `page-styles/variables.md`.
+
+
 ## References
 - Refer to `page-styles/references.md`
 - Format for the References section on a section page.

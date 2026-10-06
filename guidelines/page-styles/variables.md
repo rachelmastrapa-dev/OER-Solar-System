@@ -162,4 +162,10 @@ Figures and tables are numbered using the pageindex function. For example, the s
 ## Key Terms
 
 - `[term]` is the words or words of the key term found in the local html file.
-  - Each key term, `[term]`, is found following the instructions in `
+  - Each key term, `[term]`, is found following the instructions in `page-styles/find-key-term.md`
+- `<key-term-source>` is the file that has all of the terms and definitions in the textbook
+  - the file is different for each textbook and assigned in `page-styles/find-definition.md`
+- `[definition]` is the definition of an associated key term
+  - Instructions for finding the `[definition]` in `<key-term-source>` are in `page-styles/find-definition.md`
+- `<key-term-def>` is the line on the key terms page that has the term and definition in the proper format.
+  - Instructions for formatting `<key-term-def>` are in `page-styles/key-terms-page.md`
