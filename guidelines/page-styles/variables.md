@@ -60,6 +60,12 @@ Each chapter has a chapter number:
 - To get the `<ChapterTitle>` replace the `_` in `[ChapterTitle]` with `-`
    - Example: for the URL `https://phys.libretexts.org/Workbench/De_Anza_-_ASTR10/01%3A_Introduction_to_Astronomy`
    the `<ChapterTitle>` is `Introduction-to-Astronomy`
+- `<chapter-title-space>` is the title of the chapter in normal text with spaces
+  - To get the  `<chapter-title-space>` replace the `_` in `[ChapterTitle]` with ` ` or a single space
+- Example: If `[ChapterTitle]` is `Introduction_to_Astronomy`
+   then `<chapter-title-space>` is `Introduction to Astronomy`
+  - If `[ChapterTitle]` is not available, `<chapter-title-space>` can also be created using `<ChapterTitle>` by replacing the `-` in `<ChapterTitle>` with ` ` or a single space
+  - Example: `<ChapterTitle>` is `Introduction-to-Astronomy` then `<chapter-title-space>` is `Introduction to Astronomy`
 
 Each chapter has a directory in the repository: `chapters/<NN>-<ChapterTitle>`
 
@@ -160,7 +166,7 @@ Figures and tables are numbered using the pageindex function. For example, the s
 - `<AccessibleDescriptionLink>` is the link to the accessible description and defined in `page-styles/accessible-description-link.md`
 
 ## Key Terms
-
+- `[key-term-text]` is the text of the key term found in the local html file including the html highlight tags. 
 - `[term]` is the words or words of the key term found in the local html file.
   - Each key term, `[term]`, is found following the instructions in `page-styles/find-key-term.md`
 - `<key-term-source>` is the file that has all of the terms and definitions in the textbook
@@ -169,3 +175,9 @@ Figures and tables are numbered using the pageindex function. For example, the s
   - Instructions for finding the `[definition]` in `<key-term-source>` are in `page-styles/find-definition.md`
 - `<key-term-def>` is the line on the key terms page that has the term and definition in the proper format.
   - Instructions for formatting `<key-term-def>` are in `page-styles/key-terms-page.md`
+- `<term-sing>` is the singlular form of `[term]`
+  - Instructions for formatting `<term-sing>` are in `page-styles/key-terms-page.md`
+- `<term-anchor>` is the value for term used for URLs
+  - Instructions for formatting `<term-anchor>` are in `page-styles/key-terms-page.md`
+- `<key-terms-link>` is the new text that will replace `[key-term-text]` in the local html file
+ - Instructions for formatting `<key-terms-link>` are in `page-styles/key-terms-link.md`

@@ -87,10 +87,12 @@ This is a list of general guidelines to use for all tools in this directory and 
 
 ## Key Terms Page
 - Refer to `page-styles/key-terms-page.md`
+- Check for variable definitions in `page-styles/variables.md`.
 - Format for the chapter's key terms/glossary page.
 
 ## Key Terms Link
 - Refer to `page-styles/key-terms-link.md`
+- Check for variable definitions in `page-styles/variables.md`.
 - Format for key term link occurring in paragraph text. 
 
 ## Find Key Term
@@ -102,7 +104,6 @@ This is a list of general guidelines to use for all tools in this directory and 
    - This file defines the key terms file for the textbook. 
 - Contains instructions for finding the definition of a given key term.
 - Check for variable definitions in `page-styles/variables.md`.
-
 
 ## References
 - Refer to `page-styles/references.md`
