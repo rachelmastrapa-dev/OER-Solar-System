@@ -24,18 +24,15 @@ Ask which chapter to process if not specified, e.g.:
 
 Before doing anything else, check `git status` on the target chapter folder.
 
-- If there are **any uncommitted changes** in `$ROOT/chapters/<NN>-<Chapter-Title-Slug>/`,
+- If there are **any uncommitted changes** in `$ROOT/chapters/<NN>-<ChapterTitle>/`,
   **stop immediately** and tell the user to commit first. Do not edit any files.
 - Only proceed once the working tree for that folder is clean.
 
 ## Discovery
 
-- List every `<NN.SS>-<Section-Title-Slug>.html` file directly inside the
+- List every `<N>.<SS>-<SectionTitle>.html` file directly inside the
   given chapter folder.
-- Do **not** recurse into the chapter's `images/` subfolder or touch
-  `manifest.csv`.
-- Do **not** recurse into the chapter's `sources/` subfolder or touch
-  `text-attributions.csv`, `figure-attributions.csv` or `references.csv`.
+- Do **not** recurse into the chapter's `images/` in search of section or html files, but do look there for image files and to update `manifest.csv`.
 - If no matching files are found, say so and stop.
 
 ## Editing Standards
@@ -44,37 +41,31 @@ The editings standards for this project are described in `$ROOT/guidelines/editi
 - It also contains directions to other files that have more detailed descriptions of specific formatting standards.
 - Always look in `editing-standards.md` first when looking for information about editing, formatting, or general guidance for this project, then follow the directions to other files when needed.
 - If there is a rule that says to use editing standards, look for guidance in `editing-standards.md`.
+- Check for any variable definitions in the section about variables in `editing-standards.md`. 
 
 ## Per-file edit rules
 
-Apply these, in order, to each file's HTML, skipping the files that include `Key-Terms` or `Accessible-Descriptions` in their file name. If a judgment needs to be made, ask the user, otherwise complete tasks, then write the result back to the same path (overwrite in place). 
+Apply these, in order, to each file's HTML, skipping the files that include `Key-Terms` or `Accessible-Descriptions` in their file name when searching for terms. If a judgment needs to be made, ask the user, otherwise complete tasks, then write the result back to the same path (overwrite in place). 
 
-1. Find a key term by referring to the Find Key Term section in `editing-standards.md`
-   - search for text that are highlighted green: Example: `<span class="mt-bgcolor-2ecc71"><term></span>`
+1. Search for key terms by referring to the Find Key Term section in `editing-standards.md`
 
-1. Open the key terms file 
-    - Read the information in `$ROOT/chapters/<NN>-<Chapter-Title-Slug>/key-terms.csv`
-    - if there is no `key-terms.csv` file alert the user
-    - the header of the file should be section,term,definition
-    - section refers to which page in the chapter the key term link will appear on e.g. if the section is How Science Works the key term link should be written to `$ROOT/chapters/<NN>-<Chapter-Title-Slug>/<NN.SS>-How-Science-Works.html`
+     2. For each key term, `[term]` found follow these steps.
 
+        1. Find the value for `[definition]` in `<key-term-source>` by referring to the Find Definition section in `editing-standards.md`
+        2. Format and write the `<key-term-def>` to the key terms page following instructions in the Key Terms Page in `editing-standards.md`
+           - do not overwrite other terms on the key term page, write each `<key-term-def>` to a new line
+        3. Format and write the `<key-terms-link>` in the original text, replacing `[key-term-text]` in the local html file by following the instructions in the Key Terms Link section in `editing-standards.md` 
+  
 2. Format the Key Terms Page
     - Refer to the Key Terms Page section in `editing-standards.md`
-    - Find the section file that has a name similar to `<NN.SS>-Key-Terms.html`.  This is the key terms section page.
-    - Format the list of key terms according to editing standards and write them to the key terms section page.
-
-3. For each term in `key-terms.csv`
-      1. Open the section page that matches the section for the term in `key-terms.csv`
-      2. Find the first occurrance of the term on the section page that is in paragraph text, **not** in figure, table, or header text.
-      3. Create the link for that term according to the key terms link section in `editing-standards.md`
-      4. Replace the term in the paragraph with the link. 
-        - Adjust the number of the term based on context in the sentence. For example, if the term is `black hole`, but the sentence is `Astronomer love all black holes` Then make the term plural. `Astronomers love all <a <key terms link formatting> >black holes</a>`
+    - Make sure the page has an appropriate header at the top
+    - Alphabetize the list of terms by term
 
 
 ## Hard exclusions — never modify or remove, under any rule above
 
 - Class attributes from header, list, or paragraph tags. e.g. `<li class="lt-phys-64811">`
-- Anything not explicitly covered by rules 1–3 above 
+- Anything not explicitly covered by rules 1–2 above 
 
 ## Output
 
@@ -82,8 +73,7 @@ After processing each file, overwrite it in place and print a one-line
 summary of what changed, e.g.:
 
 ```
-3.02-Stellar-Winds.html:2 learning objectives moved, no equations found,
-2 link to learning found and moved, no examples or exercises found.
+3.02-Stellar-Winds.html: 5 key terms found and replaced with links, 5 terms and definitions added to key terms page.
 ```
 
 After the whole chapter is done, print a chapter-level total across all

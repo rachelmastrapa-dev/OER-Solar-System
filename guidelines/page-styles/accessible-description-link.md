@@ -4,7 +4,7 @@ The accessible description, `<AccessibleDescriptionLink>`, link is needed to lin
 
 ## Accessible Description Link Format
 
-Refer to the variables section in `editing-standards.md` for variable definitions.  Variables appear as `[Variable]` or `<Variable>`
+Refer to the variables section in `editing-standards.md` for variable definitions.  
 
 - The accessible description, `<AccessibleDescriptionLink>`, link should look similar to this: `/Workbench/[TextbookTitle]/[NN]:_[ChapterTitle]/<N>.<AA>:_Accessible_Descriptions#Figure_<FigureNumber>_<FigureTitleURL>` 
 
