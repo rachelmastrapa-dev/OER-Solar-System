@@ -5,6 +5,7 @@ Find the definition for each key term.
 ## Instructions
 - Check for variable definitions in `page-styles/variables.md`
 - Search for the definition associated with a key term `[term]` in `<key-term-source>`
+  - Ignore case when searching for the definition. Example: if `[term]` is `Star`, then a line in `<key-term-source>` that starts with `star` is a match
 - Assign the found definition in the file to `[definition]`
   - Example: If the value for `[term]` is `black hole`, then search for the line in `<key-term-source>` that starts with `black hole,` and assign the text after the comma in `black hole,` to `[definition]`. In this case, the line in the file that starts with `black hole,` is `black hole,a region in spacetime where gravity is so strong that nothing—not even light—can escape` so `[definition]` is `a region in spacetime where gravity is so strong that nothing—not even light—can escape`
   - Note that the text in definitions may include commas, so always read all text after the first comma to the end of the line and assign it to definition
@@ -19,4 +20,4 @@ Different textbooks will have different file that has the master list of key ter
 
 For ASTR 4 the Solar System
 
-`<key-term-source>` is `$ROOT/solar-system-key-terms.csv`
+`<key-term-source>` is `$ROOT/chapters/solar-system-key-terms.csv`

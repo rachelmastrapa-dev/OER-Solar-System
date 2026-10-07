@@ -8,7 +8,10 @@ Refer to the variables section in `editing-standards.md` for variable definition
 
 - The key terms link, `<key-terms-link>` is formatted: 
 
-`<strong><a href="/Workbench/[TextbookTitle]/[NN]:_[ChapterTitle]/<N>.<KK>:_Key_Terms#<term-anchor>" target="_blank" title="<term-sing>"><term-sing></a></strong>` 
+`<strong><a href="/Workbench/[TextbookTitle]/[NN]:_[ChapterTitle]/<N>.<KK>:_Key_Terms#<term-anchor>" target="_blank" title="<term-sing>">[term]</a></strong>` 
+
+where 
+`[NN]` = `<NN>`, and `[ChapterTitle]` = `<ChapterTitle>` with `-` replaced by `_`
 
 ## HTML Format
 

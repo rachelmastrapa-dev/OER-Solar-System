@@ -151,8 +151,6 @@ Ask for help!
    - check for full link
    - contextualize further exploration links
 
-
-
 <!-->  - class attributes - connecting to location default attribute?  page attribute? < -->
 
 ## Format Figures - Claude AI
@@ -200,10 +198,6 @@ References, manual attributions - per section page?, need style files for each
    - Write Key Terms in H2 at top of page  see key-terms-page
   - Format links for term and replace highlighted text
 
-
-
-
-put key terms in key term page un edited
 
 ## Final Review - Claude/AI - interactive
 
