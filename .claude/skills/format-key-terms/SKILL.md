@@ -42,10 +42,11 @@ The editings standards for this project are described in `$ROOT/guidelines/editi
 - Always look in `editing-standards.md` first when looking for information about editing, formatting, or general guidance for this project, then follow the directions to other files when needed.
 - If there is a rule that says to use editing standards, look for guidance in `editing-standards.md`.
 - Check for any variable definitions in the section about variables in `editing-standards.md`. 
+- Only the first appearance of a term should have a link.
 
 ## Per-file edit rules
 
-Apply these, in order, to each file's HTML, skipping the files that include `Key-Terms` or `Accessible-Descriptions` in their file name when searching for terms. If a judgment needs to be made, ask the user, otherwise complete tasks, then write the result back to the same path (overwrite in place). 
+Apply these, in order, to each file's HTML. When searching for terms, skip the files with names that include `Key-Terms`, `Accessible-Descriptions` or `Introduction`. If a judgment needs to be made, ask the user, otherwise complete tasks, then write the result back to the same path (overwrite in place). 
 
 1. Search for key terms by referring to the Find Key Term section in `editing-standards.md`
 
@@ -58,6 +59,8 @@ Apply these, in order, to each file's HTML, skipping the files that include `Key
   
 2. Format the Key Terms Page
     - Refer to the Key Terms Page section in `editing-standards.md`
+    - Ask the user for guidance if there is no key terms page, that is no file with a name that includes `Key-Terms`. 
+    - If `<term-anchor>` for a term already exists on the page, don't add it again.
     - Make sure the page has an appropriate header at the top
     - Alphabetize the list of terms by term
 

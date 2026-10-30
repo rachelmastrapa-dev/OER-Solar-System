@@ -30,7 +30,7 @@ This is a list of general guidelines to use for all tools in this directory and 
 
 ### Chapter Page
 - Refer to `page-styles/chapter-page.md`
-- Format for the main page of the chapter
+- Format for the main page of the chapter 
 - Contains an introduction paragraph learning objectives and table of contents
 
 ### Section Page

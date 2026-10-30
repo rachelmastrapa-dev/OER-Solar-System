@@ -3,8 +3,9 @@
 ## Section Introduction [Heading 2] 
 - Brief Introduction [Normal-aka Default]
 ## Page Text
-- Multiple Sections, starting with [Heading 3] and using subheadings for subsections
-- Make sure subsections have appropriate headings, without skipping numbers
+- Multiple Sections and using subheadings for subsections
+- Make sure subsections are properly nested without skipping levels, i.e. multiple h3 sections under h2
+  - ignore any headings inside boxes: example, exercise, or further exploration 
 - Parapgraph text is [Normal-aka Default]
 - May have figures in text. See page-styles/figure-format
 

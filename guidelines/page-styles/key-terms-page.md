@@ -18,6 +18,7 @@ The section page that has the key terms for the chapter.
   - remove acronyms Example: if `<term-sing>` is `cosmic microwave background (CMB)` then `<term-anchor>` is `cosmic+microwave+background`
 - `<term-sing>` and `<term-anchor>` should also be formatted to fully lowercase. 
   - There are some exceptions for acronyms such as (CMB) Example: if `[term]` is `Cosmic microwave backround (CMB)` because it was at the beginning of a sentence, then `<term-sing>` is `cosmic microwave backround (CMB)` and `<term-anchor>` is `cosmic+microwave+background`
+  - Another exception is proper names, such as `Newton's first law` or `Stefan-Boltzmann law`
 
 ## Key Term HTML Format
 - `<key-term-def>` is a single term and definition formatted for the key term page. 
