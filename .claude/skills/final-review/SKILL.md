@@ -54,12 +54,14 @@ in memory, if a judgement needs to be made, ask the user, otherwise complete tas
 - if the corrections are small, make the change e.g errors that are up to 3 words long, mispelled words, bad punctuation, mismatched tenses, etc.
 - If an error is more complex, more than 3 words long, or will change the meaning of a sentence, or change the functionality of the html, ask the user for guidance.  
 <!-- add accessibility and IDEA? -->
+2. Check and correct the heading structure using the Chapter Page and Section Page sections in `editing-standards.md`
+- do not change headings inside of example, exercise, or further exploration boxes
 
 
 ## Hard exclusions — never modify or remove, under any rule above
 
 - Class attributes from header, list, or paragraph tags. e.g. `<li class="lt-phys-64811">`
-- Anything not explicitly covered by rules 1 above 
+- Anything not explicitly covered by rules 1-2 above 
 
 ## Output
 

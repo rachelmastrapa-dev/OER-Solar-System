@@ -65,7 +65,6 @@
 ###### The Periodic Table H4
 ##### Cosmic Abundances H3
 ##### Phases of Matter H3
-###### Sublimation H4
 ###### Vaporization and Condensation H4
 ###### Melting and Freezing H4
 ###### Sublimation and Deposition H4
@@ -299,3 +298,4 @@
 ### 15.5: Science and Society - Missed Connections with E.T.
 ### 15.6: Key Terms
 ### 15.7: Accessible Descriptions
+
