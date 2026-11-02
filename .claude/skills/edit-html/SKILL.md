@@ -94,7 +94,6 @@ in memory, if a judgement needs to be made, ask the user, otherwise complete tas
 4. **Examples and Exercises**
    - Refer to the Example Box section, the Exercise Box section, and the Section Page section in `editing-standards.md`.
    - Search for any headers that include Example or Exercise or any Exercise or Example Boxes. If you don't find anything, then you are done with this rule. If you find anything, do the following: 
-     - Create a header for the Examples and Exercises section in the position and format according to editing standards for a section page.
      - For found text that starts with a header that starts with "Example," and has some text in the section that looks like an example problem, then ask the user if it should be put in an Example box.
         - If user says yes:
           - Create an Example box according to editing standards.
@@ -105,7 +104,7 @@ in memory, if a judgement needs to be made, ask the user, otherwise complete tas
            - Create an Exercise box according to editing standards.
            - Move the text from the section into the Example box, using a layout according to editing standards.
            - Move the new Exercise Box to the Examples and Exercises section.
-     - For found text that are intact Exercise or Example boxes similar to those in editing standards, move them to the Examples and Exercises section.
+     - For found text that are intact Exercise or Example boxes similar to those in editing standards, move them to the just below the main text of the page in the position and format according to editing standards for a section page.
 5. **Replace Key Terms**
   - find text that is formatted similar to `<strong><a target="_blank" title="scientific method" href="/Workbench/De_Anza_-_ASTR10/01:_Introduction_to_Astronomy/1.06:_Key_Terms#scientific+method">scientific method</a></strong>`
     - the URL should contain `ASTR10` or `ASTR4`
