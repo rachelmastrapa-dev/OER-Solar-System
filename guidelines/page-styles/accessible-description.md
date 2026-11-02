@@ -10,7 +10,6 @@ Accessible description are as an addition to the image, so that all students can
 - The first line is the figure number and title.
 - The second line is a brief description of the figure.
 - The format of the rest of the description depends strongly on the type of image. In general, it should be broken up into separate sections using sub-headers. If the description is lengthy, break it into brief statements in a bulleted list, describing some components using nested bullets. Refer to examples below.
-- If there is an image credit `[ImageCredit]` add it as the last line of the Accessible Description.
 - refer to the terminology section of `editing-standards.md` when selecting words for the accessible description
 
 ## Accessible Description Guidelines
@@ -34,7 +33,7 @@ Follow these guidelines when generating accesible descriptions.
 - Conclusions students should draw
 - Supporting text:
   - Always use any supporting text, if provided. Generate additional description if obvious components are missing.
-  - The relevant supporting text may be in the html in the form of the original figure caption text, figure title, image credit, and original alt text.
+  - The relevant supporting text may be in the html in the form of the original figure caption text, figure title, and original alt text.
   - If there is no supporting text, generate a description based on the image.
 
 ### Guidelines for Complex Figures
@@ -124,7 +123,6 @@ Supporting Text:Two Images of the Globular Cluster Omega Centauri. Panel (a), on
 <ul>
  <li>On the left</li>
  <li>Ground-based image of Omega Centauri as a large sphere of thousands of stars that is so dense that the central region appears as an indistinct patch of light.</li>
- <li>Credit: NASA, ESA and the Hubble Heritage Team (STScI/AURA)</li>
  </ul>
 
 <h3>Image (b)</h3>
@@ -132,7 +130,6 @@ Supporting Text:Two Images of the Globular Cluster Omega Centauri. Panel (a), on
 <ul>
  <li>On the right</li>
  <li>A high-resolution Hubble Space Telescope image of the central region, showing dozens of bright red and blue stars amidst a background of thousands of fainter yellow stars.</li>
- <li>Credit: NASA, ESA, and the Hubble SM4 ERO Team</li>
  </ul>
 
 ### Example 2
@@ -368,5 +365,3 @@ Edited, rendered description
     </ul>
     </li>
 </ul>
-
-<p>Credit: modification of work by NASA, ESA, R. Sankrit and W. Blair (Johns Hopkins University)</p>

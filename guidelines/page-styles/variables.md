@@ -140,8 +140,6 @@ Figures and tables are numbered using the pageindex function. For example, the s
 - `[OriginalCaptionText]` is the original caption text read from the original figure html in a local file.
 - `<CaptionText>` is the new caption text generated in the format html skill and written into the new figure html.
  - `<CaptionText>` is a part of the overall figure caption, located between the title and the figure attribution.
-- `[ImageCredit]` is the image credit read from the original figure html in a local file.
-  - original figure html may or may not have an image credit.
 
 ## Figure Attributions 
 - `[AttributionInfo]` is the information needed to create the new figure attribution. It is read from the original figure html in a local file.
