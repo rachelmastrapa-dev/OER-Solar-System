@@ -17,7 +17,7 @@
 
 ## Further Exploration Box
 - Contains links to outside content for student enrichment
-- The box is placed immediately below the Example and Exercise boxes, or immediately below the page text if there are not Example and Exercise boxes. 
+- The box is placed immediately below the Example and Exercise boxes, or immediately below the page text if there are no Example and Exercise boxes. 
 - Read `guidelines/page-styles/further-exploration.md` for formatting and examples.
 
 ## References [Heading 2]

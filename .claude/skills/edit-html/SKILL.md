@@ -77,7 +77,7 @@ in memory, if a judgement needs to be made, ask the user, otherwise complete tas
   - Refer to the Further Exploration section in `editing-standards.md`.
   - If you find any note boxes with Link to Learning in their header and is similar to this: 
   `<div class="box-note"> <h5 class="box-legend"><span class="lt-icon-default">Link to Learning</span></h5><p>Text with an external link</p></div>` then do the following.  If there are no box notes similar to this, go to the next rule.
-     - Read the Section Page section in `editing-standards.md` for placement of the further exploration box on the page. 
+     - Read the Section Page section in `editing-standards.md` for placement of the Further Exploration box on the page. 
      - Create a note box called Further Exploration with format an placement according to editing standards.
      - Move all of the statements in link to learning boxes to the Further Exploration box
      - The URL in the text redirects to another URL. 
@@ -86,9 +86,6 @@ in memory, if a judgement needs to be made, ask the user, otherwise complete tas
           - Ask for a link to use, or if you should continue without changing the link. 
           - Do what the user says and continue. 
        - If WebFetch returns a working URL, replace the link in the HTML with the WebFetch returned URL. Example: replace `https://openstax.org/l/30ndegtystidfor` with `https://www.youtube.com/watch?v=h1iJXOUMJpg`
-  - If there is a header similar to `<h2>Further Exploration</h2>` 
-     - move the text below the header into a Further Exploration box if there is one already or create a new one
-     - Delete `<h2>Further Exploration</h2>` 
   - If there is more than one Further Exploration box on a single page, combine them into one box located near the bottom of the page in a position according to editing standards
 
 4. **Examples and Exercises**
