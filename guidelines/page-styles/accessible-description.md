@@ -30,6 +30,8 @@ Follow these guidelines when generating accesible descriptions.
     - For astronomical objects, includes the proper name or the type of astronomical object or objects and a physical description of the object or objects. e.g. The three bright stars in the belt of the constellation Orion.
 - Relationships, trends, or sequences
 - Labels that are instructionally important
+  - The location of the label text is not as important as the position of whatever its is labeling. For example, it is more important to relate the relative positions of the layers than state where they are labeled. 
+  - Do not state that an object is labelled. Instead just refer to the labelled object. For example, the mantle is below the crust. 
 - Conclusions students should draw
 - Supporting text:
   - Always use any supporting text, if provided. Generate additional description if obvious components are missing.
@@ -57,13 +59,13 @@ Follow these guidelines when generating accesible descriptions.
 
 Color is almost always important in astronomy figures: If there is no explanation of the meaning of color, ask the content expert.
 
-- Explicitly describe the meaning of color in text
+- Explicitly describe the meaning of different colors in charts
 - Always describe color in images
 - For false color images, explain how the colors are assigned if available, or include the wavelength of the light. Example: An infrared image of the Crab nebula
 
 When describing the instructional takeaway, use color when it is relevant. Otherwise, describe what the color represents. Examples:
 
-- In this globular cluster, the blue stars are larger and bright than the yellow stars.
+- In this globular cluster, the blue stars are larger and brighter than the yellow stars.
 - There is more detail of the complex structure in the infrared image of the Crab Nebula compared to the visible image.
 
 ### Handle Images That Contain Text
@@ -149,8 +151,8 @@ Description:
 <h3>Chart Elements</h3>
 
 <ul>
- <li>The vertical axis is labeled Luminosity (L<sub>Sun</sub>) and goes from 10<sup>-2</sup> at the bottom to over 10<sup>4</sup> at the top with increments of 10<sup>2</sup>.</li>
- <li>The horizontal axis is labeled Surface Temperature (K) and goes from 25,000 on the left to 4,000 on the right.</li>
+ <li>The vertical axis is Luminosity (L<sub>Sun</sub>) and goes from 10<sup>-2</sup> at the bottom to over 10<sup>4</sup> at the top with increments of 10<sup>2</sup>.</li>
+ <li>The horizontal axis is Surface Temperature (K) and goes from 25,000 on the left to 4,000 on the right.</li>
  <li>The horizontal axis is non-linear. There are two increments of equal size, the first is from 25,000 to 10,000 and the second is from 10,000 to 4000.</li>
  <li>The Zero-age main sequence is drawn as a diagonal red line beginning above L = 10<sup>4</sup> at the upper left of the image down to T ~ 4000 at the lower right.</li>
  </ul>
@@ -232,14 +234,14 @@ Edited, rendered description
 <h3>Diagram Elements</h3>
 
 <ul>
-    <li>A flat, reflective surface is depicted as a shaded horizontal plane, labeled Surface, extending toward the bottom of the image.</li>
-    <li>A dashed vertical line labeled Perpendicular to surface extends upward from a single point on the surface, marking the normal line used to measure the angles of the rays.</li>
-    <li>An Incident ray, shown as a solid blue arrow, travels from the upper left down toward the point on the surface where the dashed perpendicular line meets it.</li>
-    <li>A Reflected ray, shown as a solid light blue arrow, travels from that same point on the surface upward to the right.</li>
-    <li>The incident ray and the perpendicular line form an angle labeled θ<sub>i</sub>, marking the angle of incidence.</li>
-    <li>The reflected ray and the perpendicular line form an angle labeled θ<sub>r</sub>, marking the angle of reflection.</li>
+    <li>A flat, reflective surface is depicted as a shaded horizontal plane extending toward the bottom of the image.</li>
+    <li>A dashed vertical line perpendicular to the surface extends upward from a single point on the surface. This is the line used to measure the angles of the light rays.</li>
+    <li>The incident light ray, represented by a blue arrow, travels from the upper left down toward the point on the surface where the dashed perpendicular line meets it.</li>
+    <li>A reflected light ray, represented by a  blue arrow, travels from the point on the surface that the incident ray ended upward to the right.</li>
+    <li>The incident ray and the perpendicular line form an angle labeled θ<sub>i</sub>, the angle of incidence.</li>
+    <li>The reflected ray and the perpendicular line form an angle labeled θ<sub>r</sub>, the angle of reflection.</li>
     <li>A shaded triangular wedge, bounded by the incident ray, the reflected ray, and the surface, highlights the region between the two rays and the perpendicular line.</li>
-    <li>Curved double-headed arrows mark both θ<sub>i</sub> and θ<sub>r</sub>, indicating that the two angles are shown as equal in size.</li>
+    <li>Curved double-headed arrows mark both θ<sub>i</sub> and θ<sub>r</sub>, indicating that the two angles are  equal in size.</li>
 </ul>
 
 
