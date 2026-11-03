@@ -77,7 +77,7 @@ in memory, if a judgement needs to be made, ask the user, otherwise complete tas
   - Refer to the Further Exploration section in `editing-standards.md`.
   - If you find any note boxes with Link to Learning in their header and is similar to this: 
   `<div class="box-note"> <h5 class="box-legend"><span class="lt-icon-default">Link to Learning</span></h5><p>Text with an external link</p></div>` then do the following.  If there are no box notes similar to this, go to the next rule.
-     - Read the Section Page section in `editing-standards.md` for placement of the further exploration box on the page. 
+     - Read the Section Page section in `editing-standards.md` for placement of the Further Exploration box on the page. 
      - Create a note box called Further Exploration with format an placement according to editing standards.
      - Move all of the statements in link to learning boxes to the Further Exploration box
      - The URL in the text redirects to another URL. 
@@ -86,15 +86,11 @@ in memory, if a judgement needs to be made, ask the user, otherwise complete tas
           - Ask for a link to use, or if you should continue without changing the link. 
           - Do what the user says and continue. 
        - If WebFetch returns a working URL, replace the link in the HTML with the WebFetch returned URL. Example: replace `https://openstax.org/l/30ndegtystidfor` with `https://www.youtube.com/watch?v=h1iJXOUMJpg`
-  - If there is a header similar to `<h2>Further Exploration</h2>` 
-     - move the text below the header into a Further Exploration box if there is one already or create a new one
-     - Delete `<h2>Further Exploration</h2>` 
   - If there is more than one Further Exploration box on a single page, combine them into one box located near the bottom of the page in a position according to editing standards
 
 4. **Examples and Exercises**
    - Refer to the Example Box section, the Exercise Box section, and the Section Page section in `editing-standards.md`.
    - Search for any headers that include Example or Exercise or any Exercise or Example Boxes. If you don't find anything, then you are done with this rule. If you find anything, do the following: 
-     - Create a header for the Examples and Exercises section in the position and format according to editing standards for a section page.
      - For found text that starts with a header that starts with "Example," and has some text in the section that looks like an example problem, then ask the user if it should be put in an Example box.
         - If user says yes:
           - Create an Example box according to editing standards.
@@ -105,7 +101,7 @@ in memory, if a judgement needs to be made, ask the user, otherwise complete tas
            - Create an Exercise box according to editing standards.
            - Move the text from the section into the Example box, using a layout according to editing standards.
            - Move the new Exercise Box to the Examples and Exercises section.
-     - For found text that are intact Exercise or Example boxes similar to those in editing standards, move them to the Examples and Exercises section.
+     - For found text that are intact Exercise or Example boxes similar to those in editing standards, move them to the just below the main text of the page in the position and format according to editing standards for a section page.
 5. **Replace Key Terms**
   - find text that is formatted similar to `<strong><a target="_blank" title="scientific method" href="/Workbench/De_Anza_-_ASTR10/01:_Introduction_to_Astronomy/1.06:_Key_Terms#scientific+method">scientific method</a></strong>`
     - the URL should contain `ASTR10` or `ASTR4`

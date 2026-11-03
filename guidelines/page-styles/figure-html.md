@@ -12,13 +12,6 @@ Some figures will not have any alternative text. If there is no `alt=` in the `<
 
 Some figures will not have any attribution information. Either the parentheses after `[OriginalCaptionText].` will be empty or there will be no parentheses at all. In both cases set  `[AttributionInfo]` to no value. 
 
-### Image Credits
-
-Some, but not all, orginal figure html has an image credit. It will be after `([AttributionInfo])` and start with `Credit:`.  In this case the original html will look like this:
-
-`<figure><img alt="[OriginalAltText]" class="internal default" src="[OriginalSourceURL]" /> <figcaption>Figure \(\PageIndex{<i>}\) : [FigureTitle]. [OriginalCaptionText]. ([AttributionInfo]) [ImageCredit].</figcaption> </figure>`
-
-
 ## Figure HTML Format
 
 The html format for the new figure html is:

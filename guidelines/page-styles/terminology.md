@@ -20,6 +20,7 @@ The textbook is for an introductory astronomy course with no math requirement.
 - Solar System is a proper name and should always be capitalized. The general term for a star with planets is planetary system. 
 - Objects orbit around each other. 
 - The term galaxy is a general term and should be lower case, unless it part of a proper name. Examples: Andromeda Galaxy. There are five galaxies in this cluster.
+- Libretexts is the name of the company that hosts the OER textbook.  Make sure that it is always capitalized and plural
 
 ### Words and terms to Avoid
 

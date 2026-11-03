@@ -13,6 +13,8 @@ Find the definition for each key term.
   - In cases, where `[term]` is plural, and none of the lines in the file match the plural form, then use the definition associated with the singular form.
     - Example: If `[term]` is `black holes`, and none of the lines in `<key-term-source>` starts with `black hole` and use the associated definition
   - There may be multiple definitions for the same term. In this case, use the definition that matches the context of the text surrounding where `[term]` was found, use the associated definition and ask the user for confirmation.   
+  - All definitions are phrases, so the first word should not be capitalized and it should not end with a period. 
+    - Example if a definition is `A region in spacetime where gravity is so strong that nothing—not even light—can escape.` it should be changed to `a region in spacetime where gravity is so strong that nothing—not even light—can escape`
 
 ## Textbook Key Term Source
 

@@ -79,6 +79,7 @@ in memory, then write the result back to the same path (overwrite in place).
   - replace &ndash; with -
   - replace &micro; with μ
   - replace &deg; with °
+  - delete <h2>Examples and Exercises</h2>
 
 ## Hard exclusions — never modify or remove, under any rule above
 
