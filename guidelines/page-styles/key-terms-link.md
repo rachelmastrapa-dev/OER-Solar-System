@@ -18,6 +18,6 @@ where
 
 ## Examples
 
- <strong><a href="/Workbench/DeAnza_-_ASTR4/01:_Introduction_to_Astronomy/1.06:_Key_Terms#theory" target="_blank" title="theory">theory</a></strong>
+ <strong><a href="/Workbench/DeAnza_-_ASTR4/01:_Introduction_to_Astronomy/1.05:_Key_Terms#theory" target="_blank" title="theory">theory</a></strong>
 
- <strong><a href="/Workbench/DeAnza_-_ASTR4/01:_Introduction_to_Astronomy/1.06:_Key_Terms#scientific+method" target="_blank" title="scientific method">scientific method</a></strong>
+ <strong><a href="/Workbench/DeAnza_-_ASTR4/01:_Introduction_to_Astronomy/1.05:_Key_Terms#scientific+method" target="_blank" title="scientific method">scientific method</a></strong>
