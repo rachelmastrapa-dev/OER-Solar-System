@@ -80,6 +80,7 @@
      - save local copy of image in images dir
      - - put long captions in alt text for now
 
+key term color <span class="mt-bgcolor-2ecc71">term</span>
 
 <figure><img alt="alt-text" class="default" src="https://query.libretexts.org/@api/deki/files/1990/Placeholder_Image.jpg" style="width: 214px; height: 169px;" />
 <figcaption>Figure \(\PageIndex{1}\): Title. Copy and Paste Caption here. (License[LicenseLink]; Author [Authorlink] via <a href="figurelink" target="_blank">source</a>)</figcaption>
