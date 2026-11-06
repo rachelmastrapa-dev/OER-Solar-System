@@ -123,6 +123,7 @@ in memory, if a judgement needs to be made, ask the user, otherwise complete tas
 8. **Accessibility and IDEA**
   - Highlight text that does not meet meet accessibility or IDEA reccommendations according to editing standards. 
     - Example: Change `All scientists should be men.` to `<span class="mt-bgcolor-e74c3c">All scientists should be men.</span>`
+  - Correct html links: they should all contain `target="_blank"` so that the link opens in a new tab
 
 ## Hard exclusions — never modify or remove, under any rule above
 
@@ -146,7 +147,7 @@ files and all rule types.
 
 Append an entry to today's session file (`sessions/<date>-sessionNN.md`)
 under **AI**, listing: chapter processed, files touched, and total edit
-counts per rule.
+counts per rule. Also copy any post-completion questions or comments returned by Claude in the UI into a new subsection under **Notes**. 
 
 ## After running
 

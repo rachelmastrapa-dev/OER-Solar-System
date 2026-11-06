@@ -20,6 +20,7 @@ This is a list of general guidelines to use for all tools in this directory and 
 - Use bold only for key terms or in Exercise or Example boxes.
 - Minimize use of quotation marks and parentheses in paragraph text.
 - When creating a URL, it is OK to use special characters such as apostrophes, because the Libretexts editor makes any necessary adaptations.
+- There may be links with URL to a different textbook (example: the working textbook is ASTR 4 and the URL is for ASTR10) for key terms or accessible descriptions. The key terms links are overwritten with highlights by the edit html skill, while the accessible description links will be corrected by the format figures skill. Any other links to a different textbook should be reported to the user. 
 
 ## Terminology
 - Refer to `page-styles/terminology.md`
