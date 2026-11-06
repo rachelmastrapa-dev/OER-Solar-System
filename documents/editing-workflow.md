@@ -130,11 +130,13 @@ Ask for help!
 ## Edit Content - Manual   
 
 - main chapter page
-  - reduce to 10 or fewer learning objectives (no learning objectives on sub-pages)
+  - reduce to 10 or fewer learning objectives (no learning objectives on sub-pages) 
 - Content
 
 - All pages
   - edit text for clarity
+
+- check for highlights - mt-bgcolor-e74c3c
 
 - links
   - highlight in <span class="mt-bgcolor-3498db">text</span>
