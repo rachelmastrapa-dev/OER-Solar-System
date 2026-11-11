@@ -213,8 +213,7 @@ make suggestions - search for outer material??. accesibility
 
 
 ## Final Check- Manual
-- Manually paste each page and check for functionality.
-  - check size of thumbnail image  for main chapter page   
+- Manually paste each page and check for functionality. - key terms and accessible descriptions first!!  
 - Commit changes in Conductor 
 - Update progress log.
 - Notify Jyothsna that it is done. 
