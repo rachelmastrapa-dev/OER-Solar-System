@@ -41,6 +41,7 @@
   - use shorthand - update attribution info
   - put long captions from original source in alt text for now
   - do not put url in libretext, it gets f'd up, store for later - make a csv file?? - add to attribution info with code!!!!
+  - write `No description` at the end of figure caption if it does not need one.
 
 - Commit changes in Conductor
 

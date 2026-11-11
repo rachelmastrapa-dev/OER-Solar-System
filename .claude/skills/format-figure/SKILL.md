@@ -50,6 +50,7 @@ The editing standards for this project are described in `$ROOT/guidelines/editin
 - Always look in `editing-standards.md` first when looking for information about editing, formatting, or general guidance for this project, then follow the directions to other files when needed.
 - If there is a rule that says to use editing standards, look for guidance in `editing-standards.md`.
 - Check for any variable definitions in the section about variables in `editing-standards.md`. 
+- Some figures do not require an accessible description. Those will say `No description` at the end of the figure caption.
 
 ## Playwright and Libretext
 When accessing libretext, make sure that Playwright is logged in with the user's credentials.
@@ -106,6 +107,7 @@ in memory, if a judgment needs to be made, ask the user, otherwise complete task
        - Do not update the alt-text for the figure in `manifest.csv` in order to keep a record of the original alt-text
    10. Create the accessible description link
        - Refer to the accessible description link section in `editing-standards.md`
+       - skip this step is
    11. Create the figure html
        - Refer to the figure html section in `editing-standards.md`
    12. Overwrite the old figure html with the new html.
@@ -144,7 +146,7 @@ files and all rule types.
 ## Logging
 
 Append an entry to today's session file (`sessions/<date>-sessionNN.md`)
-under **AI**, listing: chapter processed, figure html edited, images moved, and accessible descriptions removed.
+under **AI**, listing: chapter processed, figure html edited, images moved, and accessible descriptions removed. Also copy any post-completion questions or comments returned by Claude in the UI into a new subsection under **Notes**
 
 ## After running
 

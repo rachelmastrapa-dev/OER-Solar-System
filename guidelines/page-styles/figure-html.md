@@ -6,11 +6,18 @@ Refer to the variables section in `editing-standards.md` for any variables.  Var
 
 When reading the original figure HTML from the local file, it's general format will be:
 
-`<figure><img alt="[OriginalAltText]" class="internal default" src="[OriginalSourceURL]" /> <figcaption>Figure \(\PageIndex{<i>}\) : [FigureTitle]. [OriginalCaptionText]. ([AttributionInfo]).</figcaption> </figure>`
+`<figure><img alt="[OriginalAltText]" class="internal default" src="[OriginalSourceURL]" /> <figcaption>Figure \(\PageIndex{<i>}\) : [FigureTitle]. [OriginalCaptionText]. ([AttributionInfo])</figcaption> </figure>`
 
 Some figures will not have any alternative text. If there is no `alt=` in the `<img>` wrapper, then `[OriginalAltText]` has no value.
 
 Some figures will not have any attribution information. Either the parentheses after `[OriginalCaptionText].` will be empty or there will be no parentheses at all. In both cases set  `[AttributionInfo]` to no value. 
+
+Some figures do not require an accessible description.  They will have `No description` at the end of the figure caption:
+
+`<figure><img alt="[OriginalAltText]" class="internal default" src="[OriginalSourceURL]" /> <figcaption>Figure \(\PageIndex{<i>}\) : [FigureTitle]. [OriginalCaptionText]. ([AttributionInfo]) No description</figcaption> </figure>`
+
+The `No description` is just a flag.  Do not copy it to the final figure html.
+
 
 ## Figure HTML Format
 

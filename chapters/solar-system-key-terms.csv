@@ -18,7 +18,7 @@ celestial pole,one of two points that the celestial sphere appears to rotatea ro
 celestial sphere,the apparent sphere of the sky or a sphere of large radius centered on the observer; directions of objects in the sky can be denoted by their position on the celestial sphere
 centripetal acceleration,the acceleration of an object moving in in uniform circular motion
 cepheid,a star that belongs to a class of yellow supergiant pulsating stars; these stars vary periodically in brightness, and the relationship between their periods and luminosities can be used to calculate their distance
-charge-coupled device CCD,array of high-sensitivity electronic detectors of electromagnetic radiation, used at the focus of a telescope or camera lens to record an image or spectrum
+charge-coupled device (CCD),array of high-sensitivity electronic detectors of electromagnetic radiation, used at the focus of a telescope or camera lens to record an image or spectrum
 chromatic aberration,distortion that causes an image to appear fuzzy when each wavelength coming into a transparent material focuses at a different spot
 chromosphere,the part of the solar atmosphere that lies immediately above the photospheric layers
 circumpolar zone,those portions of the celestial sphere near the celestial poles that are either always above or always below the horizon
@@ -74,6 +74,7 @@ eyepiece,magnifying lens used to view the image produced by the objective lens o
 falsifiable,able to be disproven by experimental results
 filter,a type of window that absorbs certain colors of light while allowing others to pass through
 fission,breaking up of heavier atomic nuclei into lighter ones
+flyby,a spacecraft mission that flies past its target object
 focus,point in a telescope where the rays of light converged by a mirror or lens meet
 freezing point,the temperature where a liquid converts to a solid; can change with pressure
 frequency,the number of waves that cross a given point per unit time
@@ -222,6 +223,7 @@ solstice,the two times of the year when the Sun is at its greatest angular dista
 space velocity,the total speed and direction with which an object is moving through space relative to the Sun
 spectral line,in a spectrum, light emitted or absorbed at a specific wavelength by an atom or molecule
 spectrometer,an instrument for obtaining a spectrum; in astronomy, usually attached to a telescope to record the spectrum of a star, galaxy, or other astronomical object
+spectroscopy,the study of the spectrum of an object to identify its properties
 spectroscopic binary,a binary star in which the components are not resolved, but whose binary nature is indicated by periodic variations in radial velocity indicating orbital motion
 spectrum,the dispersion of light by wavelength
 speed,distance traveled divided by time during which motion occurs
