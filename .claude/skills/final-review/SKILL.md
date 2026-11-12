@@ -56,12 +56,15 @@ in memory, if a judgement needs to be made, ask the user, otherwise complete tas
 <!-- add accessibility and IDEA? -->
 2. Check and correct the heading structure using the Chapter Page and Section Page sections in `editing-standards.md`
 - do not change headings inside of example, exercise, or further exploration boxes
+3. **Remove `&nbsp;`** — replace with a single regular space if a space is
+   needed for readability at that point; otherwise remove it entirely with
+   no replacement. Also delete `<p>&nbsp;</p>`
 
 
 ## Hard exclusions — never modify or remove, under any rule above
 
 - Class attributes from header, list, or paragraph tags. e.g. `<li class="lt-phys-64811">`
-- Anything not explicitly covered by rules 1-2 above 
+- Anything not explicitly covered by rules 1-3 above 
 
 ## Output
 
@@ -80,7 +83,7 @@ files and all rule types.
 
 Append an entry to today's session file (`sessions/<date>-sessionNN.md`)
 under **AI**, listing: chapter processed, files touched, and total edit
-counts per rule.
+counts per rule. Also copy any post-completion questions or comments returned by Claude in the UI into a new subsection under **Notes**.
 
 ## After running
 

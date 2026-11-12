@@ -28,12 +28,18 @@
 
 - Edit chapter page
   - check size of thumbnail image
-  - Confirm chapter and section titles from TOC
+  - Confirm chapter and section titles from TOC - skip 
   - check chapter TOC for summaries and remove
+  - Set chapter to CC BY
 
 - Edit other pages 
   - Delete Extra material
   - Delete extra figures
+
+   key terms 
+   - first scan for highlight and note those words
+   -  find in text and highlight - <span class="mt-bgcolor-2ecc71">term</span>
+   - put all definitions in solar-system-key-terms.csv
 
 - add titles to figures
 - add new figures 
@@ -41,6 +47,7 @@
   - use shorthand - update attribution info
   - put long captions from original source in alt text for now
   - do not put url in libretext, it gets f'd up, store for later - make a csv file?? - add to attribution info with code!!!!
+  - write `No description` at the end of figure caption if it does not need one.
 
 - Commit changes in Conductor
 
@@ -212,8 +219,7 @@ make suggestions - search for outer material??. accesibility
 
 
 ## Final Check- Manual
-- Manually paste each page and check for functionality.
-  - check size of thumbnail image  for main chapter page   
+- Manually paste each page and check for functionality. - key terms and accessible descriptions first!!  
 - Commit changes in Conductor 
 - Update progress log.
 - Notify Jyothsna that it is done. 
