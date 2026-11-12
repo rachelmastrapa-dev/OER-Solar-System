@@ -28,12 +28,18 @@
 
 - Edit chapter page
   - check size of thumbnail image
-  - Confirm chapter and section titles from TOC
+  - Confirm chapter and section titles from TOC - skip 
   - check chapter TOC for summaries and remove
+  - Set chapter to CC BY
 
 - Edit other pages 
   - Delete Extra material
   - Delete extra figures
+
+   key terms 
+   - first scan for highlight and note those words
+   -  find in text and highlight - <span class="mt-bgcolor-2ecc71">term</span>
+   - put all definitions in solar-system-key-terms.csv
 
 - add titles to figures
 - add new figures 
