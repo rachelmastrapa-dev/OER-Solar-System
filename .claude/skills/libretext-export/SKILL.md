@@ -121,7 +121,7 @@ If the user gives instructions to overwrite local files, follow instructions tha
 ## Logging
 
 Append an entry to today's session file (`sessions/<date>-sessionNN.md`)
-under **AI**, listing: chapter processed, files touched, number of images.
+under **AI**, listing: chapter processed, files touched, number of images. Also copy any post-completion questions or comments returned by Claude in the UI into a new subsection under **Notes**.
 
 ## Notes
 - If the editor's Source-view control can't be found on a given page (site
