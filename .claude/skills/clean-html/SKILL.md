@@ -108,7 +108,7 @@ files and all rule types.
 
 Append an entry to today's session file (`sessions/<date>-sessionNN.md`)
 under **AI**, listing: chapter processed, files touched, and total edit
-counts per rule.
+counts per rule. Also copy any post-completion questions or comments returned by Claude in the UI into a new subsection under **Notes**.
 
 ## After running
 
