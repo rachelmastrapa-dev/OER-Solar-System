@@ -120,7 +120,7 @@ find and replace  &times; x
 &deg; °
 
 
-## Edit HTML - Claude/AI user interactions
+## Edit HTML - Claude/AI + consult Human
 
 **User: Commit and close all files**
 Ask for help!
@@ -134,7 +134,7 @@ Ask for help!
 8.  IDEA and ADA flagging
 
 
-## Edit Content - Manual   
+## Edit Content - Human  
 
 - main chapter page
   - reduce to 10 or fewer learning objectives (no learning objectives on sub-pages) 
@@ -218,7 +218,7 @@ make suggestions - search for outer material??. accesibility
 2. Ask about more complicated errors
 
 
-## Final Check- Manual
+## Final Check- Human
 - Manually paste each page and check for functionality. - key terms and accessible descriptions first!!  
 - Commit changes in Conductor 
 - Update progress log.
@@ -226,7 +226,7 @@ make suggestions - search for outer material??. accesibility
 - When you make corrections, update progress again. 
 
 ## Reviews
-- check Caitling and Jyothsnas - link here?
+- check Caitlin and Jyothsnas - link here?
 - wait for accessibility review?
 
 ## Jyothsna
