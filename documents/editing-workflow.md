@@ -38,6 +38,7 @@
 
    key terms 
    - first scan for highlight and note those words
+   - in html search for term
    -  find in text and highlight - <span class="mt-bgcolor-2ecc71">term</span>
    - put all definitions in solar-system-key-terms.csv
 
