@@ -71,7 +71,7 @@ in memory, then write the result back to the same path (overwrite in place).
 8. **Remove breaks** - Remove `<br />`. Paragraph text should end with `</p>`
 9. **Delete Empty Paragraphs** Delete text similar to <p></p> including empty paragraphs with class attributes
 10. **Find and Replace or Delete**
-  - Delete these: &ldquo;  &rdquo; &mdash;
+  - Delete these: &ldquo;  &rdquo; &mdash; - replace &mdash; with a space when required for clarity
   - replace &times; with x
   - replace &amp; with & 
   - replace &rsquo; with '
@@ -80,6 +80,7 @@ in memory, then write the result back to the same path (overwrite in place).
   - replace &micro; with μ
   - replace &deg; with °
   - delete <h2>Examples and Exercises</h2>
+  - delete <span style=""> and its associated </span>, but leave any text. example:  change `<span style="">sunshine</span>` to `sunshine`
 
 ## Hard exclusions — never modify or remove, under any rule above
 
@@ -90,6 +91,7 @@ in memory, then write the result back to the same path (overwrite in place).
 - Anything not explicitly covered by rules 1–10 above (Example/Exercise
   boxes, Further Exploration, learning objectives, IDEA/grammar
   highlighting, paragraph reordering, references formatting).
+- Do not remove `()` at the end of figure caption, they indicate the default attribution
 
 ## Output
 
