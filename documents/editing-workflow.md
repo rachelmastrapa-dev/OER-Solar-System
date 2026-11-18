@@ -79,9 +79,6 @@
    - create properly nested subsections according to guidelines
    - copy subsections into TOC
    - move materials into proper section 
-   
- - review topic list to make sure they are all included
- - check **extras.md**
 
  - mix more information
    - find and copy in info from Solar System Sources - Libretext or copy locally?
@@ -103,7 +100,9 @@ key term color <span class="mt-bgcolor-2ecc71">term</span>
 - references - put in all information in References section
 - text attribution - put in all information in Attributions section
 
-**update guidelines to recongnize new data sources, read code, update attribution info**
+skipping
+ - review topic list to make sure they are all included
+ - check **extras.md**
 
 
 ## Clean HTML - Claude/AI Passive
