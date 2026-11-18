@@ -47,16 +47,16 @@
   - put all attribution information in caption in (), unless openstax astronomy leave empty ()
   - use shorthand - update attribution info
     - make hyperlinks, no bare URLs or they get truncated
-  - put long captions from original source in alt text for now
-  - write `No description` at the end of figure caption if it does not need one.
+  - accessible description info
+    - put long captions from original source in alt text for now
+    - write `No description` at the end of figure caption if it does not need one.  Note that it needs to be described in the text
 
-remove any blue highlights
+- remove any blue highlights (skipping putting in hyperlinks to other parts of the book)
 
 - Commit changes in Conductor
 
 ## Libretext export - Claude/AI Passive
 
-### Actions
 - single chapter
 - copies html from libretext pages to local files
    - preserves chapter structure, titles, section titles and numbering
