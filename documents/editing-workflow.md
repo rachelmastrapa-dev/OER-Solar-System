@@ -38,6 +38,7 @@
 
    key terms 
    - first scan for highlight and note those words
+   - in html search for term
    -  find in text and highlight - <span class="mt-bgcolor-2ecc71">term</span>
    - put all definitions in solar-system-key-terms.csv
 
@@ -45,9 +46,11 @@
 - add new figures 
   - put all attribution information in caption in (), unless openstax astronomy leave empty ()
   - use shorthand - update attribution info
+    - make hyperlinks, no bare URLs or they get truncated
   - put long captions from original source in alt text for now
-  - do not put url in libretext, it gets f'd up, store for later - make a csv file?? - add to attribution info with code!!!!
   - write `No description` at the end of figure caption if it does not need one.
+
+remove any blue highlights
 
 - Commit changes in Conductor
 
@@ -143,15 +146,11 @@ Ask for help!
 - All pages
   - edit text for clarity
 
-- check for highlights - mt-bgcolor-e74c3c
 
-- links
-  - highlight in <span class="mt-bgcolor-3498db">text</span>
-  - log in links.md
       
 - Figures
-  - contextualize figures and tables.
-  - check indices
+  - contextualize figures and tables. - write descriptions in text or in alternative text
+  - check indices - skip?
   - check for figure or table references in text and confirm indices
 - key terms 
    - first scan for highlight and note those words
@@ -160,6 +159,12 @@ Ask for help!
 - Further Exploration
    - check for full link
    - contextualize further exploration links
+
+
+
+- links - skip for now
+  - highlight in <span class="mt-bgcolor-3498db">text</span>
+  - log in links.md
 
 <!-->  - class attributes - connecting to location default attribute?  page attribute? < -->
 
