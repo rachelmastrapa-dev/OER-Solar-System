@@ -59,12 +59,28 @@ If the user gives instructions to overwrite local files, follow instructions tha
 
 3. **For each section link, extract the source HTML** 
    - Report to user the methods that work best for this step and give and example of how to write it. 
-   - Navigate to the section page.
-   - Open the page editor.
-   - Switch to Source/Code view. 
-   - Copy the raw HTML exactly as shown — do not clean, reformat, or
-     summarize it.
-   - Close/exit the editor without saving.
+   - Preferred method (read-only API, returns exactly the editor's Source view):
+     - On the chapter TOC page (logged in), get page ids with
+       `/@api/deki/pages/<chapterPageId>/subpages?dream.out.format=json`
+       (chapter page id is `Deki.PageId`).
+     - For the TOC page and each section, fetch the editor source in `browser_evaluate`:
+       ```js
+       const t = await (await fetch(`/@api/deki/pages/${id}/contents?mode=edit`, {credentials:'include'})).text();
+       const html = new DOMParser().parseFromString(t,'application/xml').querySelector('body').textContent;
+       ```
+     - Do **not** add `format=xhtml` — the body then comes back as XML child
+       elements and `textContent` strips all tags. Do not use
+       `dream.out.format=json` for contents — it returns invalid JSON escapes.
+     - Save the results with `browser_evaluate`'s `filename` parameter
+       (e.g. `.playwright-mcp/chNN-source.json`, a JSON-encoded string), then
+       write each section file from it with a script. Note:
+       `browser_run_code_unsafe`'s `filename` parameter *loads code* from a
+       file; it does not save output.
+     - An empty `body` means the page is empty in Libretext; write an empty file and report it.
+   - Fallback (if the API fails): navigate to the section page, open the page
+     editor, switch to Source/Code view, copy the raw HTML exactly as shown,
+     and close the editor without saving.
+   - Copy the raw HTML exactly — do not clean, reformat, or summarize it.
 
 4. **Archive figure images (without touching the HTML)**
    - After capturing a section's raw HTML, scan it for every `<img>` tag.
@@ -81,9 +97,16 @@ If the user gives instructions to overwrite local files, follow instructions tha
    - **Do not rewrite the `src` in the saved HTML file.** The saved section
      HTML must keep pointing at the original LibreTexts image URL exactly
      as exported — the local image copy is a backup, not a replacement.
-   - For each distinct image URL in the section, fetch the image bytes
-     using the same authenticated Playwright browser session (so it works
-     even if the image host requires the login session), and save it to
+   - LibreText images use plain `src="/@api/deki/files/<id>/<name>"` (some
+     also carry `data-media-type`; no lazy-load source attribute seen so far).
+     These URLs redirect (302) to signed `files.mtstatic.com` URLs, so a
+     `fetch()` inside the page fails with CORS. They have been public, so
+     download with `curl -sL -o <file> -w '%{content_type}' https://[library].libretexts.org<src>`
+     and choose the extension from the content type (jpeg → `.jpg`). If curl
+     gets a login page or an error, fall back to the authenticated Playwright
+     session (`page.request.get(url, {maxRedirects:0})` in
+     `browser_run_code_unsafe` to get the signed `location` URL, then curl that).
+   - For each distinct image URL in the section, fetch the image bytes and save it to
      `chapters/<NN>-<ChapterTitle>/images/<ImageFileName>`. Create the image file name using guidelines in the image file names section in `editing-standards.md`.
    - If the same image URL appears in more than one section, download it
      once and reuse the local file for the manifest entries below rather

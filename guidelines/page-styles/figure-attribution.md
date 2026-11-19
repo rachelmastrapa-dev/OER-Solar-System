@@ -51,6 +51,15 @@ The attribution information, `[AttributionInfo]`, may come in different formats.
     `<AuthorURL>` is `https://commons.wikimedia.org/wiki/User:Emekadecatalyst`
     `<Source>` is `Wikimedia Commons`
     `<FigureURL>` is `https://commons.wikimedia.org/wiki/File:Temperature_Scales.png`
+ 4. Some Attribution info may have a slightly different format. Some have the title of the image. The title is not needed for the attribution, but the title has the link to the image.
+   - Example: if `[AttributionInfo]` is:
+     `<a href="https://commons.wikimedia.org/wiki/File:BennuAsteroid.jpg" title="https://commons.wikimedia.org/wiki/File:BennuAsteroid.jpg">BennuAsteroid</a>, https://commons.wikimedia.org/wiki/File:BennuAsteroid.jpg" title="https://en.wikipedia.org/wiki/Public_domain">Public Domain</a>; <a href="https://www.nasa.gov/" title="https://www.nasa.gov/">NASA</a> via <a href="https://commons.wikimedia.org/wiki/Main_Page" title="https://commons.wikimedia.org/wiki/Main_Page">Wikimedia Commons</a>`
+     `<License>` is `Public Domain`
+    `<LicenseURL>` is `https://en.wikipedia.org/wiki/Public_domain`
+    `<Author>` is `NASA`
+    `<AuthorURL>` is `https://www.nasa.gov/`
+    `<Source>` is `Wikimedia Commons`
+    `<FigureURL>` is `https://commons.wikimedia.org/wiki/File:BennuAsteroid.jpg`
 
 
 ## Example
