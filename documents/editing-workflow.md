@@ -140,16 +140,12 @@ Ask for help!
 
 - main chapter page
   - reduce to 10 or fewer learning objectives (no learning objectives on sub-pages) 
-- Content
 
 - All pages
   - edit text for clarity
-
-
       
 - Figures
   - contextualize figures and tables. - write descriptions in text or in alternative text
-  - check indices - skip?
   - check for figure or table references in text and confirm indices
 - key terms 
    - first scan for highlight and note those words
