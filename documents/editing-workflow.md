@@ -143,6 +143,7 @@ Ask for help!
 
 - All pages
   - edit text for clarity
+  - Double check headers
       
 - Figures
   - contextualize figures and tables. - write descriptions in text or in alternative text
