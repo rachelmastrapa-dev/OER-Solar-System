@@ -230,6 +230,10 @@ make suggestions - search for outer material??. accesibility
 - check Caitlin and Jyothsnas - link here?
 - wait for accessibility review?
 
+## Full Textbook in LibreTexts
+
+- License Restacker
+
 ## Jyothsna
 - Main chapter page 
   - start with H2 Introduction and brief summary
