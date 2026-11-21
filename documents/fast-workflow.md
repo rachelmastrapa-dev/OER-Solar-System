@@ -51,41 +51,7 @@ Priorities
   - only update new html and images
   - move unused images to chapters/extra-images
 
-## Review Chapter Import - Human
-
-- Edit chapter page
-  - at bottom of page write thumbnail and paste in all thumbnail attribution info and caption
-
-- Edit pages
- - sub sections
-   - create properly nested subsections according to guidelines
-   - copy subsections into TOC
-   - move materials into proper section 
-
- - mix more information
-   - find and copy in info from Solar System Sources - Libretext or copy locally?
-   - add figures 
-     - add to libretext and copy html into local file 
-     - save local copy of image in images dir
-     - - put long captions in alt text for now
-
-key term color <span class="mt-bgcolor-2ecc71">term</span>
-
-<figure><img alt="alt-text" class="default" src="https://query.libretexts.org/@api/deki/files/1990/Placeholder_Image.jpg" style="width: 214px; height: 169px;" />
-<figcaption>Figure \(\PageIndex{1}\): Title. Copy and Paste Caption here. (License[LicenseLink]; Author [Authorlink] via <a href="figurelink" target="_blank">source</a>)</figcaption>
-</figure>
-
-
-- figures  
-   - check against files, manifest
-   - put all attribution information in caption in (), unless openstax astronomy leave empty ()
-- references - put in all information in References section
-- text attribution - put in all information in Attributions section
-
-skipping
- - review topic list to make sure they are all included
- - check **extras.md**
-
+- human checks diffs
 
 ## Clean HTML - Claude/AI Passive
 - Read .claude/clean-html/SKILL.md
@@ -122,27 +88,20 @@ Ask for help!
 
 - main chapter page
   - reduce to 10 or fewer learning objectives (no learning objectives on sub-pages) 
+  - check thumbnail
+  - write introduction
 
 - All pages
+  - Headers - proper structure
   - edit text for clarity
-  - Double check headers
       
 - Figures
   - contextualize figures and tables. - write descriptions in text or in alternative text
   - check for figure or table references in text and confirm indices
-- key terms 
-   - first scan for highlight and note those words
-   -  find in text and highlight - <span class="mt-bgcolor-2ecc71">term</span>
-   - put all definitions in solar-system-key-terms.csv
+
 - Further Exploration
    - check for full link
    - contextualize further exploration links
-
-
-
-- links - skip for now
-  - highlight in <span class="mt-bgcolor-3498db">text</span>
-  - log in links.md
 
 <!-->  - class attributes - connecting to location default attribute?  page attribute? < -->
 
