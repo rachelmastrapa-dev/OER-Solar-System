@@ -59,6 +59,7 @@ in memory, then write the result back to the same path (overwrite in place).
    headers), replace any literal
    figure/table number like "Figure 21.5" or "Table 18.1" with
    `Figure \(\PageIndex{1}\)` or `Table \(\PageIndex{1}\)`.
+   - Delete orphan figure references in paragraph text. For example if the paragraph says `new craters have sharp rims (Figure 9.2)` and there is no figure 9.2 on the page, change it to `new craters have sharp rims`
 6. **Remove parenthetical "see" references** — remove parenthetical text
    that begins with "see," keeping any Figure reference unwrapped:
    - `(see Figure \(\PageIndex{1}\))` → `Figure \(\PageIndex{1}\)`
