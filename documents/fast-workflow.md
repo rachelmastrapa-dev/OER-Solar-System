@@ -11,15 +11,13 @@ Priorities
 - ID key terms
 - prep figures
 
-- back up pages with notes
+1. Back up pages to ASTR 4 backup
+2. Delete extra matrerial & notes - leave manual attributions until after pasting material
+3. Copy in material from sources - go through material and paste where useful - check attributions - check for key terms
+4. TOC - Check for summaries and remove
+5. Key terms
+6. Figures title and ()
 
-- Chapter page
-  - check size of thumbnail image
-  - Check for summaries and remove
-
-- Edit other pages 
-  - Delete Extra material
-  - Delete extra figures
 
    key terms 
    - in html search for term
