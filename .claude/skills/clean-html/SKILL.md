@@ -59,6 +59,7 @@ in memory, then write the result back to the same path (overwrite in place).
    headers), replace any literal
    figure/table number like "Figure 21.5" or "Table 18.1" with
    `Figure \(\PageIndex{1}\)` or `Table \(\PageIndex{1}\)`.
+   - Delete orphan figure references in paragraph text. For example if the paragraph says `new craters have sharp rims (Figure 9.2)` and there is no figure 9.2 on the page, change it to `new craters have sharp rims`
 6. **Remove parenthetical "see" references** — remove parenthetical text
    that begins with "see," keeping any Figure reference unwrapped:
    - `(see Figure \(\PageIndex{1}\))` → `Figure \(\PageIndex{1}\)`
@@ -66,6 +67,7 @@ in memory, then write the result back to the same path (overwrite in place).
    - `(see Active Galaxies, Quasars...)` → removed entirely
    - Parentheses wrapping an entire sentence (or more) → remove the parentheses, leave the sentence Example: Change `(sentence)` to `sentence`
    - In-text citations like `(Urton, 1981)` → removed
+   - If there is a figure reference at the end of sentence, remove the parentheses and add a comma: `like in Meteor Crater (Figure \(\PageIndex{1}\)).` → `like in Meteor Crater, Figure \(\PageIndex{1}\).`
 7. **Correct minor HTML errors** — fix small, obvious structural issues
    (unclosed tags, mismatched quotes). Do not restructure or reorder content.
 8. **Remove breaks** - Remove `<br />`. Paragraph text should end with `</p>`

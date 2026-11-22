@@ -51,15 +51,13 @@ Apply these, in order, to each file's HTML. Read the file, apply all rules
 in memory, if a judgement needs to be made, ask the user, otherwise complete tasks, then write the result back to the same path (overwrite in place). 
 
 1. If the page has a section with the heading similar to `<h2>References</h2>`:
-    1. Read the information in `$ROOT/chapters/<NN>-<Chapter-Title-Slug>/sources/references.csv`
-       - if there is no `references.csv` file alert the user
+    1. Read the information in the references section. Ask the user for any missing information
     2. Format the references in HTML.
       - refer to the References section in editing standards
        - Use the information in the file to format the references according to editing standards. 
     3. Write the formatted references in alphabetical order by author in the References section according to editing standards.
 2. If the page has a section with the heading similar to `<h2>Attributions</h2>`:
-    1. Read the information in `$ROOT/chapters/<NN>-<Chapter-Title-Slug>/sources/text-attributions.csv`
-       - if there is no `text-attributions.csv` file alert the user
+    1. Read the information in the attributions section. Ask the user for any missing information
     2. Format the attribution in HTML.
       - refer to the Text Attributions section in editing standards
        - Use the information in the file to format the references according to editing standards. 
