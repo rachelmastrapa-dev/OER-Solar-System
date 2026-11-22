@@ -92,17 +92,19 @@ Ask for help!
   - write introduction
 
 - All pages
+  - check for highlighted text e74c3c  red
   - Headers - proper structure
   - edit text for clarity
-  - check for highlighted text e74c3c  red
+  
       
 - Figures
   - contextualize figures and tables. - write descriptions in text or in alternative text
-  - indices - figures and in text
 
 - Further Exploration
    - check for full link
    - contextualize further exploration links
+
+- check references and attribtions
 
 <!-->  - class attributes - connecting to location default attribute?  page attribute? < -->
 

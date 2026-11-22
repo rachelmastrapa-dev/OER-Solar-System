@@ -67,6 +67,7 @@ in memory, then write the result back to the same path (overwrite in place).
    - `(see Active Galaxies, Quasars...)` → removed entirely
    - Parentheses wrapping an entire sentence (or more) → remove the parentheses, leave the sentence Example: Change `(sentence)` to `sentence`
    - In-text citations like `(Urton, 1981)` → removed
+   - If there is a figure reference at the end of sentence, remove the parentheses and add a comma: `like in Meteor Crater (Figure \(\PageIndex{1}\)).` → `like in Meteor Crater, Figure \(\PageIndex{1}\).`
 7. **Correct minor HTML errors** — fix small, obvious structural issues
    (unclosed tags, mismatched quotes). Do not restructure or reorder content.
 8. **Remove breaks** - Remove `<br />`. Paragraph text should end with `</p>`
