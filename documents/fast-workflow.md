@@ -94,6 +94,7 @@ Ask for help!
 - All pages
   - Headers - proper structure
   - edit text for clarity
+  - check for highlighted text e74c3c  red
       
 - Figures
   - contextualize figures and tables. - write descriptions in text or in alternative text
