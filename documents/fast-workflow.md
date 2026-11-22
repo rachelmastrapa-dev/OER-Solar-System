@@ -97,7 +97,7 @@ Ask for help!
       
 - Figures
   - contextualize figures and tables. - write descriptions in text or in alternative text
-  - check for figure or table references in text and confirm indices
+  - indices - figures and in text
 
 - Further Exploration
    - check for full link
