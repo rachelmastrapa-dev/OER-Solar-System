@@ -1,9 +1,7 @@
 # Shortened Editing for "Easy Chapters"
 
 ## Whole Chapter - Manual in Libretext
-
-Priorities
-- 
+- Priorities
 - chapter structure and pages
 - removing summaries
 - Delete Extra material
@@ -13,10 +11,11 @@ Priorities
 
 1. Back up pages to ASTR 4 backup
 2. Delete extra matrerial & notes - leave manual attributions until after pasting material
-3. Copy in material from sources - go through material and paste where useful - check attributions - check for key terms
+3. Copy in material from sources - go through material and paste where useful - check attributions
 4. TOC - Check for summaries and remove
 5. Key terms
 6. Figures title and ()
+7. Change numbering and titles of exercises and examples
 
 
    key terms 
