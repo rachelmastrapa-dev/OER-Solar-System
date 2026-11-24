@@ -140,6 +140,9 @@ If the user gives instructions to overwrite local files, follow instructions tha
    After the run, list every file written (path only), any sections that
    failed to extract and why, and any chapter/section numbering the tool
    had to guess at and the location of any `img` tags that are not inside a `<figure>` wrapper.
+   No reporting is needed for these cases:
+     - if either of the Key Terms or Accessible Descriptions files are empty
+     - if figure numbers, in the title or elsewhere, are still in number format instead of PageIndex: ("Figure 9.21 :") instead of \(\PageIndex{}\)
 
 ## Logging
 
