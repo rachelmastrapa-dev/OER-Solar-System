@@ -10,20 +10,21 @@
 - prep figures
 
 1. Back up pages to ASTR 4 backup
-2. Delete extra matrerial & notes - leave manual attributions until after pasting material
-3. Copy in material from sources - go through material and paste where useful - check attributions
+2. Chapter structure and pages
+  - Delete extra matrerial & notes 
+  - leave manual attributions until after pasting material
+3. Copy in material from sources 
+  - go through material and paste where useful 
+  - check auto -attributions
 4. TOC - Check for summaries and remove
 5. Key terms
+  - in html search for term
+   -  find in text and highlight - <span class="mt-bgcolor-2ecc71">term</span>
+   - put all definitions in solar-system-key-terms.csv
 6. Figures title and ()
 7. Change numbering and titles of exercises and examples
 
 
-   key terms 
-   - in html search for term
-   -  find in text and highlight - <span class="mt-bgcolor-2ecc71">term</span>
-   - put all definitions in solar-system-key-terms.csv
-
-- add titles to figures
 - add new figures 
   - put all attribution information in caption in (), unless openstax astronomy leave empty ()
   - use shorthand - update attribution info
