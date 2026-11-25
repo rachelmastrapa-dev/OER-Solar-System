@@ -1,29 +1,23 @@
 # Shortened Editing for "Easy Chapters"
 
 ## Whole Chapter - Manual in Libretext
-- Priorities
-- chapter structure and pages
-- removing summaries
-- Delete Extra material
-- Confirm presence of auto-attribution tags
-- ID key terms
-- prep figures
 
-1. Back up pages to ASTR 4 backup
-2. Delete extra matrerial & notes - leave manual attributions until after pasting material
-3. Copy in material from sources - go through material and paste where useful - check attributions
+1. Back up pages to ASTR 4 backup - done for all chapters
+2. Chapter structure and pages
+  - go over content of pages and delete or relocate extra, rearrange order
+  - Delete extra matrerial & notes 
+  - leave manual attributions until after pasting material
+3. Copy in material from sources 
+  - copy in key terms
+  - go through material and paste where useful 
+  - check auto -attributions
 4. TOC - Check for summaries and remove
-5. Key terms
+5. remove blue highlights
 6. Figures title and ()
 7. Change numbering and titles of exercises and examples
+8. Commit Changes in Conductor
 
 
-   key terms 
-   - in html search for term
-   -  find in text and highlight - <span class="mt-bgcolor-2ecc71">term</span>
-   - put all definitions in solar-system-key-terms.csv
-
-- add titles to figures
 - add new figures 
   - put all attribution information in caption in (), unless openstax astronomy leave empty ()
   - use shorthand - update attribution info
@@ -32,9 +26,6 @@
     - put long captions from original source in alt text for now
     - write `No description` at the end of figure caption if it does not need one.  Note that it needs to be described in the text
 
-- remove any blue highlights (skipping putting in hyperlinks to other parts of the book)
-
-- Commit changes in Conductor
 
 ## Libretext export - Claude/AI Passive
 
@@ -51,6 +42,12 @@
   - move unused images to chapters/extra-images
 
 - human checks diffs
+
+## Key Terms
+5. Key terms
+  - in html search for term
+   -  find in text and highlight - <span class="mt-bgcolor-2ecc71">term</span>
+   - put all definitions in solar-system-key-terms.csv
 
 ## Clean HTML - Claude/AI Passive
 - Read .claude/clean-html/SKILL.md

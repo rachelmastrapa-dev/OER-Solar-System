@@ -22,6 +22,7 @@ The textbook is for an introductory astronomy course with no math requirement.
 - The term galaxy is a general term and should be lower case, unless it part of a proper name. Examples: Andromeda Galaxy. There are five galaxies in this cluster.
 - Libretexts is the name of the company that hosts the OER textbook.  Make sure that it is always capitalized and plural
 - semi-major axis has a dash. replace semimajor with semi-major 
+- For spacecraft, the official terms are crewed and uncrewed to clarify the presence of humans. For this textbook, the prefered terms are robotic or human spacecraft. If it says crewed or uncrewed, leave it alone. If it says manned or unmanned, change it to human or robotic, respectively.
 
 ### Words and terms to Avoid
 

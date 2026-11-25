@@ -1,0 +1,22 @@
+[    1409ms] [LOG] CKEditor Query Plugin Release: 1.1.2 - Date: 2023-01-06 @ https://cdn.libretexts.net/github/ckeditor-query-plugin/queryPlugin.min.js:1
+[    1409ms] [LOG] CKEditor LibreFormat Plugin @ https://cdn.libretexts.net/github/LibreTextsMain/EditorPlugins/dist/libreFormatPlugin.min.js:1
+[    1409ms] [LOG] CKEditor LibreBoxes Plugin @ https://cdn.libretexts.net/github/LibreTextsMain/EditorPlugins/dist/libreBoxesPlugin.min.js:1
+[    1409ms] [LOG] CKEditor LibreQuery Plugin @ https://cdn.libretexts.net/github/LibreTextsMain/EditorPlugins/dist/libreQueryPlugin.min.js:1
+[    1428ms] [LOG] Checking glossary freshness from: https://commons.libretexts.org/api/v1/commons/glossary/page/131129/library/phys @ https://cdn.jsdelivr.net/gh/yghaemi/glossarizer@750021c/dist/glossarizer.js:3476
+[    1795ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://stats.g.doubleclick.net/g/collect?v=2&tid=G-YNNYBFB9RM&cid=946081265.1788839708&gtm=45je6bh1v9125907141za20gxf1&rcb=16&aip=1&dma=0&gcd=13l3l3l3l2l1&npa=0&frm=0&tag_exp=115938465~115938468~120213116~120385423~120469145~120469153~121246026~121246034:1
+[    2816ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://commons.libretexts.org/api/v1/commons/book/phys-108155:1
+[    2957ms] Uncaught Donation widget button is not exists. If you see these on your WEB page, please, check button installation steps.
+    at w.dw_open (https://donorbox.org/install-popup-button.js:174:23)
+    at <anonymous> (https://donorbox.org/install-popup-button.js:385:5)
+    at <anonymous> (https://donorbox.org/install-popup-button.js:386:2)
+[   61745ms] [ERROR] Access to fetch at 'https://commons.libretexts.org/api/v1/commons/glossary/page/131129/library/phys' from origin 'https://phys.libretexts.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://phys.libretexts.org/Workbench/De_Anza_-_ASTR10/12:_Aging_Stars/12.07:_Accessible_Descriptions:1
+[   61746ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://commons.libretexts.org/api/v1/commons/glossary/page/131129/library/phys:1
+[   61746ms] [ERROR] [glossary] freshness check failed: TypeError: Failed to fetch
+    at fetchFreshness (https://cdn.jsdelivr.net/gh/yghaemi/glossarizer@750021c/dist/glossarizer.js:3391:12)
+    at run (https://cdn.jsdelivr.net/gh/yghaemi/glossarizer@750021c/dist/glossarizer.js:3477:7)
+    at https://cdn.jsdelivr.net/gh/yghaemi/glossarizer@750021c/dist/glossarizer.js:3441:7 @ https://cdn.jsdelivr.net/gh/yghaemi/glossarizer@750021c/dist/glossarizer.js:3490
+[   61906ms] [ERROR] Access to fetch at 'https://commons.libretexts.org/api/v1/reference/page/131129/library/phys' from origin 'https://phys.libretexts.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://phys.libretexts.org/Workbench/De_Anza_-_ASTR10/12:_Aging_Stars/12.07:_Accessible_Descriptions:1
+[   61906ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://commons.libretexts.org/api/v1/reference/page/131129/library/phys:1
+[   61906ms] [ERROR] Failed to load citations: TypeError: Failed to fetch
+    at El (https://cdn.jsdelivr.net/gh/yghaemi/biblizer@d1c7d71/dist/script.min.js:6434:1515)
+    at HTMLDocument.<anonymous> (https://cdn.jsdelivr.net/gh/yghaemi/biblizer@d1c7d71/dist/script.min.js:6434:191) @ https://cdn.jsdelivr.net/gh/yghaemi/biblizer@d1c7d71/dist/script.min.js:6434

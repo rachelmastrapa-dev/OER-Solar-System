@@ -37,7 +37,8 @@ constant,an unchanging value in an equation or describing a fundamental process 
 continuous spectrum,an uninterrupted distribution of colors according to wavelength
 control,a part of an experiment that does not change during the experiment
 convection,movement caused within a gas or liquid by the tendency of hotter, and therefore less dense material, to rise and colder, denser material to sink under the influence of gravity, which consequently results in transfer of heat
-corona,the outer hot atmosphere of the Sun
+corona (Sun),the outer hot atmosphere of the Sun
+corona (Venus),structures unique to Venus that may be caused by plumes of rising material from the mantle and are characterized by their circular shape and tectonic deformation of their surrounding areas
 coronal hole,a region in the Sun’s outer atmosphere that appears darker because there is less hot gas there
 coronal mass ejection CME,a solar flare in which immense quantities of coronal material—mainly protons and electrons—are ejected at high speeds 500–1000 kilometers per second into interplanetary space
 cosmic rays,atomic nuclei, mostly protons, and electrons that are observed to strike Earth's atmosphere with very high energies
@@ -96,6 +97,7 @@ granulation,the rice-grain-like structure of the solar photosphere; granulation 
 gravitational wave,a disturbance in the curvature of spacetime caused by changes in how matter is distributed; gravitational waves propagate at or near the speed of light
 gravity,the mutual attraction of material bodies or particles
 great circle,a circle on the surface of a sphere that is the curve of intersection of the sphere with a plane passing through its center
+greenhouse effect,when gases in an atmosphere absorb infrared photons released by a surface heated by visible sunlight, retaining heat that could have escaped to space
 ground state,the lowest possible energy state of an electron in an atom
 H II region,the region of ionized hydrogen in interstellar space
 H-R diagram,Hertzsprung–Russell diagram; a plot of luminosity against surface temperature, or spectral type, for a group of stars
@@ -129,7 +131,7 @@ Kepler’s first law,each planet moves around the Sun in an orbit that is an ell
 Kepler’s second law,the straight line joining a planet and the Sun sweeps out equal areas in space in equal intervals of time
 Kepler’s third law,the square of a planet’s orbital period is directly proportional to the cube of the semimajor axis of its orbit
 kinetic energy,the energy of an object due to its motion
-Kuiper Belt,a doughnut-shaped region of icy objects beyond the orbit of Neptune
+Kuiper belt,a region of space beyond Neptune that is dynamically stable (like the asteroid belt); the source region for most short-period comets
 lander,a spacecraft designed to set down on the surface of another celestial body
 latitude,angular distance north or south of Earth's equator measured in degrees along a meridian
 law,a description, often in the form of a mathematical formula, for the behavior of some aspect of nature under certain specific conditions
@@ -166,6 +168,8 @@ molecule,a group of at least 2 atoms held together by chemical bonds
 momentum,an object's momentum is its mass times its velocity
 moon,a large body orbiting a planet; the general term is moon, while Earth's moon is called the Moon
 natural science,a field of science that studies the physical world, its phenomena, and processes
+near-Earth asteroid (NEA),an Earth-approaching asteroid, one whose orbit could bring it on a collision course with our planet
+near-Earth object (NEO), a comet or asteroid whose path intersects the orbit of Earth
 nebula,a cloud of interstellar gas or dust; the term is most often used for clouds that are seen to glow with visible light or infrared
 neutrino,fundamental particle that has no charge and a mass that is tiny relative to an electron; it rarely interacts with ordinary matter and comes in three different types
 neutron,a particle in an atom with a neutral charge
@@ -175,7 +179,8 @@ Newton’s second law,the change of motion of a body is proportional to and in t
 Newton’s third law,for every action there is an equal and opposite reaction or: the mutual actions of two bodies upon each other are always equal and act in opposite directions
 nova,the sudden, temporary appearance of what appears to be a new star that fades over time
 nucleosynthesis,the building up of heavy elements from lighter ones by nuclear fusion
-nucleus,the center of an atom, consisting of protons and neutrons and having a positive charge
+nucleus (atom),the center of an atom, consisting of protons and neutrons and having a positive charge
+nucleus (comet),the solid chunk of ice and dust in the head of a comet
 Oort cloud,a spherical shell of cometary bodies believed to surround the Sun far beyond the orbit of Pluto and from which some are dislodged when perturbed (as by a passing star) to fall toward the Sun
 opaque,when a material does not transmit light
 open cluster,a comparatively loose cluster of stars, containing from a few dozen to a few thousand members, located in the spiral arms or disk of our Galaxy; sometimes referred to as a galactic cluster
@@ -190,6 +195,7 @@ period-luminosity relation,an empirical relation between the periods and luminos
 periodic table,a table of the elements organized by atomic number, electron configuration, and other properties
 phase diagram,a chart that depicts the dependence of the phase changes of a material on pressure and temperature
 phases of the Moon,the different appearance of light and dark on the Moon as seen from Earth during its monthly cycle from new moon to full moon and back to new moon
+photochemistry,chemical changes caused by electromagnetic radiation
 photometer,an instrument used to measure the intensity of light
 photon,a particle of electromagnetic radiation
 photosphere,the region of the solar or stellar atmosphere from which continuous radiation escapes into space
@@ -226,6 +232,7 @@ refracting telescope,telescope in which the principal light collector is a lens 
 refraction,changing of the path of light when passing from one medium to another
 remote sensing,learning about an object without coming into direct contact with it
 resolution,detail in an image; specifically, the smallest angular or linear features that can be distinguished
+resonance,an orbital condition in which one object is subject to periodic gravitational perturbations by another, most commonly arising when two objects orbiting a third have periods of revolution that are simple multiples or fractions of each other
 retrograde motion,the apparent westward motion of a planet on the celestial sphere or with respect to the stars
 right ascension,the coordinate for measuring the east-west positions of celestial bodies or the angle measured eastward along the celestial equator from the vernal equinox to the hour circle passing through a body
 rover,a vehicle for exploring extraterrestrial bodies
@@ -269,9 +276,13 @@ supercluster,a large region of space more than 100 million light-years across wh
 supermassive black hole,the object in the center of most large galaxies that is so massive and compact that light cannot escape from it; the Milky Way's supermassive black hole contains 4.6 millions of Suns' worth of mass
 supernova,the explosion of a massive star, resulting in a sharp increase in its brightness followed by gradual fading over weeks or months
 synchronous rotation,when an object rotates at the same rate that it orbits around another body
+synchrotron radiation,the radiation emitted by charged particles being accelerated in magnetic fields and moving at speeds near that of light
+tail (comet),(of a comet) a tail consisting of two parts: the dust tail is made of dust loosened by the sublimation of ice in a comet that is then pushed by photons from the Sun into a curved stream; the ion tail is a stream of ionized particles evaporated from a comet and then swept away from the Sun by the solar wind
+tectonic,features such as cracks, faults, and scarps that are created by extensional, compressional, or lateral forces in the crust
 telescope,an instrument used to observe distant objects by collecting and focusing their light
 temperature,the average translational kinetic energy of the molecules in an object or what is measured with a thermometer
 theory,a thoroughly tested and confirmed explanation for observations or phenomena
+tidal heating,the heating of a planet or moon’s interior by variable tidal forces caused by changing gravitational pull from a nearby planet or moon
 time,the measurement of how long change occurs
 transition region,the region in the Sun’s atmosphere where the temperature rises very rapidly from the relatively low temperatures that characterize the chromosphere to the high temperatures of the corona
 transmission,when light passes through a material

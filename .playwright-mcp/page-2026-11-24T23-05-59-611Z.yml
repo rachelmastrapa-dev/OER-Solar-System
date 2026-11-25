@@ -1,0 +1,699 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#elm-main-content"
+  - main [ref=e3]:
+    - text: 
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic: ✕
+        - navigation [ref=e7]:
+          - generic [ref=e8]:
+            - link [ref=e10] [cursor=pointer]:
+              - /url: https://phys.libretexts.org/
+              - img "Library homepage" [ref=e11]
+            - button "Enter Reader Mode" [ref=e13] [cursor=pointer]:
+              - generic [aria-hidden] [ref=e14]: chrome_reader_mode
+        - generic "Conditional content <strong>(Pro member)</strong>"
+      - navigation [ref=e16]:
+        - list [ref=e18]:
+          - listitem [ref=e19]:
+            - link [ref=e21] [cursor=pointer]:
+              - img "LibreOne Launchpad" [ref=e22]
+          - listitem [ref=e23]:
+            - text: 
+            - generic [ref=e25]:
+              - generic [ref=e26]: "Search :"
+              - searchbox "Search :" [ref=e27]
+              - button " Search" [ref=e28] [cursor=pointer]
+            - text: 
+          - listitem [ref=e29]:
+            - list [ref=e30]:
+              - listitem [ref=e31]:
+                - link "Edit" [ref=e32] [cursor=pointer]:
+                  - /url: https://phys.libretexts.org/Workbench/De_Anza_-_ASTR10/12%3A_Aging_Stars/12.07%3A_Accessible_Descriptions?action=edit
+              - text: 
+              - listitem [ref=e33]:
+                - link " Options" [ref=e34] [cursor=pointer]:
+                  - /url: "#"
+                - text:       
+              - text:  
+              - listitem [ref=e35]:
+                - link " Rachel Mastrapa" [ref=e36] [cursor=pointer]:
+                  - /url: "#"
+                - text:    
+      - navigation [ref=e37]:
+        - generic:
+          - button " Expand/collapse global hierarchy" [ref=e38] [cursor=pointer]
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link " Home" [ref=e41] [cursor=pointer]:
+                - /url: https://phys.libretexts.org/
+                - generic [ref=e42]: 
+                - text: Home
+              - text: »
+            - listitem [ref=e43]:
+              - link " Workbench" [ref=e44] [cursor=pointer]:
+                - /url: https://phys.libretexts.org/Workbench
+                - generic [ref=e45]: 
+                - text: Workbench
+              - text: »
+            - listitem [ref=e46]:
+              - link " De Anza - ASTR10" [ref=e47] [cursor=pointer]:
+                - /url: https://phys.libretexts.org/Workbench/De_Anza_-_ASTR10
+                - generic [ref=e48]: 
+                - text: De Anza - ASTR10
+              - text: »
+            - listitem [ref=e49]:
+              - 'link " 12: Aging Stars" [ref=e50] [cursor=pointer]':
+                - /url: https://phys.libretexts.org/Workbench/De_Anza_-_ASTR10/12%3A_Aging_Stars
+                - generic [ref=e51]: 
+                - text: "12: Aging Stars"
+              - text: »
+            - listitem [ref=e52]:
+              - generic [ref=e53]: 
+              - text: "12.7: Accessible Descriptions"
+          - text: 
+      - navigation
+    - article [ref=e54]:
+      - generic [ref=e55]:
+        - generic [ref=e56]:
+          - button " Page settings" [ref=e57] [cursor=pointer]
+          - text: "    :  :  :  :  :  :  :  :  :  :  :  :  :  :            "
+        - 'heading "12.7: Accessible Descriptions" [level=1] [ref=e58]':
+          - generic [ref=e59]: "12.7: Accessible Descriptions "
+        - list [ref=e61]:
+          - listitem [ref=e62]:
+            - link [ref=e64] [cursor=pointer]:
+              - /url: https://creativecommons.org/licenses/by/4.0/
+              - generic [ref=e65]:
+                - img "CC" [ref=e66]
+                - img "BY" [ref=e67]
+          - listitem [ref=e68]:
+            - generic [ref=e69]:
+              - term [ref=e70] [cursor=pointer]: "Last updated:"
+              - definition [ref=e71]: Oct 22, 2026, 12:35 PM by Rachel Mastrapa
+          - listitem [ref=e72]:
+            - generic [ref=e73]:
+              - term [ref=e74] [cursor=pointer]: "Page restriction:"
+              - definition [ref=e75]: Semi-Public
+          - listitem [ref=e76]:
+            - generic [ref=e77]:
+              - term [ref=e78] [cursor=pointer]: "Page ID:"
+              - definition [ref=e79]: "131129"
+          - listitem [ref=e80]:
+            - list [ref=e81]:
+              - listitem [ref=e82]:
+                - button "Pin Page" [ref=e83] [cursor=pointer]: 
+              - listitem [ref=e84]:
+                - generic [ref=e85]:
+                  - link " Page notifications Off" [ref=e87] [cursor=pointer]:
+                    - /url: "#"
+                  - text: 
+              - text: 
+              - listitem [ref=e88]:
+                - list [ref=e89]:
+                  - listitem [ref=e90]:
+                    - 'link " 12.6: Key Terms" [ref=e91] [cursor=pointer]':
+                      - /url: https://phys.libretexts.org/Workbench/De_Anza_-_ASTR10/12%3A_Aging_Stars/12.06%3A_Key_Terms
+                      - text: 
+                      - generic [ref=e92]: "12.6: Key Terms"
+                  - listitem [ref=e93]:
+                    - 'link "13: Stellar Finale " [ref=e94] [cursor=pointer]':
+                      - /url: https://phys.libretexts.org/Workbench/De_Anza_-_ASTR10/13%3A_Stellar_Finale
+                      - generic [ref=e95]: "13: Stellar Finale"
+                      - text: 
+              - listitem
+      - complementary
+      - text: 
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - generic [ref=e98]:
+            - heading "Figure 12.1.1 H-R Diagram with ZAMS" [level=2] [ref=e99]
+            - paragraph [ref=e100]: An H-R diagram with the zero age main sequence line in blue.
+            - generic [ref=e101]:
+              - heading "Chart Elements" [level=3] [ref=e102]
+              - list [ref=e103]:
+                - listitem [ref=e104]:
+                  - text: In this graph the vertical axis is labeled Luminosity (LSun), from 10
+                  - superscript [ref=e105]: "-4"
+                  - text: to 10
+                  - superscript [ref=e106]: "6"
+                  - text: in increments of 10
+                  - superscript [ref=e107]: "2"
+                  - text: .
+                - listitem [ref=e108]: The horizontal axis is labeled Spectral class, and is divided into seven equal length units. From left to right they are labeled O, B, A, F, G, K and M.
+                - listitem [ref=e109]: The horizontal axis is also labeled Temperature (K), running from 25,000 on the left to 3,000 on the right.
+            - generic [ref=e110]:
+              - heading "Locations of Star Types" [level=3] [ref=e111]
+              - list [ref=e112]:
+                - listitem [ref=e113]: Beginning at lower left is an isolated group of stars labeled White Dwarfs.
+                - listitem [ref=e114]: The majority of stars lie on the Main Sequence, which runs diagonally from upper left to lower right.
+                - listitem [ref=e115]: The left side of the group of stars making up the main sequence has a blue line, running along its entire length, labeled ZAMS for zero-age main sequence.
+                - listitem [ref=e116]: The lower right part of the main sequence is labeled Red dwarfs.
+                - listitem [ref=e117]: Running horizontally from the center of the graph to the right is the narrow band of Red giants.
+                - listitem [ref=e118]: A small number of stars running horizontally across the entire top of the graph are the Supergiants.
+          - generic [ref=e119]:
+            - heading "Figure 12.1.2 Hydrogen Shell" [level=2] [ref=e120]
+            - paragraph [ref=e121]: Two diagrams of a star's interior before and after it leaves the main sequence.
+            - generic [ref=e122]:
+              - heading "Diagram (a)" [level=3] [ref=e123]
+              - list [ref=e124]:
+                - listitem [ref=e125]: On the left
+                - listitem [ref=e126]: The Hydrogen burning core is shown as a small disk within a larger, yellow disk depicting the non-fusion Stellar envelope.
+            - generic [ref=e127]:
+              - heading "Diagram (b)" [level=3] [ref=e128]
+              - list [ref=e129]:
+                - listitem [ref=e130]: On the right
+                - listitem [ref=e131]: The Helium core is drawn as a smaller disk within a larger disk labeled, Hydrogen burning shell.
+                - listitem [ref=e132]: These are within a larger Stellar envelope which is drawn in yellow.
+          - generic [ref=e133]:
+            - heading "Figure 12.1.3 The Size of Red Giants" [level=2] [ref=e134]
+            - paragraph [ref=e135]: An illustration of the Sun, Delta Boötis, an Xi Cygni.
+            - list [ref=e136]:
+              - listitem [ref=e137]: The Sun is represented at center-left with a yellow disk labeled Sun.
+              - listitem [ref=e138]: The giant star labeled Delta Boötis is drawn at right with an orange disk about 10 times the size of the Sun’s disk.
+              - listitem [ref=e139]: At the top of this image, covering the entire upper portion of the figure, a small part of the supergiant labeled Xi Cygni is shown in red.
+          - generic [ref=e140]:
+            - heading "Figure 12.1.4 Betelgeuse" [level=2] [ref=e141]
+            - paragraph [ref=e142]: An image of the constellation and an image of Betelgeuse with scale bars.
+            - list [ref=e143]:
+              - listitem [ref=e144]: The Hubble Space Telescope image of Betelgeuse is presented in the inset in the upper left of this image where the reddish, extended atmosphere surrounds the brighter, yellow core.
+              - listitem [ref=e145]:
+                - text: Below the inset is a list of relative scales based on the image.
+                - list [ref=e146]:
+                  - listitem [ref=e147]: At the top the Size of Star is indicated with a bar the width of Betelgeuse in the image.
+                  - listitem [ref=e148]: At the center the Size of Earth’s Orbit is shown with a much smaller bar.
+                  - listitem [ref=e149]: At the bottom, the Size of Jupiter’s Orbit is also shown with a bar. Jupiter's orbit is a little over half the size of Betelgeuse.
+              - listitem [ref=e150]: The right hand panel includes the full constellation of Orion, with Betelgeuse marked with a large X at the upper left of the image.
+          - generic [ref=e151]:
+            - heading "Figure 12.1.5 Stellar Mass and Evolution" [level=2] [ref=e152]
+            - paragraph [ref=e153]: An H-R Diagram with model evolutionary tracks of stars with a range of masses.
+            - generic [ref=e154]:
+              - heading "Chart Elements" [level=3] [ref=e155]
+              - list [ref=e156]:
+                - listitem [ref=e157]:
+                  - text: The vertical axis is labeled Luminosity (L
+                  - subscript [ref=e158]: Sun
+                  - text: ) and goes from 10
+                  - superscript [ref=e159]: "-2"
+                  - text: at the bottom to over 10
+                  - superscript [ref=e160]: "4"
+                  - text: at the top with increments of 10
+                  - superscript [ref=e161]: "2"
+                  - text: .
+                - listitem [ref=e162]: The horizontal axis is labeled Surface Temperature (K) and goes from 25,000 on the left to 4,000 on the right.
+                - listitem [ref=e163]: The horizontal axis is non-linear. There are two increments of equal size, the first is from 25,000 to 10,000 and the second is from 10,000 to 4000.
+                - listitem [ref=e164]:
+                  - text: The Zero-age main sequence is drawn as a diagonal red line beginning above L = 10
+                  - superscript [ref=e165]: "4"
+                  - text: at the upper left of the image down to T ~ 4000 at the lower right.
+            - generic [ref=e166]:
+              - heading "Evolutionary Tracks" [level=3] [ref=e167]
+              - list [ref=e168]:
+                - listitem [ref=e169]: Six total
+                - listitem [ref=e170]: Beginning at the top
+                - listitem [ref=e171]: All tracks have points marking the age of the star.
+                - listitem [ref=e172]:
+                  - text: 15 solar masses
+                  - list [ref=e173]:
+                    - listitem [ref=e174]:
+                      - text: It leaves the main sequence above L ~ 3 x 10
+                      - superscript [ref=e175]: "4"
+                      - text: and T ~ 25,000.
+                    - listitem [ref=e176]: The track moves mostly rightward across the top of the plot.
+                    - listitem [ref=e177]: Overall, the star maintains a relatively constant luminosity, but its surface temperature decreases with time.
+                    - listitem [ref=e178]:
+                      - text: At 1.01 × 10
+                      - superscript [ref=e179]: "7"
+                      - text: years its temperature is about 20,000 K.
+                    - listitem [ref=e180]: As the track leaves the last point, it increases in temperature to just about 23,000 K and then makes a sharp turn to the right to meet the next point.
+                    - listitem [ref=e181]:
+                      - text: At 1.11 × 10
+                      - superscript [ref=e182]: "7"
+                      - text: years it has decreased in temperature and moved right on the chart to about 15,000 K.
+                    - listitem [ref=e183]:
+                      - text: At 1.19 × 10
+                      - superscript [ref=e184]: "7"
+                      - text: years T is about 9000 K.
+                    - listitem [ref=e185]:
+                      - text: The track ends at 1.2 × 10
+                      - superscript [ref=e186]: "7"
+                      - text: years near 4000 K.
+                - listitem [ref=e187]:
+                  - text: 5 solar masses
+                  - list [ref=e188]:
+                    - listitem [ref=e189]:
+                      - text: Begins near L ~ 10
+                      - superscript [ref=e190]: "3"
+                      - text: ", where it leaves the main sequence."
+                    - listitem [ref=e191]: Overall, the star maintains a relatively constant luminosity, and its surface temperature decreases with time.
+                    - listitem [ref=e192]:
+                      - text: At 6.55 × 10
+                      - superscript [ref=e193]: "7"
+                      - text: years its temperature is about 15,000 K. The star's luminosity has increased to roughly 3 x 10
+                      - superscript [ref=e194]: "3"
+                      - text: .
+                    - listitem [ref=e195]: There is a very small increase in temperature after the last time point.
+                    - listitem [ref=e196]:
+                      - text: At 6.98 x 10
+                      - superscript [ref=e197]: "7"
+                      - text: years the surface temperature is about 5000 K.
+                    - listitem [ref=e198]:
+                      - text: The track ends at 7.02 x 10
+                      - superscript [ref=e199]: "7"
+                      - text: years at a temperature of about 4500 K. The luminosity has increased to roughly 4 x 10
+                      - superscript [ref=e200]: "3"
+                      - text: .
+                - listitem [ref=e201]:
+                  - text: 3 solar masses
+                  - list [ref=e202]:
+                    - listitem [ref=e203]:
+                      - text: Leaves the main sequence near L ~ 10
+                      - superscript [ref=e204]: "2"
+                    - listitem [ref=e205]: Overall, the star has a relatively constant luminosity until the end of the last time point. The surface temperature decreases the most during the first two sections of the track and then decreases a small amount at the end of the track. During the same section, the luminosity increases.
+                    - listitem [ref=e206]:
+                      - text: At 2.21 × 10
+                      - superscript [ref=e207]: "8"
+                      - text: years its temperature is about 12,000 K. The star's luminosity has increased to roughly 2 x 10
+                      - superscript [ref=e208]: "2"
+                      - text: .
+                    - listitem [ref=e209]: There is a very small increase in temperature after the last time point.
+                    - listitem [ref=e210]:
+                      - text: At 2.46 x 10
+                      - superscript [ref=e211]: "8"
+                      - text: years the surface temperature is about 5500 K. The luminosity has decreased back to 10
+                      - superscript [ref=e212]: "2"
+                      - text: .
+                    - listitem [ref=e213]:
+                      - text: The track ends at 2.51 x 10
+                      - superscript [ref=e214]: "8"
+                      - text: years at a temperature of about 4500 K. The luminosity has increased to roughly 6 x 10
+                      - superscript [ref=e215]: "2"
+                      - text: .
+                - listitem [ref=e216]:
+                  - text: 1.5 solar masses
+                  - list [ref=e217]:
+                    - listitem [ref=e218]: Leaves the main sequence near L ~ 10.
+                    - listitem [ref=e219]: Overall, the star decreases in temperature with time. At first the luminosity is mostly constant, but it increases by a large amount in the last section of the track.
+                    - listitem [ref=e220]:
+                      - text: At 1.55 × 10
+                      - superscript [ref=e221]: "9"
+                      - text: years its temperature is about 7000 K. The star's luminosity has increased to roughly 30.
+                    - listitem [ref=e222]: There is a very small increase in temperature after the last time point.
+                    - listitem [ref=e223]:
+                      - text: At 2.09 × 10
+                      - superscript [ref=e224]: "9"
+                      - text: years its temperature is about 6000 K. The star's luminosity stays near 30.
+                    - listitem [ref=e225]:
+                      - text: At 2.39 × 10
+                      - superscript [ref=e226]: "9"
+                      - text: years its temperatures has decreased to about 5000 K. Its luminosity increases to 3 x 10
+                      - superscript [ref=e227]: "2"
+                      - text: .
+                - listitem [ref=e228]:
+                  - text: 1 solar mass
+                  - list [ref=e229]:
+                    - listitem [ref=e230]: Leaves the main sequence at L = 1 and 5700 K.
+                    - listitem [ref=e231]:
+                      - text: After 7 × 10
+                      - superscript [ref=e232]: "9"
+                      - text: years its temperature is nearly the same, but its luminosity has increased slightly.
+                    - listitem [ref=e233]:
+                      - text: After 10.4 × 10
+                      - superscript [ref=e234]: "9"
+                      - text: years, its temperature has dropped to near 5000 K, and its luminosity has increased to 10.
+                    - listitem [ref=e235]:
+                      - text: Its luminosity steadily increases to where the curve ends at 11.4 × 10
+                      - superscript [ref=e236]: "9"
+                      - text: years, L ~ 10
+                      - superscript [ref=e237]: "3"
+                      - text: and T ~ 4000 K.
+                - listitem [ref=e238]:
+                  - text: 0.5 solar mass
+                  - list [ref=e239]:
+                    - listitem [ref=e240]: Begins at L ~ 10-1 near T ~ 5000.
+                    - listitem [ref=e241]: Its curve is a short arrow pointing upward as its evolutionary timescale is too large for this diagram.
+          - generic [ref=e242]:
+            - heading "Figure 12.2.1 Omega Centauri" [level=2] [ref=e243]
+            - paragraph [ref=e244]: Two Images of the Globular Cluster Omega Centauri.
+            - generic [ref=e245]:
+              - heading "Image (a)" [level=3] [ref=e246]
+              - list [ref=e247]:
+                - listitem [ref=e248]: On the left
+                - listitem [ref=e249]: Ground-based image of Omega Centauri as a large sphere of thousands of stars that is so dense that the central region appears as an indistinct patch of light.
+            - generic [ref=e250]:
+              - heading "Image (b)" [level=3] [ref=e251]
+              - list [ref=e252]:
+                - listitem [ref=e253]: On the right
+                - listitem [ref=e254]: A high-resolution Hubble Space Telescope image of the central region, showing dozens of bright red and blue stars amidst a background of thousands of fainter yellow stars.
+          - generic [ref=e255]:
+            - heading "Figure 12.2.2 Jewel Box (NGC 4755)" [level=2] [ref=e256]
+            - list [ref=e257]:
+              - listitem [ref=e258]: Image of Open Cluster NGC 4755.
+              - listitem [ref=e259]: This open cluster, known as the “Jewel Box,” contains many bright white and blue stars as well as a bright yellow supergiant near the center.
+          - generic [ref=e260]:
+            - heading "Figure 12.3.1 Clusters on the H-R Diagram" [level=2] [ref=e261]
+            - paragraph [ref=e262]: H-R Diagram of a model young Cluster.
+            - generic [ref=e263]:
+              - heading "Chart Elements" [level=3] [ref=e264]
+              - list [ref=e265]:
+                - listitem [ref=e266]: "The title is M 2001 Age: 3 million years"
+                - listitem [ref=e267]:
+                  - text: The vertical axis is labeled Luminosity (L
+                  - subscript [ref=e268]: Sun
+                  - text: ), and goes from 0.1 at the bottom to 100,000 at the top. The scale is logarithmic. This means that each increment is the same length on the axis, but the value increases by a factor of 10.
+                - listitem [ref=e269]: The horizontal axis is labeled Surface Temperature (K), and goes from 40,000 on the left to 3,000 on the right.
+                - listitem [ref=e270]:
+                  - text: The zero-age main sequence is drawn as a red diagonal line starting just above 100,000 L
+                  - subscript [ref=e271]: Sun
+                  - text: at the top of the graph down to about 4000 K at the bottom. The “Present position of Sun” is indicated at 5500 K and 1 L
+                  - subscript [ref=e272]: Sun
+                  - text: .
+            - generic [ref=e273]:
+              - heading "Stars" [level=3] [ref=e274]
+              - list [ref=e275]:
+                - listitem [ref=e276]: There are black dots representing the individual stars in the cluster.
+                - listitem [ref=e277]:
+                  - text: About half of the dots lie along the red line until about 10000 K and 100 L
+                  - subscript [ref=e278]: Sun
+                  - text: . These dots represent the higher temperature, higher luminosity, and higher mass stars.
+                - listitem [ref=e279]: The remainder of the dots lie above the red line, meaning these stars have yet to reach the main sequence. These dots represent the lower temperature, lower luminosity, and lower mass stars.
+          - generic [ref=e280]:
+            - heading "Figure 12.3.2 NGC 2264" [level=2] [ref=e281]
+            - paragraph [ref=e282]: Image of NGC 2264.
+            - list [ref=e283]:
+              - listitem [ref=e284]: This youthful cluster derives its name from the shape outlined by its brightest stars.
+              - listitem [ref=e285]: The “Christmas Tree” is upside down in this image.
+              - listitem [ref=e286]: The brightest star at the top of the frame is the base of the tree.
+              - listitem [ref=e287]: The top of the tree is the star above the dark v-shaped lane in the nebula just left of the center at the bottom of the image.
+          - generic [ref=e288]:
+            - heading "Figure 12.3.3 NGC 2264 H–R Diagram" [level=2] [ref=e289]
+            - paragraph [ref=e290]: An H-R diagram of the young star cluster NGC 2264, plotting observed stars against the zero-age main sequence.
+            - generic [ref=e291]:
+              - heading "Chart Elements" [level=3] [ref=e292]
+              - list [ref=e293]:
+                - listitem [ref=e294]:
+                  - text: The vertical axis is labeled Luminosity (L
+                  - subscript [ref=e295]: Sun
+                  - text: ) and goes from 0.1 at the bottom to 100,000 at the top.
+                - listitem [ref=e296]: The scale on the vertical axis is logarithmic. In this case, each increment is the same length on the axis, but the value increases by a factor of 10.
+                - listitem [ref=e297]: The horizontal axis is labeled Surface Temperature (K) and is labeled, from left to right, 40,000, 20,000, 10,000, 5000 and 3000. The size of the increments is the same, indicating that this axis is non-linear.
+                - listitem [ref=e298]:
+                  - text: The zero-age main sequence is drawn as a red diagonal line, starting just above 100,000 L
+                  - subscript [ref=e299]: Sun
+                  - text: at the top of the graph and extending down to about 4,000 K at the bottom.
+            - generic [ref=e300]:
+              - heading "Stars" [level=3] [ref=e301]
+              - list [ref=e302]:
+                - listitem [ref=e303]: Numerous black dots are scattered across the chart, representing the observed values of stars in NGC 2264, in a pattern similar to the model predictions for a star cluster of similar age.
+                - listitem [ref=e304]:
+                  - text: The high-luminosity stars lie along the red line down to about 10,000 K and 10 L
+                  - subscript [ref=e305]: Sun
+                  - text: .
+                - listitem [ref=e306]: Below that point, the stars are positioned to the right of the main sequence line, rather than along it, indicating that they have not yet started fusing hydrogen.
+            - generic [ref=e307]:
+              - heading "Key Trend:" [level=3] [ref=e308]
+              - paragraph [ref=e309]: The diagram shows that in the young cluster NGC 2264, the most massive stars have already reached the main sequence, while many lower-mass stars are still in the pre-main-sequence stage of evolution.
+          - generic [ref=e310]:
+            - heading "Figure 12.3.4 NGC 3293" [level=2] [ref=e311]
+            - paragraph [ref=e312]: Image of NGC 3293.
+            - list [ref=e313]:
+              - listitem [ref=e314]: This compact cluster of bright, blue stars is located near the center of this image surrounded by the red wisps of ionized hydrogen left over after the cluster’s formation.
+          - generic [ref=e315]:
+            - heading "Figure 12.3.5 Cluster M41" [level=2] [ref=e316]
+            - paragraph [ref=e317]: H-R Diagram and image of Cluster M41
+            - generic [ref=e318]:
+              - heading "Chart (a)" [level=3] [ref=e319]
+              - list [ref=e320]:
+                - listitem [ref=e321]: On the left
+                - listitem [ref=e322]:
+                  - text: The vertical axis is labeled Luminosity (L
+                  - subscript [ref=e323]: Sun
+                  - text: ) and goes from 0.1 at the bottom to 100,000 at the top. The scale is logarithmic, increasing by a factor of 10 for each increment.
+                - listitem [ref=e324]: The horizontal axis is labeled Surface Temperature (K) and goes from 40,000 on the left to 3000 on the right.
+                - listitem [ref=e325]:
+                  - text: The zero-age main sequence is drawn as a red diagonal line starting just above 100,000 L
+                  - subscript [ref=e326]: Sun
+                  - text: at the top of the graph down to about 4000 K at the bottom.
+                - listitem [ref=e327]: The black dots are the observed values of the stars in M 41.
+                - listitem [ref=e328]:
+                  - text: Approximately half of the stars lie to the right of the main sequence until around 9000 K and 50 L
+                  - subscript [ref=e329]: Sun
+                  - text: ", below which the stars all lie on the main sequence."
+                - listitem [ref=e330]:
+                  - text: On the right side of the diagram, a small grouping of giant stars is centered around 4000 K and 50 L
+                  - subscript [ref=e331]: Sun
+                  - text: .
+            - generic [ref=e332]:
+              - heading "Image (b)" [level=3] [ref=e333]
+              - list [ref=e334]:
+                - listitem [ref=e335]: On the right
+                - listitem [ref=e336]: A photograph of the open cluster M 41.
+          - generic [ref=e337]:
+            - heading "Figure 12.4.1 Evolutionary Path of the Sun" [level=2] [ref=e338]
+            - paragraph [ref=e339]: Evolutionary track of the Sun on an H–R Diagram.
+            - generic [ref=e340]:
+              - heading "Chart Elements" [level=3] [ref=e341]
+              - list [ref=e342]:
+                - listitem [ref=e343]:
+                  - text: The vertical axis is labeled Luminosity (L
+                  - subscript [ref=e344]: Sun
+                  - text: ), and goes from 1.0 near the bottom to 10,000 near the top. The scale is logarithmic, each increment increases by a factor of 10.
+                - listitem [ref=e345]: The horizontal axis is labeled Surface Temperature (K), and goes from 9000 on the left to 3000 on the right.
+                - listitem [ref=e346]: The main sequence is drawn as a diagonal red line beginning at L ~ 40 on the left down to T ~ 4000 at the bottom.
+                - listitem [ref=e347]: The evolutionary path of the star is drawn as a black line.
+            - generic [ref=e348]:
+              - heading "Evolutionary Track" [level=3] [ref=e349]
+              - list [ref=e350]:
+                - listitem [ref=e351]: In the section of the track labeled (a), it begins at L = 1 and T = 5500.
+                - listitem [ref=e352]: The line moves upward away from the main sequence.
+                - listitem [ref=e353]: The line continues upward to L ~ 1000 and T ~ 3000 to point (b) labeled “Core helium flash.”
+                - listitem [ref=e354]: From point (b), the line is dashed. This section of the track is labeled (c) and moves downward to L ~ 100 and T ~ 5000.
+                - listitem [ref=e355]: From (c), the line moves upward again. This portion of the line is labeled (d).
+                - listitem [ref=e356]: The line ends in a series of waves near L = 5000 and T ~ 3500 and is labeled “Helium shell flashes.”
+          - generic [ref=e357]:
+            - heading "Figure 12.4.2 Layers in an Old Low-Mass Star" [level=2] [ref=e358]
+            - paragraph [ref=e359]: Diagram of layers inside a low-mass star before death.
+            - list [ref=e360]:
+              - listitem [ref=e361]: The layers within the core are shown as concentric circles of various colors.
+              - listitem [ref=e362]:
+                - text: "Starting at the center they are labeled:"
+                - list [ref=e363]:
+                  - listitem [ref=e364]: Carbon-oxygen core in purple
+                  - listitem [ref=e365]: Helium fusion in green
+                  - listitem [ref=e366]: Helium core in yellow
+                  - listitem [ref=e367]: Hydrogen shell fusion layer in teal.
+                  - listitem [ref=e368]: The cooler Hydrogen envelope is orange.
+          - generic [ref=e369]:
+            - heading "Figure 12.4.3 Planetary Nebulae" [level=2] [ref=e370]
+            - paragraph [ref=e371]: Four images of planetary nebulae.
+            - generic [ref=e372]:
+              - heading "Image (a)" [level=3] [ref=e373]
+              - list [ref=e374]:
+                - listitem [ref=e375]: At the upper left corner of the figure.
+                - listitem [ref=e376]: M57 is a mostly symmetrical ring of glowing gas surrounding the faint central star.
+            - generic [ref=e377]:
+              - heading "Image (b)" [level=3] [ref=e378]
+              - list [ref=e379]:
+                - listitem [ref=e380]: At the upper right corner of the figure
+                - listitem [ref=e381]: M2-9 appears like an elongated butterfly.
+                - listitem [ref=e382]: The central star is the body with gaseous “wings” to the left and right of the star.
+            - generic [ref=e383]:
+              - heading "Image (c)" [level=3] [ref=e384]
+              - list [ref=e385]:
+                - listitem [ref=e386]: At the lower left corner of the figure.
+                - listitem [ref=e387]: NGC 6751 has streams and clumps of bright gas superimposed over a symmetric ring structure surrounding the central star.
+            - generic [ref=e388]:
+              - heading "Image (d)" [level=3] [ref=e389]
+              - list [ref=e390]:
+                - listitem [ref=e391]: At the lower right corner of the figure.
+                - listitem [ref=e392]: NGC 7027 appears as an indistinct, mottled blob of gas surrounded by multiple faint shells of material.
+          - generic [ref=e393]:
+            - heading "Figure 12.4.4 Observation of Planetary Nebulae" [level=2] [ref=e394]
+            - paragraph [ref=e395]: Diagram to explain the different shapes of planetary nebulae.
+            - generic [ref=e396]:
+              - heading "Diagram Elements" [level=3] [ref=e397]
+              - list [ref=e398]:
+                - listitem [ref=e399]: In the lower left-hand portion of this figure there is a schematic representation of a planetary nebula.
+                - listitem [ref=e400]: A yellow ellipse, labeled Torus, is drawn with a white dot labeled Star at its center.
+                - listitem [ref=e401]: The long axis of the ellipse is oriented vertically.
+                - listitem [ref=e402]: Several yellow arrows are drawn horizontally pointing away from the star. These are labeled Stellar wind.
+                - listitem [ref=e403]: A faint figure-eight encloses the stellar wind on each side of the star and torus.
+                - listitem [ref=e404]: A large, faint Outer halo surrounds the figure-eight and torus, centered on the star.
+                - listitem [ref=e405]: At top left, directly above the star, the profile of a human eye is shown looking in the direction of the star.
+                - listitem [ref=e406]: The line of sight is marked with a double-headed dashed arrow.
+                - listitem [ref=e407]: What a planetary nebula would look like along this line of sight is illustrated with an image of Hubble 5 to the right of the eye.
+                - listitem [ref=e408]: Another eye is drawn at lower right looking through the figure-eight toward the star.
+                - listitem [ref=e409]: The line of sight is marked with a double-headed dashed arrow.
+                - listitem [ref=e410]: What a planetary nebula would look like along this line of sight is illustrated with an image of the Helix Nebula above the eye.
+            - generic [ref=e411]:
+              - heading "Line of Sight Images" [level=3] [ref=e412]
+              - list [ref=e413]:
+                - listitem [ref=e414]:
+                  - text: Hubble 5
+                  - list [ref=e415]:
+                    - listitem [ref=e416]: This is a planetary nebula seen from the viewing position at the top of the diagram, looking directly at the star.
+                    - listitem [ref=e417]: The star is at the center, and the two lobes of the nebula extend to the upper right and lower left. The overall structure is a figure 8, tipped to the right, aligned diagonally.
+                    - listitem [ref=e418]: Each lobe has an oval structure and is made up of pink swirls of gas and dust. The gas is less dense inside the lobes.
+                - listitem [ref=e419]:
+                  - text: Helix
+                  - list [ref=e420]:
+                    - listitem [ref=e421]: This is a planetary nebula seen from the viewing position at the bottom right of the diagram, looking through one of the lobes.
+                    - listitem [ref=e422]: The overall structure is circular with a circular yellow ring of gas and dust.
+                    - listitem [ref=e423]: The inside of the ring is a light blue green color with no obvious central star at this scale.
+                    - listitem [ref=e424]: Outside of the yellow ring is a larger, orange ring that is disrupted in the upper right corner. This outer ring is surrounded by red gas.
+                    - listitem [ref=e425]: The two rings are the exterior structure of the lobe of the nebula.
+          - generic [ref=e426]:
+            - heading "Figure 12.5.1 The Pleiades and Venus" [level=2] [ref=e427]
+            - paragraph [ref=e428]: Five simulated images of the Pleiades and Venus from April 1 to April 5 in 2020.
+            - list [ref=e429]:
+              - listitem [ref=e430]: In all images the Pleiades is a group of 6 stars against a solid black background. Venus is represented by a large white dot that is about half the size of the Pleiades. Throughout the images, Venus moves from below and to the right of the group to above and to the left.
+              - list [ref=e431]:
+                - listitem [ref=e432]: "April 1: Venus is a short distance below and to the right of the Pleiades."
+                - listitem [ref=e433]: "April 2: Venus has moved closer to and is directly below the Pleiades."
+                - listitem [ref=e434]: "April 3: Venus is now inside the Pleiades, covering two stars on the left side."
+                - listitem [ref=e435]: "April 4: Venus is a little above and to the left of the Pleiades."
+                - listitem [ref=e436]: "April 5: Venus has increased its distance upwards and to the left from the Pleiades."
+        - generic [ref=e437]:
+          - separator [ref=e438]
+          - paragraph [ref=e440]:
+            - 'link "12.7: Accessible Descriptions" [ref=e441] [cursor=pointer]':
+              - /url: https://phys.libretexts.org/Workbench/De_Anza_-_ASTR10/12%3A_Aging_Stars/12.07%3A_Accessible_Descriptions
+            - text: is shared under a
+            - link "CC BY 4.0" [ref=e442] [cursor=pointer]:
+              - /url: https://creativecommons.org/licenses/by/4.0
+            - text: license and was authored, remixed, and/or curated by LibreTexts.
+      - generic [ref=e443]:
+        - list [ref=e444]:
+          - listitem [ref=e445]:
+            - link "Back to top" [ref=e446] [cursor=pointer]:
+              - /url: "#title"
+          - listitem [ref=e447]:
+            - list [ref=e448]:
+              - listitem [ref=e449]:
+                - 'link " 12.6: Key Terms" [ref=e450] [cursor=pointer]':
+                  - /url: https://phys.libretexts.org/Workbench/De_Anza_-_ASTR10/12%3A_Aging_Stars/12.06%3A_Key_Terms
+                  - text: 
+                  - generic [ref=e451]: "12.6: Key Terms"
+              - listitem [ref=e452]:
+                - 'link "13: Stellar Finale " [ref=e453] [cursor=pointer]':
+                  - /url: https://phys.libretexts.org/Workbench/De_Anza_-_ASTR10/13%3A_Stellar_Finale
+                  - generic [ref=e454]: "13: Stellar Finale"
+                  - text: 
+        - list [ref=e457]:
+          - listitem [ref=e458]: Was this article helpful?
+          - listitem [ref=e459]:
+            - button "Yes" [ref=e460] [cursor=pointer]
+          - listitem [ref=e461]:
+            - button "No" [ref=e462] [cursor=pointer]
+          - listitem [ref=e463]:
+            - button "Leave feedback" [ref=e464] [cursor=pointer]
+          - listitem
+        - generic:     
+        - text: ": : : : : , , , , , , , , ,"
+        - generic [ref=e465]:
+          - heading "Attachments" [level=2] [ref=e466]
+          - generic:
+            - button "Attach a file" [ref=e467] [cursor=pointer]
+            - text: 
+          - generic [ref=e469]:
+            - generic [ref=e472]:
+              - text: "Search file names and descriptions:"
+              - searchbox "Search file names and descriptions:" [ref=e473]
+            - generic [ref=e474]:
+              - grid [ref=e477]:
+                - rowgroup [ref=e478]:
+                  - row [ref=e479]:
+                    - 'columnheader "File: activate to sort column descending" [ref=e480]':
+                      - generic:
+                        - generic [ref=e481]: File
+                        - generic [ref=e482]: 
+                    - 'columnheader "Last modified: activate to sort column ascending" [ref=e483]':
+                      - generic:
+                        - generic [ref=e484]: Last modified
+                        - generic [ref=e485]: 
+                    - 'columnheader "Size: activate to sort column ascending" [ref=e486]':
+                      - generic:
+                        - generic [ref=e487]: Size
+                        - generic [ref=e488]: 
+                    - 'columnheader "Added by: activate to sort column ascending" [ref=e489]':
+                      - generic:
+                        - generic [ref=e490]: Added by
+                        - generic [ref=e491]: 
+              - grid [ref=e493]:
+                - rowgroup:
+                  - 'row "File: activate to sort column descending Last modified: activate to sort column ascending Size: activate to sort column ascending Added by: activate to sort column ascending"':
+                    - 'columnheader "File: activate to sort column descending"':
+                      - generic:
+                        - generic:
+                          - generic [ref=e494]: File
+                          - generic [ref=e495]: 
+                    - 'columnheader "Last modified: activate to sort column ascending"':
+                      - generic:
+                        - generic:
+                          - generic [ref=e496]: Last modified
+                          - generic [ref=e497]: 
+                    - 'columnheader "Size: activate to sort column ascending"':
+                      - generic:
+                        - generic:
+                          - generic [ref=e498]: Size
+                          - generic [ref=e499]: 
+                    - 'columnheader "Added by: activate to sort column ascending"':
+                      - generic:
+                        - generic:
+                          - generic [ref=e500]: Added by
+                          - generic [ref=e501]: 
+                - rowgroup [ref=e502]:
+                  - row [ref=e503]:
+                    - gridcell " mindtouch.page#thumbnail (no description)" [ref=e504]:
+                      - generic [ref=e505]:
+                        - generic [ref=e506]:
+                          - generic [ref=e507]: 
+                          - link "mindtouch.page#thumbnail" [ref=e508] [cursor=pointer]:
+                            - /url: https://phys.libretexts.org/@api/deki/files/63087/mindtouch.page%23thumbnail?origin=mt-web
+                          - text:   
+                        - generic [ref=e509]:
+                          - generic [ref=e510]: (no description)
+                          - text: 
+                    - gridcell "Dec 3, 2025, 3:20 PM" [ref=e511]
+                    - gridcell "11 KiB" [ref=e513]
+                    - gridcell "Rachel Mastrapa" [ref=e514]
+    - generic [ref=e516]:
+      - button "Open support menu" [ref=e518] [cursor=pointer]: "?"
+      - navigation [ref=e520]:
+        - paragraph [ref=e522]:
+          - text: The LibreTexts libraries are
+          - link "Powered by NICE CXone Expert" [ref=e523] [cursor=pointer]:
+            - /url: https://www.nice.com/resources/cxone-expert-knowledge-management
+          - text: and are supported by the Department of Education Open Textbook Pilot Project, the UC Davis Office of the Provost, the UC Davis Library, the California State University Affordable Learning Solutions Program, and Merlot. We also acknowledge previous National Science Foundation support under grant numbers 1246120, 1525057, and 1413739.
+          - link "Privacy Policy" [ref=e524] [cursor=pointer]:
+            - /url: https://libretexts.org/privacy
+          - text: .
+          - link "Terms & Conditions" [ref=e525] [cursor=pointer]:
+            - /url: https://libretexts.org/terms-conditions
+          - text: .
+          - link "Accessibility Statement" [ref=e526] [cursor=pointer]:
+            - /url: https://commons.libretexts.org/accessibility
+          - text: . For more information contact us at
+          - link "info@libretexts.org" [ref=e527] [cursor=pointer]:
+            - /url: mailto:info@libretexts.org
+          - text: .
+  - generic:
+    - generic [ref=e528]:
+      - generic:
+        - generic [ref=e530]:
+          - button "Annotation sidebar" [ref=e531]
+          - generic [ref=e536]:
+            - button "Show highlights" [ref=e537]
+            - button "New page note" [ref=e542]
+          - status [ref=e547]: Highlights hidden
+        - generic:
+          - list
+    - generic:
+      - list
+  - generic [ref=e548]:
+    - button "contents" [ref=e549] [cursor=pointer]
+    - button "readability" [ref=e551] [cursor=pointer]
+    - button "resources" [ref=e553] [cursor=pointer]
+    - button "tools" [ref=e555] [cursor=pointer]
+    - button "developers" [ref=e557] [cursor=pointer]
