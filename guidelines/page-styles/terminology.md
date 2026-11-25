@@ -23,6 +23,12 @@ The textbook is for an introductory astronomy course with no math requirement.
 - Libretexts is the name of the company that hosts the OER textbook.  Make sure that it is always capitalized and plural
 - semi-major axis has a dash. replace semimajor with semi-major 
 - For spacecraft, the official terms are crewed and uncrewed to clarify the presence of humans. For this textbook, the prefered terms are robotic or human spacecraft. If it says crewed or uncrewed, leave it alone. If it says manned or unmanned, change it to human or robotic, respectively.
+- The inner planets are Mercury, Venus, Earth, and Mars. The outer planets are Jupiter, Saturn, Uranus, and Neptune.
+  - The inner planets are sometimes also referred to as the terrestrial planets
+  - The outer planets are sometimes referred to as the Jovian planets
+    - Jupiter and Saturn are sometimes referred to as gas giants
+    - Uranus and Neptune are sometimes referred to as ice giants.
+  - Prioritize inner and outer planets, with ocassional other uses of the above references. Avoid Jovian.
 
 ### Words and terms to Avoid
 
