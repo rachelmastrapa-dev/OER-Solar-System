@@ -2,12 +2,13 @@
 
 ## Whole Chapter - Manual in Libretext
 
-1. Back up pages to ASTR 4 backup
+1. Back up pages to ASTR 4 backup - done for all chapters
 2. Chapter structure and pages
   - go over content of pages and delete or relocate extra, rearrange order
   - Delete extra matrerial & notes 
   - leave manual attributions until after pasting material
 3. Copy in material from sources 
+  - copy in key terms
   - go through material and paste where useful 
   - check auto -attributions
 4. TOC - Check for summaries and remove
