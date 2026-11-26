@@ -18,6 +18,7 @@
 8. Commit Changes in Conductor
 
 
+
 - add new figures 
   - put all attribution information in caption in (), unless openstax astronomy leave empty ()
   - use shorthand - update attribution info
