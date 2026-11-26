@@ -2,7 +2,7 @@
 
 ## Whole Chapter - Manual in Libretext
 
-1. Back up pages to ASTR 4 backup - done for all chapters
+1. Back up pages to ASTR 4 backup - done for all chapters from Openstax astronomy - need geo
 2. Chapter structure and pages
   - go over content of pages and delete or relocate extra, rearrange order
   - Delete extra matrerial & notes 
@@ -13,9 +13,10 @@
   - check auto -attributions
 4. TOC - Check for summaries and remove
 5. remove blue highlights
-6. Figures title and ()
+6. Figures title and () 
 7. Change numbering and titles of exercises and examples
 8. Commit Changes in Conductor
+Uranus and Neptune - done
 
 
 - add new figures 
