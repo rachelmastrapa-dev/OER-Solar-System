@@ -6,7 +6,8 @@
 - need geo
 
 The Sun
-Earth
+Earth  - Geology Earle
+  - copying into geology in Earth, need to check the text for attributions in ASTR 4 and then cut heavily
 Mars
 
 
