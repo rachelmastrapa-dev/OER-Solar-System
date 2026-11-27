@@ -1,0 +1,277 @@
+- generic [active] [ref=f2e1]:
+  - link "Skip to main content" [ref=f2e2] [cursor=pointer]:
+    - /url: "#elm-main-content"
+  - main [ref=f2e3]:
+    - text: 
+    - generic [ref=f2e4]:
+      - generic [ref=f2e5]:
+        - generic: ✕
+        - navigation [ref=f2e7]:
+          - generic [ref=f2e8]:
+            - link [ref=f2e10] [cursor=pointer]:
+              - /url: https://phys.libretexts.org/
+              - img "Library homepage" [ref=f2e11]
+            - button "Enter Reader Mode" [ref=f2e13] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f2e14]: chrome_reader_mode
+        - generic "Conditional content <strong>(Pro member)</strong>"
+      - navigation [ref=f2e16]:
+        - list [ref=f2e18]:
+          - listitem [ref=f2e19]:
+            - link [ref=f2e21] [cursor=pointer]:
+              - img "LibreOne Launchpad" [ref=f2e22]
+          - listitem [ref=f2e23]:
+            - text: 
+            - generic [ref=f2e25]:
+              - generic [ref=f2e26]: "Search :"
+              - searchbox "Search :" [ref=f2e27]
+              - button " Search" [ref=f2e28] [cursor=pointer]
+            - text: 
+          - listitem [ref=f2e29]:
+            - list [ref=f2e30]:
+              - listitem [ref=f2e31]:
+                - link "Edit" [ref=f2e32] [cursor=pointer]:
+                  - /url: https://phys.libretexts.org/Workbench/DeAnza_-_ASTR4/15%3A_Exoplanets?action=edit
+              - text: 
+              - listitem [ref=f2e33]:
+                - link " Options" [ref=f2e34] [cursor=pointer]:
+                  - /url: "#"
+                - text:        
+              - text:  
+              - listitem [ref=f2e35]:
+                - link " Rachel Mastrapa" [ref=f2e36] [cursor=pointer]:
+                  - /url: "#"
+                - text:    
+      - navigation [ref=f2e37]:
+        - generic:
+          - button " Expand/collapse global hierarchy" [ref=f2e38] [cursor=pointer]
+          - list [ref=f2e39]:
+            - listitem [ref=f2e40]:
+              - link " Home" [ref=f2e41] [cursor=pointer]:
+                - /url: https://phys.libretexts.org/
+                - generic [ref=f2e42]: 
+                - text: Home
+              - text: »
+            - listitem [ref=f2e43]:
+              - link " Workbench" [ref=f2e44] [cursor=pointer]:
+                - /url: https://phys.libretexts.org/Workbench
+                - generic [ref=f2e45]: 
+                - text: Workbench
+              - text: »
+            - listitem [ref=f2e46]:
+              - link " DeAnza - ASTR4" [ref=f2e47] [cursor=pointer]:
+                - /url: https://phys.libretexts.org/Workbench/DeAnza_-_ASTR4
+                - generic [ref=f2e48]: 
+                - text: DeAnza - ASTR4
+              - text: »
+            - listitem [ref=f2e49]:
+              - generic [ref=f2e50]: 
+              - text: "15: Exoplanets"
+          - text: 
+      - navigation
+    - article [ref=f2e51]:
+      - generic [ref=f2e52]:
+        - generic [ref=f2e53]:
+          - button " Page settings" [ref=f2e54] [cursor=pointer]
+          - text: "    : :  :  :  :  :  :  :  :  :  :  :  :  :  :  "
+        - 'heading "15: Exoplanets" [level=1] [ref=f2e55]':
+          - generic [ref=f2e56]: "15: Exoplanets "
+        - list [ref=f2e58]:
+          - listitem [ref=f2e59]:
+            - link [ref=f2e61] [cursor=pointer]:
+              - /url: https://creativecommons.org/licenses/by/4.0/
+              - generic [ref=f2e62]:
+                - img "CC" [ref=f2e63]
+                - img "BY" [ref=f2e64]
+          - listitem [ref=f2e65]:
+            - generic [ref=f2e66]:
+              - term [ref=f2e67]: "Last updated:"
+              - definition [ref=f2e68]: Aug 23, 2025, 1:39 PM by Rachel Mastrapa
+          - listitem [ref=f2e69]:
+            - generic [ref=f2e70]:
+              - term [ref=f2e71]: "Page restriction:"
+              - definition [ref=f2e72]: Semi-Public
+          - listitem [ref=f2e73]:
+            - generic [ref=f2e74]:
+              - term [ref=f2e75]: "Page ID:"
+              - definition [ref=f2e76]: "108004"
+          - listitem [ref=f2e77]:
+            - list [ref=f2e78]:
+              - listitem [ref=f2e79]:
+                - button "Pin Page" [ref=f2e80] [cursor=pointer]: 
+              - listitem [ref=f2e81]:
+                - generic [ref=f2e82]:
+                  - link " Page notifications Off" [ref=f2e84] [cursor=pointer]:
+                    - /url: "#"
+                  - text: 
+              - text: 
+              - listitem [ref=f2e85]:
+                - list [ref=f2e86]:
+                  - listitem [ref=f2e87]:
+                    - 'link " 14.9: Accessible Descriptions" [ref=f2e88] [cursor=pointer]':
+                      - /url: https://phys.libretexts.org/Workbench/DeAnza_-_ASTR4/14%3A_Small_Bodies/14.09%3A_Accessible_Descriptions
+                      - text: 
+                      - generic [ref=f2e89]: "14.9: Accessible Descriptions"
+                  - listitem [ref=f2e90]:
+                    - 'link "15.1: Finding Exoplanets " [ref=f2e91] [cursor=pointer]':
+                      - /url: https://phys.libretexts.org/Workbench/DeAnza_-_ASTR4/15%3A_Exoplanets/15.01%3A_Finding_Exoplanets
+                      - generic [ref=f2e92]: "15.1: Finding Exoplanets"
+                      - text: 
+              - listitem
+      - complementary
+      - text: 
+      - generic [ref=f2e93]:
+        - generic [ref=f2e94]:
+          - paragraph [ref=f2e95]: Write learning objectives and summary
+          - paragraph
+          - list [ref=f2e98]:
+            - listitem [ref=f2e99]:
+              - generic [ref=f2e100]:
+                - term [ref=f2e101]:
+                  - 'link " 15.1: Finding Exoplanets" [ref=f2e102] [cursor=pointer]':
+                    - /url: https://phys.libretexts.org/Workbench/DeAnza_-_ASTR4/15%3A_Exoplanets/15.01%3A_Finding_Exoplanets
+                    - generic [ref=f2e103]: 
+                    - text: "15.1: Finding Exoplanets"
+                - definition
+            - listitem [ref=f2e104]:
+              - generic [ref=f2e105]:
+                - term [ref=f2e106]:
+                  - 'link " 15.2: Planetary Populations" [ref=f2e107] [cursor=pointer]':
+                    - /url: https://phys.libretexts.org/Workbench/DeAnza_-_ASTR4/15%3A_Exoplanets/15.02%3A_Planetary_Populations
+                    - generic [ref=f2e108]: 
+                    - text: "15.2: Planetary Populations"
+                - definition
+            - listitem [ref=f2e109]:
+              - generic [ref=f2e110]:
+                - term [ref=f2e111]:
+                  - 'link " 15.3: Searching for Habitability" [ref=f2e112] [cursor=pointer]':
+                    - /url: https://phys.libretexts.org/Workbench/DeAnza_-_ASTR4/15%3A_Exoplanets/15.03%3A_Searching_for_Habitability
+                    - generic [ref=f2e113]: 
+                    - text: "15.3: Searching for Habitability"
+                - definition
+            - listitem [ref=f2e114]:
+              - generic [ref=f2e115]:
+                - term [ref=f2e116]:
+                  - 'link " 15.4: Comparative Planetology" [ref=f2e117] [cursor=pointer]':
+                    - /url: https://phys.libretexts.org/Workbench/DeAnza_-_ASTR4/15%3A_Exoplanets/15.04%3A_Comparative_Planetology
+                    - generic [ref=f2e118]: 
+                    - text: "15.4: Comparative Planetology"
+                - definition
+            - listitem [ref=f2e119]:
+              - generic [ref=f2e120]:
+                - term [ref=f2e121]:
+                  - 'link " 15.5: Defining Life in the Universe" [ref=f2e122] [cursor=pointer]':
+                    - /url: https://phys.libretexts.org/Workbench/DeAnza_-_ASTR4/15%3A_Exoplanets/15.05%3A_Defining_Life_in_the_Universe
+                    - generic [ref=f2e123]: 
+                    - text: "15.5: Defining Life in the Universe"
+                - definition
+            - listitem [ref=f2e124]:
+              - generic [ref=f2e125]:
+                - term [ref=f2e126]:
+                  - 'link " 15.6: Key Terms" [ref=f2e127] [cursor=pointer]':
+                    - /url: https://phys.libretexts.org/Workbench/DeAnza_-_ASTR4/15%3A_Exoplanets/15.06%3A_Key_Terms
+                    - generic [ref=f2e128]: 
+                    - text: "15.6: Key Terms"
+                - definition
+            - listitem [ref=f2e129]:
+              - generic [ref=f2e130]:
+                - term [ref=f2e131]:
+                  - 'link " 15.7: Accessible Descriptions" [ref=f2e132] [cursor=pointer]':
+                    - /url: https://phys.libretexts.org/Workbench/DeAnza_-_ASTR4/15%3A_Exoplanets/15.07%3A_Accessible_Descriptions
+                    - generic [ref=f2e133]: 
+                    - text: "15.7: Accessible Descriptions"
+                - definition
+          - paragraph
+          - paragraph [ref=f2e134]:
+            - text: "Thumbnail: This is an artistic illutration of the giant planet HR 8799b. The planet was first discovered in 2007 at the"
+            - link "Gemini North Observatory" [ref=f2e135] [cursor=pointer]:
+              - /url: https://noirlab.edu/public/programs/gemini-observatory/gemini-north/
+            - text: . It was identified in the NICMOS archival data in a follow-up search to see if
+            - link "Hubble Observatory" [ref=f2e136] [cursor=pointer]:
+              - /url: https://science.nasa.gov/mission/hubble/observatory/
+            - text: had also serendipitously imaged it. ("
+            - link "Artists's Concept of Exoplanet HR 8799b" [ref=f2e137] [cursor=pointer]:
+              - /url: https://images.nasa.gov/details/GSFC_20171208_Archive_e002172
+            - text: ",\""
+            - link "NASA" [ref=f2e138] [cursor=pointer]:
+              - /url: https://www.nasa.gov/
+            - text: /
+            - link "Goddard Space Flight Center" [ref=f2e139] [cursor=pointer]:
+              - /url: https://www.nasa.gov/goddard/
+            - text: /
+            - link "ESA" [ref=f2e140] [cursor=pointer]:
+              - /url: https://www.esa.int/ESA+
+            - text: /G. Bacon (
+            - link "STScI" [ref=f2e141] [cursor=pointer]:
+              - /url: https://www.stsci.edu/
+            - text: ),
+            - link "Public Domain" [ref=f2e142] [cursor=pointer]:
+              - /url: https://en.wikipedia.org/wiki/Public_domain
+            - text: via
+            - link "NASA Image and Video Library" [ref=f2e143] [cursor=pointer]:
+              - /url: https://images.nasa.gov/
+            - text: .)
+        - generic [ref=f2e144]:
+          - separator [ref=f2e145]
+          - paragraph [ref=f2e147]:
+            - 'link "15: Exoplanets" [ref=f2e148] [cursor=pointer]':
+              - /url: https://phys.libretexts.org/Workbench/DeAnza_-_ASTR4/15%3A_Exoplanets
+            - text: is shared under a
+            - link "CC BY 4.0" [ref=f2e149] [cursor=pointer]:
+              - /url: https://creativecommons.org/licenses/by/4.0
+            - text: license and was authored, remixed, and/or curated by LibreTexts.
+      - generic [ref=f2e150]:
+        - list [ref=f2e151]:
+          - listitem: 
+          - listitem [ref=f2e152]:
+            - list [ref=f2e153]:
+              - listitem [ref=f2e154]:
+                - 'link " 14.9: Accessible Descriptions" [ref=f2e155] [cursor=pointer]':
+                  - /url: https://phys.libretexts.org/Workbench/DeAnza_-_ASTR4/14%3A_Small_Bodies/14.09%3A_Accessible_Descriptions
+                  - text: 
+                  - generic [ref=f2e156]: "14.9: Accessible Descriptions"
+              - listitem [ref=f2e157]:
+                - 'link "15.1: Finding Exoplanets " [ref=f2e158] [cursor=pointer]':
+                  - /url: https://phys.libretexts.org/Workbench/DeAnza_-_ASTR4/15%3A_Exoplanets/15.01%3A_Finding_Exoplanets
+                  - generic [ref=f2e159]: "15.1: Finding Exoplanets"
+                  - text: 
+        - generic:   
+        - text: "     : : : :              "
+    - generic [ref=f2e161]:
+      - button "Open support menu" [ref=f2e163] [cursor=pointer]: "?"
+      - navigation [ref=f2e165]:
+        - paragraph [ref=f2e167]:
+          - text: The LibreTexts libraries are
+          - link "Powered by NICE CXone Expert" [ref=f2e168] [cursor=pointer]:
+            - /url: https://www.nice.com/resources/cxone-expert-knowledge-management
+          - text: and are supported by the Department of Education Open Textbook Pilot Project, the UC Davis Office of the Provost, the UC Davis Library, the California State University Affordable Learning Solutions Program, and Merlot. We also acknowledge previous National Science Foundation support under grant numbers 1246120, 1525057, and 1413739.
+          - link "Privacy Policy" [ref=f2e169] [cursor=pointer]:
+            - /url: https://libretexts.org/privacy
+          - text: .
+          - link "Terms & Conditions" [ref=f2e170] [cursor=pointer]:
+            - /url: https://libretexts.org/terms-conditions
+          - text: .
+          - link "Accessibility Statement" [ref=f2e171] [cursor=pointer]:
+            - /url: https://commons.libretexts.org/accessibility
+          - text: . For more information contact us at
+          - link "info@libretexts.org" [ref=f2e172] [cursor=pointer]:
+            - /url: mailto:info@libretexts.org
+          - text: .
+  - generic:
+    - generic [ref=f2e173]:
+      - generic:
+        - generic [ref=f2e175]:
+          - button "Annotation sidebar" [ref=f2e176]
+          - generic [ref=f2e181]:
+            - button "Show highlights" [ref=f2e182]
+            - button "New page note" [ref=f2e187]
+          - status [ref=f2e192]: Highlights hidden
+        - generic:
+          - list
+    - generic:
+      - list
+  - generic [ref=f2e193]:
+    - button "contents" [ref=f2e194] [cursor=pointer]
+    - button "readability" [ref=f2e196] [cursor=pointer]
+    - button "resources" [ref=f2e198] [cursor=pointer]
+    - button "tools" [ref=f2e200] [cursor=pointer]
+    - button "developers" [ref=f2e202] [cursor=pointer]
