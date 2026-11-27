@@ -11,3 +11,5 @@
     at f (https://cdn.jsdelivr.net/gh/yghaemi/biblizer@19129c1/dist/script.min.js:1:1540)
     at async HTMLDocument.<anonymous> (https://cdn.jsdelivr.net/gh/yghaemi/biblizer@19129c1/dist/script.min.js:1:3924) @ https://cdn.jsdelivr.net/gh/yghaemi/biblizer@19129c1/dist/script.min.js:1
 [    3142ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://commons.libretexts.org/api/v1/commons/book/phys-107814:1
+[ 1986387ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://phys.libretexts.org/@api/deki/events/page-view/108004/consumption?dream.out.format=json&origin=mt-web:1
+[ 1986387ms] Failed to fetch
