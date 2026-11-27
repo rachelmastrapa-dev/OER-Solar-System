@@ -11,7 +11,9 @@
   - copy in key terms
   - go through material and paste where useful 
   - check auto -attributions
-4. TOC - Check for summaries and remove
+4. TOC - Check for summaries and remove 
+Small Bodies
+Exoplanets
 5. remove blue highlights
 6. Figures title and () 
 7. Change numbering and titles of exercises and examples
