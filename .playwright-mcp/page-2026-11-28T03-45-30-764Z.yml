@@ -1,0 +1,506 @@
+- generic [active] [ref=f2e1]:
+  - generic [ref=f2e2]: Loading [MathJax]/extensions/tex2jax.js
+  - region "We value your privacy" [ref=f2e3]:
+    - generic [ref=f2e5]:
+      - heading "We value your privacy" [level=2] [ref=f2e6]
+      - generic [ref=f2e7]:
+        - paragraph [ref=f2e9]: We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking "Accept All", you consent to our use of cookies.
+        - generic [ref=f2e10]:
+          - button "Customise" [ref=f2e11] [cursor=pointer]
+          - button "Reject All" [ref=f2e12] [cursor=pointer]
+          - button "Accept All" [ref=f2e13] [cursor=pointer]
+  - generic [ref=f2e14]:
+    - generic [ref=f2e17]:
+      - list [ref=f2e18]:
+        - listitem [ref=f2e19]:
+          - link "" [ref=f2e20] [cursor=pointer]:
+            - /url: https://astrobites.org/feed/
+      - list [ref=f2e21]:
+        - listitem [ref=f2e22]:
+          - link "Submit a Guest Post" [ref=f2e23] [cursor=pointer]:
+            - /url: https://astrobites.org/apply-to-write-for-astrobites/submit-a-guest-post/
+        - listitem [ref=f2e24]:
+          - 'link "Undergraduates: Submit your Research!" [ref=f2e25] [cursor=pointer]':
+            - /url: https://astrobites.org/about/undergraduate-research-abstract-submission/
+        - listitem [ref=f2e26]:
+          - link "Suggest a Paper Topic!" [ref=f2e27] [cursor=pointer]:
+            - /url: https://astrobites.org/about/suggest-a-paper-topic/
+    - banner [ref=f2e28]:
+      - generic [ref=f2e29]:
+        - link "astrobites":
+          - /url: https://astrobites.org/
+          - img "astrobites" [ref=f2e30] [cursor=pointer]
+        - generic [ref=f2e31]:
+          - navigation [ref=f2e32]:
+            - list [ref=f2e33]:
+              - listitem [ref=f2e34]:
+                - link "About >" [ref=f2e35] [cursor=pointer]:
+                  - /url: https://astrobites.org/about/
+              - listitem [ref=f2e36]:
+                - link "Latest Research >" [ref=f2e37] [cursor=pointer]:
+                  - /url: http://astrobites.org/#latest
+              - listitem [ref=f2e38]:
+                - link "Beyond astro-ph >" [ref=f2e39] [cursor=pointer]:
+                  - /url: http://astrobites.org/#beyond
+              - listitem [ref=f2e40]:
+                - link "Guides >" [ref=f2e41] [cursor=pointer]:
+                  - /url: https://astrobites.org/guides/
+          - generic: U
+          - text: a
+    - generic [ref=f2e42]:
+      - generic [ref=f2e45]:
+        - article [ref=f2e47]:
+          - heading "What is life, really? A case for interdisciplinary science" [level=1] [ref=f2e48]
+          - paragraph [ref=f2e49]:
+            - text: by
+            - link "Flavia Pascal" [ref=f2e50] [cursor=pointer]:
+              - /url: https://astrobites.org/author/fpascal/
+            - text: "| Jul 6, 2026 |"
+            - link "Beyond" [ref=f2e51] [cursor=pointer]:
+              - /url: https://astrobites.org/category/beyond/
+            - text: "|"
+            - link "0 comments" [ref=f2e53] [cursor=pointer]:
+              - /url: https://astrobites.org/2026/07/06/case-for-interdisciplinary-science/#respond
+          - generic [ref=f2e54]:
+            - paragraph [ref=f2e55]:
+              - emphasis [ref=f2e56]:
+                - strong [ref=f2e57]: “Wait… so when you say ‘life’, do you mean like… aliens?”
+            - paragraph [ref=f2e58]:
+              - emphasis [ref=f2e59]:
+                - strong [ref=f2e60]: “Not exactly…”
+            - paragraph [ref=f2e61]:
+              - emphasis [ref=f2e62]:
+                - strong [ref=f2e63]: “So… no aliens???”
+            - paragraph [ref=f2e64]:
+              - emphasis [ref=f2e65]:
+                - strong [ref=f2e66]: “Not necessarily…”
+            - paragraph [ref=f2e67]:
+              - strong [ref=f2e68]: “Right…”
+            - paragraph [ref=f2e69]:
+              - emphasis [ref=f2e70]:
+                - text: This Astrobite may or may not have been inspired by a real conversation I had while watching “Project Hail Mary” as a student working in exoplanets, trying to explain what I actually do on a daily basis. Somewhere between describing atmospheric spectra, habitability metrics, and why “
+                - strong [ref=f2e71]: we haven’t found life yet
+                - text: ” is not the same as “
+                - strong [ref=f2e72]: there is nothing out there
+                - text: “, I realised how quickly even a simple question like “
+                - strong [ref=f2e73]: what is life?”
+                - text: can turn into immediate confusion.
+            - heading [level=3] [ref=f2e74]:
+              - strong [ref=f2e75]:
+                - emphasis [ref=f2e76]: Aliens
+                - text: ", interdisciplinary science, and the world’s most confusing group chat"
+            - paragraph [ref=f2e77]:
+              - text: In Andy Weir’s
+              - link [ref=f2e78] [cursor=pointer]:
+                - /url: https://astrobites.org/2026/04/24/fthe-space-odyssey-and-the-space-mission/
+                - emphasis [ref=f2e79]: Project Hail Mary
+              - text: ", humanity faces an existential crisis. The solution ultimately depends on an unlikely partnership between Ryland Grace, a human scientist, and Rocky, an “alien” engineer from an entirely different planet. Unfortunately, neither of them speaks the other’s language. Or sees the same way. Or hears the same way. Or, for a while, even understands what the other is. Before they can save their planets, Ryland Grace and Rocky must solve a problem familiar to anyone who has attended an interdisciplinary conference: figuring out what on Earth — or"
+              - emphasis [ref=f2e80]: off Earth
+              - text: "— the other person is talking about. Yet through persistence, curiosity, and a remarkable tolerance for confusion, they gradually build a shared language and discover that collaboration can mend even interstellar differences. As Rocky would say:"
+              - emphasis [ref=f2e81]: amaze, amaze, amaze!
+            - paragraph [ref=f2e82]:
+              - text: What made
+              - emphasis [ref=f2e83]: Project Hail Mary
+              - text: "so memorable for me is not only the interstellar travel, exotic astrophysics, or the fact that Rocky is arguably the best engineer in fiction, but the lesson hidden behind it: scientific progress often depends on collaboration across profound differences."
+            - paragraph [ref=f2e84]:
+              - text: Fortunately, scientists do not need (yet?) to communicate with aliens but they are part of a group chat where everyone speaks different scientific languages, use different methodologies, and occasionally use the same words to mean completely different things (even something as simple as typing “
+              - link "metallicity" [ref=f2e85] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Metallicity
+              - text: ” can cause the group chat to split into different threads!).
+            - heading [level=3] [ref=f2e86]:
+              - strong [ref=f2e87]:
+                - strong [ref=f2e88]: The group chat is getting crowded
+            - paragraph [ref=f2e89]: "I enter this group chat as a budding exoplanet researcher. In astronomy, life is often associated with discovering planets, observing atmospheres, and searching for signs of life. Yet before we can determine whether a distant world hosts life, we first run into a tough question: what is life, exactly? A wall — and a very “rocky” one at that — for every discipline involved."
+            - paragraph [ref=f2e90]: Despite centuries of scientific progress, there is still no universally accepted definition. We can usually agree that a cat is alive and a rock is not, but the edge cases quickly become confusing. Bacteria? Self-replicating molecules? Aliens? Ask a group of scientists, and you may get enough answers to start a second group chat and a debate in both.
+            - paragraph [ref=f2e92]:
+              - text: "The reason is simple: no single discipline owns the question and none is sufficient to solve it alone. Biologists study living organisms. Chemists investigate the reactions that may have produced life’s building blocks. Geologists study the environments of early Earth. Oceanographers explore the deep-sea organisms that may have hosted the first metabolic processes leading to life as we know it. Computer scientists build models of complex, self-organizing systems. And astronomers ask the dangerous follow-up question: if life emerged here, can we"
+              - link "detect" [ref=f2e93] [cursor=pointer]:
+                - /url: https://astrobites.org/2023/08/19/signs-of-pre-life-jwst/
+              - text: it elsewhere? In other words, the search for life’s origins resembles a scientific version of
+              - emphasis [ref=f2e94]: Project Hail Mary
+              - text: . Everyone is trying to solve the same problem, but each field comes with its own vocabulary, assumptions, and favorite way of showing off plots.
+            - 'figure "Figure 1: Different approaches to investigating the origins of life, spanning laboratory studies of prebiotic chemistry, experimental and synthetic biology, analyses of early Earth and extraterrestrial environments, studies of extremophiles and biological evolution, artificial life systems, and computational models of living systems. Adapted from Figure 1 in this paper." [ref=f2e96]':
+              - link [ref=f2e97] [cursor=pointer]:
+                - /url: https://royalsocietypublishing.org/rstb/article/380/1936/20240281/235158/Origins-of-life-the-possible-and-the-actualOrigins
+              - generic [ref=f2e98]:
+                - strong [ref=f2e99]: "Figure 1:"
+                - text: Different approaches to investigating the origins of life, spanning laboratory studies of prebiotic chemistry, experimental and synthetic biology, analyses of early Earth and extraterrestrial environments, studies of extremophiles and biological evolution, artificial life systems, and computational models of living systems.
+                - emphasis [ref=f2e100]:
+                  - text: Adapted from Figure 1 in this
+                  - link "paper" [ref=f2e101] [cursor=pointer]:
+                    - /url: https://royalsocietypublishing.org/rstb/article/380/1936/20240281/235158/Origins-of-life-the-possible-and-the-actualOrigins
+                  - text: .
+            - paragraph [ref=f2e102]:
+              - text: This challenge in the origins of life research has led to increasing calls for
+              - link "interdisciplinarity" [ref=f2e103] [cursor=pointer]:
+                - /url: https://astrobites.org/2015/10/07/more-than-astronomy-astrophysics/
+              - text: between astronomy, physics, chemistry, biology, geology, and many other fields (as highlighted in a recent
+              - link "issue" [ref=f2e104] [cursor=pointer]:
+                - /url: https://www.sciencedirect.com/science/article/pii/S2666386426001268
+              - text: of
+              - emphasis [ref=f2e105]: Cell Reports Physical Science
+              - text: ). In this context, interdisciplinarity is not merely a matter of convenience but a necessity, because the problem itself forces us to think across an extraordinary range of scales, both in space and in time. On one hand, we must zoom in and ask question at scales measured in nanometers and microseconds, where chemistry and physics take center stage. We want to understand how individual atoms assembled into molecules, how those molecules interacted, and how chemistry gradually became successful enough to sustain processes we might call “living”. On the other hand, we must simultaneously zoom out, asking questions spanning hundreds of light years and hundreds of millions of years. The environments that hosted these successful reactions were shaped by complex factors like planetary geology, ocean chemistry, atmospheric evolution, and even astronomical processes occurring long before Earth formed. Connecting these vastly different scales is what humans are only beginning to do and we are still far from fully bridging the gap between them.
+            - heading [level=3] [ref=f2e106]:
+              - strong [ref=f2e107]: Many fields, many puzzle pieces…
+            - paragraph [ref=f2e108]:
+              - text: Many previous Astrobites have explored individual pieces of the origins of life puzzle. Some have discussed
+              - link "giant impacts" [ref=f2e109] [cursor=pointer]:
+                - /url: https://astrobites.org/2022/04/19/how-a-moon-sized-deep-impact-affected-early-life-on-earth/
+              - text: capable of temporarily altering Earth’s atmosphere to create favorable conditions for
+              - link "prebiotic" [ref=f2e110] [cursor=pointer]:
+                - /url: https://astrobites.org/2023/03/04/lab-biosignatures/
+              - text: chemistry. Others investigated the delivery of life’s ingredients by
+              - link "comets" [ref=f2e111] [cursor=pointer]:
+                - /url: https://astrobites.org/2025/02/15/its-raining-molecules-but-planets-around-m-dwarfs-may-want-to-hold-their-hallelujah/
+              - text: ","
+              - link "meteorites" [ref=f2e112] [cursor=pointer]:
+                - /url: https://astrobites.org/2015/06/26/natures-starships-vol-i-ride-in-on-shooting-stars/
+              - text: ", and"
+              - link "cosmic dust" [ref=f2e113] [cursor=pointer]:
+                - /url: https://astrobites.org/2026/05/11/template-post-38/
+              - text: . Some have looked at how complex organic molecules may form in
+              - link "interstellar dust grains" [ref=f2e114] [cursor=pointer]:
+                - /url: https://astrobites.org/2021/07/14/template-post-2-2-2-2-3/
+              - text: and in
+              - link "molecular clouds" [ref=f2e115] [cursor=pointer]:
+                - /url: https://astrobites.org/2020/10/26/template-post-2-2-2-2/
+              - text: long before planets even exist, while others have talked about how
+              - link "dust and plasma interactions" [ref=f2e116] [cursor=pointer]:
+                - /url: https://astrobites.org/2013/11/29/prebiotic-skies/
+              - text: may drive the formation of prebiotic compounds. Beyond natural settings, researchers have also turned to controlled
+              - link "laboratory experiments" [ref=f2e117] [cursor=pointer]:
+                - /url: https://astrobites.org/2023/03/04/lab-biosignatures/
+              - text: that attempt to recreate plausible pathways from simple molecules to the building blocks of life.
+            - paragraph [ref=f2e118]:
+              - text: Overall, observational and theoretical work so far spans a wide range of environments where life might emerge or be detected, from
+              - link "hydrothermal vents" [ref=f2e119] [cursor=pointer]:
+                - /url: https://astrobites.org/2011/04/23/astrobiology-seeking-out-the-origin-of-life-new-life-and-new-civilizations/
+              - text: on Earth’s ocean floor to
+              - link "planetary atmospheres" [ref=f2e120] [cursor=pointer]:
+                - /url: https://astrobites.org/2023/08/19/signs-of-pre-life-jwst/
+              - text: and distant exoplanets. So while all these puzzle pieces are interesting in themselves, the real fun begins when we try to actually connect them.
+            - heading [level=3] [ref=f2e121]:
+              - strong [ref=f2e122]: Earth is our guide… but also our limitation
+            - paragraph [ref=f2e123]: "In astronomy, a lot of effort in the search for life naturally focuses on what we can observe from afar: potentially habitable planets, atmospheric signatures, and conditions that look familiar. This is a very reasonable starting point as we tend to look for worlds that resemble the only example of life we actually know: Earth. That brings with it a long list of assumptions, sometimes explicit, sometimes unspoken. Temperatures around 300 Kelvin? Great. Liquid water? Even better. Amino acids as building blocks, DNA as the preferred information storage system, combusting sugars in the presence of oxygen as a good energy source. Life is, however, under no obligation to be Earth-like. So if astronomy is going to move beyond the hunt for Earth 2.0, it cannot just assume biology’s answers in advance. And similarly, biology and prebiotic chemistry cannot ignore the environments that astronomy tells us actually exist out there. It turns out these puzzle pieces need each other: astronomy constrains where biology and chemistry happen, while biology and chemistry tell us what kinds of pathways are even plausible in those environments."
+            - heading [level=3] [ref=f2e124]:
+              - strong [ref=f2e125]: What planets produce is not always what life prefers
+            - paragraph [ref=f2e126]:
+              - text: "But in assuming these puzzle pieces are compatible, we are implicitly assuming that planetary chemistry naturally produces the kinds of molecular building blocks that biology tends to rely on, which is far from guaranteed. This is where a more fundamental mismatch appears between geochemistry and biochemistry, specifically in the chemical forms nitrogen and carbon tend to take. From a geochemical perspective, these elements are often found in what you might call their “final states”: nitrogen as N"
+              - subscript [ref=f2e127]: ₂
+              - text: and carbon as CO₂. On Earth, for example, nitrogen dominates the atmosphere as
+              - link [ref=f2e128] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Nitrogen_cycle
+                - text: "N"
+                - subscript [ref=f2e129]: ₂
+              - text: ", while carbon released through processes such as respiration, decomposition, and volcanism commonly accumulates as"
+              - link "CO₂" [ref=f2e130] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Carbon_cycle
+              - text: in the atmosphere and oceans. These are highly stable forms, basically where the elements end up after they have been thoroughly processed by a planet’s chemistry and are not particularly eager to change further. From a biochemical perspective, however, life as we know it tends to work with very different forms of molecules. It makes heavy use of compounds like NH₃, HCN, and CH₂O, where nitrogen and carbon remain in more chemically “open” states and can more readily participate in further reactions and serve as building blocks for more complex organic chemistry.
+            - paragraph [ref=f2e131]: So, while geochemistry tends to favor carbon and nitrogen in their “parking mode”, biochemistry relies on forms that are still in “driving mode”. This tension is not a contradiction but an invitation to a group chat discussion. Assessing the habitability of distant planets from astronomical observations requires understanding not only whether the necessary ingredients are present, but also whether geochemical planetary processes can continually supply them in biochemically useful forms. Geochemists can help map how and where a planet naturally produces — or fails to produce — these useful compounds. Biologists can then explore how such building blocks might be assembled into increasingly complex systems. Last but not least, astronomers can determine which planetary environments actually exist and where such biochemistry may be possible.
+            - paragraph [ref=f2e132]:
+              - text: A hot topic of discussion between geochemists, biologists, and astronomers is the role of HCN as a potential building block for life. If HCN is produced in a planet’s atmosphere (something that can happen under the influence of stellar radiation and is actively studied by astronomers) it can dissolve in liquid water and form CN
+              - superscript [ref=f2e133]: −
+              - text: . The exact conditions under which this transformation occurs are studied by geochemists. From there, CN
+              - superscript [ref=f2e134]: −
+              - text: can take part in a variety of reactions that slowly build up chemical complexity. Over time, this can lead to more complex carbon-based compounds, including molecules that are relevant for prebiotic chemistry, which in turn inform biological hypotheses about the emergence of life.
+            - heading [level=3] [ref=f2e135]:
+              - strong [ref=f2e136]: There is hope in interdisciplinary collaboration
+            - paragraph [ref=f2e137]:
+              - text: The HCN example is just one of many ways different disciplines can work together to address the origins of life problem, or at least get a bit closer to understanding how it might actually work. If
+              - emphasis [ref=f2e138]: Project Hail Mary
+              - text: teaches us anything, it is that remarkable things happen when people who do not initially understand one another decide the problem is worth solving together. We need astronomers who are curious about chemistry, chemists who think about planets, biologists who are willing to talk to physicists, and perhaps most importantly, people who are comfortable standing at the boundaries between fields. We need you, too — yes, you, the reader — to be part of that conversation.
+            - paragraph [ref=f2e139]:
+              - emphasis [ref=f2e140]: Astrobite edited by
+              - emphasis [ref=f2e141]: Shalini Kurinchi-Vendhan
+            - paragraph [ref=f2e142]:
+              - emphasis [ref=f2e143]: "Featured image credit: Artistic impression of a sunset seen from the super-Earth Gliese 667 Cc, credited to ESO/L. Calçada, licensed under CC BY 4.0."
+            - generic [ref=f2e144]:
+              - heading "Author" [level=2] [ref=f2e145]
+              - list [ref=f2e148]:
+                - listitem [ref=f2e149]:
+                  - img "Flavia Pascal" [ref=f2e152]
+                  - generic [ref=f2e153]:
+                    - link "Flavia Pascal" [ref=f2e155] [cursor=pointer]:
+                      - /url: https://astrobites.org/author/fpascal/
+                    - paragraph [ref=f2e157]: I’m a PhD student at the University of Edinburgh. I am fascinated by exoplanets and the processes that shape how they form and evolve. My research area includes planetary interior-atmosphere modeling, climate modeling, and atmospheric biosignatures of potentially habitable worlds.
+                    - link "View all posts" [ref=f2e159] [cursor=pointer]:
+                      - /url: https://astrobites.org/author/fpascal/
+                    - link "Email for Flavia Pascal" [ref=f2e160] [cursor=pointer]:
+                      - /url: mailto:F.Pascal@ed.ac.uk
+                      - generic [aria-hidden] [ref=f2e161]: 
+          - generic [ref=f2e163]:
+            - heading "Submit a Comment" [level=3] [ref=f2e164]
+            - generic [ref=f2e165]:
+              - paragraph [ref=f2e166]:
+                - text: Your email address will not be published.
+                - generic [ref=f2e167]: Required fields are marked *
+              - paragraph [ref=f2e168]:
+                - textbox "Comment *" [ref=f2e169]
+              - paragraph [ref=f2e170]:
+                - textbox "Name *" [ref=f2e171]
+              - paragraph [ref=f2e172]:
+                - textbox "Email *" [ref=f2e173]
+              - paragraph [ref=f2e174]:
+                - textbox "Website" [ref=f2e175]
+              - paragraph [ref=f2e176]:
+                - checkbox "Save my name, email, and website in this browser for the next time I comment." [ref=f2e177]
+                - text: Save my name, email, and website in this browser for the next time I comment.
+              - generic [ref=f2e187]:
+                - progressbar "Loading" [ref=f2e195]
+                - link "Prosopo" [ref=f2e197] [cursor=pointer]:
+                  - /url: https://prosopo.io/captcha-help/?ref=astrobites.org&utm_campaign=5GvBwn6aGU8p5Ar4vceu9aD1DNPDUb31pmupLUsuTCziTMDp&utm_medium=logo&hl=en-US
+              - paragraph [ref=f2e207]:
+                - button "Submit Comment" [ref=f2e208]
+        - generic [ref=f2e209]:
+          - generic [ref=f2e210]:
+            - paragraph [ref=f2e211]
+            - generic [ref=f2e212]:
+              - generic [ref=f2e213]:
+                - textbox [ref=f2e215]
+                - generic [ref=f2e216]:
+                  - generic [ref=f2e217]: Discover more from astrobites
+                  - textbox "Type your email…" [ref=f2e222]
+                  - button "Subscribe" [ref=f2e225] [cursor=pointer]
+              - alert
+            - paragraph
+          - heading "Follow our socials" [level=4] [ref=f2e227]
+          - list [ref=f2e231]:
+            - listitem [ref=f2e232]:
+              - link "Bluesky" [ref=f2e233] [cursor=pointer]:
+                - /url: https://bsky.app/profile/astrobites.bsky.social
+            - listitem [ref=f2e237]:
+              - link "Facebook" [ref=f2e238] [cursor=pointer]:
+                - /url: https://www.facebook.com/astrobites/
+            - listitem [ref=f2e242]:
+              - link "Instagram" [ref=f2e243] [cursor=pointer]:
+                - /url: https://www.instagram.com/astrobites/
+            - listitem [ref=f2e247]:
+              - link "RSS Feed" [ref=f2e248] [cursor=pointer]:
+                - /url: https://astrobites.org/feed
+          - heading "More Posts About" [level=4] [ref=f2e253]
+          - paragraph [ref=f2e255]:
+            - link "AAS (248 items)" [ref=f2e256] [cursor=pointer]:
+              - /url: https://astrobites.org/tag/aas/
+              - text: AAS
+            - link "AGN (229 items)" [ref=f2e257] [cursor=pointer]:
+              - /url: https://astrobites.org/tag/agn/
+              - text: AGN
+            - link "astronomy (326 items)" [ref=f2e258] [cursor=pointer]:
+              - /url: https://astrobites.org/tag/astronomy/
+              - text: astronomy
+            - link "astrophysics (139 items)" [ref=f2e259] [cursor=pointer]:
+              - /url: https://astrobites.org/tag/astrophysics/
+              - text: astrophysics
+            - link "binary stars (130 items)" [ref=f2e260] [cursor=pointer]:
+              - /url: https://astrobites.org/tag/binary-stars/
+              - text: binary stars
+            - link "black holes (339 items)" [ref=f2e261] [cursor=pointer]:
+              - /url: https://astrobites.org/tag/black-holes/
+              - text: black holes
+            - link "cosmology (237 items)" [ref=f2e262] [cursor=pointer]:
+              - /url: https://astrobites.org/tag/cosmology-2/
+              - text: cosmology
+            - link "dark matter (212 items)" [ref=f2e263] [cursor=pointer]:
+              - /url: https://astrobites.org/tag/dark-matter-2/
+              - text: dark matter
+            - link "dwarf galaxies (128 items)" [ref=f2e264] [cursor=pointer]:
+              - /url: https://astrobites.org/tag/dwarf-galaxies/
+              - text: dwarf galaxies
+            - link "exoplanets (676 items)" [ref=f2e265] [cursor=pointer]:
+              - /url: https://astrobites.org/tag/exoplanets/
+              - text: exoplanets
+            - link "galaxies (499 items)" [ref=f2e266] [cursor=pointer]:
+              - /url: https://astrobites.org/tag/galaxies/
+              - text: galaxies
+            - link "galaxy evolution (380 items)" [ref=f2e267] [cursor=pointer]:
+              - /url: https://astrobites.org/tag/galaxy-evolution/
+              - text: galaxy evolution
+            - link "gravitational waves (212 items)" [ref=f2e268] [cursor=pointer]:
+              - /url: https://astrobites.org/tag/gravitational-waves/
+              - text: gravitational waves
+            - link "habitability (113 items)" [ref=f2e269] [cursor=pointer]:
+              - /url: https://astrobites.org/tag/habitability/
+              - text: habitability
+            - link "JWST (172 items)" [ref=f2e270] [cursor=pointer]:
+              - /url: https://astrobites.org/tag/jwst/
+              - text: JWST
+            - link "Kepler (168 items)" [ref=f2e271] [cursor=pointer]:
+              - /url: https://astrobites.org/tag/kepler/
+              - text: Kepler
+            - link "Milky Way (142 items)" [ref=f2e272] [cursor=pointer]:
+              - /url: https://astrobites.org/tag/milky-way/
+              - text: Milky Way
+            - link "observations (622 items)" [ref=f2e273] [cursor=pointer]:
+              - /url: https://astrobites.org/tag/observations/
+              - text: observations
+            - link "planetary science (271 items)" [ref=f2e274] [cursor=pointer]:
+              - /url: https://astrobites.org/tag/planetary-science/
+              - text: planetary science
+            - link "planet formation (206 items)" [ref=f2e275] [cursor=pointer]:
+              - /url: https://astrobites.org/tag/planet-formation/
+              - text: planet formation
+            - link "protoplanetary disks (131 items)" [ref=f2e276] [cursor=pointer]:
+              - /url: https://astrobites.org/tag/protoplanetary-disks/
+              - text: protoplanetary disks
+            - link "radio astronomy (175 items)" [ref=f2e277] [cursor=pointer]:
+              - /url: https://astrobites.org/tag/radio-astronomy/
+              - text: radio astronomy
+            - link "simulations (383 items)" [ref=f2e278] [cursor=pointer]:
+              - /url: https://astrobites.org/tag/simulations/
+              - text: simulations
+            - link "solar system (166 items)" [ref=f2e279] [cursor=pointer]:
+              - /url: https://astrobites.org/tag/solar-system/
+              - text: solar system
+            - link "spectroscopy (202 items)" [ref=f2e280] [cursor=pointer]:
+              - /url: https://astrobites.org/tag/spectroscopy-2/
+              - text: spectroscopy
+            - link "star formation (270 items)" [ref=f2e281] [cursor=pointer]:
+              - /url: https://astrobites.org/tag/star-formation-2/
+              - text: star formation
+            - link "stars (334 items)" [ref=f2e282] [cursor=pointer]:
+              - /url: https://astrobites.org/tag/stars/
+              - text: stars
+            - link "stellar evolution (146 items)" [ref=f2e283] [cursor=pointer]:
+              - /url: https://astrobites.org/tag/stellar-evolution/
+              - text: stellar evolution
+            - link "supernovae (170 items)" [ref=f2e284] [cursor=pointer]:
+              - /url: https://astrobites.org/tag/supernovae-2/
+              - text: supernovae
+            - link "theory (137 items)" [ref=f2e285] [cursor=pointer]:
+              - /url: https://astrobites.org/tag/theory/
+              - text: theory
+          - generic [ref=f2e286]:
+            - heading "Posts by Category" [level=4] [ref=f2e287]
+            - list [ref=f2e288]:
+              - listitem [ref=f2e289]:
+                - link "Accessibility" [ref=f2e290] [cursor=pointer]:
+                  - /url: https://astrobites.org/category/accessibility/
+              - listitem [ref=f2e291]:
+                - link "Applications" [ref=f2e292] [cursor=pointer]:
+                  - /url: https://astrobites.org/category/applications/
+              - listitem [ref=f2e293]:
+                - link "Beyond" [ref=f2e294] [cursor=pointer]:
+                  - /url: https://astrobites.org/category/beyond/
+              - listitem [ref=f2e295]:
+                - link "Book Reviews" [ref=f2e296] [cursor=pointer]:
+                  - /url: https://astrobites.org/category/book-reviews/
+              - listitem [ref=f2e297]:
+                - link "Career Navigation" [ref=f2e298] [cursor=pointer]:
+                  - /url: https://astrobites.org/category/career-navigation/
+              - listitem [ref=f2e299]:
+                - link "Classics" [ref=f2e300] [cursor=pointer]:
+                  - /url: https://astrobites.org/category/daily-paper-summaries/classics/
+              - listitem [ref=f2e301]:
+                - link "Climate Change" [ref=f2e302] [cursor=pointer]:
+                  - /url: https://astrobites.org/category/climate-change/
+              - listitem [ref=f2e303]:
+                - link "Course Assignments" [ref=f2e304] [cursor=pointer]:
+                  - /url: https://astrobites.org/category/course-assignments/
+              - listitem [ref=f2e305]:
+                - link "Crossposts" [ref=f2e306] [cursor=pointer]:
+                  - /url: https://astrobites.org/category/daily-paper-summaries/crossposts/
+              - listitem [ref=f2e307]:
+                - link "Current Events" [ref=f2e308] [cursor=pointer]:
+                  - /url: https://astrobites.org/category/current-events/
+              - listitem [ref=f2e309]:
+                - link "Daily Paper Summaries" [ref=f2e310] [cursor=pointer]:
+                  - /url: https://astrobites.org/category/daily-paper-summaries/
+              - listitem [ref=f2e311]:
+                - link "Game Reviews" [ref=f2e312] [cursor=pointer]:
+                  - /url: https://astrobites.org/category/game-reviews/
+              - listitem [ref=f2e313]:
+                - link "Guides" [ref=f2e314] [cursor=pointer]:
+                  - /url: https://astrobites.org/category/guides/
+              - listitem [ref=f2e315]:
+                - link "Historical Astronomy" [ref=f2e316] [cursor=pointer]:
+                  - /url: https://astrobites.org/category/historical-astronomy/
+              - listitem [ref=f2e317]:
+                - link "Instrumentation" [ref=f2e318] [cursor=pointer]:
+                  - /url: https://astrobites.org/category/instrumentation/
+              - listitem [ref=f2e319]:
+                - link "Interviews" [ref=f2e320] [cursor=pointer]:
+                  - /url: https://astrobites.org/category/personal-experiences/interviews/
+              - listitem [ref=f2e321]:
+                - link "Outreach" [ref=f2e322] [cursor=pointer]:
+                  - /url: https://astrobites.org/category/personal-experiences/outreach/
+              - listitem [ref=f2e323]:
+                - link "Personal Experiences" [ref=f2e324] [cursor=pointer]:
+                  - /url: https://astrobites.org/category/personal-experiences/
+              - listitem [ref=f2e325]:
+                - link "PRJ" [ref=f2e326] [cursor=pointer]:
+                  - /url: https://astrobites.org/category/daily-paper-summaries/prj/
+              - listitem [ref=f2e327]:
+                - link "Quick Notes" [ref=f2e328] [cursor=pointer]:
+                  - /url: https://astrobites.org/category/quick-notes/
+              - listitem [ref=f2e329]:
+                - link "Satellites" [ref=f2e330] [cursor=pointer]:
+                  - /url: https://astrobites.org/category/daily-paper-summaries/satellites/
+              - listitem [ref=f2e331]:
+                - link "Teaching" [ref=f2e332] [cursor=pointer]:
+                  - /url: https://astrobites.org/category/teaching/
+              - listitem [ref=f2e333]:
+                - link "Undergraduate Research" [ref=f2e334] [cursor=pointer]:
+                  - /url: https://astrobites.org/category/undergraduate-research/
+          - heading "More Astronomy" [level=4] [ref=f2e336]
+          - list [ref=f2e338]:
+            - listitem [ref=f2e339]:
+              - link "AAS" [ref=f2e340] [cursor=pointer]:
+                - /url: http://aas.org/
+            - listitem [ref=f2e341]:
+              - link "AAS Nova" [ref=f2e342] [cursor=pointer]:
+                - /url: http://aasnova.org/
+            - listitem [ref=f2e343]:
+              - link "astro-ph" [ref=f2e344] [cursor=pointer]:
+                - /url: http://arxiv.org/archive/astro-ph
+            - listitem [ref=f2e345]:
+              - link "AstroBetter" [ref=f2e346] [cursor=pointer]:
+                - /url: http://www.astrobetter.com/
+            - listitem [ref=f2e347]:
+              - link "APOD" [ref=f2e348] [cursor=pointer]:
+                - /url: http://apod.nasa.gov/apod/astropix.html
+          - heading "Read Astrobites in Other Languages" [level=4] [ref=f2e350]
+          - list [ref=f2e352]:
+            - listitem [ref=f2e353]:
+              - link "Astrobitos (Spanish)" [ref=f2e354] [cursor=pointer]:
+                - /url: https://astrobitos.org/
+            - listitem [ref=f2e355]:
+              - link "Astropontos (Portuguese)" [ref=f2e356] [cursor=pointer]:
+                - /url: https://astropontos.org/
+            - listitem [ref=f2e357]:
+              - link "staryab (Farsi)" [ref=f2e358] [cursor=pointer]:
+                - /url: https://staryab.com/
+          - heading "Listen to Astrobites" [level=4] [ref=f2e360]
+          - list [ref=f2e362]:
+            - listitem [ref=f2e363]:
+              - link "astro[sound]bites" [ref=f2e364] [cursor=pointer]:
+                - /url: https://astrosoundbites.com
+          - heading "Discover More Incredible Science" [level=4] [ref=f2e366]
+          - list [ref=f2e368]:
+            - listitem [ref=f2e369]:
+              - link "ScienceBites Network" [ref=f2e370] [cursor=pointer]:
+                - /url: https://sciencebites.org/sciencebites-sites-galaxy/
+      - contentinfo [ref=f2e371]:
+        - generic [ref=f2e373]:
+          - list [ref=f2e374]:
+            - listitem [ref=f2e375]:
+              - link "" [ref=f2e376] [cursor=pointer]:
+                - /url: https://astrobites.org/feed/
+          - paragraph [ref=f2e377]:
+            - text: © 2026 Astrobites | All Rights Reserved | Supported by
+            - link "AAS" [ref=f2e378] [cursor=pointer]:
+              - /url: http://aas.org/
+            - text: "| Designed by"
+            - link "Elegant Themes" [ref=f2e379] [cursor=pointer]:
+              - /url: http://www.elegantthemes.com
+            - text: "| Powered by"
+            - link "WordPress" [ref=f2e380] [cursor=pointer]:
+              - /url: http://www.wordpress.org
+  - generic [ref=f2e382]:
+    - generic [ref=f2e383]:
+      - paragraph [ref=f2e384]:
+        - emphasis [ref=f2e385]: Astrobites is recruiting!
+      - paragraph [ref=f2e386]:
+        - strong [ref=f2e387]: Apply by December 1st, 2026
+    - link "Learn more!" [ref=f2e389] [cursor=pointer]:
+      - /url: https://astrobites.org/2026/10/30/apply-to-write-for-astrobites-2026/
+    - generic [ref=f2e390] [cursor=pointer]: X

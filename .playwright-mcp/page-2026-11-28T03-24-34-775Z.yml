@@ -1,0 +1,496 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#elm-main-content"
+  - main [ref=e3]:
+    - text: 
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic: ✕
+        - navigation [ref=e7]:
+          - generic [ref=e8]:
+            - link [ref=e10] [cursor=pointer]:
+              - /url: https://phys.libretexts.org/
+              - img "Library homepage" [ref=e11]
+            - button "Enter Reader Mode" [ref=e13] [cursor=pointer]:
+              - generic [aria-hidden] [ref=e14]: chrome_reader_mode
+        - generic "Conditional content <strong>(Pro member)</strong>"
+      - navigation [ref=e16]:
+        - list [ref=e18]:
+          - listitem [ref=e19]:
+            - link [ref=e21] [cursor=pointer]:
+              - img "LibreOne Launchpad" [ref=e22]
+          - listitem [ref=e23]:
+            - text: 
+            - generic [ref=e25]:
+              - generic [ref=e26]: "Search :"
+              - searchbox "Search :" [ref=e27]
+              - button " Search" [ref=e28] [cursor=pointer]
+            - text: 
+          - listitem [ref=e29]:
+            - list [ref=e30]:
+              - listitem [ref=e31]:
+                - link "Edit" [ref=e32] [cursor=pointer]:
+                  - /url: https://phys.libretexts.org/Workbench/De_Anza_-_ASTR10/10%3A_Interstellar_Media/10.07%3A_Accessible_Descriptions?action=edit
+              - text: 
+              - listitem [ref=e33]:
+                - link " Options" [ref=e34] [cursor=pointer]:
+                  - /url: "#"
+                - text:       
+              - text:  
+              - listitem [ref=e35]:
+                - link " Rachel Mastrapa" [ref=e36] [cursor=pointer]:
+                  - /url: "#"
+                - text:    
+      - navigation [ref=e37]:
+        - generic:
+          - button " Expand/collapse global hierarchy" [ref=e38] [cursor=pointer]
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link " Home" [ref=e41] [cursor=pointer]:
+                - /url: https://phys.libretexts.org/
+                - generic [ref=e42]: 
+                - text: Home
+              - text: »
+            - listitem [ref=e43]:
+              - link " Workbench" [ref=e44] [cursor=pointer]:
+                - /url: https://phys.libretexts.org/Workbench
+                - generic [ref=e45]: 
+                - text: Workbench
+              - text: »
+            - listitem [ref=e46]:
+              - link " De Anza - ASTR10" [ref=e47] [cursor=pointer]:
+                - /url: https://phys.libretexts.org/Workbench/De_Anza_-_ASTR10
+                - generic [ref=e48]: 
+                - text: De Anza - ASTR10
+              - text: »
+            - listitem [ref=e49]:
+              - 'link " 10: Interstellar Media" [ref=e50] [cursor=pointer]':
+                - /url: https://phys.libretexts.org/Workbench/De_Anza_-_ASTR10/10%3A_Interstellar_Media
+                - generic [ref=e51]: 
+                - text: "10: Interstellar Media"
+              - text: »
+            - listitem [ref=e52]:
+              - generic [ref=e53]: 
+              - text: "10.7: Accessible Descriptions"
+          - button " Expand/collapse global location" [ref=e54] [cursor=pointer]
+      - navigation
+    - article [ref=e55]:
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - button " Page settings" [ref=e58] [cursor=pointer]
+          - text: "    :  :  :  :  :  :  :  :  :  :  :  :  :  :            "
+        - 'heading "10.7: Accessible Descriptions" [level=1] [ref=e59]':
+          - generic [ref=e60]: "10.7: Accessible Descriptions "
+        - list [ref=e62]:
+          - listitem [ref=e63]:
+            - link [ref=e65] [cursor=pointer]:
+              - /url: https://creativecommons.org/licenses/by/4.0/
+              - generic [ref=e66]:
+                - img "CC" [ref=e67]
+                - img "BY" [ref=e68]
+          - listitem [ref=e69]:
+            - generic [ref=e70]:
+              - term [ref=e71] [cursor=pointer]: "Last updated:"
+              - definition [ref=e72]: Oct 7, 2026, 5:43 PM by Rachel Mastrapa
+          - listitem [ref=e73]:
+            - generic [ref=e74]:
+              - term [ref=e75] [cursor=pointer]: "Page restriction:"
+              - definition [ref=e76]: Semi-Public
+          - listitem [ref=e77]:
+            - generic [ref=e78]:
+              - term [ref=e79] [cursor=pointer]: "Page ID:"
+              - definition [ref=e80]: "131103"
+          - listitem [ref=e81]:
+            - list [ref=e82]:
+              - listitem [ref=e83]:
+                - button "Pin Page" [ref=e84] [cursor=pointer]: 
+              - listitem [ref=e85]:
+                - generic [ref=e86]:
+                  - link " Page notifications Off" [ref=e88] [cursor=pointer]:
+                    - /url: "#"
+                  - text: 
+              - text: 
+              - listitem [ref=e89]:
+                - list [ref=e90]:
+                  - listitem [ref=e91]:
+                    - 'link " 10.6: Key Terms" [ref=e92] [cursor=pointer]':
+                      - /url: https://phys.libretexts.org/Workbench/De_Anza_-_ASTR10/10%3A_Interstellar_Media/10.06%3A_Key_Terms
+                      - text: 
+                      - generic [ref=e93]: "10.6: Key Terms"
+                  - listitem [ref=e94]:
+                    - 'link "11: Star Formation " [ref=e95] [cursor=pointer]':
+                      - /url: https://phys.libretexts.org/Workbench/De_Anza_-_ASTR10/11%3A_Star_Formation
+                      - generic [ref=e96]: "11: Star Formation"
+                      - text: 
+              - listitem
+      - complementary
+      - text: 
+      - generic [ref=e97]:
+        - generic [ref=e98]:
+          - generic [ref=e99]:
+            - heading "Figure 10.1.1 Interstellar Matter" [level=2] [ref=e100]
+            - paragraph [ref=e101]: A wide-field image of interstellar gas and dust surrounding the star Antares in the constellation Scorpius.
+            - generic [ref=e102]:
+              - heading "Image Elements" [level=3] [ref=e103]
+              - list [ref=e104]:
+                - listitem [ref=e105]: Antares, the brightest star in the image, appears at lower left surrounded by reddish nebulosity.
+                - listitem [ref=e106]: To the right of Antares is the globular cluster M4, seen as a dense scattering of faint stars.
+                - listitem [ref=e107]: At center left, a bright star is surrounded by the blue glow of a reflection nebula.
+                - listitem [ref=e108]: At center right, another bright star is surrounded by red emission nebulosity.
+                - listitem [ref=e109]: A dark nebula snakes across the image above these two stars, blocking the light from stars behind it.
+                - listitem [ref=e110]: At top center, a bright star is surrounded by a large area of blue reflection nebulosity, criss-crossed by dark dust lanes.
+          - generic [ref=e111]:
+            - heading "Figure 10.2.1 Orion Nebula" [level=2] [ref=e112]
+            - paragraph [ref=e113]: A Hubble Space Telescope image of the Orion Nebula, a bright star-forming region of glowing gas and dust.
+            - generic [ref=e114]:
+              - heading "Image Elements" [level=3] [ref=e115]
+              - list [ref=e116]:
+                - listitem [ref=e117]: Large areas and bright swirls of glowing red gas fill most of the image, criss-crossed by dark bands of dust.
+                - listitem [ref=e118]: A cluster of hot young stars lies at the bright center of the nebula, where the gas glows most intensely.
+                - listitem [ref=e119]: A bluish tint appears along some of the outer edges of the gas clouds, produced by dust scattering light from the hot stars.
+                - listitem [ref=e120]: Dark, irregular patches of dust are silhouetted against the brighter glowing gas throughout the image.
+          - generic [ref=e121]:
+            - heading "Figure 10.2.2 Spectrum of an Interstellar Dust Cloud" [level=2] [ref=e122]
+            - paragraph [ref=e123]: A diagram illustrating how an interstellar dust cloud adds absorption lines to starlight passing through it.
+            - generic [ref=e124]:
+              - heading "Diagram Elements" [level=3] [ref=e125]
+              - list [ref=e126]:
+                - listitem [ref=e127]: A star, labeled Star, is shown at the left, emitting a wavy line representing its light traveling to the right.
+                - listitem [ref=e128]: An arrow at the right, labeled To observer, shows the direction the light travels.
+                - listitem [ref=e129]: A gas cloud, labeled Interstellar dust cloud, is drawn in the center of the diagram, with the star's light passing through it.
+                - listitem [ref=e130]: Between the star and the cloud, a Stellar spectrum is shown with three broad, dark absorption lines from the star's own atmosphere.
+                - listitem [ref=e131]: Between the cloud and the observer, a composite spectrum is shown containing the same three broad stellar lines, plus many additional narrow lines produced by the interstellar cloud.
+          - generic [ref=e132]:
+            - heading "Figure 10.2.3 The 21-Centimeter Line" [level=2] [ref=e133]
+            - paragraph [ref=e134]: A diagram comparing the spin directions of the proton and electron in a hydrogen atom.
+            - generic [ref=e135]:
+              - heading "Panel (a)" [level=3] [ref=e136]
+              - list [ref=e137]:
+                - listitem [ref=e138]: A blue sphere at the center represents the proton, with an upward arrow showing its spin axis and a circular arrow showing it spinning to the right.
+                - listitem [ref=e139]: A smaller blue dot on the surrounding ellipse represents the electron, also with an upward spin arrow and a circular arrow spinning to the right.
+                - listitem [ref=e140]: The proton and electron spin in the same direction, representing the slightly higher-energy aligned state.
+            - generic [ref=e141]:
+              - heading "Panel (b)" [level=3] [ref=e142]
+              - list [ref=e143]:
+                - listitem [ref=e144]: A blue sphere at the center represents the proton, with an upward arrow showing its spin axis and a circular arrow spinning to the right.
+                - listitem [ref=e145]: A smaller blue dot on the surrounding ellipse represents the electron, with a downward spin arrow and a circular arrow spinning to the left.
+                - listitem [ref=e146]: The proton and electron spin in opposite directions, representing the slightly lower-energy anti-aligned state.
+          - generic [ref=e147]:
+            - heading "Figure 10.2.4 Vela Supernova Remnant" [level=2] [ref=e148]
+            - paragraph [ref=e149]: An image of the expanding remnant of a supernova explosion in the constellation Vela.
+            - generic [ref=e150]:
+              - heading "Image Elements" [level=3] [ref=e151]
+              - list [ref=e152]:
+                - listitem [ref=e153]: Delicate, thread-like filaments of orange and reddish gas curve across the center and lower portion of the image.
+                - listitem [ref=e154]: Diffuse patches of blue and orange nebulosity surround the filaments, marking gas heated by the explosion's shock wave.
+                - listitem [ref=e155]: Countless faint background stars are scattered across the entire field.
+          - generic [ref=e156]:
+            - heading "Figure 10.2.5 Fullerene C60" [level=2] [ref=e157]
+            - paragraph [ref=e158]: A three-dimensional model of a fullerene C60 molecule.
+            - generic [ref=e159]:
+              - heading "Diagram Elements" [level=3] [ref=e160]
+              - list [ref=e161]:
+                - listitem [ref=e162]: Sixty carbon atoms are shown as dark spheres, connected by cylindrical bonds.
+                - listitem [ref=e163]: The atoms are arranged in a pattern of alternating pentagons and hexagons that form a hollow, ball-like cage, similar in shape to a soccer ball.
+          - generic [ref=e164]:
+            - heading "Figure 10.2.6 Barnard 68" [level=2] [ref=e165]
+            - paragraph [ref=e166]: A visible-light image of the dark interstellar cloud Barnard 68.
+            - generic [ref=e167]:
+              - heading "Image Elements" [level=3] [ref=e168]
+              - list [ref=e169]:
+                - listitem [ref=e170]: A solid black, comma-shaped region fills the center of the image, completely blocking the light of any stars behind it.
+                - listitem [ref=e171]: Thousands of background stars of varying brightness and color surround the dark cloud on all sides.
+          - generic [ref=e172]:
+            - heading "Figure 10.2.7 Horsehead Nebula in Orion" [level=2] [ref=e173]
+            - paragraph [ref=e174]: Two images comparing the Horsehead Nebula in visible and infrared light.
+            - generic [ref=e175]:
+              - heading "Image (a)" [level=3] [ref=e176]
+              - list [ref=e177]:
+                - listitem [ref=e178]: On the left, a visible-light image shows the horsehead-shaped dark cloud silhouetted against a bright red nebulous background.
+                - listitem [ref=e179]: A very bright star, Zeta Orionis, appears at the upper left.
+                - listitem [ref=e180]: Fainter swirls of gas and dark dust fill the lower half of the image.
+            - generic [ref=e181]:
+              - heading "Image (b)" [level=3] [ref=e182]
+              - list [ref=e183]:
+                - listitem [ref=e184]: On the right, an infrared image of the same region shows a near reversal of the visible-light view.
+                - listitem [ref=e185]: The bright star seen in Image (a) is barely visible.
+                - listitem [ref=e186]: The horsehead shape now appears bright against a darker background.
+                - listitem [ref=e187]: The lower half of the image is bright with wisps and swirls of gas and a bright star-forming nebula near the center.
+                - listitem [ref=e188]: Two inset panels show the horsehead and the bright nebula in greater detail.
+          - generic [ref=e189]:
+            - heading "Figure 10.2.8 Milky Way in Infrared" [level=2] [ref=e190]
+            - paragraph [ref=e191]: An infrared image of a long strip along the plane of the Milky Way Galaxy.
+            - generic [ref=e192]:
+              - heading "Image Elements" [level=3] [ref=e193]
+              - list [ref=e194]:
+                - listitem [ref=e195]: A diffuse greenish-blue glow of interstellar dust, emitting at 3.6 and 8.0 microns, fills the entire image.
+                - listitem [ref=e196]: Bright, circular reddish patches, emitting at 24 microns, mark regions where dust has been warmed by nearby young stars.
+                - listitem [ref=e197]: Irregular dark patches and tendrils of the densest, coldest dust are scattered throughout the field, appearing dark even at these infrared wavelengths.
+          - generic [ref=e198]:
+            - heading "Figure 10.2.9 Pleiades Star Cluster" [level=2] [ref=e199]
+            - paragraph [ref=e200]: An image of the Pleiades star cluster and the reflection nebula that surrounds it.
+            - generic [ref=e201]:
+              - heading "Image Elements" [level=3] [ref=e202]
+              - list [ref=e203]:
+                - listitem [ref=e204]: Several bright blue-white stars are scattered across the image, each surrounded by a hazy blue glow.
+                - listitem [ref=e205]: Faint wisps of blue nebulosity connect and surround the stars, similar in appearance to fog around a streetlamp.
+                - listitem [ref=e206]: Countless fainter background stars are visible throughout the image.
+          - generic [ref=e207]:
+            - heading "Figure 10.2.10 Barnard 68 in Infrared" [level=2] [ref=e208]
+            - paragraph [ref=e209]: An infrared image of the same dark cloud, Barnard 68, shown in visible light in Figure 10.2.6.
+            - generic [ref=e210]:
+              - heading "Image Elements" [level=3] [ref=e211]
+              - list [ref=e212]:
+                - listitem [ref=e213]: The comma-shaped region that appeared completely black in the visible-light image is now filled with faint reddish points of light.
+                - listitem [ref=e214]: These points are background stars whose infrared light, at a wavelength of 2.2 microns, is able to penetrate the dust of the cloud.
+                - listitem [ref=e215]: Countless brighter foreground stars surround the cloud, as in the visible-light image.
+          - generic [ref=e216]:
+            - heading "Figure 10.2.11 Scattering of Light by Dust" [level=2] [ref=e217]
+            - paragraph [ref=e218]: A diagram illustrating how interstellar dust scatters blue light more than red light.
+            - generic [ref=e219]:
+              - heading "Diagram Elements" [level=3] [ref=e220]
+              - list [ref=e221]:
+                - listitem [ref=e222]: A star is drawn at the far left, and an arrow at the far right, labeled To observer, shows the direction of travel.
+                - listitem [ref=e223]: "Two waves emerge from the star: a short-wavelength blue wave and a long-wavelength red wave, both moving to the right."
+                - listitem [ref=e224]: An interstellar dust cloud, drawn as a fuzzy disk containing small scattered dots, sits between the star and the observer.
+                - listitem [ref=e225]: Inside the cloud, the blue wave strikes several dots and scatters upward and downward, away from the observer.
+                - listitem [ref=e226]: The red wave passes through the cloud unimpeded, continuing on toward the observer.
+          - generic [ref=e227]:
+            - heading "Figure 10.2.12 Interstellar Dust Grain Model" [level=2] [ref=e228]
+            - paragraph [ref=e229]: A diagram showing the structure of a typical interstellar dust grain.
+            - generic [ref=e230]:
+              - heading "Diagram Elements" [level=3] [ref=e231]
+              - list [ref=e232]:
+                - listitem [ref=e233]: An irregular white blob at the center, labeled Core, represents the rocky or graphite core of the grain.
+                - listitem [ref=e234]: A semi-transparent bluish-gray layer surrounding the core, labeled Mantle, represents the icy outer layer.
+                - listitem [ref=e235]:
+                  - text: "Three molecules are labeled within the mantle: H"
+                  - subscript [ref=e236]: "2"
+                  - text: O, CH
+                  - subscript [ref=e237]: "4"
+                  - text: ", and NH"
+                  - subscript [ref=e238]: "3"
+                  - text: .
+          - generic [ref=e239]:
+            - heading "Figure 10.3.1 Distribution of Interstellar Matter" [level=2] [ref=e240]
+            - paragraph [ref=e241]: A computer simulation of the distribution of interstellar gas across the Milky Way Galaxy, viewed from above.
+            - generic [ref=e242]:
+              - heading "Image Elements" [level=3] [ref=e243]
+              - list [ref=e244]:
+                - listitem [ref=e245]: The galaxy is shown from a top-down view, with gas arranged in a spiral pattern resembling the arms of a hurricane.
+                - listitem [ref=e246]: Greenish colors, making up most of the image, represent neutral hydrogen gas.
+                - listitem [ref=e247]: Yellow regions within the spiral arms mark the densest concentrations of gas, where giant molecular clouds have formed.
+                - listitem [ref=e248]: Blue, low-density holes scattered through the arms mark regions cleared out by supernova explosions.
+          - generic [ref=e249]:
+            - heading "Figure 10.4.1 X-Ray Sky" [level=2] [ref=e250]
+            - paragraph [ref=e251]: An all-sky map showing X-ray emission surrounding the Sun, made by the ROSAT satellite.
+            - generic [ref=e252]:
+              - heading "Image Elements" [level=3] [ref=e253]
+              - list [ref=e254]:
+                - listitem [ref=e255]: The image is an oval, all-sky projection with the dark, dusty plane of the Milky Way running horizontally across the center.
+                - listitem [ref=e256]: Blue regions, representing 1.5-kiloelectron-volt X-rays, are scattered along the lower portion of the dark band of the Milky Way.
+                - listitem [ref=e257]: A circular green region, representing 0.75-kiloelectron-volt X-rays, extends above and below the dark band near the center of the image.
+                - listitem [ref=e258]: A faint red glow, representing 0.25-kiloelectron-volt X-rays, covers the entire image, including areas away from the galactic plane.
+          - generic [ref=e259]:
+            - heading "Figure 10.4.2 Local Fluff" [level=2] [ref=e260]
+            - paragraph [ref=e261]: A diagram of the patches of interstellar gas surrounding the Sun, known as the Local Fluff.
+            - generic [ref=e262]:
+              - heading "Chart Elements" [level=3] [ref=e263]
+              - list [ref=e264]:
+                - listitem [ref=e265]: The vertical axis is labeled Distance (light years) and runs from -20 to 20 in increments of 10.
+                - listitem [ref=e266]: The horizontal axis is labeled Distance (light years) and also runs from -20 to 20 in increments of 10.
+                - listitem [ref=e267]: The Sun is plotted at the center of the diagram (0, 0) as a yellow circle.
+                - listitem [ref=e268]: A gray arrow points from the Sun toward the upper right, labeled Direction of sun's motion.
+            - generic [ref=e269]:
+              - heading "Labeled Features" [level=3] [ref=e270]
+              - list [ref=e271]:
+                - listitem [ref=e272]: "Two nearby stars are plotted: Alpha Centauri, a yellow dot near (4, -4), and Sirius, a blue dot near (-8, -8)."
+                - listitem [ref=e273]: A blue arrow along the bottom of the diagram points to the right, labeled Galactic Center.
+                - listitem [ref=e274]: "Several interstellar cloud regions are named: the Local Cloud near the Sun, Blue near the bottom center, and the G Cloud to the right of the Sun."
+                - listitem [ref=e275]: Five unlabeled arrows above the Sun point to the upper left, indicating the motion of parts of the local cloud.
+                - listitem [ref=e276]: An additional unlabeled arrow near (-2, -2) points upward.
+                - listitem [ref=e277]: "Arrows labeled with nearby constellations point outward from various parts of the cloud, indicating the direction each part is moving: Mic near (1, 20) pointing left, Hyades near (-10, 10) pointing upward, Aur near (-12, 4) pointing left, and Gem near (-11, -3) pointing left."
+                - listitem [ref=e278]: The constellations Aql, Eri, and Oph are labeled to the right and slightly above the Sun.
+          - generic [ref=e279]:
+            - heading "Figure 10.5.1 Mercury Space Suit" [level=2] [ref=e280]
+            - paragraph [ref=e281]: A Mercury program space suit from the early 1960s.
+            - generic [ref=e282]:
+              - heading "Image Elements" [level=3] [ref=e283]
+              - list [ref=e284]:
+                - listitem [ref=e285]: A silver, form-fitting space suit stands upright against a black background.
+                - listitem [ref=e286]: A rounded white helmet with a dark visor sits atop the suit, connected to the body by a flexible hose.
+                - listitem [ref=e287]: A NASA logo patch is visible on the chest of the suit.
+          - generic [ref=e288]:
+            - heading "Figure 10.5.2 Fictional Space Suit" [level=2] [ref=e289]
+            - paragraph [ref=e290]: "A fictional space suit worn in the 1968 film 2001: A Space Odyssey, on display in a museum exhibit."
+            - generic [ref=e291]:
+              - heading "Image Elements" [level=3] [ref=e292]
+              - list [ref=e293]:
+                - listitem [ref=e294]: A silver-gray, padded space suit hangs on display inside a glass case.
+                - listitem [ref=e295]: The suit has a rounded fabric hood in place of a rigid helmet, along with padded joints at the shoulders, elbows, and knees.
+                - listitem [ref=e296]: Worn boots and gloves are visible at the bottom and sides of the suit.
+                - listitem [ref=e297]: Museum placards and other exhibit items are visible in the background.
+          - generic [ref=e298]:
+            - heading "Figure 10.5.3 Trust in Science" [level=2] [ref=e299]
+            - paragraph [ref=e300]: A line graph tracking Americans' confidence in the scientific community from the 1970s to the 2020s, separated by political party.
+            - generic [ref=e301]:
+              - heading "Chart Elements" [level=3] [ref=e302]
+              - list [ref=e303]:
+                - listitem [ref=e304]: The vertical axis is labeled 'Great deal' of confidence in scientific community (%) and runs from 0 to 70 in increments of 10.
+                - listitem [ref=e305]: The horizontal axis shows years from 1970 to 2020.
+                - listitem [ref=e306]: A blue line labeled Democrats fluctuates between roughly 35% and 45% from the 1970s to the 2010s, then rises sharply to a peak of about 65% around 2020 before falling back to around 50% in the most recent years.
+                - listitem [ref=e307]: A red line labeled Republicans fluctuates between roughly 35% and 50% from the 1970s to the 2010s, then declines steadily after about 2015 to around 23% in the most recent years.
+                - listitem [ref=e308]: The lower right corner of the chart is labeled Current Opinion in Psychology, citing the chart's source.
+          - generic [ref=e309]:
+            - heading "Figure 10.5.4 Moon Joy" [level=2] [ref=e310]
+            - paragraph [ref=e311]: A photograph of the Artemis II crew sharing a moment of celebration aboard the Orion spacecraft.
+            - generic [ref=e312]:
+              - heading "Image Elements" [level=3] [ref=e313]
+              - list [ref=e314]:
+                - listitem [ref=e315]: Four crew members are gathered in a tight group hug, floating in microgravity inside the spacecraft.
+                - listitem [ref=e316]: American and Canadian flags are mounted on equipment above the crew.
+                - listitem [ref=e317]: Cargo nets holding blue and orange storage bags line the walls of the cabin.
+                - listitem [ref=e318]: Various spacecraft equipment, cables, and stowed items are visible throughout the background.
+        - generic [ref=e319]:
+          - separator [ref=e320]
+          - paragraph [ref=e322]:
+            - 'link "10.7: Accessible Descriptions" [ref=e323] [cursor=pointer]':
+              - /url: https://phys.libretexts.org/Workbench/De_Anza_-_ASTR10/10%3A_Interstellar_Media/10.07%3A_Accessible_Descriptions
+            - text: is shared under a
+            - link "CC BY 4.0" [ref=e324] [cursor=pointer]:
+              - /url: https://creativecommons.org/licenses/by/4.0
+            - text: license and was authored, remixed, and/or curated by LibreTexts.
+      - generic [ref=e325]:
+        - list [ref=e326]:
+          - listitem [ref=e327]:
+            - link "Back to top" [ref=e328] [cursor=pointer]:
+              - /url: "#title"
+          - listitem [ref=e329]:
+            - list [ref=e330]:
+              - listitem [ref=e331]:
+                - 'link " 10.6: Key Terms" [ref=e332] [cursor=pointer]':
+                  - /url: https://phys.libretexts.org/Workbench/De_Anza_-_ASTR10/10%3A_Interstellar_Media/10.06%3A_Key_Terms
+                  - text: 
+                  - generic [ref=e333]: "10.6: Key Terms"
+              - listitem [ref=e334]:
+                - 'link "11: Star Formation " [ref=e335] [cursor=pointer]':
+                  - /url: https://phys.libretexts.org/Workbench/De_Anza_-_ASTR10/11%3A_Star_Formation
+                  - generic [ref=e336]: "11: Star Formation"
+                  - text: 
+        - list [ref=e339]:
+          - listitem [ref=e340]: Was this article helpful?
+          - listitem [ref=e341]:
+            - button "Yes" [ref=e342] [cursor=pointer]
+          - listitem [ref=e343]:
+            - button "No" [ref=e344] [cursor=pointer]
+          - listitem [ref=e345]:
+            - button "Leave feedback" [ref=e346] [cursor=pointer]
+          - listitem
+        - generic:     
+        - text: ": : : : : , , , , , , , , ,"
+        - generic [ref=e347]:
+          - heading "Attachments" [level=2] [ref=e348]
+          - generic:
+            - button "Attach a file" [ref=e349] [cursor=pointer]
+            - text: 
+          - generic [ref=e351]:
+            - generic [ref=e354]:
+              - text: "Search file names and descriptions:"
+              - searchbox "Search file names and descriptions:" [ref=e355]
+            - generic [ref=e356]:
+              - grid [ref=e359]:
+                - rowgroup [ref=e360]:
+                  - row [ref=e361]:
+                    - 'columnheader "File: activate to sort column descending" [ref=e362]':
+                      - generic:
+                        - generic [ref=e363]: File
+                        - generic [ref=e364]: 
+                    - 'columnheader "Last modified: activate to sort column ascending" [ref=e365]':
+                      - generic:
+                        - generic [ref=e366]: Last modified
+                        - generic [ref=e367]: 
+                    - 'columnheader "Size: activate to sort column ascending" [ref=e368]':
+                      - generic:
+                        - generic [ref=e369]: Size
+                        - generic [ref=e370]: 
+                    - 'columnheader "Added by: activate to sort column ascending" [ref=e371]':
+                      - generic:
+                        - generic [ref=e372]: Added by
+                        - generic [ref=e373]: 
+              - grid [ref=e375]:
+                - rowgroup:
+                  - 'row "File: activate to sort column descending Last modified: activate to sort column ascending Size: activate to sort column ascending Added by: activate to sort column ascending"':
+                    - 'columnheader "File: activate to sort column descending"':
+                      - generic:
+                        - generic:
+                          - generic [ref=e376]: File
+                          - generic [ref=e377]: 
+                    - 'columnheader "Last modified: activate to sort column ascending"':
+                      - generic:
+                        - generic:
+                          - generic [ref=e378]: Last modified
+                          - generic [ref=e379]: 
+                    - 'columnheader "Size: activate to sort column ascending"':
+                      - generic:
+                        - generic:
+                          - generic [ref=e380]: Size
+                          - generic [ref=e381]: 
+                    - 'columnheader "Added by: activate to sort column ascending"':
+                      - generic:
+                        - generic:
+                          - generic [ref=e382]: Added by
+                          - generic [ref=e383]: 
+                - rowgroup [ref=e384]:
+                  - row [ref=e385]:
+                    - gridcell " mindtouch.page#thumbnail (no description)" [ref=e386]:
+                      - generic [ref=e387]:
+                        - generic [ref=e388]:
+                          - generic [ref=e389]: 
+                          - link "mindtouch.page#thumbnail" [ref=e390] [cursor=pointer]:
+                            - /url: https://phys.libretexts.org/@api/deki/files/63083/mindtouch.page%23thumbnail?origin=mt-web
+                          - text:   
+                        - generic [ref=e391]:
+                          - generic [ref=e392]: (no description)
+                          - text: 
+                    - gridcell "Dec 3, 2025, 3:20 PM" [ref=e393]
+                    - gridcell "11 KiB" [ref=e395]
+                    - gridcell "Rachel Mastrapa" [ref=e396]
+    - generic [ref=e398]:
+      - button "Open support menu" [ref=e400] [cursor=pointer]: "?"
+      - navigation [ref=e402]:
+        - paragraph [ref=e404]:
+          - text: The LibreTexts libraries are
+          - link "Powered by NICE CXone Expert" [ref=e405] [cursor=pointer]:
+            - /url: https://www.nice.com/resources/cxone-expert-knowledge-management
+          - text: and are supported by the Department of Education Open Textbook Pilot Project, the UC Davis Office of the Provost, the UC Davis Library, the California State University Affordable Learning Solutions Program, and Merlot. We also acknowledge previous National Science Foundation support under grant numbers 1246120, 1525057, and 1413739.
+          - link "Privacy Policy" [ref=e406] [cursor=pointer]:
+            - /url: https://libretexts.org/privacy
+          - text: .
+          - link "Terms & Conditions" [ref=e407] [cursor=pointer]:
+            - /url: https://libretexts.org/terms-conditions
+          - text: .
+          - link "Accessibility Statement" [ref=e408] [cursor=pointer]:
+            - /url: https://commons.libretexts.org/accessibility
+          - text: . For more information contact us at
+          - link "info@libretexts.org" [ref=e409] [cursor=pointer]:
+            - /url: mailto:info@libretexts.org
+          - text: .
+  - generic:
+    - generic [ref=e410]:
+      - generic:
+        - generic [ref=e412]:
+          - button "Annotation sidebar" [ref=e413]
+          - generic [ref=e418]:
+            - button "Show highlights" [ref=e419]
+            - button "New page note" [ref=e424]
+          - status [ref=e429]: Highlights hidden
+        - generic:
+          - list
+    - generic:
+      - list
+  - generic [ref=e430]:
+    - button "contents" [ref=e431] [cursor=pointer]
+    - button "readability" [ref=e433] [cursor=pointer]
+    - button "resources" [ref=e435] [cursor=pointer]
+    - button "tools" [ref=e437] [cursor=pointer]
+    - button "developers" [ref=e439] [cursor=pointer]

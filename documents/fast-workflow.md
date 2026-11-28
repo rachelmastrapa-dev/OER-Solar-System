@@ -2,7 +2,16 @@
 
 ## Whole Chapter - Manual in Libretext
 
-1. Back up pages to ASTR 4 backup - done for all chapters from Openstax astronomy - need geo
+1. Back up pages to ASTR 4 backup - done for all chapters from Openstax astronomy 
+- need geo
+
+The Sun
+Earth  - Geology Earle
+  - copying into geology in Earth, need to check the text for attributions in ASTR 4 and then cut heavily
+Mars
+
+Sun - copy from ASTR 10
+
 2. Chapter structure and pages
   - go over content of pages and delete or relocate extra, rearrange order
   - Delete extra matrerial & notes 
@@ -12,13 +21,16 @@
   - go through material and paste where useful 
   - check auto -attributions
 4. TOC - Check for summaries and remove 
-Small Bodies
-Exoplanets
+
+
 5. remove blue highlights
 6. Figures title and () 
 7. Change numbering and titles of exercises and examples
 8. Commit Changes in Conductor
-Uranus and Neptune - done
+9. Ready for export
+Uranus and Neptune 
+Small Bodies 
+Exoplanets
 
 
 - add new figures 

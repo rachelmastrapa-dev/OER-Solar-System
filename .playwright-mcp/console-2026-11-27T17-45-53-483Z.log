@@ -1,0 +1,15 @@
+[    1502ms] [LOG] CKEditor Query Plugin Release: 1.1.2 - Date: 2023-01-06 @ https://cdn.libretexts.net/github/ckeditor-query-plugin/queryPlugin.min.js:1
+[    1502ms] [LOG] CKEditor LibreFormat Plugin @ https://cdn.libretexts.net/github/LibreTextsMain/EditorPlugins/dist/libreFormatPlugin.min.js:1
+[    1502ms] [LOG] CKEditor LibreBoxes Plugin @ https://cdn.libretexts.net/github/LibreTextsMain/EditorPlugins/dist/libreBoxesPlugin.min.js:1
+[    1502ms] [LOG] CKEditor LibreQuery Plugin @ https://cdn.libretexts.net/github/LibreTextsMain/EditorPlugins/dist/libreQueryPlugin.min.js:1
+[    1516ms] [LOG] Checking glossary freshness from: https://commons.libretexts.org/api/v1/commons/glossary/page/108004/library/phys @ https://cdn.jsdelivr.net/gh/yghaemi/glossarizer@ae01b12/dist/glossarizer.min.js:1
+[    1858ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://commons.libretexts.org/api/v1/commons/glossary/page/108004/library/phys:1
+[    1858ms] [ERROR] [glossary] freshness check failed: Error: Request failed with status: 404
+    at https://cdn.jsdelivr.net/gh/yghaemi/glossarizer@ae01b12/dist/glossarizer.min.js:1:54268 @ https://cdn.jsdelivr.net/gh/yghaemi/glossarizer@ae01b12/dist/glossarizer.min.js:1
+[    1971ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://commons.libretexts.org/api/v1/reference/page/108004/library/phys:1
+[    1971ms] [ERROR] Failed to load citations: Error: HTTP 404 for https://commons.libretexts.org/api/v1/reference/page/108004/library/phys
+    at f (https://cdn.jsdelivr.net/gh/yghaemi/biblizer@19129c1/dist/script.min.js:1:1540)
+    at async HTMLDocument.<anonymous> (https://cdn.jsdelivr.net/gh/yghaemi/biblizer@19129c1/dist/script.min.js:1:3924) @ https://cdn.jsdelivr.net/gh/yghaemi/biblizer@19129c1/dist/script.min.js:1
+[    3142ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://commons.libretexts.org/api/v1/commons/book/phys-107814:1
+[ 1986387ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://phys.libretexts.org/@api/deki/events/page-view/108004/consumption?dream.out.format=json&origin=mt-web:1
+[ 1986387ms] Failed to fetch
