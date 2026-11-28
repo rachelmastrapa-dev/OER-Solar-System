@@ -10,6 +10,7 @@ Earth  - Geology Earle
   - copying into geology in Earth, need to check the text for attributions in ASTR 4 and then cut heavily
 Mars
 
+Sun - copy from ASTR 10
 
 2. Chapter structure and pages
   - go over content of pages and delete or relocate extra, rearrange order
