@@ -1,0 +1,14 @@
+[    1539ms] [LOG] CKEditor Query Plugin Release: 1.1.2 - Date: 2023-01-06 @ https://cdn.libretexts.net/github/ckeditor-query-plugin/queryPlugin.min.js:1
+[    1539ms] [LOG] CKEditor LibreFormat Plugin @ https://cdn.libretexts.net/github/LibreTextsMain/EditorPlugins/dist/libreFormatPlugin.min.js:1
+[    1539ms] [LOG] CKEditor LibreBoxes Plugin @ https://cdn.libretexts.net/github/LibreTextsMain/EditorPlugins/dist/libreBoxesPlugin.min.js:1
+[    1539ms] [LOG] CKEditor LibreQuery Plugin @ https://cdn.libretexts.net/github/LibreTextsMain/EditorPlugins/dist/libreQueryPlugin.min.js:1
+[    1558ms] [LOG] Checking glossary freshness from: https://commons.libretexts.org/api/v1/commons/glossary/page/131103/library/phys @ https://cdn.jsdelivr.net/gh/yghaemi/glossarizer@ae01b12/dist/glossarizer.min.js:1
+[    1779ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://stats.g.doubleclick.net/g/collect?v=2&tid=G-YNNYBFB9RM&cid=946081265.1788839708&gtm=45je6bh1v9125907141za20gxf1&rcb=12&aip=1&dma=0&gcd=13l3l3l3l2l1&npa=0&frm=0&tag_exp=115938466~115938469~120213116~120385423~120469145~120469153~121246026~121246034:1
+[    2087ms] [WARNING] [glossary] #coverID input not found in DOM @ https://cdn.jsdelivr.net/gh/yghaemi/glossarizer@ae01b12/dist/glossarizer.min.js:1
+[    2087ms] [LOG] Fetching full glossary from: https://commons.libretexts.org/api/v1/commons/glossary/page/131103/library/phys @ https://cdn.jsdelivr.net/gh/yghaemi/glossarizer@ae01b12/dist/glossarizer.min.js:1
+[    2143ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://commons.libretexts.org/api/v1/reference/page/131103/library/phys:1
+[    2143ms] [ERROR] Failed to load citations: Error: HTTP 404 for https://commons.libretexts.org/api/v1/reference/page/131103/library/phys
+    at f (https://cdn.jsdelivr.net/gh/yghaemi/biblizer@19129c1/dist/script.min.js:1:1540)
+    at async HTMLDocument.<anonymous> (https://cdn.jsdelivr.net/gh/yghaemi/biblizer@19129c1/dist/script.min.js:1:3924) @ https://cdn.jsdelivr.net/gh/yghaemi/biblizer@19129c1/dist/script.min.js:1
+[    2397ms] [WARNING] [glossary] no terms to render for this page {pageId: 131103, mode: PAGE} @ https://cdn.jsdelivr.net/gh/yghaemi/glossarizer@ae01b12/dist/glossarizer.min.js:1
+[    2908ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://commons.libretexts.org/api/v1/commons/book/phys-108155:1
